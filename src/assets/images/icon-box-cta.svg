@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Group_140" data-name="Group 140" transform="translate(-991 -1274)">
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(991 1274)" fill="none" stroke="#88aa45" stroke-width="5">
+      <circle cx="33" cy="33" r="33" stroke="none"/>
+      <circle cx="33" cy="33" r="30.5" fill="none"/>
+    </g>
+    <g id="megaphone_1_" data-name="megaphone (1)" transform="translate(1009.873 1264.374) rotate(47)">
+      <path id="Path_38" data-name="Path 38" d="M379.433,52.412l2.344-2.344a1.094,1.094,0,0,0-1.547-1.547l-2.344,2.344a1.094,1.094,0,1,0,1.547,1.547Z" transform="translate(-327.686 -44.686)" fill="#88aa45"/>
+      <path id="Path_39" data-name="Path 39" d="M429.2,176.733H426.86a1.094,1.094,0,0,0,0,2.188H429.2a1.094,1.094,0,0,0,0-2.188Z" transform="translate(-372.372 -163.844)" fill="#88aa45"/>
+      <path id="Path_40" data-name="Path 40" d="M282.26,4.531a1.094,1.094,0,0,0,1.094-1.094V1.094a1.094,1.094,0,1,0-2.188,0V3.437A1.094,1.094,0,0,0,282.26,4.531Z" transform="translate(-238.317 0)" fill="#88aa45"/>
+      <path id="Path_41" data-name="Path 41" d="M24.421,350.626a1.094,1.094,0,0,0,0,1.547l4.687,4.687a1.094,1.094,0,0,0,1.547,0l1.833-1.833-6.234-6.234Z" transform="translate(0 -323.355)" fill="#88aa45"/>
+      <path id="Path_42" data-name="Path 42" d="M190.549,386.038l-7.682,3.615,5.251,5.251a1.094,1.094,0,0,0,1.547,0l4.1-4.1a1.094,1.094,0,0,0,0-1.547Z" transform="translate(-147.188 -357.884)" fill="#88aa45"/>
+      <path id="Path_43" data-name="Path 43" d="M85.9,48.521a1.094,1.094,0,0,0-1.763.308L74.841,68.576l6.234,6.234,19.747-9.293a1.094,1.094,0,0,0,.308-1.763Z" transform="translate(-47.04 -44.685)" fill="#88aa45"/>
+    </g>
+  </g>
+</svg>

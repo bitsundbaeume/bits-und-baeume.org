@@ -1,0 +1,80 @@
+backend:
+  name: bitbucket
+  repo: acb/bits-u-baeume
+  branch: main
+  auth_type: implicit
+  app_id: XXXXXXXXXXXXXXXX
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+
+publish_mode: editorial_workflow
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "conf-pages"
+    label: "Konferenz 2022 Content" # Used in the UI
+    folder: "src/konferenz-2022" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titel / Überschrift", name: "title", widget: "string"}
+      - {label: "Meta-Titel (SEO)", name: "metatitle", widget: "string"}
+      - {label: "Beschreibung (SEO)", name: "description", widget: "string"}
+      - {label: "Sprache (de oder en)", name: "lang", widget: "string"}
+      - {label: "URL zur übersetzten Seite", name: "translation", required: false, widget: "string"}
+      - {label: "Inhalt", name: "body", widget: "markdown"}
+  - name: "conf-pages-en"
+    label: "Konferenz 2022 Content - ENGLISCH" # Used in the UI
+    folder: "src/en/conference-2022" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titel / Überschrift", name: "title", widget: "string"}
+      - {label: "Meta-Titel (SEO)", name: "metatitle", widget: "string"}
+      - {label: "Beschreibung (SEO)", name: "description", widget: "string"}
+      - {label: "Sprache (de oder en)", name: "lang", widget: "string"}
+      - {label: "URL zur übersetzten Seite", name: "translation", required: false, widget: "string"}
+      - {label: "Inhalt", name: "body", widget: "markdown"}
+  - label: "Inhalte ohne Seitenbezug"
+    name: "contents"
+    editor:
+      preview: false
+    files:
+      - label: "Träger*innen"
+        name: "traegerinnen"
+        file: "src/_data/traegerinnen.yml"
+        fields:
+          - label: Träger*innen Einträge
+            name: items
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Text, name: content, widget: "text" }
+              - { label: Bild, name: image, widget: "image" }
+      - label: "FAQs"
+        name: "faqs"
+        file: "src/_data/faqs.yml"
+        fields:
+          - label: Frage mit Antwort
+            name: items
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Frage, name: name, widget: string }
+              - { label: Antwort, name: content, widget: "text" }
+      - label: "Regionale Zweige"
+        name: "zweige"
+        file: "src/_data/zweige.yml"
+        fields:
+          - label: Träger*innen Einträge
+            name: items
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Text, name: content, widget: "text" }
+              - { label: Link, name: url, widget: string }

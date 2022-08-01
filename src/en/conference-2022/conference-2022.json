@@ -1,0 +1,5 @@
+{
+	"layout": "layouts/page.ejs",
+	"permalink": "en/conference-2022/{{ page.fileSlug }}/index.html",
+	"tags": ["2022", "sitemap"]
+}

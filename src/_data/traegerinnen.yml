@@ -1,0 +1,15 @@
+items:
+  - name: Testeintrag
+    content: Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel
+      und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges
+      erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner
+      Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline
+      seiner eigenen Straße, der Zeilengasse.
+    image: /assets/images/icon-box-links.svg
+  - name: Anderer Name
+    content: Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel
+      und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges
+      erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner
+      Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline
+      seiner eigenen Straße, der Zeilengasse.
+    image: /assets/images/icon-box-cta.svg

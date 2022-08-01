@@ -1,0 +1,26 @@
+# Structure of entry:
+#
+# - path: path to image relative to Elventy input (src)
+#   alt: Alt text for the image
+#   thumbPath: (Optional) provide an alternate image for thumgnails
+#   thumbAlt: (Optional) alt text for thumbnail
+
+- path: assets/images/galleries/main/gallery-example-1.jpg
+  alt: 'Speaker on stage with a mic'
+  thumbPath: assets/images/galleries/main/gallery-example-1-cropped.jpg
+  thumbAlt: 'Speaker with a mic'
+
+- path: assets/images/galleries/main/gallery-example-2.jpg
+  alt: ''
+
+- path: assets/images/galleries/main/gallery-example-3.jpg
+  alt: ''
+
+- path: assets/images/galleries/main/gallery-example-4.jpg
+  alt: ''
+
+- path: assets/images/galleries/main/gallery-example-5.jpg
+  alt: ''
+
+- path: assets/images/galleries/main/gallery-example-6.jpg
+  alt: ''
