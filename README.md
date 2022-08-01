@@ -35,7 +35,7 @@ Production-ready in mind:
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ACB-allcodesarebeautiful/Bits-und-B-ume.git b-und-b
+git clone --depth=1 https://github.com/bitsundbaeume/bits-und-baeume.org.git b-und-b
 cd b-und-b
 npm install && npm run prepare
 ```
