@@ -11,6 +11,7 @@ Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
 
 ## Ticketkauf
 
+
 **LINK folgt nach Start des Ticketverkaufs.**
 
 </section><section class="container max-w-7xl">
