@@ -12,7 +12,7 @@ tags: sitemap
 	{% for item in zweige.items %}
 	<div class="box box-cta">
 		<h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
-		<p>{{ item.content }}</p>
+		<p>{{ item.content | safe }}</p>
 	</div>
 	{% endfor %}
 </section>

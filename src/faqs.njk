@@ -20,7 +20,7 @@ tags: sitemap
 				<span class="acc__question">{{ item.name }}</span>
 				<div class="acc__icon"></div>
 			</summary>
-			<p class="acc__text">{{ item.content }}</p>
+			<p class="acc__text">{{ item.content | safe }}</p>
 		</details>
 		{% endfor %}
 </div>

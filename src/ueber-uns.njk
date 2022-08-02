@@ -20,7 +20,7 @@ tags: sitemap
 		</div>
 		<div class="text">
 			<h3>{{ item.name }}</h3>
-			<p>{{ item.content }}</p>
+			<p>{{ item.content | safe }}</p>
 		</div>
 	</div>
 	{% endfor %}

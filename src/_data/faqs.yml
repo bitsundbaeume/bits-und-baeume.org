@@ -4,6 +4,6 @@ items:
   - name: Zweite Frage
     content: Dies und das.
   - name: Linktest
-    content: Das ist ein https://www.spiegel.de .
+    content: Das ist ein <a href="https://cleaner-web.com/">Link</a>.
   - name: Zweite Frage
     content: Dies und das.
