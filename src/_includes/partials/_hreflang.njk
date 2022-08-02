@@ -1,0 +1,12 @@
+<% if (locals.translation) { %>
+	<% if (locals.lang == "de") { %>
+		<link rel="alternate" hreflang="de" href="<%= site.url %><%= page.url %>" />
+		<link rel="alternate" hreflang="en" href="<%= site.url %><%= locals.translation %>" />
+		<link rel="alternate" hreflang="x-default" href="<%= site.url %><%= page.url %>" />
+	<% } %>
+	<% if (locals.lang == "en") { %>
+		<link rel="alternate" hreflang="de" href="<%= site.url %><%= locals.translation %>" />
+		<link rel="alternate" hreflang="en" href="<%= site.url %><%= page.url %>" />
+		<link rel="alternate" hreflang="x-default" href="<%= site.url %><%= locals.translation %>" />
+	<% } %>
+<% } %>

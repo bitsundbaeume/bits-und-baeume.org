@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+
+<% if (locals.lang == "en") { %>
+<html lang="en" class="no-js">
+<% } else { %>
 <html lang="de" class="no-js">
+<% } %>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><%= (!!locals.metatitle) ? metatitle : title %></title>
 	<link rel="canonical" href="<%= `${site.url}${page.url}` %>" />
+	<%- include('../partials/_hreflang.njk') %>
     <meta
       name="description"
       content="<%= (!!locals.description) ? description : site.description %>"
