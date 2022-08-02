@@ -3,7 +3,7 @@ title: Tickets
 metatitle: Tickets für die Bits & Bäume Konferenz 2022
 description: Hier findest Du alle Informationen rund um die Tickets für die Bits & Bäume Konferenz 2022
 lang: de
-translation: v/conference-2022/tickets/
+translation: /conference-2022/tickets/
 ---
 Hier gibt es Tickets für die Bits & Bäume 2022.
 

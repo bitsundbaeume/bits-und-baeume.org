@@ -1,8 +1,10 @@
 ---
-title: Bits & Bäume - die Bewegung für Digitalisierung und Nachhaltigkeit
+title: Mach mit!
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
 layout: layouts/_base.ejs
 tags: sitemap
+lang: de
+
 ---
 
 Es gibt verschiedene Möglichkeiten, um bei uns mitzumachen. Für mehr Infos, schau mal in unseren Community Matrix HIER, bei Twitter HIER oder Mastodon HIER vorbei. Oder lass dich auf unserem Newsletter HIER eintragen.
