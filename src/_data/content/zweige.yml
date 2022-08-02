@@ -6,7 +6,7 @@ items:
     url: https://dresden.bits-und-baeume.org/
   - name: Bits & Bäume Berlin
     url: https://berlin.bits-und-baeume.org/
-    content: "Lokale Bits&Bäume Plattform gegründet vom AStA der TU Berlin. Es
+    content: Lokale Bits&Bäume Plattform gegründet vom AStA der TU Berlin. Es
       werden Veranstaltungen & Workshops organisiert. Die Berliner*innen haben
-      das Bits&Bäume-Online-Forum und eine Mastodon-Instanz als
-      Twitter-Alternative aufgesetzt. Danke! :) "
+      das <a href="https://discourse.bits-und-baeume.org/">Bits&Bäume-Online-Forum</a> und eine <a href="https://mastodon.bits-und-baeume.org/"">Mastodon-Instanz</a> als
+      Twitter-Alternative aufgesetzt. Danke! :)

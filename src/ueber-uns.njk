@@ -1,7 +1,7 @@
 ---
 title: Bits & Bäume - die Bewegung für Digitalisierung und Nachhaltigkeit
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
-layout: layouts/base.ejs
+layout: layouts/_base.ejs
 tags: sitemap
 ---
 
@@ -11,7 +11,7 @@ tags: sitemap
 
 	<h2>Der Trägerkreis</h2>
 
-	{% for item in traegerinnen.items %}
+	{% for item in content.traegerinnen.items %}
 	<div class="box box-orga">
 		<div class="image">
 			<img src="{{ item.image }}"

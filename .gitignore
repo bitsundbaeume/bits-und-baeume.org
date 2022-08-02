@@ -8,7 +8,7 @@
 /hint-report
 
 # Generated file
-/src/_includes/layouts/webpack.ejs
+/src/_includes/partials/_webpack.ejs
 /src/assets/images/gt--*.*
 .lazyimages.json
 
