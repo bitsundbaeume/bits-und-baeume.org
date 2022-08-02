@@ -299,19 +299,19 @@
 	}
 
 	/* Gallery */
-	.gallery .thumbnails {
+	.gallery__thumbnails {
 		@apply -mx-4;
 	}
-	.gallery .thumb {
+	.gallery__thumb {
 		@apply mx-auto md:mx-0;
 	}
-	.thumbnails img {
+	.gallery__thumbnails img {
 		@apply p-4;
 		width: 315px;
 		height: 220px;
 	}
 	@media (min-width: 1536px) {
-		.thumbnails img {
+		.gallery__thumbnails img {
 			width: 375px;
 			height: 260px;
 		}
@@ -419,10 +419,10 @@
 		filter: invert(100%) sepia(100%) saturate(0%);
 	}
 	/* thumbnail hover overlay */
-	.thumbnails .wrapper {
+	.gallery__thumbnails .wrapper {
 		position: relative;
 	}
-	.thumbnails .overlay {
+	.gallery__thumbnails .overlay {
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -432,7 +432,7 @@
 		width: 100%;
 		opacity: 0;
 	}
-	.thumbnails .symbol {
+	.gallery__thumbnails .symbol {
 		color: #233C78;
 		font-size: 70px;
 		position: absolute;
@@ -443,12 +443,13 @@
 		transform: translate(-50%, -50%);
 		text-align: center;
 	}
-	.thumbnails .wrapper:hover .overlay {
+	.gallery__thumbnails .wrapper:hover .overlay {
 		opacity: 1;
 	}
-	.thumbnails .wrapper:hover img {
+	.gallery__thumbnails .wrapper:hover img {
 		opacity: 0.3;
 	}
+
 	.area__pixel {
 		@apply absolute hidden;
 		top: -30px;

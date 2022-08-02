@@ -1,7 +1,7 @@
 ---
 title: Bits & Bäume - die Bewegung für Digitalisierung und Nachhaltigkeit
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
-layout: layouts/base.ejs
+layout: layouts/_base.ejs
 tags: sitemap
 ---
 
@@ -14,13 +14,13 @@ tags: sitemap
 
 <section class="accordion max-w-3xl">
 	<div>
-		{% for item in faqs.items %}
+		{% for item in content.faqs.items %}
 		<details class="acc__detail">
 			<summary class="acc__summary">
 				<span class="acc__question">{{ item.name }}</span>
 				<div class="acc__icon"></div>
 			</summary>
-			<p class="acc__text">{{ item.content }}</p>
+			<p class="acc__text">{{ item.content | safe }}</p>
 		</details>
 		{% endfor %}
 </div>

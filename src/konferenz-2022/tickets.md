@@ -16,7 +16,7 @@ Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
 
 ### Ticketkategorien
 
-<div class="tickets flex flex-wrap justify-center">
+<div class="flex flex-wrap justify-center">
 
         <div class="w-full lg:w-2/3">
 

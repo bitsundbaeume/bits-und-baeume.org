@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+
+<% if (locals.lang == "en") { %>
+<html lang="en" class="no-js">
+<% } else { %>
 <html lang="de" class="no-js">
+<% } %>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><%= (!!locals.metatitle) ? metatitle : title %></title>
 	<link rel="canonical" href="<%= `${site.url}${page.url}` %>" />
+	<%- include('../partials/_hreflang.njk') %>
     <meta
       name="description"
       content="<%= (!!locals.description) ? description : site.description %>"
@@ -51,8 +57,8 @@
     <% } else { %>
 	<meta property="og:type" content="website" />
 	<% } %>
-	<%- include('webpack.ejs') %>
-	<%- include('../partials/favicon.njk') %>
+	<%- include('../partials/_webpack.ejs') %>
+	<%- include('../partials/_favicon.njk') %>
 	<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
 
   </head>
@@ -69,11 +75,11 @@
         <div class="hidden lg:block">
 			<nav class="nav-menu nav-menu-desktop">
 				<ul class="header-menu">
-					<%- include('../partials/mainmenu.njk') %>
+					<%- include('../partials/_mainmenu.njk') %>
 				</ul>
 			</nav>
         </div>
-		<%- include('../partials/language-switcher.njk') %>
+		<%- include('../partials/_language-switcher.njk') %>
         <div class="block lg:hidden pr-2">
         	<a title="menu" href="/menu/">
 				<img class="menu__button" src="<% site.url %>/assets/images/menu-button.svg" alt="menu button" role="presentation">
