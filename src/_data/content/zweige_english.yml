@@ -1,0 +1,12 @@
+items:
+  - name: Bits & Bäume Dresden
+    content: war der erste Stammtisch! :) Gegründet von der Fakultät Informatik der
+      TU Dresden nach zwei eigenen Bits&Bäume-Veranstaltungen am 23. Mai und 20.
+      Juni 2019. Trifft sich an der Uni Dresden.
+    url: https://dresden.bits-und-baeume.org/
+  - name: Bits & Bäume Berlin
+    url: https://berlin.bits-und-baeume.org/
+    content: Lokale Bits&Bäume Plattform gegründet vom AStA der TU Berlin. Es
+      werden Veranstaltungen & Workshops organisiert. Die Berliner*innen haben
+      das <a href="https://discourse.bits-und-baeume.org/">Bits&Bäume-Online-Forum</a> und eine <a href="https://mastodon.bits-und-baeume.org/"">Mastodon-Instanz</a> als
+      Twitter-Alternative aufgesetzt. Danke! :)

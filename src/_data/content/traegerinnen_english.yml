@@ -1,7 +1,7 @@
 items:
   - name: Trägerkreis Orga 1
-    content: Beschreibung
+    content: Description
     image: /assets/images/icon-box-links.svg
   - name: Trägerkreis Orga 2
-    content: Beschreibung
+    content: Description of second orga
     image: /assets/images/icon-box-cta.svg
