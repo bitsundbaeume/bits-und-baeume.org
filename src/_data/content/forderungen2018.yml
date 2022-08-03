@@ -1,0 +1,7 @@
+items:
+  - name: Forderung 1
+    content: ANY
+    image: /assets/images/icon-box-links.svg
+  - name: Forderung 2
+    content: TEXT
+    image: /assets/images/icon-box-cta.svg
