@@ -2,7 +2,7 @@
 title: Mach mit!
 meta-title: Mach mit Seite für Bits und Bäume
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
-layout: layouts/_base.ejs
+
 tags: sitemap
 lang: de
 

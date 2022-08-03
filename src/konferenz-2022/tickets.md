@@ -3,7 +3,7 @@ title: Tickets
 metatitle: Tickets für die Bits & Bäume Konferenz 2022
 description: Hier findest Du alle Informationen rund um die Tickets für die Bits & Bäume Konferenz 2022
 lang: de
-translation: /conference-2022/tickets/
+translation: /en/conference-2022/tickets
 ---
 Hier gibt es Tickets für die Bits & Bäume 2022.
 
@@ -11,14 +11,13 @@ Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
 
 ## Ticketkauf
 
-
 **LINK folgt nach Start des Ticketverkaufs.**
 
 </section><section class="container max-w-7xl">
 
 ### Ticketkategorien
 
-<div class="flex flex-wrap justify-center">
+<div class="tickets flex flex-wrap justify-center">
 
         <div class="w-full lg:w-2/3">
 
