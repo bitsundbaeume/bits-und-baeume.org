@@ -5,6 +5,8 @@ description: Hier findest Du alle Informationen rund um die Tickets für die Bit
 lang: de
 translation: /en/conference-2022/tickets
 ---
+
+<section class="max-w-3xl">
 Hier gibt es Tickets für die Bits & Bäume 2022.
 
 Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
@@ -12,6 +14,8 @@ Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
 ## Ticketkauf
 
 **LINK folgt nach Start des Ticketverkaufs.**
+
+</section>
 
 </section><section class="container max-w-7xl">
 

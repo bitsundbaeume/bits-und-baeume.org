@@ -2,7 +2,7 @@
 title: Mach mit!
 meta-title: Mach mit Seite für Bits und Bäume
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
-
+layout: layouts/_base.ejs
 tags: sitemap
 lang: de
 
@@ -11,7 +11,7 @@ lang: de
 <section class="max-w-3xl">
 	<h1>Mach mit!</h1>
 	<p>to be done</p>
-</section>
+
 
 Es gibt verschiedene Möglichkeiten, um bei uns mitzumachen. Für mehr Infos, schau mal in unseren Community Matrix HIER, bei Twitter HIER oder Mastodon HIER vorbei. Oder lass dich auf unserem Newsletter HIER eintragen.
 
@@ -29,3 +29,4 @@ Um die Großveranstaltung möglich zu machen, brauchen wir deine Unterstützung 
 Für deinen ehrenamtlichen Einsatz bedanken wir uns nicht nur mit dem Blick hinter die Kulissen der Bits & Bäume, sondern auch mit dem freien Eintritt an allen drei Tagen, Essen und natürlich jeder Menge Spaß!
 Wir freuen uns über deine Unterstützung!
 
+</section>
