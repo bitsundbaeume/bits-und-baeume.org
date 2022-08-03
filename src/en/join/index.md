@@ -1,13 +1,11 @@
 ---
-title: Forderungen
+title: Join the conference!
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
 layout: layouts/_base.ejs
 tags: sitemap
 lang: de
-translation: /en/conference-2018/demands/
+translation: /konferenz-2022/forderungen/
 ---
 
-<section class="max-w-3xl">
-	<h1>Forderungen 2018</h1>
-	<p>to be done</p>
-</section>
+
+**Join the conference**

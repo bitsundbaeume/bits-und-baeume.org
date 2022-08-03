@@ -6,4 +6,4 @@ lang: en
 translation: /konferenz-2022/forderungen/
 ---
 
-any text
+**Demands of conference 2022**
