@@ -6,7 +6,6 @@ lang: de
 translation: /en/conference-2022/tickets
 ---
 
-<section class="max-w-3xl">
 Hier gibt es Tickets für die Bits & Bäume 2022.
 
 Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
