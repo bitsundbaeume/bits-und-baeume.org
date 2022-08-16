@@ -4,6 +4,7 @@ items:
      Als weltweit tätiges Entwicklungswerk der 
      evangelischen Kirchen in Deutschland sind wir in mehr als 90 Ländern rund um den Globus aktiv. Gemeinsam mit lokalen Partnerinnen und Partnern helfen wir armen und ausgegrenzten Menschen, aus eigener Kraft ihre Lebenssituation zu verbessern.
     image: /assets/images/icon-box-links.svg
+    url: https://www.brot-fuer-die-welt.de/
   - name: Bund Umwelt- und Naturschutz Deutschland
     content: |
      Der Bund Umwelt- und Naturschutz Deutschland (BUND) ist ein Umweltverband mit 
@@ -15,6 +16,7 @@ items:
      Sozial-Ökologisch gerechte Wege dorthin beschreiben wir in unserer Zukunftsagenda #gemeinsamverändern. 
      (Link:' https://www.bund.net/zukunftsagenda/)
     image: /assets/images/icon-box-cta.svg
+    url: https://www.bund.net/
   - name: Chaos Computer Club
     content: |
      Der Chaos Computer Club ist eine galaktische Gemeinschaft von Lebewesen, 
@@ -23,6 +25,7 @@ items:
      Selbstbestimmung einsetzt. Er beschäftigt sich mit den Auswirkungen von Technologien auf die Gesellschaft 
      sowie das einzelne Lebewesen und fördert das Wissen um diese Entwicklung.
     image: /assets/images/icon-box-links.svg
+    url: https://www.ccc.de/
   - name: Deutscher Naturschutzring
     content: |
      Der Deutsche Naturschutzring (DNR) ist der Dachverband der deutschen Natur-, Tier- und Umweltschutzorganisationen.
@@ -31,6 +34,7 @@ items:
      Der DNR koordiniert und vernetzt, mischt sich ein in die politische Debatte und macht sich stark für eine bessere Welt von morgen. Gemeinsam mit unseren knapp 100 Mitgliedsorganisationen aus dem Arten- und Tierschutz, aus dem Klima-, Natur- und Umweltschutz, aus dem Ökolandbau, dem Natursport und aus der Wissenschaft setzen wir uns für eine vielfältige, weltoffene und tolerante Zivilgesellschaft ein.
 
     image: /assets/images/icon-box-links.svg
+    url: https://www.dnr.de/
   - name: Einstein Center Digital Future
     content: |
      Das Einstein Center Digital Future (ECDF) ist das Zentrum für 
@@ -40,6 +44,7 @@ items:
      fächerübergreifend zu vielfältigen Fragestellungen in den Innovationsbereichen Digitale Gesundheit, 
      Digitale Gesellschaft, Digitale Industrie und Dienstleistungen.
     image: /assets/images/icon-box-links.svg
+    url: https://www.digital-future.berlin
   - name: Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.
     content: |
      Das FIfF ist ein Zusammenschluss von engagiert-kritischen Fachleuten aus 
@@ -48,6 +53,7 @@ items:
      Wir beraten Politik und Medien, publizieren eine eigene Zeitschrift und organisieren Konferenzen, Vorträge und Demonstrationen. 
      Das FIfF ist in Regionalgruppen organisiert und wurde 1984 gegründet.
     image: /assets/images/icon-box-links.svg
+    url: https://www.fiff.de/
   - name: Free Software Foundation Europe
     content: |
      Die Free Software Foundation Europe ist ein gemeinnütziger Verein, 
@@ -57,11 +63,13 @@ items:
      zu verbreiten und zu verbessern. Diese Rechte stärken andere Grundrechte wie die Redefreiheit, 
      die Pressefreiheit und das Recht auf Privatsphäre.
     image: /assets/images/icon-box-links.svg
+    url: https://fsfe.org/
   - name: Germanwatch e.V.
     content: |
      Wir sind eine unabhängige und gemeinnützige Umwelt- und Entwicklungsorganisation, die sich seit 30 Jahren für globale Gerechtigkeit und den Erhalt der Lebensgrundlagen einsetzt. Dazu führen wir Dialoge mit Politik, Wirtschaft und Zivilgesellschaft, erstellen wissenschaftsbasierte Analysen, machen Bildungsarbeit und informieren Öffentlichkeit sowie Verbraucher:innen. Unsere Themen sind eine zukunftsfähige Digitalisierung, Klimapolitik, 
      Unternehmensverantwortung, Welternährung, Landnutzung, Handel und Bildung für nachhaltige Entwicklung.
     image: /assets/images/icon-box-links.svg
+    url: https://www.germanwatch.org/de
   - name: Institut für ökologische Wirtschaftsforschung
     content: |
      Das Institut für ökologische Wirtschaftsforschung (IÖW) 
@@ -72,6 +80,7 @@ items:
      Das unabhängige und gemeinnützige Institut hat die erste Bits & Bäume-Konferenz 2018 mitinitiiert.
 
     image: /assets/images/icon-box-links.svg
+    url: https://www.ioew.de/
   - name: Konzeptwerk Neue Ökonomie
     content: |
      Das Konzeptwerk Neue Ökonomie setzt sich als Kollektiv seit 10 Jahren für eine soziale, 
@@ -81,6 +90,7 @@ items:
      und politische Akteure und veröffentlicht z.B. Publikationen und Bildungsmaterialien zu Digitalisierung 
      und sozial-ökologischer Transformation.
     image: /assets/images/icon-box-links.svg
+    url: https://konzeptwerk-neue-oekonomie.org/
   - name: Open Knowledge Foundation
     content: |
      Die OKF DE setzt sich dafür ein, dass 
@@ -97,6 +107,7 @@ items:
      nicht zu Lasten zukünftiger Generationen geht. Das Fachgebiet Sozial-ökologische Transformation vereint 
      seit 2016 Nachhaltigkeits- und Digitalisierungsforschung und rief 2018 die erste Bits & Bäume Konferenz ins Leben.
     image: /assets/images/icon-box-links.svg
+    url: https://www.tu.berlin/
   - name: Weizenbaum-Institut
     content: |
      Das Weizenbaum-Institut für die vernetzte Gesellschaft – Das Deutsche Internet-Institut ist ein vom 
@@ -105,3 +116,4 @@ items:
      für Politik, Wirtschaft und Zivilgesellschaft. Ziel ist es, die Dynamiken, Mechanismen und Implikationen der 
      Digitalisierung besser zu verstehen.
     image: /assets/images/icon-box-links.svg
+    url: https://www.weizenbaum-institut.de/
