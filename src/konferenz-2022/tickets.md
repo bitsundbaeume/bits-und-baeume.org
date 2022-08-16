@@ -10,9 +10,6 @@ Hier gibt es Tickets für die Bits & Bäume 2022.
 
 Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
 
-## Ticketkauf
-
-**LINK folgt nach Start des Ticketverkaufs.**
 
 </section>
 
