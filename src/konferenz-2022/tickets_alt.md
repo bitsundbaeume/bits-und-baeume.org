@@ -47,7 +47,7 @@ Ist noch etwas unklar? Schau dafür mal in unseren FAQs vorbei.
 
                 <p>Deckt die Kosten für deine Verpflegung und gibt uns Spielraum nach oben, um beispielsweise Künstler*innen zu engagieren und entsprechend zu entlohnen.</p>
 
-                <button class="btn-dark">Für 64 € kaufen</button>
+                <button class="btn-dark"><a href="https://events.fairetickets.de/gedlv/">Für 64 € kaufen</a></button>
 
             </div>
 
