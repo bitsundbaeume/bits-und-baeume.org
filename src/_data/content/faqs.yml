@@ -1,9 +1,175 @@
 items:
-  - name: erste fragen
-    content: :) Was schon immer war.
-  - name: Zweite Frage
-    content: Dies und das.
-  - name: dritte frage
-    content: Das ist ein <a href="https://cleaner-web.com/">Link</a>.
-  - name: Zweite Frage
-    content: Dies und das.
+  - name: Wann findet die Bits & Bäume 2022 statt?
+    content: |
+     Am Abend des 30. September 2022 wird es ab 18 Uhr eine 
+     Auftaktveranstaltung geben. Das restliche 
+     Konferenzprogramm findet dann am 1. und 2. Oktober 2022 statt.
+  - name: Wo und wann findet die Auftaktveranstaltung statt?
+    content: |
+     Die Auftaktveranstaltung beginnt am 30. September um 18 Uhr im Audimax der Technischen Universität Berlin. Das Audimax befindet sich im 
+     Hauptgebäude der TU Berlin in der Straße des 17. Juni, 135, 10623 Berlin.
+  - name: Wo und wann findet die Abschlussparty statt?
+    content: |
+     Die Abschlussparty findet am 2. Oktober im Mathemathikgebäude, 
+     Straße des 17. Juni 136, 10623 Berlin (gegenüber vom TU Hauptgebäude)
+      statt. Ab 19 Uhr gehen wir entspannt vom Abendessen in die 
+      Abendgestaltung mit Musik verschiedener DJ*anes über.
+  - name: Wie sind die Öffnungszeiten der Bits & Bäume?
+    content: |
+     Die Konferenz startet am 30. 
+     September um 18 Uhr mit einer Auftaktveranstaltung. 
+     Das Programm findet am 1. und 2. Oktober ab 10 Uhr auf dem 
+     Campus Technische Universität Berlin statt. Eine detaillierte 
+     Programmübersicht folgt in Kürze auf unserer Website.
+  - name: Wo findet die Konferenz statt?
+    content: |
+      Bits & Bäume 2022 findet auf dem zentralen Campus der 
+      Technischen Universität (TU) Berlin, im Haupt- und 
+      Mathematikgebäude statt. Das Hauptgebäude befindet sich
+      in der Straße des 17. Juni 135, das Mathematikgebäude 
+      liegt direkt gegenüber auf der anderen Straßenseite, in der
+      Straße des 17. Juni 136, 10623 Berlin.
+  - name: Gibt es einen Lageplan zur Konferenz?
+    content: |
+      Derzeit wird ein Lageplan erstellt, der in Kürze auf unserer
+      Website veröffentlicht wird.
+  - name: Wie komme ich am besten zur Bits & Bäume?
+    content: |
+      Die Konferenz findet an der Technischen Universität (TU) Berlin statt, die mit öffentlichen Verkehrsmitteln sehr gut zu erreichen ist.
+      Die nächstgelegenen Stationen sind:
+      U-Bahn: Ernst-Reuter-Platz (U2) oder Zoologischer Garten (U2, U3, U9)
+      S-Bahn: Zoologischer Garten (S3, S5, S7, S9) oder Tiergarten (S3, S5, S7, S9)
+      Bus: Ernst-Reuter-Platz (245, M45)
+      Der Fernbahnhof Berlin Hauptbahnhof ist nur zwei S-Bahn-Stationen und der Regionalbahnhof Bahnhof Zoologischer Garten mit S- und U-Bahn nur eine Station entfernt.
+  - name: Wo finde ich Parkplätze und Fahrradständer?
+    content: |
+      Sowohl direkt vor dem Hauptgebäude als auch vor dem Mathematikgebäude befinden sich ausreichend Fahrradständer. Vor dem Mathematikgebäude gibt es ein paar Parkplätze, die am Wochenende weniger frequentiert sind.
+
+  - name: Wo kann ich ein Ticket kaufen?
+    content: |
+      Tickets für Bits & Bäume 2022 können HIER online erworben werden.
+
+  - name: Kann ich auch vor Ort noch ein Ticket erwerben?
+    content: |
+      Ja, du kannst auch vor Ort noch Tickets erwerben für 
+      den gleichen Preis wie online. Wir empfehlen, den Kauf 
+      online vorzunehmen, da der Ticketkauf am Einlass ggf. zu 
+      Wartezeiten führen kann. 
+
+  - name: Gibt es vor Ort einen Bargeldautomaten?
+    content: |
+      Im Hauptgebäude der TU Berlin ist ein Geldautomat, welcher genutzt werden kann. Genaue Infos dazu findest du vor Ort auf unserem Lageplan. 
+
+  - name: Wie viel kostet ein Ticket?
+
+    content: |
+      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich HIER für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
+
+  - name: Kann ich das Ticket auf eine andere Person übertragen?
+    content: |
+      Die Tickets sind personalisiert und können nicht auf andere 
+      Personen übertragen werden.
+  - name: Wie kann ich ein Ticket stornieren?
+    content: |
+     Bitte schreib dafür dem Ticketingsystem fairetickets direkt (https://www.faire-tickets.de/kontakt/). Dort wird dir geholfen und du kannst dein Ticket auch kurzfristig stornieren.
+
+
+  - name: Gibt es Ermäßigungen für Studierende?
+    content: |
+      Wir wollen so vielen Menschen wie möglich die Teilnahme an Bits & Bäume ermöglichen und bieten für alle die, die gerade nicht die finanziellen Mittel haben, um den vollen Preis für die Konferenz zu bezahlen, ein 10€ Soli-Ticket an.
+
+  - name: Gibt es kostenlose Tickets? 
+
+    content: |
+     Für alle unter 16 Jahren ist der Eintritt kostenlos. Wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich hier für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
+
+
+  - name: Wie kann ich in den Pool an Ehrenamtlichen aufgenommen werden, um vor Ort eine Schicht zu übernehmen?
+
+    content: |
+      Bits & Bäume ist eine Mitmachkonferenz! Wer sich hinter den Kulissen an der Durchführung der Konferenz beteiligen will, kann sich hier in unser Engelsystem (Schichtplan) eintragen. Alle die eine Schicht von mindestens vier Stunden übernehmen, erhalten ein kostenloses Ticket zur Konferenz inklusive Essens- und Getränkecoupons.
+
+   
+  - name: Kann ich meine Sachen an der Garderobe abgeben?
+
+    content: |
+      Du kannst natürlich vor Ort deine Jacke, Rucksack, o.ä. an der Garderobe im Hauptgebäude kostenfrei abgeben. Zusätzlich gibt es die Möglichkeit, die vorhandenen Schließfächer zu nutzen.
+
+  - name: Wo finde ich das Konferenzprogramm?
+    content: |
+      Eine detaillierte Programmübersicht wird in Kürze prominent auf unserer Website veröffentlicht. 
+
+  - name: Kann ich mich noch für das Programm bewerben?
+
+    content: |
+      Die Bewerbungsfrist für die Programm-Einreichungen ist bereits abgelaufen. Wir erwarten mit rund 200 Beiträgen ein vielfältiges Programm auf der Konferenz.  
+
+  - name: Werden die Vorträge und Workshops irgendwo gestreamt/kann ich sie mir online ansehen?
+    content: |
+      Einige der Hauptbühnen werden gestreamt und sind somit online einzusehen. Weitere Informationen dazu folgen.
+   
+  - name: Was ist das Bits & Bäume Forum?
+
+    content: |
+      Das Forum Bits & Bäume ist ein Ort für Austausch und Vernetzung. Initiativen und Organisationen an der Schnittstelle zwischen Digitalisierung und Nachhaltigkeit stellen sich dort vor und du kannst als Besucher*in mit ihnen ins Gespräch kommen. Das Forum befindet sich im Mathematikgebäude der TU Berlin. 
+
+  - name: Kann ich mich für das Forum mit einem Stand bewerben?
+
+    content: |
+      Die Bewerbungsfrist für einen Stand im Forum ist bereits abgelaufen. Wir erwarten über 40 Organisationen und Initiativen im Forum.  
+
+  - name: Was ist der Pitch & Thrive for Sustainability?
+    content: |
+      Im Rahmen des Pitch & Thrive for Sustainability haben nachhaltige Start-Ups und kleine und mittlere (Digital-)Unternehmen in täglichen Slots die Möglichkeit, ihre Projektideen und Geschäftsmodelle zu präsentieren. Sie bekommen im Anschluss an ihren Pitch wertvolles Feedback von einer erfahrenen Expert*innen-Jury und können sich mit neuen Kooperationspartner*innen vernetzen. Die Bewertung der Pitches erfolgt durch die Jury und das Publikum. Die besten Ideen/ Projekte/  Start-Ups werden auf unserer Bits & Bäume-Website platziert. Weiterhin verleihen wir im Rahmen einer Sieger*innen-Ehrung den  “Bitsbaum 2022“. 
+  - name: Wird es auch Musik und ein Kulturprogramm geben?
+
+    content: |
+     Über das gesamte Wochenende verteilt, gibt es immer wieder kulturelle Highlights. Diese wirst du zeitnah im Programmplan finden.
+
+   
+  - name: Wer sind eure Medienpartner*innen?
+
+    content: |
+     Unsere Medienpartner*innen sind heise online und RESET.
+
+
+  - name: Wie kann ich mich auf eurem Presseverteiler eintragen?
+    content: |
+      Du kannst dich HIER für unseren Pressenewsletter eintragen.
+
+  - name: Wie kann ich mich als Journalist*in mit Presseausweis für eure Konferenz registrieren?
+
+    content: |
+     Bitte schreib dazu eine kurze E-Mail mit dem Betreff “Bits & Bäume Akkreditierung“ an presse@bits-und-baeume.org. Vielen Dank!
+
+
+  - name: Bitte schreib dazu eine kurze E-Mail mit dem Betreff “Bits & Bäume Akkreditierung“ an presse@bits-und-baeume.org. Vielen Dank!
+
+    content: |
+      Die nächste Apotheke befindet sich in der Knesebeckstraße 93 etwa 5 Minuten fußläufig vom Hauptgebäude.
+
+  - name: Gibt es in der Nähe Übernachtungsmöglichkeiten?
+    content: |
+      Südlich der Straße des 17. Juni befinden sich v.a. rund um den Savignyplatz und den Ku‘Damm zahlreiche Hostels und Hotels. Du kannst dich auch HIER in unsere Schlafplatzbörse eintragen.
+
+  - name: Gibt es vor Ort Verpflegung? Ist diese im Ticketpreis inbegriffen?
+    content: |
+      Vor Ort wird es täglich ein warmes Mittag- und Abendessen geben. Versorgt wirst du von Food4Action und vielen ehrenamtlichen Helfenden. Das Essen erhältst du auf freiwilliger Spendenbasis.
+
+  - name: 
+    content: |
+
+  - name: 
+    content: |
+
+  - name: 
+    content: |
+
+    
+
+    
+    
+    
+
+
+
