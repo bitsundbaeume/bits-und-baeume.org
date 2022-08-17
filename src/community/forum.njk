@@ -9,3 +9,36 @@ tags: sitemap
 	<h1>Forum Bits & Bäume</h1>
 	<p>to be done</p>
 </section>
+
+	
+
+	
+<section>
+	
+	<div class="container max-w-7xl mx-auto">
+		<h2 class="h3">Termine / Forum</h2>
+	</div>
+	{% for item in content.forum.items %}
+	<div class="-mx-2 sm:-mx-6 flex flex-wrap">
+		<div class="w-full lg:w-3/5 bg-blue-light">
+			<div class="max-w-3xl lg:float-right px-4 sm:px-12 lg:pl-5">
+				<h2>{{ item.heading | safe }}</h2>
+				<p>{{ item.content | safe }}</p>
+			<!--	<button class="btn-dark" >{{ item.buttoncontent | safe }}</button> -->
+				<button class="btn-dark">Anmeldung und Infos</button>
+			</div>
+		</div>
+		<div class="w-full lg:w-2/5 bg-green-light">
+			<div class="max-w-2xl pt-12 px-4 sm:px-12">
+				<span class="h3">{{ item.date | safe }}</span>
+				<p class="mb-14">{{ item.time | safe }}</p>
+				<span class="h4">Ort:</span>
+				<p class="mb-14">{{ item.place | safe }}<br />
+				Wilhelmstraße 67, 10117 Berlin</p>
+				<span class="h4">In Zusammenarbeit mit:</span>
+				<img class="-ml-3 mt-2 mb-12" src="{{ item.image | safe }}" alt="{{ item.image_alt | safe }}">
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</section>
