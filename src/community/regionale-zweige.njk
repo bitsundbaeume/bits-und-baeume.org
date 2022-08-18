@@ -15,11 +15,11 @@ tags: sitemap
 	</p>
 
 	{% for item in content.zweige.items %}
-	<div class="box box-infos">
+	<div class="box {{ item.style }}">
 		<h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
 		<p>{{ item.content | safe }}</p>
 		<div class="box__pixel">
-			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
+			<img src="{{ item.pixel }}" widht="50" height="50">
 		</div>
 	</div>
 	{% endfor %}
