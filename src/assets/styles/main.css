@@ -279,7 +279,7 @@
 	/* Buttons */
 	.btn-dark, .btn-light {
 		@apply text-white bg-blue-dark;
-		margin: 2.125rem 2.125rem 2.125rem 0;
+		margin: 2.125rem 0;
 		padding: 0.5rem 1.625rem;
 		border-radius: 3px;
 	}
@@ -401,6 +401,9 @@
 
 @tailwind utilities;
 @layer utilities {
+	.hyphens {
+		hyphens: auto;
+	}
 	.back-to-top {
 		@apply fixed bottom-8 right-8;
 	}

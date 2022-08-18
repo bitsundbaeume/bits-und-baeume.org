@@ -16,7 +16,9 @@ layout: layouts/_base.ejs
 	<div class="box box-infos">
 		<h2 class="h3">Dies ist ein Kasten mit Infos.</h2>
 		<p>Es packte seine acht Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rethorische Frage über die Wange, dann setzte es seinen Weg fort.</p>
-		<button class="btn-dark">Button dunkel</button>
+		<a href="#">
+			<button class="btn-dark">Button dunkel</button>
+		</a>
 		<div class="box__icon">
 			<img src="/assets/images/icon-box-infos.svg" widht="66" height="66">
 		</div>
@@ -27,7 +29,9 @@ layout: layouts/_base.ejs
 	<div class="box box-cta">
 		<h2 class="h3">Dies ist ein Handlungsaufruf</h2>
 		<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rethorische Frage über die Wange, dann setzte es seinen Weg fort.</p>
-		<button class="btn-dark">Button dunkel</button>
+		<a href="#">
+			<button class="btn-dark">Button dunkel</button>
+		</a>
 		<div class="box__icon">
 			<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
 		</div>
@@ -43,7 +47,9 @@ layout: layouts/_base.ejs
 			<li><a href="#">die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rethorische Frage über die Wange, dann setzte es seinen Weg fort.</a></li>
 			<li><a href="#">Punkt 4</a></li>
 		</ul>
-		<button class="btn-dark">Button dunkel</button>
+		<a href="#">
+			<button class="btn-dark">Button dunkel</button>
+		</a>
 		<div class="box__icon">
 			<img src="/assets/images/icon-box-links.svg" widht="66" height="66">
 		</div>
@@ -65,7 +71,9 @@ layout: layouts/_base.ejs
 		<div class="text w-full md:w-3/5">
 			<h2 class="h3">Dies ist ein Kasten mit Bild daneben.</h2>
 			<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen.</p>
-			<button class="btn-dark">Button dunkel</button>
+			<a href="#">
+				<button class="btn-dark">Button dunkel</button>
+			</a>
 		</div>
 		<div class="box__pixel">
 			<img src="/assets/images/pixel-box-img.svg" widht="50" height="40">
@@ -76,47 +84,59 @@ layout: layouts/_base.ejs
 
 <section class="max-w-3xl">
 	<h2 class="h3">Buttons</h2>
-	<button class="btn-dark">Button dunkel</button>
-	<button class="btn-light">Button hell</button>
+		<!-- The class "mr-10" at the link of the first example buton is only necessary to have a distance to the second button. If you just use one Button you can use the link without that class like with the second button. -->
+		<a class="mr-10" href="#"><button class="btn-dark">Button dunkel</button></a>
+		<a href="#"><button class="btn-light">Button hell</button></a>
 </section>
 
 <!-- The following part is broader than the default width of the page content - if you copy it, you have to close the preceding section with </section> and start copying with the following section tag. Also open a normal <section class="max-w-3xl"> after this broader section to have the following content in the default width again. -->
+<!-- If you should show more than three boxes in a row (not designed and styled for that) or add very long words in the headlines, possibility is high that the headlines getting to broad or to big. You can than add a class "hyphens" to add hyphenation or use a smaller size for the headlines like the classes "h4" or "text-lg". -->
 <section class="tiles-section px-0 pt-24">
 	<div class="wrapper relative bg-blue-light">
 		<div class="tiles flex flex-wrap container max-w-7xl m-auto relative -top-24">
-			<div class="w-full lg:w-1/3">
-				<div class="box box-infos mx-4 lg:mr-4">
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-infos mx-4 lg:mr-4 flex-1">
 					<h2 class="h3">Dies ist ein Kasten mit Infos.</h2>
 					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-					<button class="btn-dark">Button dunkel</button>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
-			<div class="w-full lg:w-1/3">
-				<div class="box box-cta mx-4 lg:mx-2">
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-cta mx-4 lg:mx-2 flex-1">
 					<h2 class="h3">Dies ist ein Handlungsaufruf</h2>
 					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-					<button class="btn-dark">Button dunkel</button>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
-			<div class="w-full lg:w-1/3">
-				<div class="box box-infos mx-4 lg:ml-4">
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-infos mx-4 lg:ml-4 flex-1">
 					<h2 class="h3">Dies ist ein Kasten mit Infos.</h2>
 					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-					<button class="btn-dark">Button dunkel</button>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
-			<div class="w-full lg:w-1/2">
-				<div class="box box-infos mx-4 lg:mr-3">
+			<div class="w-full lg:w-1/2 flex flex-col">
+				<div class="box box-infos mx-4 lg:mr-3 flex-1">
 					<h2 class="h3">Dies ist ein Kasten mit Infos.</h2>
 					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-					<button class="btn-dark">Button dunkel</button>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
-			<div class="w-full lg:w-1/2">
-				<div class="box box-cta mx-4 lg:ml-3">
+			<div class="w-full lg:w-1/2 flex flex-col">
+				<div class="box box-cta mx-4 lg:ml-3 flex-1">
 					<h2 class="h3">Dies ist ein Handlungsaufruf</h2>
 					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-					<button class="btn-dark">Button dunkel</button>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -221,35 +241,43 @@ layout: layouts/_base.ejs
 <section class="container max-w-7xl">
 	<h2 class="h3">Tickets</h2>
 	<div class="flex flex-wrap justify-center">
-		<div class="w-full lg:w-2/3">
-			<div class="box box-blue m-4">
+		<div class="w-full lg:w-2/3 flex flex-col">
+			<div class="box box-blue m-4 flex-1">
 				<h2 class="h3">Unterstützer*innenticket</h2>
 				<p>Du möchtest unsere Arbeit unterstützen und die Bewegung der Bits & Bäume weiter vorantreiben? Du hast das nötige Geld? Dann freuen wir uns, wenn du dich für das Unterstützer*innenticket entscheidest. Nimmt dieses Ticket auch, wenn du es von deiner Arbeitsstelle / Firma / Institution bezahlt bekommst. Du erhält eine Rechnung für deine Buchhaltungsabteilung.</p>
-				<button class="btn-dark">Für 126 € kaufen</button>
+                <a href="https://events.fairetickets.de/gedlv/">
+					<button class="btn-dark">Für 126 € kaufen</button>
+				</a>
 				<div class="box__pixel">
 					<img src="/assets/images/pixel-box-ticket.svg" widht="60" height="40">
 				</div>
 			</div>
 		</div>
-		<div class="w-full lg:w-1/3">
-			<div class="box box-infos m-4">
+		<div class="w-full lg:w-1/3 flex flex-col">
+			<div class="box box-infos m-4 flex-1">
 				<h2 class="h3">Standardticket</h2>
 				<p>Deckt die Kosten für deine Verpflegung und gibt uns Spielraum nach oben, um beispielsweise Künstler*innen zu engagieren und entsprechend zu entlohnen.</p>
-				<button class="btn-dark">Für 64 € kaufen</button>
+                <a href="https://events.fairetickets.de/gedlv/">
+					<button class="btn-dark">Für 64 € kaufen</button>
+				</a>
 			</div>
 		</div>
-		<div class="w-full lg:w-1/3">
-			<div class="box box-infos m-4">
+		<div class="w-full lg:w-1/3 flex flex-col">
+			<div class="box box-infos m-4 flex-1">
 				<h2 class="h3">Suffizienzticket</h2>
 				<p>Deckt die Kosten für deine Verpflegung (Mittag- und Abendessen), inkl. Heißgetränken und Wasser ab. Für uns entstehen so keine zusätzlichen Kosten.</p>
-				<button class="btn-dark">Für 32 € kaufen</button>
+                <a href="https://events.fairetickets.de/gedlv/">
+					<button class="btn-dark">Für 32 € kaufen</button>
+				</a>
 			</div>
 		</div>
-		<div class="w-full lg:w-1/3">
-			<div class="box box-infos m-4">
+		<div class="w-full lg:w-1/3 flex flex-col">
+			<div class="box box-infos m-4 flex-1">
 				<h2 class="h3">Soli-Ticket</h2>
 				<p>Du hast aktuell nicht die finanziellen Mittel, an der Bits & Bäume teilzunehmen? Dieses Ticket soll dir einen Besuch ermöglichen. Alle die Lust haben, dabei zu sein, sollten die Chance dazu bekommen.</p>
-				<button class="btn-dark">Für 10 € kaufen</button>
+                <a href="https://events.fairetickets.de/gedlv/">
+					<button class="btn-dark">Für 10 € kaufen</button>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -286,7 +314,9 @@ layout: layouts/_base.ejs
 			<div class="max-w-3xl lg:float-right px-4 sm:px-12 lg:pl-5">
 				<h2>Wie viele Bits braucht die Energiewende?</h2>
 				<p>Die Energiewende soll den Übergang zu einem Energiesystem gestalten, das von fluktuierenden erneuerbaren Energien geprägt sein wird. Dies erfordert den Einsatz von Informations- und Kommunikationstechnologie, um einen Ausgleich von Angebot und Nachfrage zu gewährleisten. Doch zu den verschiedenen Aspekten der Digitalisierung des Energiesystems gibt es eine Vielzahl an Diskursen: An welchen Stellen sind digitale Lösungen sinnvoll und notwendig? Brauchen wir intelligente Netze, intelligente Verbrauchssteuerungen und intelligente Erzeuger? Kann die Digitalisierung unser Energiesystem effizienter und dezentraler machen? Wird es dadurch resilienter oder verwundbarer? Und: Wie kann das digitale Energiesystem gerecht gestaltet werden? Auf dem 5. Forum Bits & Bäume wollen wir diskutieren, wie die politischen Rahmenbedingungen diesen Fragen unter der Prämisse des Klimaschutzes begegnen können</p>
-				<button class="btn-dark">Anmeldung und Infos</button>
+				<a href="#">
+					<button class="btn-dark">Anmeldung und Infos</button>
+				</a>
 			</div>
 		</div>
 		<div class="w-full lg:w-2/5 bg-green-light">
