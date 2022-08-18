@@ -156,16 +156,41 @@ items:
     content: |
       Vor Ort wird es täglich ein warmes Mittag- und Abendessen geben. Versorgt wirst du von Food4Action und vielen ehrenamtlichen Helfenden. Das Essen erhältst du auf freiwilliger Spendenbasis.
 
-  - name: 
+  - name: Darf ich mein Kind mitbringen?
     content: |
+     Kinder bis einschließlich 15 Jahren dürfen kostenfrei mitgebracht werden. Bitte kauf 
+     trotzdem ein „Gratis“ Ticket auf der Website, damit wir einen genauen Überblick über die Anzahl der 
+     Besucher*innen haben. 
 
-  - name: 
+  - name: Gibt es eine Kinderbetreuung bzw. ein Programm für Kinder?
     content: |
+     Wir freuen uns, euch während der Veranstaltung eine kostenlose Kinderbetreuung zwischen 10.00-18.00 Uhr durch eine erfahrene Agentur anbieten zu können. Es ist möglich, die Kinder durchgehend oder auch nur stundenweise betreuen zu lassen. Es gibt keine festen Bring- und Abholzeiten. 
+     Pro Tag sind, je nach Wetterlage, ein bis zwei Ausflüge zu nahegelegenen Spielplätzen vorgesehen.
+     Die Kinder sind über die betreuende Agentur durchgehend unfallversichert.
+     Bitte verseht alle Dinge die ihr privat mitbringt (Spielsachen, Kuscheltier, Fläschchen, Wickeltasche etc.) mit dem Namen eures Kindes. 
+     Für eine Verpflegung ist nicht gesorgt, bitte bringt entsprechend Essen und Trinken für eure Kinder mit. Natürlich könnt ihr auch jederzeit eure Kinder abholen um gemeinsam essen zu gehen!
+     Bitte sendet die Anmeldung für euer Kind/ eure Kinder bis 14.09.2022 mit dem ausgefüllten Formular an simone.glueck@dnr.de.
+     Am Sonntag werden zusätzlich Workshops für größere Kinder / Jugendliche angeboten. Die Anmeldungen hierfür erfolgen vor Ort. 
+     Weiterhin gibt es einen Ruhe-/Stillraum für Eltern mit kleinen Kindern, der während der Konferenz durchgehend genutzt werden kann. 
 
-  - name: 
+  - name: Sind Hunde erlaubt?
+    conten:  |
+     Tiere sind an der TU Berlin nicht erlaubt. Ausnahmefälle sind Begleithunde.
+
+  - name: Wo finde ich euer Awareness-Konzept?
+    content:  |
+     Wir sind gerade bei der Ausarbeitung unseres Awareness-Konzepts und werden es 
+     im Vorfeld der Konferenz auf unserer Website veröffentlichen. Es ist uns wichtig, allen 
+     Teilnehmenden einen sicheren und entspannten Besuch der Konferenz zu ermöglichen, auch wenn wir uns 
+     bewusst sind, dass es keine Barrierefreiheit, sondern nur Barrierearmut geben kann. Unser Awareness Konzept 
+     wird während der Konferenz prominent sichtbar aufgehängt.
+     Außerdem wird es vor Ort ein Awareness-Team geben, das jeder Zeit ansprechbar ist und Unterstützung leisten kann. 
+  
+  - name: Wie lauten die aktuellen Hygienerichtlinien?
     content: |
+      Wir halten uns an die aktuellen Corona-Regelungen des Landes Berlin und die Hausordnung der TU Berlin. 
+      Detaillierte Infos teilen wir kurz vor der Konferenz hier.
 
-    
 
     
     

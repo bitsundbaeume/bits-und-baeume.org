@@ -10,3 +10,48 @@ items:
       werden Veranstaltungen & Workshops organisiert. Die Berliner*innen haben
       das <a href="https://discourse.bits-und-baeume.org/">Bits&Bäume-Online-Forum</a> und eine <a href="https://mastodon.bits-und-baeume.org/"">Mastodon-Instanz</a> als
       Twitter-Alternative aufgesetzt. Danke! :)
+  
+  - name: Bits & Bäume Hannover 
+    url: http://bits-und-baeume-hannover.org
+    content: |
+      Entstanden aus einer regionalen Gruppe von <a href="https://www.ccc.de/schule">Chaos macht Schule</a>. Trifft sich in den Räumen des CCC Hannover.
+   
+  - name: Bits & Bäume Köln 
+    url: https://wechange.de/group/bits-baeume-koeln/
+    content: |
+      Lokale Bits&Bäume-Gruppe für Austausch und Zusammenarbeit von unten für eine nachhaltige Digitalisierung in Köln.
+
+
+  - name: Bits & Bäume Nürnberg 
+    url: https://it.bluepingu.de
+    content: |
+      Lokale Bits&Bäume-Gruppe für eine zukunftsfähige Metropolregion Nürnberg, 
+      insbesondere für eine sozial-ökologische Transformation für alle; angestoßen und organisiert vom Bluepingu e. V.
+    
+  - name: Bits & Bäume Nord 
+    url: https://wechange.de/group/bits-baeume-nord/
+    content: |
+      Bits&Bäume-Gruppe in Norddeutschland.
+   
+  - name: Bits & Bäume Osnabrück 
+    url: https://plattform-n.org/project/bits-baeume-osnabrueck/
+    content: |
+     Lokale Bits&Bäume-Gruppe, in Gründung.
+   
+  - name: Bits & Bäume Dortmund 
+    url: 
+    content: |
+     Lokale Bits&Bäume-Gruppe, in Gründung.
+    
+  - name: Hier könnte dein Wohnort stehen! :)
+    url: 
+    content: |
+      <p><b>Noch kein Bits&Bäume-Sprössling in deiner Nähe?</b></p>
+      <p>Dann gründe einen! Unter Bits&Bäume wächst findest du die Bedingungen für eigene Bits&Bäume-Aktionen. Melde dich mit den guten Nachrichten, dass es Zuwachs 
+      gibt und wie mensch euch findet, unter bewegung@bits-und-baeume.org, dann nehmen wir euch in die Liste auf.
+      Außerdem kannst du dich bei unserer Mailingliste anmelden oder in unserem Bits&Bäume-Online-Forum aktiv werden und dich vernetzen.
+      </p>
+
+    
+    
+
