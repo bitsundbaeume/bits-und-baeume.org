@@ -1,0 +1,90 @@
+---
+title: Presse 2018
+metatitle: Pressekontakt 2018
+description: Hier findest Du die Presseseite der Bits & Bäume Konferenz 2018
+lang: de
+layout: layouts/_base.ejs
+---
+
+<section class="max-w-5xl">
+    <h1>Presse & Öffentlichkeitsarbeit der Bits&Bäume-Konferenz 2018</h1>
+</section>
+<section class="max-w-3xl" >
+	<div>
+		<h2 class="h3">Pressekontakt</h2>
+		<div class="flex flex-wrap sm:flex-nowrap">
+			<div class="testimonial__visual">
+				<img class="testimonial__image" src="/assets/images/galleries/konferenz2018/presse/nina-rehm.jpg" alt="Beispiel-Portrait" sizes="150px" data-img2picture-widths="150, 300">
+				<img class="image_icon" src="/assets/images/pixel-testimonial-1.svg" widht="80" height="40">
+			</div>
+			<div>
+				<p class="quote">„Nina Prehm"</p>
+				<p class="quote">+49 (0) 30 884594 48</p>
+                <p class="quote">presse@bits-und-baeume.org</p>
+			</div>
+		</div>
+	</div>
+    <div>
+		<h2 class="h3">Social Media</h2>
+		<div class="flex flex-wrap sm:flex-nowrap">
+			<div class="testimonial__visual">
+				<img class="testimonial__image" src="/assets/images/galleries/konferenz2018/presse/jasmin-helm.jpg" alt="Beispiel-Portrait" sizes="150px" data-img2picture-widths="150, 300">
+				<img class="image_icon" src="/assets/images/pixel-testimonial-1.svg" widht="80" height="40">
+			</div>
+			<div>
+                <p class="quote">„Jasmin Helm“</p>
+                <p class="quote"> </p>
+			</div>
+		</div>
+	</div>
+
+    <section id="gallery" class="container">
+        <h2 class="h3">Pressefotos</h2>
+        <div class="gallery__thumbnails flex flex-wrap">
+            {% for img in galleries.presse2018 %}
+            <div class="gallery__thumb">
+                {# <a href="{{ img.path }}" target="_blank"> #}
+                <a href="/gallery/main/{{ img.path | basefilename }}">
+                    {% set imgPath = img.thumbPath | default(img.path) %}
+                    {% set altText = img.thumbAlt | default(img.alt) %}
+                    <div class="wrapper">
+                        <img class="object-cover"
+                            src="{% thumbnail imgPath %}"
+                            alt="{{ altText }}"
+                            sizes="(min-width: 1540px) 375px, 283px"
+                            data-img2picture-widths="283,375,566,750"
+                            >
+                        <div class="overlay">
+                            <div class="symbol">+</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <p>Bildlizenz: CC BY Santiago Engelhardt</p>
+
+    <p>Von links: Maria Bossmann (DNR), Hendrik Zimmermann (Germanwatch), Teresa Hoffmann (Brot für die Welt), Vivian Frick (IÖW), Nicolas Guenot (Konzeptwerk Neue Ökonomie), Juliane Krüger (OKF), Sven Hilbig (Brot für die Welt), Anja Höfner (IÖW), Rolf Buschmann (BUND), Leon Kaiser (Netzpolitik.org), Rainer Rehak (FIfF), Constanze Kurz (CCC), Tilman Santarius (TU Berlin)</p>
+
+    <p>Erste Reihe von links: Rainer Rehak (FIfF), Thomas Korbun (IÖW), Rolf Buschmann (BUND), Sven Hilbig (Brot für die Welt), Maria Bossmann (DNR), Constanze Kurz (CCC), Nadine Evers (OKF)
+        Zweite Reihe von links: Christoph Bals (Germanwatch), Nina Treu (Konzeptwerk Neue Ökonomie), Tilman Santarius (TU Berlin)</p>
+
+    <h2>Pressemitteilungen</h2>
+
+    {% for item in content.pressemitteilungen2018.items %}
+	<div class="box box-infos">
+		<h3>{{ item.name }}</h3>
+		<p>{{ item.content | safe }}</p>
+        <a href="{{ item.url }}">
+			<button class="btn-dark">Button dunkel</button>
+		</a>
+		<div class="box__pixel">
+			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
+		</div>
+
+	</div>
+	{% endfor %}
+
+</section>
