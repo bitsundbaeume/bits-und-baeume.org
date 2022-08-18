@@ -15,7 +15,7 @@ items:
      Unser Ziel: Die sozial-ökologische Transformation hin zu einer Post-Wachstums-Gesellschaft schaffen. 
      Sozial-Ökologisch gerechte Wege dorthin beschreiben wir in unserer Zukunftsagenda #gemeinsamverändern. 
      (Link:' https://www.bund.net/zukunftsagenda/)
-    image: /assets/images/traegerinnen_logos/bund.jpg
+    image: /assets/images/traegerinnen_logos/bund.svg
     url: https://www.bund.net/
   - name: Chaos Computer Club
     content: |
@@ -24,18 +24,17 @@ items:
      die sich grenzüberschreitend für Informationsfreiheit, ein Recht auf Hacken und informationelle 
      Selbstbestimmung einsetzt. Er beschäftigt sich mit den Auswirkungen von Technologien auf die Gesellschaft 
      sowie das einzelne Lebewesen und fördert das Wissen um diese Entwicklung.
-    image: /assets/images/traegerinnen_logos/ccc.png
+    image: /assets/images/traegerinnen_logos/ccc.svg
     url: https://www.ccc.de/
   - name: Deutscher Naturschutzring
     content: |
-     Der Deutsche Naturschutzring (DNR) ist der Dachverband der deutschen Natur-, 
-     Tier- und Umweltschutzorganisationen.
-     Der DNR koordiniert und vernetzt, mischt sich ein in die politische Debatte und 
-     macht sich stark für eine bessere Welt von morgen. Gemeinsam mit unseren knapp 100 
-     Mitgliedsorganisationen aus dem Arten- und Tierschutz, aus dem Klima-, Natur- und Umweltschutz, 
-     aus dem Ökolandbau, dem Natursport und aus der Wissenschaft setzen wir uns für eine vielfältige, 
-     weltoffene und tolerante Zivilgesellschaft ein.
-    image: /assets/images/traegerinnen_logos/dnr.gif
+     Der Deutsche Naturschutzring (DNR) ist der Dachverband der deutschen Natur-, Tier- und 
+     Umweltschutzorganisationen.
+     Der DNR koordiniert und vernetzt, mischt sich ein in die politische Debatte und macht sich 
+     stark für eine bessere Welt von morgen. Gemeinsam mit unseren knapp 100 Mitgliedsorganisationen aus dem 
+     Arten- und Tierschutz, aus dem Klima-, Natur- und Umweltschutz, aus dem Ökolandbau, dem Natursport und aus der 
+     Wissenschaft setzen wir uns für eine vielfältige, weltoffene und tolerante Zivilgesellschaft ein.
+    image: /assets/images/traegerinnen_logos/dnr.svg
     url: https://www.dnr.de/
   - name: Einstein Center Digital Future
     content: |
@@ -45,7 +44,7 @@ items:
      Gemeinsam erproben wir neue Formen der Kooperation zwischen Digitalisierungsakteur*innen und forschen 
      fächerübergreifend zu vielfältigen Fragestellungen in den Innovationsbereichen Digitale Gesundheit, 
      Digitale Gesellschaft, Digitale Industrie und Dienstleistungen.
-    image: /assets/images/traegerinnen_logos/einstein.jpeg
+    image: /assets/images/traegerinnen_logos/einstein_center.svg
     url: https://www.digital-future.berlin
   - name: Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.
     content: |
@@ -54,7 +53,7 @@ items:
      unserer Arbeit nach, warnen vor schädlichen Entwicklungen und bringen eigene konstruktive Vorstellungen ein. 
      Wir beraten Politik und Medien, publizieren eine eigene Zeitschrift und organisieren Konferenzen, Vorträge und Demonstrationen. 
      Das FIfF ist in Regionalgruppen organisiert und wurde 1984 gegründet.
-    image: /assets/images/traegerinnen_logos/fiff.svg
+    image: /assets/images/traegerinnen_logos/fiff-schwarz.svg
     url: https://www.fiff.de/
   - name: Free Software Foundation Europe
     content: |
@@ -70,7 +69,7 @@ items:
     content: |
      Wir sind eine unabhängige und gemeinnützige Umwelt- und Entwicklungsorganisation, die sich seit 30 Jahren für globale Gerechtigkeit und den Erhalt der Lebensgrundlagen einsetzt. Dazu führen wir Dialoge mit Politik, Wirtschaft und Zivilgesellschaft, erstellen wissenschaftsbasierte Analysen, machen Bildungsarbeit und informieren Öffentlichkeit sowie Verbraucher:innen. Unsere Themen sind eine zukunftsfähige Digitalisierung, Klimapolitik, 
      Unternehmensverantwortung, Welternährung, Landnutzung, Handel und Bildung für nachhaltige Entwicklung.
-    image: /assets/images/traegerinnen_logos/germanwatch.png
+    image: /assets/images/traegerinnen_logos/germanwatch.svg
     url: https://www.germanwatch.org/de
   - name: Institut für ökologische Wirtschaftsforschung
     content: |
@@ -81,7 +80,7 @@ items:
      die ein gutes Leben ermöglicht und die natürlichen Grundlagen erhält. 
      Das unabhängige und gemeinnützige Institut hat die erste Bits & Bäume-Konferenz 2018 mitinitiiert.
 
-    image: /assets/images/traegerinnen_logos/ioew.jpg
+    image: /assets/images/traegerinnen_logos/ioew.svg
     url: https://www.ioew.de/
   - name: Konzeptwerk Neue Ökonomie
     content: |
@@ -91,7 +90,7 @@ items:
      organisiert der Verein auch Konferenzen, vernetzt zivilgesellschaftliche, aktivistische, wissenschaftliche 
      und politische Akteure und veröffentlicht z.B. Publikationen und Bildungsmaterialien zu Digitalisierung 
      und sozial-ökologischer Transformation.
-    image: /assets/images/traegerinnen_logos/konzeptwerk.png
+    image: /assets/images/traegerinnen_logos/konzeptwerk.svg
     url: https://konzeptwerk-neue-oekonomie.org/
   - name: Open Knowledge Foundation
     content: |
@@ -100,7 +99,7 @@ items:
      und sich staatliches und gesellschaftliches Handeln am Gemeinwohl orientieren. Dafür entwickeln 
      wir digitale Technologien, die von allen eingesetzt werden können. Wir streben nach einer offenen, 
      inklusiven und gerechten Gesellschaft, in der Wissen für Alle frei verfügbar ist.
-    image: /assets/images/traegerinnen_logos/okf.png
+    image: /assets/images/traegerinnen_logos/okfn.svg
   - name: Technische Universität Berlin
     content: |
      Die Technische Universität Berlin ist eine traditionsreiche Forschungseinrichtung mit dem Ziel, 
@@ -108,7 +107,7 @@ items:
      Prinzip der nachhaltigen Entwicklung, die den Erfordernissen der Gegenwart gerecht wird und zugleich 
      nicht zu Lasten zukünftiger Generationen geht. Das Fachgebiet Sozial-ökologische Transformation vereint 
      seit 2016 Nachhaltigkeits- und Digitalisierungsforschung und rief 2018 die erste Bits & Bäume Konferenz ins Leben.
-    image: /assets/images/traegerinnen_logos/tu.jpg
+    image: /assets/images/traegerinnen_logos/tu-berlin.svg
     url: https://www.tu.berlin/
   - name: Weizenbaum-Institut
     content: |
