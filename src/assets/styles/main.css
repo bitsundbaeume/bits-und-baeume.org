@@ -401,6 +401,9 @@
 
 @tailwind utilities;
 @layer utilities {
+	.hyphens {
+		hyphens: auto;
+	}
 	.back-to-top {
 		@apply fixed bottom-8 right-8;
 	}
