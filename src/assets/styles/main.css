@@ -373,7 +373,7 @@
 
 	/* Testimonial and Speaker */
 	.testimonial__visual {
-		@apply mx-auto mb-4;
+		@apply mb-4;
 	}
 	.testimonial__image {
 		width: 150px;
