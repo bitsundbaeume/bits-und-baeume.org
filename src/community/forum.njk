@@ -9,6 +9,9 @@ tags: sitemap
 	<h1>Forum Bits & Bäume</h1>
 </section>
 
+<p>
+	Das Forum Bits & Bäume wird von der wissenschaftlichen Forschungsgruppe „Digitalisierung und sozial-ökologische Transformation“ von IÖW und TU Berlin veranstaltet in Kooperation mit dem Einstein Center Digital Future und weiteren wechselnden Partnern. Das Projekt wird durch das Bundesministerium für Bildung und Forschung (BMBF) im Förderschwerpunkt sozial-ökologische Forschung (SÖF) gefördert.
+</p>
 	
 
 	
@@ -34,8 +37,17 @@ tags: sitemap
 				<span class="h4">Ort:</span>
 				<p class="mb-14">{{ item.place | safe }}<br />
 				Wilhelmstraße 67, 10117 Berlin</p>
-				<span class="h4">In Zusammenarbeit mit:</span>
+				{% if item.image %}
 				<img class="-ml-3 mt-2 mb-12" src="{{ item.image | safe }}" alt="{{ item.image_alt | safe }}">
+				{% endif %}
+				{% if item.partner %}
+				<span class="h4">In Zusammenarbeit mit:</span>
+				{% endif %}
+				{% for partner in item.partner %}
+					<img class="-ml-3 mt-2 mb-12" src="{{ partner.image | safe }}" alt="{{ partner.image_alt | safe }}">
+				{% endfor %}
+
+
 			</div>
 		</div>
 	</div>
