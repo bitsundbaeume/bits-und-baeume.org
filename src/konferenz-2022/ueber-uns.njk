@@ -84,10 +84,10 @@ translation: /en/conference-2022/about-us/
 	{% for item in content.traegerinnen.items %}
 	<div class="box box-orga">
 		<div class="image">
-			 <img src="{{ item.image }}" alt="Logo von {{ item.name }}" > 
+			<a href="{{ item.url }}"><img src="{{ item.image }}" alt="Logo von {{ item.name }}" > </a>
 		</div>
 		<div class="text">
-			<a href="{{ item.url }}">{{ item.name }}</a></h3>
+			<a href="{{ item.url }}"><h3>{{ item.name }}</h3></a>
 			<p>{{ item.content | safe }}</p>
 		</div>
 	</div>
