@@ -35,7 +35,7 @@ layout: layouts/_base.ejs
 			</div>
 			<div>
                 <p class="quote">„Jasmin Helm“</p>
-                <p class="quote"> </p>
+                <p class="quote"><a href="https://twitter.com/bitsundbaeume">@bitsundbaeume</a></p>
 			</div>
 		</div>
 	</div>
@@ -80,7 +80,7 @@ layout: layouts/_base.ejs
 		<h3>{{ item.name }}</h3>
 		<p>{{ item.content | safe }}</p>
         <a href="{{ item.url }}">
-			<button class="btn-dark">Zur Pressemitteilung</button>
+            <button class="btn-dark">Zur Pressemitteilung</button>
 		</a>
 		<div class="box__pixel">
 			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
@@ -90,8 +90,9 @@ layout: layouts/_base.ejs
 	{% endfor %}
 
     <div class="box box-links">
-		<h2 class="h3">ÖA-Material</h2>
-		<ul>
+		<h2 class="h3">Material für Öffentlichkeitsarbeit</h2>
+	
+        <ul>
 		    <li><a href="/assets/images/oea_material/bits-und-baeume-logo.pdf">Logo mit Titel</a></li>
             <li><a href="/assets/images/oea_material/bits-und-baeume-logo-schrift.pdf">Logo mit Titel und Untertitel</a></li>
             <li><a href="/assets/images/oea_material/bits-und-baeume-logo-konferenzinfos.pdf"> Grafik mit Konferenzinfos</a></li>

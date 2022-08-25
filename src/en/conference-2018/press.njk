@@ -8,11 +8,12 @@ translation: /konferenz-2018/presse/
 ---
 
 <section class="max-w-3xl">
-    <h1>Presse & Öffentlichkeitsarbeit der Bits&Bäume-Konferenz 2018</h1>
+    <h1>Press & Public Relations of the Bits&Bäume conference 2018</h1>
+	<p>If you would like to receive press releases and information about the conference, please send an e-mail.</p>
 </section>
 <section class="max-w-3xl" >
 	<div>
-		<h2 class="h3">Pressekontakt</h2>
+		<h2 class="h3">Press Contact</h2>
 		<div class="flex flex-wrap sm:flex-nowrap">
 			<div class="testimonial__visual">
 				<img class="testimonial__image" src="/assets/images/galleries/konferenz2018/presse/nina-rehm.jpg" alt="Beispiel-Portrait" sizes="150px" data-img2picture-widths="150, 300">
@@ -34,13 +35,13 @@ translation: /konferenz-2018/presse/
 			</div>
 			<div>
                 <p class="quote">„Jasmin Helm“</p>
-                <p class="quote"> </p>
+				<p class="quote"><a href="https://twitter.com/bitsundbaeume">@bitsundbaeume</a></p>
 			</div>
 		</div>
 	</div>
 
     <section id="gallery" class="container">
-        <h2 class="h3">Pressefotos</h2>
+        <h2 class="h3">Press pictures</h2>
         <div class="gallery__thumbnails flex flex-wrap">
             {% for img in galleries.presse2018 %}
             <div class="gallery__thumb">
@@ -72,14 +73,15 @@ translation: /konferenz-2018/presse/
     <p>Erste Reihe von links: Rainer Rehak (FIfF), Thomas Korbun (IÖW), Rolf Buschmann (BUND), Sven Hilbig (Brot für die Welt), Maria Bossmann (DNR), Constanze Kurz (CCC), Nadine Evers (OKF)
         Zweite Reihe von links: Christoph Bals (Germanwatch), Nina Treu (Konzeptwerk Neue Ökonomie), Tilman Santarius (TU Berlin)</p>
 
-    <h2>Pressemitteilungen</h2>
+    <h2>Press releases</h2>
 
     {% for item in content.pressemitteilungen2018.items %}
 	<div class="box box-infos">
 		<h3>{{ item.name }}</h3>
 		<p>{{ item.content | safe }}</p>
         <a href="{{ item.url }}">
-			<button class="btn-dark">Zur Pressemitteilung</button>
+			
+			<button class="btn-dark">to the press release</button>
 		</a>
 		<div class="box__pixel">
 			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
@@ -89,15 +91,15 @@ translation: /konferenz-2018/presse/
 	{% endfor %}
 
     <div class="box box-links">
-		<h2 class="h3">ÖA-Material</h2>
+		<h2 class="h3">Material for press</h2>
 		<ul>
-		    <li><a href="/assets/images/oea_material/bits-und-baeume-logo.pdf">Logo mit Titel</a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-schrift.pdf">Logo mit Titel und Untertitel</a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-konferenzinfos.pdf"> Grafik mit Konferenzinfos</a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-programmpunkte.pdf"> Grafik mit Programmpunkten</a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-traegerkreis.pdf">Grafik mit Trägerkreis</a></li>
+		    <li><a href="/assets/images/oea_material/bits-und-baeume-logo.pdf"> Logo with title </a></li>
+            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-schrift.pdf"> logo with title and subtitle </a></li>
+            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-konferenzinfos.pdf"> Graphic with short infos</a></li>
+            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-programmpunkte.pdf"> Graphic with program</a></li>
+            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-traegerkreis.pdf">Graphic with Trägerkreis</a></li>
             <li><a href="/assets/images/oea_material/B&B_Plakat_DIN-A1_CC_181108.pdf"> Poster (A1)</a></li>
-            <li><a href="https://vimeo.com/user91395992"> Kurzinterviews zur Konferenz von Personen aus dem Trägerkreis</a></li>
+            <li><a href="https://vimeo.com/user91395992"> Short interviews about the conference</a></li>
         </ul>
 	
 		<div class="box__icon">
@@ -109,7 +111,7 @@ translation: /konferenz-2018/presse/
 	</div>
 
     <div class="box box-links">
-		<h2 class="h3">Weitere Informationen zu den Themen der Konferenz</h2>
+		<h2 class="h3">More information to conference topics</h2>
 		<ul>
 		    <li><a href="https://www.germanwatch.org/de/thema/digitalisierung">Germanwatch über zukunftsfähige Digitalisierung</a></li>
             <li><a href="https://www.brot-fuer-die-welt.de/ueber-uns/personen/sven-hilbig/">Brot für die Welt zu Digitalisierung und Entwicklungspolitik (Blog Sven Hilbig)</a></li>
