@@ -16,7 +16,7 @@ tags: sitemap
 
 	{% for item in content.zweige.items %}
 	<div class="box {{ item.style }}">
-		<h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
+		<a href="{{ item.url }}"><h3>{{ item.name }}</h3></a>
 		<p>{{ item.content | safe }}</p>
 		<div class="box__pixel">
 			<img src="{{ item.pixel }}" widht="50" height="50">
