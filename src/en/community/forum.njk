@@ -8,37 +8,43 @@ translation: /community/forum/
 ---
 
 <section class="max-w-5xl">
-	<h1>Forum Bits & Bäume</h1>
+	<h1>Forum Bits & Bäume 2019/2020</h1>
+	<h3>About the series of discussions / discussion session</h3>
+
+	<p>For more than two years, the Forum Bits & Bäume offers an open discussion space in order to focus more on the sustainable design of digitization and to introduce scientific and civil society issues and demands into the political discourse. The events will be conducted in dialogue formats with active workshop elements in order to develop concrete policy proposals and design options and prepare them for public and political debates.</p>
+	<p>
+		The Forum Bits & Trees is organised by the scientific research group "Digitisation and Social-Ecological Transformation" of IÖW and TU Berlin in cooperation with the Einstein Center Digital Future and other changing partners. The project is funded by the Federal Ministry of Education and Research (BMBF) in the funding priority social-ecological research (SÖF).
+	</p>
+	<h2 class="h3">Past events</h2>
+		
 </section>
 
-<p>
-	Das Forum Bits & Bäume wird von der wissenschaftlichen Forschungsgruppe „Digitalisierung und sozial-ökologische Transformation“ von IÖW und TU Berlin veranstaltet in Kooperation mit dem Einstein Center Digital Future und weiteren wechselnden Partnern. Das Projekt wird durch das Bundesministerium für Bildung und Forschung (BMBF) im Förderschwerpunkt sozial-ökologische Forschung (SÖF) gefördert.
-</p>
-	
+
 
 	
 <section>
-	
-	<div class="container max-w-7xl mx-auto">
-		<h2 class="h3">Termine / Forum</h2>
-	</div>
-	{% for item in content.forum.items %}
+
+	{% for item in content.forum_english.items %}
 	<div class="-mx-2 sm:-mx-6 flex flex-wrap">
 		<div class="w-full lg:w-3/5 bg-blue-light">
 			<div class="max-w-3xl lg:float-right px-4 sm:px-12 lg:pl-5">
 				<h2>{{ item.heading | safe }}</h2>
 				<p>{{ item.content | safe }}</p>
 			<!--	<button class="btn-dark" >{{ item.buttoncontent | safe }}</button> -->
-				<button class="btn-dark">Anmeldung und Infos</button>
+				<a href="{{ item.button_url }}">
+					<button class="btn-dark">Anmeldung und Infos</button>
+				</a>
 			</div>
 		</div>
 		<div class="w-full lg:w-2/5 bg-green-light">
 			<div class="max-w-2xl pt-12 px-4 sm:px-12">
 				<span class="h3">{{ item.date | safe }}</span>
 				<p class="mb-14">{{ item.time | safe }}</p>
+				{% if item.place %}
 				<span class="h4">Ort:</span>
 				<p class="mb-14">{{ item.place | safe }}<br />
-				Wilhelmstraße 67, 10117 Berlin</p>
+				</p>
+				{% endif %}
 				{% if item.image %}
 				<img class="-ml-3 mt-2 mb-12" src="{{ item.image | safe }}" alt="{{ item.image_alt | safe }}">
 				{% endif %}

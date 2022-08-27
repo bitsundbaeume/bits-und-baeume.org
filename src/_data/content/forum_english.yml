@@ -1,87 +1,82 @@
 items:
-  - heading: Wie viele Bits braucht die Energiewende?
+  - heading: How many bits do we need for the energy transition? Design options for an intelligent, future-proof and sustainable energy system
     content: |
-      Die Energiewende soll den Übergang 
-      zu einem Energiesystem gestalten, das von fluktuierenden
-      erneuerbaren Energien geprägt sein wird. Dies erfordert den Einsatz von 
-      Informations- und Kommunikationstechnologie, um einen Ausgleich von Angebot und Nachfrage zu gewährleisten. 
-      Doch zu den verschiedenen Aspekten der Digitalisierung des Energiesystems gibt es eine Vielzahl an Diskursen: 
-      An welchen Stellen sind digitale Lösungen sinnvoll und notwendig? Brauchen wir intelligente Netze, 
-      intelligente Verbrauchssteuerungen und intelligente Erzeuger? Kann die Digitalisierung unser Energiesystem 
-      effizienter und dezentraler machen? Wird es dadurch resilienter oder verwundbarer? 
-      Und: Wie kann das digitale Energiesystem gerecht gestaltet werden? Auf dem 5. Forum Bits & Bäume wollen wir 
-      diskutieren, wie die politischen Rahmenbedingungen diesen Fragen unter der Prämisse des Klimaschutzes begegnen können
+      The energy transition should pave the way towards an energy system that will be characterized by fluctuating renewable energies. This requires the use of information and communication technology to balance supply and demand. However, there is a multitude of discourses about the various aspects of digitalizing the energy system: Where are digital solutions useful and necessary? Do we need smart grids, intelligent consumption control systems and smart generators? Will digitalization increase the efficiency and decentralization of our energy system? Does it make it more resilient or vulnerable? And: How can we ensure that our digital energy system is fair? At the 5th Forum Bits & Bäume we want to discuss the ways in which policies can address these questions under the imperative of climate protection.
+     
     button_url: "www.bits-und-baeume.org"
-    date: 20. November 2022
-    time: 16:00 - 18:00 Uhr
-    place: Einstein Center Digital Future Wilhelmstraße 67, 10117 Berlin
+    date: November 2nd, 2020
+    time: 4-7pm
+    place: Performed virtually!
     partner:
       - image: /assets/images/traegerinnen_logos/germanwatch.svg
         image_alt: Germanwatch
 
-  - heading: Von Commerce zu Commons – Ein gemeinwohlorientiertes Internet gestalten
+  - heading: From commerce to commons - Shaping an Internet for the common good
     content: |
-      <p>Das Internet assoziieren wir mit Freiheit, Offenheit, Kommunikation, Vernetzung und freien Informationen. In den letzten Jahrzehnten nahmen jedoch kommerzielle Interessen so stark zu, dass der digitale Raum immer mehr einem Marktplatz gleicht. So ist unter den 50 weltweit meistbesuchten Webseiten Wikipedia das einzige nicht-kommerzielle Angebot. Anwendungen, die im Sinne der Commons-Idee entstanden sind, werden monetarisiert – so z.B. Videoplattformen. Auch in der Sharing Economy sind private Übernachtungsmöglichkeiten wie bei Couchsurfing unter dem Label der Gastfreundschaft zu einem Business geworden, an dem nun vor allem die Plattform Airbnb verdient.
+      <p>
+      We associate the Internet with freedom, openness, communication, networking and free information. In recent decades, however, commercial interests have grown so much that the digital space is increasingly resembling a marketplace. For example, Wikipedia is the only non-commercial offering among the 50 most visited websites worldwide. Applications that have emerged in the spirit of the Commons idea are being monetized - such as video platforms. Also in the sharing economy, private accommodation such as couchsurfing has become a business under the label of hospitality, from which the platform Airbnb in particular now benefits.
       </p>
 
       <p>
-      Diese „Kommerzialisierung des Internets“ geht mit einer Ausweitung des Online-Marketings einher. Durch Personalisierung in Kombination mit On- und Offlinetracking und KI/Big-Data-Anwendungen wird kommerzielle Werbung im Netz immer effektiver. Diese Entwicklungen gefährden nicht nur den Datenschutz. Durch die unternehmensseitige Informationsgewinnung fördert dies auch Machtasymmetrien zugunsten von digitalen Unternehmen gegenüber den Nutzenden. Zusätzlich werden Konsumanreize gesetzt und mehr Energie verbraucht – mit Auswirkungen auf die Umwelt.
+      This "commercialisation of the Internet" is accompanied by an expansion of online marketing. Through personalization in combination with on- and offline tracking and AI/Big-Data applications, commercial advertising on the web is becoming more and more effective. These developments not only endanger data protection. Through the company's information gathering, this also promotes power asymmetries in favour of digital companies vis-à-vis the users. In addition, consumer incentives are created and more energy is used - with an impact on the environment.
       </p>
       
       <p>
-      Eine Kommerzialisierung einzugrenzen ist jedoch herausfordernd, da viele digitale Geschäftsmodelle auf Datenhandel und Werbung basieren. Darüber hinaus bestimmen große Tech-Unternehmen wie Google, Amazon, Facebook oder Apple den Markt, verdrängen nicht-kommerzielle Unternehmen und beeinflussen gesellschaftliche Meinungsbildung.
+      However, limiting commercialization is challenging, as many digital business models are based on data trading and advertising. In addition, large tech companies such as Google, Amazon, Facebook and Apple dominate the market, squeeze out non-commercial companies and influence social opinion.
       </p>
       <p>
-      Im 4. Forum Bits & Bäume diskutieren wir, wie Politik ein gemeinwohlorientiertes Internet fördern kann:
+      In the 4th Forum Bits & Bäume we discuss how politics can promote an internet oriented towards the common good:
       </p>
       <p>
-      Welche Lösungsansätze gibt es, um Kommerzialisierung, Machtasymmetrien und Monopolbildung einzugrenzen?
-      Wie können Commons-basierte und gemeinwohlorientierte Infrastrukturen und Angebote unterstützt werden?
-      Die Förderung von Genossenschaftsmodellen, Commons-Strukturen, einer fairen Bezahlung digitaler Dienstleistungen sowie der Regulierung von Online-Marketing und Tracking sind nur einige ausgewählte Lösungsansätze. Diese und weitere politische Gestaltungsoptionen für ein gemeinwohlorientiertes Internet sollen im Fokus des interaktiven Forums stehen.
+      <ul>
+      <li>// What solutions are there to limit commercialisation, power asymmetries and monopoly formation?</li>
+      <li>// How can commons-based and public-interest oriented infrastructures and services be supported?</li>
+      </ul>
+
       </p>
+      <p>The promotion of cooperative models, commons structures, fair payment for digital services and the regulation of online marketing and tracking are only a few selected approaches. These and other political options for shaping an Internet oriented towards the common good will be the focus of the interactive forum.</p>
     button_url: https://www.ioew.de/veranstaltung/forum-bits-baeume-von-comerce-zurueck-zu-commons-wie-viel-kommerzialisierung-vertraegt-ein-nachhaltiges-internet
-    date: 15. Juni 2020
-    time: 16-19 Uhr
+    date: June 15th, 2020
+    time: 4-7pm
     place: 
     partner:
       - image: /assets/images/logo-digitalcourage.png
         image_alt: 
    
 
-  - heading: Langlebig, offen, reparabel und datensparsam. Gestaltungsoptionen für nachhaltige Hard- und Software
+  - heading: Durable, open, repairable and data-saving. Design options for sustainable hardware and software
     content: |
-      Digitale Technologien führen zu immer mehr Energie- und Ressourcenverbräuchen. Neben der Nutzung technischer Geräte und digitaler Dienste spielt vor allem eine Rolle, wie Software programmiert und Hardware materiell ausgestattet ist und wie diese lizensiert sind. Verpflichtende Softwareupdates, die immer neue Anforderungen an die Hardware stellen, bei gleichzeitigem Support-Ende für die bisherige Softwarelösung, sind ein Beispiel dafür wie Nutzer*innen gezwungen werden eigentlich noch intakte Hardware durch Neugeräte zu ersetzen. Werden immer mehr Alltaggegenstände miteinander vernetzt, so verschärft sich die Problematik des steigenden Energie- und Ressourcenverbrauches für immer mehr Geräte. Wie können Hard- und Software nachhaltig gestaltet werden? Bei der Herstellung und Nutzung von Hardware spielen Aspekte wie Langlebigkeit, Reparierbarkeit und der schonende Einsatz von Ressourcen eine entscheidende Rolle. Bei Software geht es neben der Energiesparsamkeit auch um langfristige Updatefähigkeit, Datenkomprimierung oder auch Transparenz und Autonomie. Ein wichtiger Schritt ist die materielle und die immaterielle Basis der Digitalisierung stärker zusammenzudenken. Im 3. Forum Bits & Bäume diskutieren wir Gestaltungsoptionen für nachhaltige Hard- und Software und bestehende Ansätze für offene Hard- und Software, die beispielsweise in Fab-Labs und Maker-Spaces vielfach praktiziert werden sowie Herausforderungen für die politische Regulierung. Wir wollen bereits vorhandene Rahmensetzungen wie etwa das „Right to Repair“, die Eco-Design-Richtlinie oder den Blauen Engel für Software diskutieren und neue Möglichkeiten ausloten.
+     Digital technologies lead to ever increasing consumption of energy and resources. In addition to the use of technical devices and digital services, the way in which software is programmed and hardware is materially equipped and how it is licensed plays a major role. Compulsory software updates, which make ever new demands on hardware while at the same time ending support for the previous software solution, are an example of how users are forced to replace hardware that is still intact with new devices. If more and more everyday objects are connected to each other, the problem of increasing energy and resource consumption for more and more devices becomes more acute. How can hardware and software be made sustainable? In the production and use of hardware, aspects such as durability, reparability and the sparing use of resources play a decisive role. With software, it is not only a question of energy saving, but also of long-term updateability, data compression or even transparency and autonomy. An important step is to think the material and immaterial basis of digitisation more closely together. In the 3rd Forum Bits & Bäume we discuss design options for sustainable hardware and software and existing approaches for open hardware and software, which are often practiced in Fab-Labs and Maker-Spaces for example, as well as challenges for political regulation. We want to discuss existing frameworks such as the "Right to Repair", the Eco-Design Directive or the dertificate “Blue Angel” for software and explore new possibilities.
 
     button_url: https://www.ioew.de/veranstaltung/forum-bits-baeume-offen-langlebig-und-reparabel-gestaltungsbedingungen-fuer-nachhaltige-hard-und-software
-    date: 23. April 2020
-    time: 16-19 Uhr
-    place: E
+    date: April 23rd, 2020
+    time: 4-7 pm
+    place: 
     partner:
       - image: /assets/images/traegerinnen_logos/konzeptwerk.svg
         image_alt: Konzeptwerk neue Ökonomie
       - image: /assets/images/traegerinnen_logos/fsfe.svg
         image_alt: FSFE
 
-  - heading: Ökologische Digitalsteuer
+  - heading: Ecological digital tax
     content: |
-      Welche politischen Instrumente machen die Digitalisierung zukunftsfähig?
-
-      Digitalisierung und Klimaschutz – zwei heiße Eisen, über deren politische Ausgestaltung derzeit viel diskutiert wird. Im Gespräch ist dabei vor allem ein alter Bekannter: Steuern. Eine Digitalsteuer, damit Digitalkonzerne zur Finanzierung öffentlicher Aufgaben beitragen. Eine CO2-Steuer oder ein erweiterter Emissionshandel, um klimaschädliche Emissionen zu senken. Im zweiten Forum Bits & Bäume werden die beiden Herausforderungen Digitalisierung und Klima zusammengedacht. Wie können Steuern und andere Instrumente in der Digitalen Ökonomie ökologische Lenkungswirkung entfalten? Reichen Konzepte wie die CO2-Steuer oder bedarf es gesonderter Instrumente? Braucht es neben nationalen Instrumenten einen CO2-Zoll für die digitale Welt oder eine Steuer auf Datenverkehr?
+      <p><b>Which political instruments make digitalization fit for the future?</b></p>
+      <p>Digitalization and climate protection - two hot potatoes whose political design is currently the subject of much debate. The main subject of discussion is an old acquaintance: Taxes. A digital tax, so that digital corporations can contribute to the financing of public tasks. A CO2 tax or extended emissions trading to reduce climate-damaging emissions. In the second forum, Bits & Bäume, the two challenges of digitalization and climate will be considered together. How can taxes and other instruments in the digital economy develop an ecological steering effect? Are concepts such as the CO2 tax sufficient or do we need separate instruments? Do we need a CO2 tax for the digital world or a tax on data traffic in addition to national instruments?
+      </p>
     button_url: https://www.nachhaltige-digitalisierung.de/bits-baeume/forum-bits-baeume.html
-    date: 27. Januar 2020
+    date: January 27th, 2020
     time: 16-19 Uhr
-    place: im Einstein Center Digital Future Wilhelmstraße 67, 10117 Berlin
+    place: at Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
     partner:
    
 
-  - heading: Künstliche Intelligenz für nachhaltige Entwicklung?
+  - heading: Artificial intelligence for sustainable development?
     content: |
-      Künstliche Intelligenz (KI) ist derzeit in aller Munde und wirft viele Fragen zu wirtschaftspolitischen, ethischen, sozialen und ökologischen Erwartungen und Umsetzungspotenzialen auf. Bei dem ersten Forum Bits & Bäume diskutierten wir grundsätzliche Aspekte: Was kann KI zur Transformation der Gesellschaft in Richtung Nachhaltigkeit beitragen? Welche Anwendungsbeispiele gibt es, die eine Nutzung von KI für ökologische oder soziale Zielsetzungen ermöglichen? Was sind politische Gestaltungsoptionen, um sicherzustellen, dass KI-Anwendungen dem Gemeinwohl dienen?
+     Artificial intelligence (AI) is currently in the limelight and raises many questions about economic policy, ethical, social and ecological expectations and implementation potential. At the first forum, Bits & Bäume, we discussed fundamental aspects: What can AI contribute to the transformation of society towards sustainability? What are the application examples that enable the use of AI for ecological or social objectives? What are policy options to ensure that AI applications serve the common good?
     button_url: 
-    date: 10. September 2019
+    date: September 10th, 2019
     time: 
-    place: im Einstein Center Digital Future
-            Wilhelmstraße 67, 10117 Berlin
+    place: im Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
     partner:
     image: /assets/images/FBB1-fishbowl.jpg
        
