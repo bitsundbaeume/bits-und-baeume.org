@@ -1,0 +1,47 @@
+items:
+  - name: Social-ecological objectives in the design of digitization
+    content: Digitization must serve the common good. It shall not primarily pursue an economic growth agenda, but must aim to promote social, environmental and development policies as well as peace objectives. Digitization must contribute to a sustainable transformation of energy, transport, agriculture and resource policy. Moreover, digitization shall foster human rights, climate protection goals as well as the end of hunger and poverty. A sustainable digitalization in our definition relies on meaningful, decent work, social justice and sufficient lifestyles.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+  - name: Democracy
+    content: Digitization must be made more democratic in itself and at the same time support democratic processes instead of counteracting them. To this end, it must be consistently geared to promoting emancipatory potential, decentralized participation, open innovation and civil society commitment.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+  - name: Data protection
+    content: Data protection, freedom from manipulation and informational self-determination shall be promoted both nationally and globally as essential prerequisites for free, democratic, peaceful and sovereign societies.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+  - name: Control of monopolies
+    content: We need to create basic conditions for controlling digital monopolies in order to enable a self-determined digital economy in the North and the global South. Existing monopolies of operators of commercial platforms must be broken, for example by imposing a mandatory predefined interface for exchange between social media services.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+  - name: Education
+    content: Political regulation must begin to see knowledge and education about technology and its consequences as part of the public good; this has to become an elementary component of public knowledge. A critical and emancipatory handling of digital technology should be part of digital education, including the competent handling of false information and hate speech in digital media.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+  - name: Aspects of development and trade policy I
+    content: Countries of the global South must have the opportunity to develop their own digitization according to local and national needs. The costs and benefits of digitization shall be shared equally between all societies. Negative aspects, such as inhumane working conditions, environmental pollution, damage to health and electronic waste must not be unilaterally passed on to the global South.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+  - name: Aspects of development and trade policy II
+    content: 
+      Bilateral and multilateral trade agreements must not contain any prohibitions or restrictions regarding taxation, open source disclosure or localization.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+  - name: Aspects of development and trade policy III
+    content: 
+      The technology sector must be obliged to respect human rights and ecological due diligence in the mining and production countries when faced with issues of resource conservation and sustainability.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+  - name: IT security
+    content: Deficient software has negative consequences for its users, the security of their data and the digital infrastructure as a whole. Software liability is needed so that software developers bear the responsibility for the risks that arise (e.g. security gaps) instead of subjecting the quality of their software to profit. IT security is the foundation of a sustainable digital society.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+  - name: Longevity of software
+    content: Software must be adaptable to individual use, repairable and fit for long-term use, as is the case with open source software. For example, manufacturers must provide security updates throughout the lifetime of hardware-devices and make a variant of the source code open source at the end of support instead of installing “software locks”.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+  - name: Longevity of hardware
+    content: Electronic devices must be repairable and recyclable – we have to eradicate planned obsolescence or built-in obsolescence of electronic devices. To this end, warranty periods must be massively extended; manufacturers must offer spare parts, repair tools and know-how for everyone and keep it permanently available. This must go hand in hand with greater financial support for open workshops or repair cafés as well as for Research & Development projects geared to the common good. Public funding must be granted to open source products exclusively.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg

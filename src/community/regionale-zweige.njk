@@ -1,18 +1,30 @@
 ---
 title: Bits & Bäume - die Bewegung für Digitalisierung und Nachhaltigkeit
 description: Die „Bits & Bäume“ wird dezentralisiert fortgeführt, auf dass sie weiter wächst und gedeiht.
-layout: layouts/base.ejs
+layout: layouts/_base.ejs
 tags: sitemap
+lang: de
+translation: /en/community/regional-branches/
 ---
 
 <section class="max-w-3xl">
 	<h1>Regionale Zweige</h1>
-	<p>to be done</p>
+	<p>
+		Die Bits&Bäume-Community wächst! 
+		Du willst mitmachen? In einigen 
+		Städten gibt es erste regionale Zweige mit eigenen Stammtischen zum 
+		Diskutieren und um zusammen Vorträge oder eigene Konferenzen zu planen. Schließ dich an!
+	</p>
 
-	{% for item in zweige.items %}
-	<div class="box box-cta">
-		<h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
-		<p>{{ item.content }}</p>
+	{% for item in content.zweige.items %}
+	<div class="box {{ item.style }}">
+		<a href="{{ item.url }}"><h3>{{ item.name }}</h3></a>
+		<p>{{ item.content | safe }}</p>
+		<div class="box__pixel">
+			<img src="{{ item.pixel }}" widht="50" height="50">
+		</div>
 	</div>
 	{% endfor %}
+
+
 </section>

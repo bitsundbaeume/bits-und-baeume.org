@@ -1,0 +1,25 @@
+---
+title: FAQs
+layout: layouts/_base.ejs
+metatitle: FAQs of the Bits & Bäume Conference 2022
+description: Here you can find the faqs of the Bits & Bäume Konferenz 2022
+lang: en
+translation: /konferenz-2022/faqs/
+---
+
+<section class="max-w-3xl">
+	<h3>Bits & Bäume-Conference 2022</h3>
+	<h1>Our FAQs</h1>
+
+	<div>
+		{% for item in content.faqs_english.items %}
+		<details class="acc__detail">
+			<summary class="acc__summary">
+				<span class="acc__question">{{ item.name }}</span>
+				<div class="acc__icon"></div>
+			</summary>
+			<p class="acc__text">{{ item.content | safe }}</p>
+		</details>
+		{% endfor %}
+	</div>
+</section>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= (!!locals.metatitle) ? metatitle : title %></title>
+	<link rel="canonical" href="<%= `${site.url}${page.url}` %>" />
+    <meta
+      name="description"
+      content="Menü der Website von Bits & Bäume für mobile Endgeräte"
+    />
+    <meta name="author" content="<%= site.author %>" />
+    <meta property="og:title" content="<%= (!!locals.metatitle) ? metatitle : title %>" />
+    <meta
+      property="og:description"
+      content="Menü der Website von Bits & Bäume für mobile Endgeräte"
+    />
+    <meta property="og:locale" content="<%= site.locale %>" />
+    <meta property="og:site_name" content="<%= site.site_name %>" />
+    <% if (locals.tags == "posts") { %>
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="<%= date.toISOString() %>" />
+    <script type="application/ld+json">
+      {
+        "description": "Menü der Website von Bits & Bäume für mobile Endgeräte",
+        "author": { "@type": "Person", "name": "<%= site.author %>" },
+        "@type": "BlogPosting",
+        "url": "<%= `${site.url}${page.url}` %>",
+        "publisher": {
+          "@type": "Organization",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "<%= `${site.url}/assets/images/bits-und-baeume-logo.svg` %>"
+          },
+          "name": "<%= site.author %>"
+        },
+        "headline": "<%= title %>",
+        "datePublished": "<%= date.toISOString() %>",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "<%= `${site.url}${page.url}` %>"
+        },
+        "@context": "http://schema.org"
+      }
+    </script>
+    <% } %><%- include('../partials/_webpack.ejs') %>
+	<%- include('../partials/_favicon.njk') %>
+  </head>
+
+  <body class="antialiased w-full bg-beige">
+	<div class="mx-auto md:max-w-screen-md mb-10">
+		<header class="flex justify-between mb-6">
+			<div class="hover:scale-105 hover:transform-gpu duration-50">
+				<a class="hover:no-underline hover:bg-opacity-0" href="<% site.url %>/">
+					<img class="inline-block" src="<% site.url %>/assets/images/bits-und-baeume-logo.svg" alt="Logo Bits und Bäume">
+				</a>
+			</div>
+			<div class="grid justify-items-end">
+				<button id="close">
+					<p class="hover:text-green m-0 text-2xl">X</p>
+					<span class="sr-only">Menü schließen</span>
+				</button>
+				<h1 class="text-xl mt-2 mb-1">Menü</h1>
+			</div>
+		</header>
+
+		<section class="content"><%- content %></section>
+	</div>
+  </body>
+  <script>
+	document.getElementById('close').addEventListener('click', () => {
+		history.back();
+	});
+  </script>
+  <script defer data-domain="<yourdomain.com>" src="https://plausible.io/js/plausible.js" crossorigin="anonymous"></script>
+</html>
