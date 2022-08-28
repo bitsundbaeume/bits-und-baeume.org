@@ -1,34 +1,45 @@
 items:
   - name: Sozial-ökologische Zielsetzung bei Gestaltung der Digitalisierung
     content: Die Gestaltung der Digitalisierung soll dem Gemeinwohl dienen. Sie darf nicht einseitig auf die Förderung einer wirtschafts- und wachstumspolitischen Agenda abzielen, sondern muss auf sozial-, umwelt-, entwicklungs- und friedenspolitische Ziele ausgerichtet sein. Die Digitalisierung soll zu einer nachhaltigen Energie-, Verkehrs-, Agrar- oder Ressourcenwende beitragen und konkrete Beiträge zur umfassenden Gewährleistung der Menschenrechte, der Klimaschutzziele und zur Beendigung von Hunger und Armut leisten. Eine nachhaltige Digitalisierung in unserem Sinne setzt auf sinnvolle, menschenwürdige Arbeit, soziale Gerechtigkeit und suffiziente Lebensstile.
-    image: /assets/images/icon-box-links.svg
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
   - name: Demokratie
     content: Basis einer gerechten Gesellschaft sind demokratische 'Entscheidungen:' Die Digitalisierung muss in sich demokratischer gestaltet werden und gleichzeitig demokratische Prozesse unterstützen, statt diesen entgegenzuwirken. Dafür muss sie konsequent darauf ausgerichtet werden, emanzipatorische Potenziale, dezentrale Teilhabe, offene Innovationen und zivilgesellschaftliches Engagement zu fördern.
-    image: /assets/images/icon-box-cta.svg
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
   - name: Datenschutz 
     content: Datenschutz, Manipulationsfreiheit und informationelle Selbstbestimmung sollen als Grundlage von freien, demokratischen, friedlichen und langfristig souveränen Gesellschaften national und global vorangetrieben werden.
-    image: /assets/images/icon-box-cta.svg
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
   - name: Kontrolle von Monopolen
     content: Es müssen Rahmenbedingungen zur Kontrolle digitaler Monopole geschaffen werden, damit sich im Norden und globalen Süden eine eigene, selbstbestimmte digitale Wirtschaft entwickeln kann. Bestehende Monopole von Betreiber*innen kommerzieller Plattformen müssen gebrochen werden, indem beispielsweise eine definierte Schnittstelle zum Austausch zwischen Social-Media-Diensten verpflichtend eingeführt wird.
-    image: /assets/images/icon-box-cta.svg
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
   - name: Bildung
     content: Politische Regulierung muss darauf zielen, auch Informationen und Bildungsangebote zu Technik und Wirkungsweisen als einen Teil des öffentlichen Gemeinguts zu begreifen, sie müssen elementarer Bestandteil des öffentlichen Wissens sein. Ein kritischer und emanzipatorischer Umgang mit digitaler Technik soll Teil von digitaler Bildung sein, dazu gehört auch der kompetente Umgang mit Falschinformationen und Hassrede in digitalen Medien.
-    image: /assets/images/icon-box-cta.svg
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
   - name: Entwicklungs- und Handelspolitische Aspekte I
     content: Länder des globalen Südens müssen die Möglichkeit haben, eine eigene auf die lokalen und nationalen Bedürfnisse ausgerichtete Digitalisierung zu entwickeln. Alle Gesellschaften sollen gleichen Anteil an Nutzen und Kosten der Digitalisierung haben können. Die negativen Seiten wie menschenunwürdige Arbeitsbedingungen, Umweltverschmutzung, Gesundheitsschäden und Elektroschrott dürfen nicht einseitig auf den globalen Süden abgewälzt werden.
-    image: /assets/images/icon-box-cta.svg
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
   - name: Entwicklungs- und Handelspolitische Aspekte II
     content: Bilaterale und multilaterale Handelsabkommen dürfen keine Verbote und Einschränkungen in den Bereichen Besteuerung (Taxation), Offenlegung des Quellcodes (Open Source) und Ort der Datenverarbeitung (Localisation) enthalten.
-    image: /assets/images/icon-box-cta.svg
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
   - name: Entwicklungs- und Handelspolitische Aspekte III
     content: Die Technologie-Branche muss verpflichtet werden, in Fragen der Ressourcenschonung und Nachhaltigkeit die Prinzipien menschenrechtlicher und ökologischer Sorgfaltspflichten in den Abbau- und Produktionsländern konsequent anzuwenden.
-    image: /assets/images/icon-box-cta.svg
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
   - name: IT-Sicherheit
     content: Mangelhafte Software hat negative Folgen für deren Nutzer*innen, die Sicherheit ihrer Daten und die digitale Infrastruktur insgesamt. Es bedarf einer Softwarehaftung, damit Software-Hersteller die Verantwortung für die entstehenden Risiken (z. B. Sicherheitslücken) tragen, statt die Qualität ihrer Software dem Profit zu unterwerfen. IT-Sicherheit ist die Grundlage einer nachhaltigen digitalen Gesellschaft.
-    image: /assets/images/icon-box-cta.svg
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
   - name: Langlebigkeit von Software
     content: Software muss selbstbestimmt nutzbar sein, reparierbar sein und langfristig instand gehalten werden können, so wie es Open-Source-Software bereits verwirklicht. Hersteller müssen daher beispielsweise Sicherheitsupdates für die Hardware-Lebensdauer von Geräten bereitstellen und nach Ende des Supports den Quellcode als Open-Source-Variante freigeben, statt „Software Locks“ einzubauen.
-    image: /assets/images/icon-box-cta.svg
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
   - name: Langlebigkeit von Hardware
     content: Elektronische Geräte müssen reparierbar und recyclebar sein – geplante Obsoleszenz darf es nicht geben. Dafür müssen Garantiefristen massiv ausgeweitet werden; Hersteller müssen Ersatzteile, Reparaturwerkzeug und Know-How für alle anbieten und langfristig vorhalten. Dies soll unterstützt werden durch eine stärkere finanzielle Förderung offener Werkstätten bzw. Repair-Cafés und gemeinwohlorientierter Forschung und Produktentwicklung. Öffentliches Forschungsgeld darf es nur für Open-Source-Produkte geben.
-    image: /assets/images/icon-box-cta.svg
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg

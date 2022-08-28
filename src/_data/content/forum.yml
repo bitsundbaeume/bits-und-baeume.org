@@ -12,9 +12,9 @@ items:
       Und: Wie kann das digitale Energiesystem gerecht gestaltet werden? Auf dem 5. Forum Bits & Bäume wollen wir 
       diskutieren, wie die politischen Rahmenbedingungen diesen Fragen unter der Prämisse des Klimaschutzes begegnen können
     button_url: "www.bits-und-baeume.org"
-    date: 20. November 2022
-    time: 16:00 - 18:00 Uhr
-    place: Einstein Center Digital Future Wilhelmstraße 67, 10117 Berlin
+    date: 2. November 2020
+    time: 16:00 - 19:00 Uhr
+    place: virtuell!
     partner:
       - image: /assets/images/traegerinnen_logos/germanwatch.svg
         image_alt: Germanwatch
@@ -55,7 +55,7 @@ items:
     button_url: https://www.ioew.de/veranstaltung/forum-bits-baeume-offen-langlebig-und-reparabel-gestaltungsbedingungen-fuer-nachhaltige-hard-und-software
     date: 23. April 2020
     time: 16-19 Uhr
-    place: E
+    place: im Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
     partner:
       - image: /assets/images/traegerinnen_logos/konzeptwerk.svg
         image_alt: Konzeptwerk neue Ökonomie
@@ -70,7 +70,8 @@ items:
     button_url: https://www.nachhaltige-digitalisierung.de/bits-baeume/forum-bits-baeume.html
     date: 27. Januar 2020
     time: 16-19 Uhr
-    place: im Einstein Center Digital Future Wilhelmstraße 67, 10117 Berlin
+    place: im Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
+
     partner:
    
 
@@ -80,8 +81,7 @@ items:
     button_url: 
     date: 10. September 2019
     time: 
-    place: im Einstein Center Digital Future
-            Wilhelmstraße 67, 10117 Berlin
+    place: im Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
     partner:
     image: /assets/images/FBB1-fishbowl.jpg
        

@@ -1,0 +1,83 @@
+items:
+  - heading: How many bits do we need for the energy transition? Design options for an intelligent, future-proof and sustainable energy system
+    content: |
+      The energy transition should pave the way towards an energy system that will be characterized by fluctuating renewable energies. This requires the use of information and communication technology to balance supply and demand. However, there is a multitude of discourses about the various aspects of digitalizing the energy system: Where are digital solutions useful and necessary? Do we need smart grids, intelligent consumption control systems and smart generators? Will digitalization increase the efficiency and decentralization of our energy system? Does it make it more resilient or vulnerable? And: How can we ensure that our digital energy system is fair? At the 5th Forum Bits & Bäume we want to discuss the ways in which policies can address these questions under the imperative of climate protection.
+     
+    button_url: "www.bits-und-baeume.org"
+    date: November 2nd, 2020
+    time: 4-7pm
+    place: Performed virtually!
+    partner:
+      - image: /assets/images/traegerinnen_logos/germanwatch.svg
+        image_alt: Germanwatch
+
+  - heading: From commerce to commons - Shaping an Internet for the common good
+    content: |
+      <p>
+      We associate the Internet with freedom, openness, communication, networking and free information. In recent decades, however, commercial interests have grown so much that the digital space is increasingly resembling a marketplace. For example, Wikipedia is the only non-commercial offering among the 50 most visited websites worldwide. Applications that have emerged in the spirit of the Commons idea are being monetized - such as video platforms. Also in the sharing economy, private accommodation such as couchsurfing has become a business under the label of hospitality, from which the platform Airbnb in particular now benefits.
+      </p>
+
+      <p>
+      This "commercialisation of the Internet" is accompanied by an expansion of online marketing. Through personalization in combination with on- and offline tracking and AI/Big-Data applications, commercial advertising on the web is becoming more and more effective. These developments not only endanger data protection. Through the company's information gathering, this also promotes power asymmetries in favour of digital companies vis-à-vis the users. In addition, consumer incentives are created and more energy is used - with an impact on the environment.
+      </p>
+      
+      <p>
+      However, limiting commercialization is challenging, as many digital business models are based on data trading and advertising. In addition, large tech companies such as Google, Amazon, Facebook and Apple dominate the market, squeeze out non-commercial companies and influence social opinion.
+      </p>
+      <p>
+      In the 4th Forum Bits & Bäume we discuss how politics can promote an internet oriented towards the common good:
+      </p>
+      <p>
+      <ul>
+      <li>// What solutions are there to limit commercialisation, power asymmetries and monopoly formation?</li>
+      <li>// How can commons-based and public-interest oriented infrastructures and services be supported?</li>
+      </ul>
+
+      </p>
+      <p>The promotion of cooperative models, commons structures, fair payment for digital services and the regulation of online marketing and tracking are only a few selected approaches. These and other political options for shaping an Internet oriented towards the common good will be the focus of the interactive forum.</p>
+    button_url: https://www.ioew.de/veranstaltung/forum-bits-baeume-von-comerce-zurueck-zu-commons-wie-viel-kommerzialisierung-vertraegt-ein-nachhaltiges-internet
+    date: June 15th, 2020
+    time: 4-7pm
+    place: 
+    partner:
+      - image: /assets/images/logo-digitalcourage.png
+        image_alt: 
+   
+
+  - heading: Durable, open, repairable and data-saving. Design options for sustainable hardware and software
+    content: |
+     Digital technologies lead to ever increasing consumption of energy and resources. In addition to the use of technical devices and digital services, the way in which software is programmed and hardware is materially equipped and how it is licensed plays a major role. Compulsory software updates, which make ever new demands on hardware while at the same time ending support for the previous software solution, are an example of how users are forced to replace hardware that is still intact with new devices. If more and more everyday objects are connected to each other, the problem of increasing energy and resource consumption for more and more devices becomes more acute. How can hardware and software be made sustainable? In the production and use of hardware, aspects such as durability, reparability and the sparing use of resources play a decisive role. With software, it is not only a question of energy saving, but also of long-term updateability, data compression or even transparency and autonomy. An important step is to think the material and immaterial basis of digitisation more closely together. In the 3rd Forum Bits & Bäume we discuss design options for sustainable hardware and software and existing approaches for open hardware and software, which are often practiced in Fab-Labs and Maker-Spaces for example, as well as challenges for political regulation. We want to discuss existing frameworks such as the "Right to Repair", the Eco-Design Directive or the dertificate “Blue Angel” for software and explore new possibilities.
+
+    button_url: https://www.ioew.de/veranstaltung/forum-bits-baeume-offen-langlebig-und-reparabel-gestaltungsbedingungen-fuer-nachhaltige-hard-und-software
+    date: April 23rd, 2020
+    time: 4-7 pm
+    place: 
+    partner:
+      - image: /assets/images/traegerinnen_logos/konzeptwerk.svg
+        image_alt: Konzeptwerk neue Ökonomie
+      - image: /assets/images/traegerinnen_logos/fsfe.svg
+        image_alt: FSFE
+
+  - heading: Ecological digital tax
+    content: |
+      <p><b>Which political instruments make digitalization fit for the future?</b></p>
+      <p>Digitalization and climate protection - two hot potatoes whose political design is currently the subject of much debate. The main subject of discussion is an old acquaintance: Taxes. A digital tax, so that digital corporations can contribute to the financing of public tasks. A CO2 tax or extended emissions trading to reduce climate-damaging emissions. In the second forum, Bits & Bäume, the two challenges of digitalization and climate will be considered together. How can taxes and other instruments in the digital economy develop an ecological steering effect? Are concepts such as the CO2 tax sufficient or do we need separate instruments? Do we need a CO2 tax for the digital world or a tax on data traffic in addition to national instruments?
+      </p>
+    button_url: https://www.nachhaltige-digitalisierung.de/bits-baeume/forum-bits-baeume.html
+    date: January 27th, 2020
+    time: 16-19 Uhr
+    place: at Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
+    partner:
+   
+
+  - heading: Artificial intelligence for sustainable development?
+    content: |
+     Artificial intelligence (AI) is currently in the limelight and raises many questions about economic policy, ethical, social and ecological expectations and implementation potential. At the first forum, Bits & Bäume, we discussed fundamental aspects: What can AI contribute to the transformation of society towards sustainability? What are the application examples that enable the use of AI for ecological or social objectives? What are policy options to ensure that AI applications serve the common good?
+    button_url: 
+    date: September 10th, 2019
+    time: 
+    place: im Einstein Center Digital Future, Wilhelmstraße 67, 10117 Berlin
+    partner:
+    image: /assets/images/FBB1-fishbowl.jpg
+       
+

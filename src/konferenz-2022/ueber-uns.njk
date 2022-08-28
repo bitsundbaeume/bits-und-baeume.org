@@ -7,11 +7,14 @@ lang: de
 translation: /en/conference-2022/about-us/
 ---
 
-<section class="max-w-5xl">
+
+<section class="max-w-3xl">
+	<h3>Bits & Bäume-Konferenz 2022</h3>
 	<h1>Über uns</h1>
 
-	<h3><b>Entstehungsgeschichte der Bits & Bäume</b></h3>
+	<h3>Entstehungsgeschichte der Bits & Bäume</h3>
 
+	
 	<p>Anfang 2018 haben sich sieben NGOs aus dem <b>Nachhaltigkeitsbereich</b> mit drei zivilgesellschaftlichen
 	 Organisationen aus der Netzpolitik zusammengetan, um die Großkonferenz Bits & Bäume zu organisieren. 
 	 Schwerpunktthemen waren die materielle Basis der Digitalisierung, Umwelt- und Netzpolitik, digitale 
@@ -65,8 +68,22 @@ translation: /en/conference-2022/about-us/
 	beteiligen.</p>
 
 
+
+	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
+		<div class="box__image w-full ">
+			<img class="object-cover"
+				src="/assets/images/Graphik_Orgamodell_18.4.22.png"
+				alt="Sprecher mit Mikrofon"
+				sizes="(min-width: 780px) 280px, 93.04vw"
+				data-img2picture-widths="280,400,670,800"
+			>
+		</div>
+	</div>
+
+
+
 	
-	
+
 	<h3>Der Trägerkreis</h3>
 
 	<p>Im Jahr 2022 richten 13 Organisationen aus Umweltschutz, Digitalpolitik, Entwicklungspolitik 
@@ -78,17 +95,20 @@ translation: /en/conference-2022/about-us/
 	eine Zukunft zu gestalten, in der der digitale Wandel eine positive Rolle einnimmt und Mensch, 
 	Lebensgrundlagen und Umwelt unterstützt und schützt.</p>
 
+		
 	{% for item in content.traegerinnen.items %}
 	<div class="box box-orga">
 		<div class="image">
-			 <img src="{{ item.image }}" alt="Logo von {{ item.name }}" > 
+			<a href="{{ item.url }}"><img src="{{ item.image }}" alt="Logo von {{ item.name }}" > </a>
 		</div>
 		<div class="text">
-			<a href="{{ item.url }}">{{ item.name }}</a></h3>
+			<a href="{{ item.url }}"><h3>{{ item.name }}</h3></a>
 			<p>{{ item.content | safe }}</p>
 		</div>
 	</div>
 	{% endfor %}
+
+	
 
 	<h3>Das Konferenzbüro</h3>
 
@@ -121,4 +141,6 @@ translation: /en/conference-2022/about-us/
 	</p>
 
 
+
 </section>
+

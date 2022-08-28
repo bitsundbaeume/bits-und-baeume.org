@@ -47,7 +47,7 @@ items:
 
   - name: Wo kann ich ein Ticket kaufen?
     content: |
-      Tickets für Bits & Bäume 2022 können HIER online erworben werden.
+      Tickets für Bits & Bäume 2022 können <a href="https://events.fairetickets.de/gedlv/">HIER</a> online erworben werden.
 
   - name: Kann ich auch vor Ort noch ein Ticket erwerben?
     content: |
@@ -63,7 +63,9 @@ items:
   - name: Wie viel kostet ein Ticket?
 
     content: |
-      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich HIER für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
+      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich 
+      <a href="https://engelsystem.de/bub/login">hier</a>
+      für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
 
   - name: Kann ich das Ticket auf eine andere Person übertragen?
     content: |
@@ -71,7 +73,7 @@ items:
       Personen übertragen werden.
   - name: Wie kann ich ein Ticket stornieren?
     content: |
-     Bitte schreib dafür dem Ticketingsystem fairetickets direkt (https://www.faire-tickets.de/kontakt/). Dort wird dir geholfen und du kannst dein Ticket auch kurzfristig stornieren.
+     Bitte schreib dafür dem Ticketingsystem fairetickets direkt (<a href="https://www.faire-tickets.de/kontakt/">https://www.faire-tickets.de/kontakt/</a>). Dort wird dir geholfen und du kannst dein Ticket auch kurzfristig stornieren.
 
 
   - name: Gibt es Ermäßigungen für Studierende?
@@ -81,13 +83,18 @@ items:
   - name: Gibt es kostenlose Tickets? 
 
     content: |
-     Für alle unter 16 Jahren ist der Eintritt kostenlos. Wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich hier für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
+     Für alle unter 16 Jahren ist der Eintritt kostenlos. Wir
+      bitten allerdings um eine Anmeldung über die Ticketseite, 
+      damit wir unser Kinder- und Jugendprogramm entsprechend planen können.
+       Außerdem suchen wir freiwillige Helfer*innen für die 
+       Durchführung der Konferenz. Wer sich hier für unser  <a href="https://engelsystem.de/bub/login">Engelsystem</a> (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
 
 
   - name: Wie kann ich in den Pool an Ehrenamtlichen aufgenommen werden, um vor Ort eine Schicht zu übernehmen?
 
     content: |
-      Bits & Bäume ist eine Mitmachkonferenz! Wer sich hinter den Kulissen an der Durchführung der Konferenz beteiligen will, kann sich hier in unser Engelsystem (Schichtplan) eintragen. Alle die eine Schicht von mindestens vier Stunden übernehmen, erhalten ein kostenloses Ticket zur Konferenz inklusive Essens- und Getränkecoupons.
+      Bits & Bäume ist eine Mitmachkonferenz! Wer sich hinter den Kulissen an der Durchführung der Konferenz
+       beteiligen will, kann sich hier in unser  <a href="https://engelsystem.de/bub/login">Engelsystem</a> (Schichtplan) eintragen. Alle die eine Schicht von mindestens vier Stunden übernehmen, erhalten ein kostenloses Ticket zur Konferenz inklusive Essens- und Getränkecoupons.
 
    
   - name: Kann ich meine Sachen an der Garderobe abgeben?
@@ -102,7 +109,7 @@ items:
   - name: Kann ich mich noch für das Programm bewerben?
 
     content: |
-      Die Bewerbungsfrist für die Programm-Einreichungen ist bereits abgelaufen. Wir erwarten mit rund 200 Beiträgen ein vielfältiges Programm auf der Konferenz.  
+      Die Bewerbungsfrist für die Programm-Einreichungen ist bereits abgelaufen. Wir erwarten mit deutlich mehr als 200 Beiträgen ein vielfältiges Programm auf der Konferenz.  
 
   - name: Werden die Vorträge und Workshops irgendwo gestreamt/kann ich sie mir online ansehen?
     content: |
@@ -111,16 +118,22 @@ items:
   - name: Was ist das Bits & Bäume Forum?
 
     content: |
-      Das Forum Bits & Bäume ist ein Ort für Austausch und Vernetzung. Initiativen und Organisationen an der Schnittstelle zwischen Digitalisierung und Nachhaltigkeit stellen sich dort vor und du kannst als Besucher*in mit ihnen ins Gespräch kommen. Das Forum befindet sich im Mathematikgebäude der TU Berlin. 
+      Das Forum Bits & Bäume ist ein Ort für Austausch und Vernetzung. Initiativen und 
+      Organisationen an der Schnittstelle
+       zwischen Digitalisierung und Nachhaltigkeit stellen sich dort vor und du kannst als 
+       Besucher*in mit ihnen ins Gespräch kommen.
+        Das Forum befindet sich im Mathematikgebäude der TU Berlin. 
 
   - name: Kann ich mich für das Forum mit einem Stand bewerben?
 
     content: |
-      Die Bewerbungsfrist für einen Stand im Forum ist bereits abgelaufen. Wir erwarten über 40 Organisationen und Initiativen im Forum.  
+      Die Bewerbungsfrist für einen Stand im Forum ist bereits abgelaufen. 
+      Wir erwarten über 50 Organisationen und Initiativen im Forum.  
 
   - name: Was ist der Pitch & Thrive for Sustainability?
     content: |
-      Im Rahmen des Pitch & Thrive for Sustainability haben nachhaltige Start-Ups und kleine und mittlere (Digital-)Unternehmen in täglichen Slots die Möglichkeit, ihre Projektideen und Geschäftsmodelle zu präsentieren. Sie bekommen im Anschluss an ihren Pitch wertvolles Feedback von einer erfahrenen Expert*innen-Jury und können sich mit neuen Kooperationspartner*innen vernetzen. Die Bewertung der Pitches erfolgt durch die Jury und das Publikum. Die besten Ideen/ Projekte/  Start-Ups werden auf unserer Bits & Bäume-Website platziert. Weiterhin verleihen wir im Rahmen einer Sieger*innen-Ehrung den  “Bitsbaum 2022“. 
+      Im Rahmen des Pitch & Thrive for Sustainability haben nachhaltige 
+      Start-Ups und kleine und mittlere (Digital-)Unternehmen in täglichen Slots die Möglichkeit, ihre Projektideen und Geschäftsmodelle zu präsentieren. Sie bekommen im Anschluss an ihren Pitch wertvolles Feedback von einer erfahrenen Expert*innen-Jury und können sich mit neuen Kooperationspartner*innen vernetzen. Die Bewertung der Pitches erfolgt durch die Jury und das Publikum. Die besten Ideen/ Projekte/  Start-Ups werden auf unserer Bits & Bäume-Website platziert. Weiterhin verleihen wir im Rahmen einer Sieger*innen-Ehrung den  “Bitsbaum 2022“. 
   - name: Wird es auch Musik und ein Kulturprogramm geben?
 
     content: |
@@ -135,12 +148,13 @@ items:
 
   - name: Wie kann ich mich auf eurem Presseverteiler eintragen?
     content: |
-      Du kannst dich HIER für unseren Pressenewsletter eintragen.
+      Du kannst dich <a href="https://newsletter.bits-und-baeume.org/?p=subscribe&id=1" >HIER</a> für unseren Pressenewsletter eintragen.
 
   - name: Wie kann ich mich als Journalist*in mit Presseausweis für eure Konferenz registrieren?
 
     content: |
-     Bitte schreib dazu eine kurze E-Mail mit dem Betreff “Bits & Bäume Akkreditierung“ an presse@bits-und-baeume.org. Vielen Dank!
+     Bitte schreib dazu eine kurze E-Mail mit dem Betreff “Bits & Bäume Akkreditierung“ an 
+     <a href="mailto:presse@bits-und-baeume.org">presse@bits-und-baeume.org</a>. Vielen Dank!
 
 
   - name: Bitte schreib dazu eine kurze E-Mail mit dem Betreff “Bits & Bäume Akkreditierung“ an presse@bits-und-baeume.org. Vielen Dank!
@@ -150,11 +164,11 @@ items:
 
   - name: Gibt es in der Nähe Übernachtungsmöglichkeiten?
     content: |
-      Südlich der Straße des 17. Juni befinden sich v.a. rund um den Savignyplatz und den Ku‘Damm zahlreiche Hostels und Hotels. Du kannst dich auch HIER in unsere Schlafplatzbörse eintragen.
+      Südlich der Straße des 17. Juni befinden sich v.a. rund um den Savignyplatz und den Ku‘Damm zahlreiche Hostels und Hotels. Du kannst dich auch <a href="https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6">HIER</a> in unsere Schlafplatzbörse eintragen.
 
   - name: Gibt es vor Ort Verpflegung? Ist diese im Ticketpreis inbegriffen?
     content: |
-      Vor Ort wird es täglich ein warmes Mittag- und Abendessen geben. Versorgt wirst du von Food4Action und vielen ehrenamtlichen Helfenden. Das Essen erhältst du auf freiwilliger Spendenbasis.
+      Vor Ort wird es täglich ein warmes Mittag- und Abendessen geben. Versorgt wirst du von <a href="https://food4action.noblogs.org">Food4Action</a> und vielen ehrenamtlichen Helfenden. Das Essen erhältst du auf freiwilliger Spendenbasis.
 
   - name: Darf ich mein Kind mitbringen?
     content: |
@@ -164,18 +178,17 @@ items:
 
   - name: Gibt es eine Kinderbetreuung bzw. ein Programm für Kinder?
     content: |
-     Wir freuen uns, euch während der Veranstaltung eine kostenlose Kinderbetreuung zwischen 10.00-18.00 Uhr durch eine erfahrene Agentur anbieten zu können. Es ist möglich, die Kinder durchgehend oder auch nur stundenweise betreuen zu lassen. Es gibt keine festen Bring- und Abholzeiten. 
+     Wir freuen uns, euch während der Veranstaltung eine <b>kostenlose Kinderbetreuung</b> zwischen 10.00-18.00 Uhr durch eine erfahrene Agentur anbieten zu können. Es ist möglich, die Kinder durchgehend oder auch nur stundenweise betreuen zu lassen. Es gibt keine festen Bring- und Abholzeiten. 
      Pro Tag sind, je nach Wetterlage, ein bis zwei Ausflüge zu nahegelegenen Spielplätzen vorgesehen.
-     Die Kinder sind über die betreuende Agentur durchgehend unfallversichert.
-     Bitte verseht alle Dinge die ihr privat mitbringt (Spielsachen, Kuscheltier, Fläschchen, Wickeltasche etc.) mit dem Namen eures Kindes. 
+     Die Kinder sind über die betreuende Agentur durchgehend unfallversichert.<br>
+     Bitte verseht alle Dinge die ihr privat mitbringt (Spielsachen, Kuscheltier, Fläschchen, Wickeltasche etc.) mit dem Namen eures Kindes.<br>
      Für eine Verpflegung ist nicht gesorgt, bitte bringt entsprechend Essen und Trinken für eure Kinder mit. Natürlich könnt ihr auch jederzeit eure Kinder abholen um gemeinsam essen zu gehen!
-     Bitte sendet die Anmeldung für euer Kind/ eure Kinder bis 14.09.2022 mit dem ausgefüllten Formular an simone.glueck@dnr.de.
+     Bitte sendet die Anmeldung für euer Kind/ eure Kinder bis 14.09.2022 mit dem ausgefüllten <b>Formular an <a href="mailto:simone.glueck@dnr.de">simone.glueck@dnr.de</a></b>.
      Am Sonntag werden zusätzlich Workshops für größere Kinder / Jugendliche angeboten. Die Anmeldungen hierfür erfolgen vor Ort. 
-     Weiterhin gibt es einen Ruhe-/Stillraum für Eltern mit kleinen Kindern, der während der Konferenz durchgehend genutzt werden kann. 
+     Weiterhin gibt es einen Ruhe-/Stillraum für Eltern mit kleinen Kindern, der während der Konferenz durchgehend genutzt werden kann.
 
   - name: Sind Hunde erlaubt?
-    conten:  |
-     Tiere sind an der TU Berlin nicht erlaubt. Ausnahmefälle sind Begleithunde.
+    content: Tiere sind an der TU Berlin nicht erlaubt. Ausnahmefälle sind Begleithunde.
 
   - name: Wo finde ich euer Awareness-Konzept?
     content:  |
@@ -188,8 +201,9 @@ items:
   
   - name: Wie lauten die aktuellen Hygienerichtlinien?
     content: |
-      Wir halten uns an die aktuellen Corona-Regelungen des Landes Berlin und die Hausordnung der TU Berlin. 
-      Detaillierte Infos teilen wir kurz vor der Konferenz hier.
+      Das Hygienekonzept auf unserer Konferenz richtet sich grundsätzlich nach den TU-internen Regelungen und denen des Landes Berlins.
+      Aufgrund der unvorhersehbaren Situation im Herbst kann es sein, dass sich diese kurzfristig ändern. Dafür bitten wir Euch, regelmäßig diese Website zu checken.
+      Wir haben eine deutliche Maskenempfehlung und bitten alle darum, sich vor der Konferenz testen zu lassen. Es gibt ein Testzentrum an der TU, in welchem man sich für 3€ bis 18 Uhr Freitags testen lassen kann. Aufgrund der begrenzten Kapazitäten vor Ort empfehlen wir aber, Euch im Vorhinein Privat testen zu lassen.
 
 
     
