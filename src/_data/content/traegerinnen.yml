@@ -13,10 +13,9 @@ items:
      bedrohter Arten, des Waldes und des Wassers. Im Bereich Digitalisierung arbeiten wir mit dem Leitbild 
      der Digitalen Suffizienz, also so viel digitale Technik wie nötig, aber so wenig wie möglich einzusetzen. 
      Unser Ziel: Die sozial-ökologische Transformation hin zu einer Post-Wachstums-Gesellschaft schaffen. 
-     Sozial-Ökologisch gerechte Wege dorthin beschreiben wir in unserer Zukunftsagenda #gemeinsamverändern. 
-     (Link:' https://www.bund.net/zukunftsagenda/)
+     Sozial-Ökologisch gerechte Wege dorthin beschreiben wir in unserer Zukunftsagenda <a href="https://www.bund.net/zukunftsagenda/">#gemeinsamverändern</a>.
     image: /assets/images/traegerinnen_logos/bund.svg
-    url: https://www.bund.net/
+    url: https://www.bund.net/service/termine/detail/event/bitsbaeume-konferenz-2022/?tx_bundpoolevent_display%5Bfilter%5D%5Btopic%5D=18&cHash=991f24df08024f76170cebfd6d5d85f6
   - name: Chaos Computer Club
     content: |
      Der Chaos Computer Club ist eine galaktische Gemeinschaft von Lebewesen, 
@@ -100,6 +99,7 @@ items:
      wir digitale Technologien, die von allen eingesetzt werden können. Wir streben nach einer offenen, 
      inklusiven und gerechten Gesellschaft, in der Wissen für Alle frei verfügbar ist.
     image: /assets/images/traegerinnen_logos/okfn.svg
+    url: https://okfn.de/
   - name: Technische Universität Berlin
     content: |
      Die Technische Universität Berlin ist eine traditionsreiche Forschungseinrichtung mit dem Ziel, 

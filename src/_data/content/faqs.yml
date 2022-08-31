@@ -1,9 +1,9 @@
 items:
   - name: Wann findet die Bits & Bäume 2022 statt?
     content: |
-     Am Abend des 30. September 2022 wird es ab 18 Uhr eine 
-     Auftaktveranstaltung geben. Das restliche 
-     Konferenzprogramm findet dann am 1. und 2. Oktober 2022 statt.
+     Am Abend des 30. September 2022 wird es um 18:30 Uhr eine 
+     Auftaktveranstaltung im Audimax geben. Danach spielen Volle Halle und Esels Albtraum (bis ca. 23Uhr).
+     Das restliche Konferenzprogramm findet dann am 1. und 2. Oktober 2022 statt. Einlass ab 9uhr und Open End.
   - name: Wo und wann findet die Auftaktveranstaltung statt?
     content: |
      Die Auftaktveranstaltung beginnt am 30. September um 18 Uhr im Audimax der Technischen Universität Berlin. Das Audimax befindet sich im 
@@ -12,15 +12,9 @@ items:
     content: |
      Die Abschlussparty findet am 2. Oktober im Mathemathikgebäude, 
      Straße des 17. Juni 136, 10623 Berlin (gegenüber vom TU Hauptgebäude)
-      statt. Ab 19 Uhr gehen wir entspannt vom Abendessen in die 
-      Abendgestaltung mit Musik verschiedener DJ*anes über.
-  - name: Wie sind die Öffnungszeiten der Bits & Bäume?
-    content: |
-     Die Konferenz startet am 30. 
-     September um 18 Uhr mit einer Auftaktveranstaltung. 
-     Das Programm findet am 1. und 2. Oktober ab 10 Uhr auf dem 
-     Campus Technische Universität Berlin statt. Eine detaillierte 
-     Programmübersicht folgt in Kürze auf unserer Website.
+      statt. Gestärkt vom Abendessen wird es um 19:30 noch ein Abschlusspanel gehen, sodass wir
+      dann um 21 Uhr gehen wir entspannt in die Abendgestaltung mit Drag Show und Musik verschiedener DJ*anes über.
+
   - name: Wo findet die Konferenz statt?
     content: |
       Bits & Bäume 2022 findet auf dem zentralen Campus der 
@@ -43,37 +37,37 @@ items:
       Der Fernbahnhof Berlin Hauptbahnhof ist nur zwei S-Bahn-Stationen und der Regionalbahnhof Bahnhof Zoologischer Garten mit S- und U-Bahn nur eine Station entfernt.
   - name: Wo finde ich Parkplätze und Fahrradständer?
     content: |
-      Sowohl direkt vor dem Hauptgebäude als auch vor dem Mathematikgebäude befinden sich ausreichend Fahrradständer. Vor dem Mathematikgebäude gibt es ein paar Parkplätze, die am Wochenende weniger frequentiert sind.
+      Sowohl direkt vor dem Hauptgebäude als auch vor dem Mathematikgebäude befinden sich ausreichend Fahrradständer. 
+      Vor dem Mathematikgebäude gibt es ein paar Parkplätze, die am Wochenende weniger frequentiert sind.
 
   - name: Wo kann ich ein Ticket kaufen?
     content: |
-      Tickets für Bits & Bäume 2022 können <a href="https://events.fairetickets.de/gedlv/">HIER</a> online erworben werden.
+      Tickets für Bits & Bäume 2022 können <a href="https://events.fairetickets.de/gedlv/">hier</a> online erworben werden.
 
   - name: Kann ich auch vor Ort noch ein Ticket erwerben?
     content: |
-      Ja, du kannst auch vor Ort noch Tickets erwerben für 
-      den gleichen Preis wie online. Wir empfehlen, den Kauf 
-      online vorzunehmen, da der Ticketkauf am Einlass ggf. zu 
-      Wartezeiten führen kann. 
+      Wir empfehlen, den Kauf online vorzunehmen, da die Ticketanzahl begrenzt ist. 
+      Bei Verfügbarkeit wird es ggf. Resttickets vor Ort geben.
 
   - name: Gibt es vor Ort einen Bargeldautomaten?
     content: |
       Im Hauptgebäude der TU Berlin ist ein Geldautomat, welcher genutzt werden kann. Genaue Infos dazu findest du vor Ort auf unserem Lageplan. 
 
   - name: Wie viel kostet ein Ticket?
-
     content: |
-      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich 
+      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. 
+      Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich 
       <a href="https://engelsystem.de/bub/login">hier</a>
-      für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
+      für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive eines Essens- und Getränkecoupons. 
+      Für unsere Engel gibt es ein Crew T-Shirt!
 
   - name: Kann ich das Ticket auf eine andere Person übertragen?
     content: |
-      Die Tickets sind personalisiert und können nicht auf andere 
-      Personen übertragen werden.
-  - name: Wie kann ich ein Ticket stornieren?
+      Die Tickets sind nicht personalisiert und können an andere weitergegeben werden.
+
+  - name: Kann ich ein Ticket stornieren?
     content: |
-     Bitte schreib dafür dem Ticketingsystem fairetickets direkt (<a href="https://www.faire-tickets.de/kontakt/">https://www.faire-tickets.de/kontakt/</a>). Dort wird dir geholfen und du kannst dein Ticket auch kurzfristig stornieren.
+     Beim Ticketkauf ist grundsätzlich eine Rückgabe ausgeschlossen. Dies wird auch in den fairetickets AGBs kommuniziert.
 
 
   - name: Gibt es Ermäßigungen für Studierende?
@@ -143,7 +137,7 @@ items:
   - name: Wer sind eure Medienpartner*innen?
 
     content: |
-     Unsere Medienpartner*innen sind heise online und RESET.
+     Unsere Medienpartner*innen sind <a href="https://www.heise.de/">heise online</a> und <a href="https://reset.org/">RESET</a>.
 
 
   - name: Wie kann ich mich auf eurem Presseverteiler eintragen?
@@ -157,14 +151,14 @@ items:
      <a href="mailto:presse@bits-und-baeume.org">presse@bits-und-baeume.org</a>. Vielen Dank!
 
 
-  - name: Bitte schreib dazu eine kurze E-Mail mit dem Betreff “Bits & Bäume Akkreditierung“ an presse@bits-und-baeume.org. Vielen Dank!
+  - name: Gibt es in der Nähe eine Apotheke?
 
     content: |
       Die nächste Apotheke befindet sich in der Knesebeckstraße 93 etwa 5 Minuten fußläufig vom Hauptgebäude.
 
   - name: Gibt es in der Nähe Übernachtungsmöglichkeiten?
     content: |
-      Südlich der Straße des 17. Juni befinden sich v.a. rund um den Savignyplatz und den Ku‘Damm zahlreiche Hostels und Hotels. Du kannst dich auch <a href="https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6">HIER</a> in unsere Schlafplatzbörse eintragen.
+      Südlich der Straße des 17. Juni befinden sich v.a. rund um den Savignyplatz und den Ku‘Damm zahlreiche Hostels und Hotels. Du kannst dich auch <a href="https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m">HIER</a> in unsere Schlafplatzbörse eintragen.
 
   - name: Gibt es vor Ort Verpflegung? Ist diese im Ticketpreis inbegriffen?
     content: |
@@ -183,7 +177,7 @@ items:
      Die Kinder sind über die betreuende Agentur durchgehend unfallversichert.<br>
      Bitte verseht alle Dinge die ihr privat mitbringt (Spielsachen, Kuscheltier, Fläschchen, Wickeltasche etc.) mit dem Namen eures Kindes.<br>
      Für eine Verpflegung ist nicht gesorgt, bitte bringt entsprechend Essen und Trinken für eure Kinder mit. Natürlich könnt ihr auch jederzeit eure Kinder abholen um gemeinsam essen zu gehen!
-     Bitte sendet die Anmeldung für euer Kind/ eure Kinder bis 14.09.2022 mit dem ausgefüllten <b>Formular an <a href="mailto:simone.glueck@dnr.de">simone.glueck@dnr.de</a></b>.
+     Bitte sendet die Anmeldung für euer Kind/ eure Kinder bis 14.09.2022 mit dem ausgefüllten <b><a href="/assets/images/pdfs/Formular_Anmeldung_fuer_Kinderbetreuung.pdf">Formular</a> an <a href="mailto:simone.glueck@dnr.de">simone.glueck@dnr.de</a></b>.
      Am Sonntag werden zusätzlich Workshops für größere Kinder / Jugendliche angeboten. Die Anmeldungen hierfür erfolgen vor Ort. 
      Weiterhin gibt es einen Ruhe-/Stillraum für Eltern mit kleinen Kindern, der während der Konferenz durchgehend genutzt werden kann.
 
@@ -202,8 +196,9 @@ items:
   - name: Wie lauten die aktuellen Hygienerichtlinien?
     content: |
       Das Hygienekonzept auf unserer Konferenz richtet sich grundsätzlich nach den TU-internen Regelungen und denen des Landes Berlins.
-      Aufgrund der unvorhersehbaren Situation im Herbst kann es sein, dass sich diese kurzfristig ändern. Dafür bitten wir Euch, regelmäßig diese Website zu checken.
-      Wir haben eine deutliche Maskenempfehlung und bitten alle darum, sich vor der Konferenz testen zu lassen. Es gibt ein Testzentrum an der TU, in welchem man sich für 3€ bis 18 Uhr Freitags testen lassen kann. Aufgrund der begrenzten Kapazitäten vor Ort empfehlen wir aber, Euch im Vorhinein Privat testen zu lassen.
+      Aufgrund der unvorhersehbaren Situation im Herbst kann es sein, dass sich diese kurzfristig ändern. Dafür bitten wir euch, regelmäßig diese Website zu checken.
+      Wir haben eine deutliche Maskenempfehlung und bitten alle darum, sich vor der Konferenz testen zu lassen. Es gibt ein Testzentrum an der TU,
+       in welchem man sich für 3€ bis 18Uhr Freitags testen lassen kann. Aufgrund der begrenzten Kapazitäten vor Ort empfehlen wir aber, euch im Vorhinein privat testen zu lassen.
 
 
     
