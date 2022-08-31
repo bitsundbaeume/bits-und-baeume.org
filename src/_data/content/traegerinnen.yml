@@ -5,6 +5,7 @@ items:
      evangelischen Kirchen in Deutschland sind wir in mehr als 90 Ländern rund um den Globus aktiv. Gemeinsam mit lokalen Partnerinnen und Partnern helfen wir armen und ausgegrenzten Menschen, aus eigener Kraft ihre Lebenssituation zu verbessern.
     image: /assets/images/traegerinnen_logos/logo-brot-fuer-die-welt.svg
     url: https://www.brot-fuer-die-welt.de/
+
   - name: Bund Umwelt- und Naturschutz Deutschland
     content: |
      Der Bund Umwelt- und Naturschutz Deutschland (BUND) ist ein Umweltverband mit 
@@ -16,6 +17,7 @@ items:
      Sozial-Ökologisch gerechte Wege dorthin beschreiben wir in unserer Zukunftsagenda <a href="https://www.bund.net/zukunftsagenda/">#gemeinsamverändern</a>.
     image: /assets/images/traegerinnen_logos/bund.svg
     url: https://www.bund.net/service/termine/detail/event/bitsbaeume-konferenz-2022/?tx_bundpoolevent_display%5Bfilter%5D%5Btopic%5D=18&cHash=991f24df08024f76170cebfd6d5d85f6
+ 
   - name: Chaos Computer Club
     content: |
      Der Chaos Computer Club ist eine galaktische Gemeinschaft von Lebewesen, 
