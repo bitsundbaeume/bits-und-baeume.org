@@ -60,7 +60,7 @@ items:
     pixel: /assets/images/pixel-box-cta.svg
 
   - name: Hier könnte dein Wohnort stehen! :)
-    url: 
+    url: /community/eigene-organisieren/
     content: |
       <p><b>Noch kein Bits&Bäume-Sprössling in deiner Nähe?</b></p>
       <p>Dann gründe einen! Unter Bits&Bäume wächst findest du die Bedingungen für eigene Bits&Bäume-Aktionen. Melde dich mit den guten Nachrichten, dass es Zuwachs 
