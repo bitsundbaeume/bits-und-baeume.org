@@ -91,6 +91,20 @@
 	section {
 		@apply mx-auto px-2 sm:px-6 mb-20
 	}
+
+	/* styling for the logo-carpet section in the footer*/
+	.carpet-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* this should only apply if logos are stacked vertically (unsure if this is the correct condition but it seems to work) */
+	@media (max-width: 1024px) {
+			.carpet-logo {
+				max-width: min(230px, 50vw);
+				margin-top: 20px;
+			}
+		}
 }
 
 @tailwind components;
@@ -221,10 +235,10 @@
 	.box-img .text {
 		padding: 1rem;
 	}
-	.box__image {
+	/* .box__image_inline: for images wich are placed in the main part of the page like konferenzbuero.jpg  */
+	.box__image, .box__image_inline {
 		@apply w-full overflow-hidden;
-		height: 24rem;
-		border-radius: 8px 8px 0 0;
+		border-radius: 8px;
 	}
 	@media (min-width: 768px) {
 		.box-img .text {
