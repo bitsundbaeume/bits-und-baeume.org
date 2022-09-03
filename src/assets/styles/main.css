@@ -91,6 +91,20 @@
 	section {
 		@apply mx-auto px-2 sm:px-6 mb-20
 	}
+
+	/* styling for the logo-carpet section in the footer*/
+	.carpet-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* this should only apply if logos are stacked vertically (unsure if this is the correct condition but it seems to work) */
+	@media (max-width: 1024px) {
+			.carpet-logo {
+				max-width: min(230px, 50vw);
+				margin-top: 20px;
+			}
+		}
 }
 
 @tailwind components;
