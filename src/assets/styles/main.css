@@ -221,10 +221,10 @@
 	.box-img .text {
 		padding: 1rem;
 	}
-	.box__image {
+	/* .box__image_inline: for images wich are placed in the main part of the page like konferenzbuero.jpg  */
+	.box__image, .box__image_inline {
 		@apply w-full overflow-hidden;
-		height: 24rem;
-		border-radius: 8px 8px 0 0;
+		border-radius: 8px;
 	}
 	@media (min-width: 768px) {
 		.box-img .text {
