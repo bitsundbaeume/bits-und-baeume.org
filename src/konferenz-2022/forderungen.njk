@@ -17,7 +17,10 @@ translation: /en/conference-2022/demands/
 		<p>Wir fordern: Die Digitalisierung muss stärker in den Dienst der Gesellschaft und des sozialen und ökologischen Wandels gestellt werden. Digitale Technologien sollten durch gleichberechtigte gesellschaftliche Teilhabe und innerhalb der planetaren Grenzen zur Verbesserung von Lebensbedingungen und der Umwelt beitragen, anstatt durch explodierenden Energiebedarf, Ressourcenverbrauch und mangelnde Teilhabe vor allem des Globalen Südens existierende Krisen noch weiter zu verschärfen. <b>Mit diesem Appell wenden sich 13 Organisationen aus Umwelt- und Naturschutz, Digitalpolitik, Entwicklungszusammenarbeit und Wissenschaft an die Bundesregierung, die Europäische Union und politische Akteure weltweit.</b> Anlässlich der Konferenz für Digitalisierung und Nachhaltigkeit „Bits & Bäume“ 2022 veröffentlichen wir mehr als 60 Forderungen in fünf Themenbereichen.
 		</p>
 		<a href="/assets/images/pdfs/Bits_und_Baeume_Politische_Forderungen_deutsch.pdf">
-		<button class="btn-dark">Zu den Forderungen</button>
+		<button class="btn-dark">Zu den Forderungen (PDF)</button>
+		</a>
+		<a href="/konferenz-2022/forderungen/#heading">
+		<button class="btn-dark">Zu den Forderungen (HTML)</button>
 		</a>
 		<div class="box__icon">
 			<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
@@ -45,15 +48,51 @@ translation: /en/conference-2022/demands/
 </section>
 
 
+{# Hier beginnen die Forderungen als HTML. ggf. sollten die auf eine eigene Seite ausgelagert werden#}
 
-<!--<section class="max-w-3xl">
-	<h1>Forderungen 2022</h1>
-	<p>to be done</p>
+<section id="heading" class="max-w-3xl">
+<p>
+<b>Digitalisierung zukunftsfähig und nachhaltig gestalten.</b><br>
+Politische Forderungen der Bits & Bäume 2022
+</p>
+</section>
+
+
+<section class="max-w-3xl">
+	<h2 id="preamble">{{ content.forderungen2022.preamble.name }}</h2>
+	<div class="box box-cta">
+		<p>{{ content.forderungen2022.preamble.content | safe }}</p>
+	</div>
+</section>
+
+
+<section class="max-w-3xl">
+	<h2>Forderungen 2022 (Kurze Version)</h2>
 
 	{% for item in content.forderungen2022.items %}
 	<div class="box box-cta">
-		<h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
-		<p>{{ item.content | safe }}</p>
+		<h3><a href="#demand-{{ item.numeric_label }}">{{ item.numeric_label }} {{ item.name }}</a></h3>
+		<p>{{ item.summary | safe }}</p>
+		{% for subdemand in item.subdemands %}
+			<p><b>{{ subdemand.numeric_label}} {{ subdemand.short_version | safe }}</b></p>
+		{% endfor %}
 	</div>
 	{% endfor %}
-</section>-->
+</section>
+
+<section class="max-w-3xl">
+	<h2>Forderungen 2022 (Langversion)</h2>
+
+	{% for item in content.forderungen2022.items %}
+	<div class="box box-cta">
+		<h3 id="demand-{{ item.numeric_label }}">{{ item.numeric_label }} {{ item.name }}</h3>
+		<p>{{ item.summary | safe }}</p>
+		{% for subdemand in item.subdemands %}
+			<p><b>{{ subdemand.numeric_label}} {{ subdemand.short_version | safe }}</b></p>
+			{% for subsubdemand in subdemand.subsubdemands %}
+				<p>{{ subdemand.numeric_label}}{{loop.index}}. {{ subsubdemand | safe }}</p>
+			{% endfor %}
+		{% endfor %}
+	</div>
+	{% endfor %}
+</section>
