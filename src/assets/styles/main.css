@@ -111,14 +111,10 @@
 		color: #000000;
 	}
 
-	.demands-fulltext1 a:hover {
-		color: #333;
-		background-color: #FFF;
-	}
 	.demands-fulltext a:hover {
 
 		background-color: #FFF;
-		box-shadow: 0px 8px 0px #84ADC8;
+		text-decoration: no-underline;
 	}
 }
 
