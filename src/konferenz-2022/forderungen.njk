@@ -75,7 +75,7 @@ Politische Forderungen der Bits & Bäume 2022
 
 <section class="max-w-3xl">
 	<h2 id="preamble">{{ content.forderungen2022.preamble.name }}</h2>
-	<div class="box box-cta">
+	<div class="demands-fulltext">
 		<p>{{ content.forderungen2022.preamble.content | safe }}</p>
 	</div>
 </section>
@@ -85,7 +85,7 @@ Politische Forderungen der Bits & Bäume 2022
 	<h2>Forderungen 2022 (Kurze Version)</h2>
 
 	{% for item in content.forderungen2022.items %}
-	<div class="box box-cta">
+	<div class="demands-fulltext">
 		<h3><a href="#demand-{{ item.numeric_label }}">{{ item.numeric_label }} {{ item.name }}</a></h3>
 		<p>{{ item.summary | safe }}</p>
 		{% for subdemand in item.subdemands %}
@@ -99,7 +99,7 @@ Politische Forderungen der Bits & Bäume 2022
 	<h2>Forderungen 2022 (Langversion)</h2>
 
 	{% for item in content.forderungen2022.items %}
-	<div class="box box-cta">
+	<div class="demands-fulltext">
 		<h3 id="demand-{{ item.numeric_label }}">{{ item.numeric_label }} {{ item.name }}</h3>
 		<p>{{ item.summary | safe }}</p>
 		{% for subdemand in item.subdemands %}
