@@ -55,11 +55,20 @@ items:
 
   - name: Wie viel kostet ein Ticket?
     content: |
-      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können. 
-      Außerdem suchen wir freiwillige Helfer*innen für die Durchführung der Konferenz. Wer sich 
+      Je nach verfügbarem Budget gibt es im <a href="https://events.fairetickets.de/gedlv/">Ticketshop</a> unterschiedliche Angebote:
+      <ul>
+      <li>UNTERSTÜTZER*INNEN-Ticket für 128,00 €,</li>
+      <li>STANDARD-Ticket für 64,00 €,</li>
+      <li>das SUFFIZIENZ-Ticket für 32,00 € und</li>
+      <li>das SOLI-Ticket für 10 €.</li>
+      </ul>
+      <br>
+      Für alle unter 16 Jahren ist der Eintritt kostenlos, wir bitten allerdings um eine Anmeldung über die Ticketseite, damit wir unser Kinder- und Jugendprogramm entsprechend planen können.
+      <br>
+      Außerdem suchen wir <b>freiwillige Helfer*innen</b> für die Durchführung der Konferenz. Wer sich
       <a href="https://engelsystem.de/bub/login">hier</a>
-      für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive eines Essens- und Getränkecoupons. 
-      Für unsere Engel gibt es ein Crew T-Shirt!
+      für unser Engelsystem (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein <b>kostenloses</b> Ticket inklusive eines Essens- und Getränkecoupons.
+      Für unsere Engel gibt es außerdem ein Crew T-Shirt!
 
   - name: Kann ich das Ticket auf eine andere Person übertragen?
     content: |
