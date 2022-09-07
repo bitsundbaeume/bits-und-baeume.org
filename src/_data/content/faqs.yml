@@ -93,11 +93,14 @@ items:
        Durchführung der Konferenz. Wer sich hier für unser  <a href="https://engelsystem.de/bub/login">Engelsystem</a> (Schichtplan) registriert und eine Schicht von mindestens vier Stunden übernimmt, bekommt ein kostenloses Ticket inklusive Essens- und Getränkecoupons.
 
 
-  - name: Wie kann ich in den Pool an Ehrenamtlichen aufgenommen werden, um vor Ort eine Schicht zu übernehmen?
-
+  - name: Wie kann ich in den Pool an Ehrenamtlichen („Engelsystem“) aufgenommen werden, um vor Ort eine Schicht zu übernehmen?
     content: |
       Bits & Bäume ist eine Mitmachkonferenz! Wer sich hinter den Kulissen an der Durchführung der Konferenz
        beteiligen will, kann sich hier in unser  <a href="https://engelsystem.de/bub/login">Engelsystem</a> (Schichtplan) eintragen. Alle die eine Schicht von mindestens vier Stunden übernehmen, erhalten ein kostenloses Ticket zur Konferenz inklusive Essens- und Getränkecoupons.
+
+  - name: Wie alt muss ich sein, um als Ehrenamtliche*r („Engel“) auf der Konferenz mitzuhelfen?
+    content: |
+      Du musst mindestens 18 Jahre alt sein um dich im <a href="https://engelsystem.de/bub/login">Engelsystem</a> für Schichten auf der Konferenz einzutragen.
 
 
   - name: Kann ich meine Sachen an der Garderobe abgeben?
@@ -201,6 +204,10 @@ items:
      bewusst sind, dass es keine Barrierefreiheit, sondern nur Barrierearmut geben kann. Unser Awareness Konzept
      wird während der Konferenz prominent sichtbar aufgehängt.
      Außerdem wird es vor Ort ein Awareness-Team geben, das jeder Zeit ansprechbar ist und Unterstützung leisten kann.
+
+  - name: Ist die Location barrierearm?
+    content: |
+      Die Vortagsräume sind alle über Rampen oder Fahrstühle erreichbar. Das Mathematikgebäude kann über einen seitlichen Eingang erreicht werden, leider nicht über den Haupteingang. Ein Wegeleitsystem wird durch Schilder, Aushänge und Klebebandmarkierungen auf dem Boden durch die Konferenz leiten.
 
   - name: Wie lauten die aktuellen Hygienerichtlinien?
     content: |
