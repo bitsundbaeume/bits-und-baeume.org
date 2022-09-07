@@ -4,17 +4,17 @@ items:
     content: |
      The kick-off event is planned for the evening of 30 September, starting at 6pm at the Audimax of the Technical University (TU) Berlin. The Audimax is located in the Main Building of the TU (address: Straße des 17. Juni, 135, 10623 Berlin).
 
-     
+
   - name: What are the opening hours of Bits & Bäume?
     content:  |
       The conference starts on 30 September at 6pm with a kick-off event. The conference programme will take place on 1 and 2 October from 10am on the main campus of the Technical University Berlin. A detailed programme will be available on our website shortly.
 
-     
+
   - name: Where is the Conference taking place?
     content:  |
      Bits & Bäume 2022 will take place on the main campus of the Technical University (TU) Berlin, in the Main Building, as well as the Maths Building. The Main Building is located in the Straße des 17. Juni 135. The Maths Building is directly opposite, in the Straße des 17. Juni 136, 10623 Berlin.
 
-     
+
   - name: Is there a site map for the conference?
     content:  |
      We are currently working on a site map, which will be available on our website shortly.
@@ -35,16 +35,26 @@ items:
   - name: Where can I buy a ticket?
 
     content:  |
-      Tickets for Bits & Bäume 2022 can be bought HERE.
+      Tickets for Bits & Bäume 2022 can be bought <a href="https://events.fairetickets.de/gedlv/">here</a>.
 
-     
+  - name: How old do I have to be to sign up as a volunteer (“Engel”) for the conference?
+
+    content:  |
+      You have to be at least 18 years old to sign up for shifts at the conference via our <a href="https://engelsystem.de/bub/login">“Engelsystem”</a>.
+
+
   - name: Is there an ATM on-site?
 
     content:  |
       There is an ATM in the Main Building of the TU Berlin which can be used. Further information will be available on our site map at the conference.
 
+  - name: Is the venue accessible?
 
-     
+    content:  |
+      All lecture and seminar halls are accessible via ramps or elevators. The Maths building can be accessed via a side entrance (unfortunately the main entrance is not barrier-free). There will be a guidance system, with signs, posters and tape markings throughout the conference.There is an ATM in the Main Building of the TU Berlin which can be used. Further information will be available on our site map at the conference.
+
+
+
 
 
 
