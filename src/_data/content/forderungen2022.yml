@@ -9,7 +9,6 @@ items:
   # Forderung 1
 
   - name: Digitalisierung im Rahmen der planetaren Grenzen
-    url: https://dresden.bits-und-baeume.org/
     numeric_label: "1."
     summary: "Wir fordern, dass sich technologische Entwicklungen an den Maßstäben von Natur-, Klima- und Ressourcenschutz und dem Erhalt von Biodiversität ausrichten. Digitale Infrastrukturen und elektronische Geräte müssen ohne Kompensation klimaneutral hergestellt und betrieben  werden. Im Detail bedeutet dies:"
     subdemands:
@@ -39,7 +38,6 @@ items:
   # Forderung 2
 
   - name: Globale Gerechtigkeit und regionale Selbstbestimmung
-    url: https://dresden.bits-und-baeume.org/
     numeric_label: "2."
     summary: "Wir setzen uns für einen digitalen Wandel ein, der ein global gerechtes und nachhaltiges Wirtschaftssystem unterstützt. Handelsabkommen zu digitalen Gütern und Dienstleistungen sollten nationale Regelungen nicht behindern, die notwendig sind, um eine eigenständige Digitalwirtschaft vor Ort aufzubauen."
     subdemands:
@@ -59,7 +57,6 @@ items:
   # Forderung 3
 
   - name: "Umverteilung technologischer Gestaltungsmacht, Demokratie und Teilhabe"
-    url: https://dresden.bits-und-baeume.org/
     numeric_label: "3."
     summary: "Wir fordern, dass digitale Monopole kontrolliert und die digitale Welt demokratisiert werden. Konkret fordern wir folgende Rahmenbedingungen:"
     subdemands:
@@ -87,7 +84,6 @@ items:
   # Forderung 4
 
   - name: "Gerechte Digitalisierung, nachhaltige Technikgestaltung und soziale Fragen"
-    url: https://dresden.bits-und-baeume.org/
     numeric_label: "4."
     summary: "Wir fordern, dass soziale und ökologische Gerechtigkeit sowie langfristiger Frieden grundlegende Ziele des digitalen Wandels sind. Technikgestaltung, Bildung und Arbeit sollten so ausgerichtet werden, dass sie den sozialen Zusammenhalt stärken. Im Detail bedeutet dies:"
     subdemands:
@@ -123,7 +119,6 @@ items:
   # Forderung 5
 
   - name: "Schutz digitaler Infrastruktur und IT-Sicherheit"
-    url: https://dresden.bits-und-baeume.org/
     numeric_label: "5."
     summary: "Eine nachhaltige Demokratie benötigt zuverlässige, sichere und vertrauenswürdige Infrastrukturen. Darum fordern wir, dass digitale Infrastrukturen angemessen geschützt und gewartet werden. Dafür muss öffentliche Sicherheit so verstanden werden, dass IT-Sicherheit und Datenschutz an den Grundrechten orientiert werden und einer lebenswerten Gesellschaft dienen."
     subdemands:
