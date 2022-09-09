@@ -63,6 +63,25 @@ layout: layouts/_base.ejs
 		</div>
 	</div>
 
+	<div class="box box-cta">
+		<h2 class="h3">Pressespiegel</h2>
+
+		<ul>
+		{% for item in content.pressespiegel.items %}
+			<li>
+				{{item.date}}: <a href="{{item.url}}">{{item.publisher}}: <i>{{ item.title }}</i></a>
+			</li>
+		{% endfor %}
+		</ul>
+
+
+		<div class="box__icon">
+			<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
+		</div>
+		<div class="box__pixel">
+			<img src="/assets/images/pixel-box-cta.svg" widht="40" height="50">
+		</div>
+	</div>
 	<h3>Pressekit</h3>
 
 	<p>Hier findest du Materialien</p>
