@@ -59,3 +59,54 @@ layout: layouts/_base.ejs
 	</div>
 
 </section>
+
+
+{# Hier beginnen die Forderungen als HTML. ggf. sollten die auf eine eigene Seite ausgelagert werden#}
+
+<section id="heading" class="max-w-3xl">
+<p>
+<b>Making digitalisation sustainable and fit for the future</b><br>
+Political Demands Bits &amp; Bäume 2022
+</p>
+</section>
+
+
+<section class="max-w-3xl">
+	<h2 id="preamble">{{ content.forderungen2022_english.preamble.name }}</h2>
+	<div class="demands-fulltext">
+		<p>{{ content.forderungen2022_english.preamble.content | safe }}</p>
+	</div>
+</section>
+
+
+<section class="max-w-3xl">
+	<h2>Demands 2022 (Short Version)</h2>
+
+	{% for item in content.forderungen2022_english.items %}
+	<div class="demands-fulltext">
+		<h3><a href="#demand-{{ item.numeric_label }}">{{ item.numeric_label }} {{ item.name }}</a></h3>
+		<p>{{ item.summary | safe }}</p>
+		{% for subdemand in item.subdemands %}
+			<p><b>{{ subdemand.numeric_label}} {{ subdemand.short_version | safe }}</b></p>
+		{% endfor %}
+	</div>
+	{% endfor %}
+</section>
+
+<section class="max-w-3xl">
+	<h2>Demands 2022 (Full Version)</h2>
+
+	{% for item in content.forderungen2022_english.items %}
+	<div class="demands-fulltext">
+		<h3 id="demand-{{ item.numeric_label }}">{{ item.numeric_label }} {{ item.name }}</h3>
+		<p>{{ item.summary | safe }}</p>
+		{% for subdemand in item.subdemands %}
+			<p><b>{{ subdemand.numeric_label}} {{ subdemand.short_version | safe }}</b></p>
+			{% for subsubdemand in subdemand.subsubdemands %}
+				<p>{{ subdemand.numeric_label}}{{loop.index}}. {{ subsubdemand | safe }}</p>
+			{% endfor %}
+		{% endfor %}
+	</div>
+	{% endfor %}
+</section>
+
