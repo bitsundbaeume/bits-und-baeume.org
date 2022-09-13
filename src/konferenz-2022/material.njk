@@ -1,0 +1,35 @@
+---
+title: Bits & Bäume Konferenz 2022 - Material
+description: Bits & Bäume Konferenz 2022 - Material
+layout: layouts/_base.ejs
+tags: sitemap
+lang: de
+---
+
+<section class="max-w-3xl">
+	<h3>Bits & Bäume-Konferenz 2022</h3>
+	<h1>Material</h1>
+
+</section>
+
+<section class="accordion max-w-3xl">
+	<div>
+		<p>
+		Hier findest Du Material unserer Öffentlichkeitsarbeit.
+		</p>
+	</div>
+
+
+	{% for item in content.material_de.items %}
+	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-3">
+		<div class="box__image_inline w-full ">
+			<a href="{{ item.src }}">
+				<img class="object-cover"
+					src="{{ item.src }}"
+					alt="sharepic {{loop.index}}"
+				>
+			</a>
+		</div>
+	</div>
+	{% endfor %}
+</section>
