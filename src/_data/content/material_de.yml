@@ -2,6 +2,7 @@
 
 items:
 
+  - src: "/assets/images/material/bitsundbaeume22_infografik.png"
   - src: "/assets/images/material/1.jpg"
   - src: "/assets/images/material/2.jpg"
   - src: "/assets/images/material/3.jpg"
@@ -9,3 +10,9 @@ items:
   - src: "/assets/images/material/5.jpg"
   - src: "/assets/images/material/6.jpg"
   - src: "/assets/images/material/7.jpg"
+  - src: "/assets/images/material/bitsundbaeume22_Postkarte-1-vorschau.jpg"
+  - src: "/assets/images/material/bitsundbaeume22_Postkarte-2-vorschau.jpg"
+  - src: "/assets/images/material/bitsundbaeume22_Postkarte-3-vorschau.jpg"
+  - src: "/assets/images/material/bitsundbaeume22_Postkarte-4-vorschau.jpg"
+  - src: "/assets/images/material/bitsundbaeume22_Postkarte-5-vorschau.jpg"
+  - src: "/assets/images/material/bitsundbaeume22_Postkarte_rueckseite.jpg"
