@@ -1,0 +1,27 @@
+---
+pagination:
+    data: galleries.presse2018
+    size: 1
+    alias: img
+permalink: "gallery/forderungen-2018/{{ img.path | basefilename | slug }}/"
+returnToPath: "/konferenz-2018/presse/#gallery"
+eleventyComputed:
+    title: "{{ img.alt | default('Image', true) }}"
+---
+<div class="container mx-auto xl:max-w-screen-xl px-2 sm:px-6 mb-20">
+	<nav class="mb-2">
+		<a href="{{ returnToPath }}">← Zurück zur Galerie</a>
+	</nav>
+
+	<img src="/{{ img.path }}" alt="{{ img.alt }}" >
+	<p>{{ img.alt }}</p>
+
+	<nav class="mb-2 flex gap-x-5">
+		{% if pagination.href.previous %}
+			<a href="{{ pagination.href.previous }}">← Vorheriges</a>
+		{% endif %}
+		{% if pagination.href.next %}
+			<a href="{{ pagination.href.next }}">Nächstes →</a>
+		{% endif %}
+	</nav>
+</div>

@@ -48,7 +48,7 @@ layout: layouts/_base.ejs
             {% for img in galleries.presse2018 %}
             <div class="gallery__thumb">
                 {# <a href="{{ img.path }}" target="_blank"> #}
-                <a href="/gallery/main/{{ img.path | basefilename }}">
+                <a href="/gallery/forderungen-2018/{{ img.path | basefilename }}">
                     {% set imgPath = img.thumbPath | default(img.path) %}
                     {% set altText = img.thumbAlt | default(img.alt) %}
                     <div class="wrapper">
@@ -93,7 +93,7 @@ layout: layouts/_base.ejs
 
     <div class="box box-links">
 		<h2 class="h3">Material für Öffentlichkeitsarbeit</h2>
-	
+
         <ul>
 		    <li><a href="/assets/images/oea_material/bits-und-baeume-logo.pdf">Logo mit Titel</a></li>
             <li><a href="/assets/images/oea_material/bits-und-baeume-logo-schrift.pdf">Logo mit Titel und Untertitel</a></li>
@@ -103,7 +103,7 @@ layout: layouts/_base.ejs
             <li><a href="/assets/images/oea_material/B&B_Plakat_DIN-A1_CC_181108.pdf"> Poster (A1)</a></li>
             <li><a href="https://vimeo.com/user91395992"> Kurzinterviews zur Konferenz von Personen aus dem Trägerkreis</a></li>
         </ul>
-	
+
 		<div class="box__icon">
 			<img src="/assets/images/icon-box-links.svg" widht="66" height="66">
 		</div>
@@ -117,13 +117,13 @@ layout: layouts/_base.ejs
 		<ul>
 		    <li><a href="https://www.germanwatch.org/de/thema/digitalisierung">Germanwatch über zukunftsfähige Digitalisierung</a></li>
             <li><a href="https://www.brot-fuer-die-welt.de/ueber-uns/personen/sven-hilbig/">Brot für die Welt zu Digitalisierung und Entwicklungspolitik (Blog Sven Hilbig)</a></li>
-          
+
             <li><a href="https://www.ioew.de/digitaler-wandel/">IÖW zu "Digitaler Wandel"</a></li>
-          
+
             <li><a href="https://www.fiff.de/themen/fair_it">FIfF zu "Faire Computer"</a></li>
- 
+
         </ul>
-	
+
 		<div class="box__icon">
 			<img src="/assets/images/icon-box-links.svg" widht="66" height="66">
 		</div>
