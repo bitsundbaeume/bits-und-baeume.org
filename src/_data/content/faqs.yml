@@ -8,6 +8,9 @@ items:
     content: |
      Die Auftaktveranstaltung beginnt am 30. September um 18 Uhr im Audimax der Technischen Universität Berlin. Das Audimax befindet sich im
      Hauptgebäude der TU Berlin in der Straße des 17. Juni, 135, 10623 Berlin.
+  - name: Wie lauten die aktuellen Hygienerichtlinien?
+    content: |
+      Während der Konferenz gilt eine deutliche Maskenempfehlung sowie Testpflicht. Es gibt ein Testzentrum an der TU, in welchem man sich für 3€ bis 18Uhr Freitags testen lassen kann. Aufgrund der begrenzten Kapazitäten vor Ort empfehlen wir aber, euch im Vorhinein testen zu lassen. Zudem akzeptieren wir selbst durchgeführte Tests: Dafür benötigt ihr ein tagesaktuelles Foto/Selfie von euch mit dem negativen Test. Mehr in unseren <a href="https://bits-und-baeume.org/assets/images/pdfs/Hygienekonzept_Bits-und-Baeume22.pdf">Hygienerichtlinien</a>
   - name: Wo und wann findet die Abschlussparty statt?
     content: |
      Die Abschlussparty findet am 2. Oktober im Mathemathikgebäude,
@@ -209,12 +212,6 @@ items:
     content: |
       Die Vortagsräume sind alle über Rampen oder Fahrstühle erreichbar. Das Mathematikgebäude kann über einen seitlichen Eingang erreicht werden, leider nicht über den Haupteingang. Ein Wegeleitsystem wird durch Schilder, Aushänge und Klebebandmarkierungen auf dem Boden durch die Konferenz leiten.
 
-  - name: Wie lauten die aktuellen Hygienerichtlinien?
-    content: |
-      Das Hygienekonzept auf unserer Konferenz richtet sich grundsätzlich nach den TU-internen Regelungen und denen des Landes Berlins.
-      Aufgrund der unvorhersehbaren Situation im Herbst kann es sein, dass sich diese kurzfristig ändern. Dafür bitten wir euch, regelmäßig diese Website zu checken.
-      Wir haben eine deutliche Maskenempfehlung und bitten alle darum, sich vor der Konferenz testen zu lassen. Es gibt ein Testzentrum an der TU,
-       in welchem man sich für 3€ bis 18Uhr Freitags testen lassen kann. Aufgrund der begrenzten Kapazitäten vor Ort empfehlen wir aber, euch im Vorhinein privat testen zu lassen.
 
 
 
