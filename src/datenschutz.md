@@ -1,12 +1,10 @@
 ---
-title: Datenschutz
+title: Datenschutzerklärung
 metatitle: Datenschutzerklärung - Bits & Bäume
 description: Unsere Datenschutzerklärung
 layout: layouts/_page.ejs
 lang: de
 ---
-
-<h2>Datenschutzerklärung</h2>
 
 <p>Diese Datenschutzerklärung klärt über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unserer Onlinepräsenz auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).</p>
 
