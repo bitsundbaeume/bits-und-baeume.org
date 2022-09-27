@@ -3,6 +3,7 @@ title: Datenschutz
 metatitle: Datenschutzerklärung - Bits & Bäume
 description: Unsere Datenschutzerklärung
 layout: layouts/_page.ejs
+lang: de
 ---
 
 <h2>Datenschutzerklärung</h2>
