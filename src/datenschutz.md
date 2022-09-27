@@ -10,13 +10,13 @@ lang: de
 
 <p>Diese Datenschutzerklärung klärt über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unserer Onlinepräsenz auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).</p>
 
-<h2>Verantwortlichkeit</h3>
+<h3>Verantwortlichkeit</h3>
 
 <p>Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.<br />
-Goetheplatz 4br />
-28203 Bremenbr />
-E-Mail: rainer.rehak [ät] fiff [dot] debr />
-br />
+Goetheplatz 4<br />
+28203 Bremen<br />
+E-Mail: rainer.rehak [ät] fiff [dot] de<br />
+<br />
 Verantwortlicher: Rainer Rehak</p>
 
 <h3>Arten der verarbeiteten Daten</h3>
@@ -28,7 +28,9 @@ Verantwortlicher: Rainer Rehak</p>
 
 <h3>Kategorien betroffener Personen</h3>
 
-<p>Nutzer:innen des Onlineangebotes.</p>
+<ul>
+    <li>Nutzer:innen des Onlineangebotes.</li>
+</ul> 
 
 <h3>Zweck der Verarbeitung</h3>
 <ul>
