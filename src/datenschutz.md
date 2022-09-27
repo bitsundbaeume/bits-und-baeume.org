@@ -13,7 +13,7 @@ lang: de
 <p>Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.<br />
 Goetheplatz 4<br />
 28203 Bremen<br />
-E-Mail: rainer.rehak [ät] fiff [dot] de<br />
+E-Mail: fiff [ät] fiff [dot] de<br />
 <br />
 Verantwortlicher: Rainer Rehak</p>
 
