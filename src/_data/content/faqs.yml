@@ -28,8 +28,7 @@ items:
       Straße des 17. Juni 136, 10623 Berlin.
   - name: Gibt es einen Lageplan zur Konferenz?
     content: |
-      Derzeit wird ein Lageplan erstellt, der in Kürze auf unserer
-      Website veröffentlicht wird.
+      Der Lageplan ist unter <a href="/konferenz-2022/karte/">bits-und-baeume.org/konferenz-2022/karte</a> verfügbar.
   - name: Wie komme ich am besten zur Bits & Bäume?
     content: |
       Die Konferenz findet an der Technischen Universität (TU) Berlin statt, die mit öffentlichen Verkehrsmitteln sehr gut zu erreichen ist.
