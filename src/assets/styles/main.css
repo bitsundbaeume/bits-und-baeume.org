@@ -239,6 +239,12 @@
 	.box-links, .box-blue {
 		@apply bg-blue-light;
 	}
+	.box-yellow {
+		@apply bg-yellow-light;
+	}
+	.box-yellow.box-infos {
+		box-shadow: 0px 10px 0px #efb638;
+	}
 	.box-img {
 		padding: 0;
 		box-shadow: 0 0 0;

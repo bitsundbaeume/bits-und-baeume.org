@@ -10,6 +10,10 @@ module.exports = {
         light: '#C1D98D',
         middle: '#A1C854',
       },
+      yellow: {
+        light: '#f5d56f',
+        middle: '#efb638',
+      },
       blue: {
         light: '#D0DEE7',
         dark: '#233C78',
