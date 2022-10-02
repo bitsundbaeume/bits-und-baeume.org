@@ -173,6 +173,7 @@
 			@apply inline-block border-b border border-blue-dark;
 			padding: 10px 1.5rem;
 			min-width: 300px;
+			max-width: 300px;
 		}
 		.header-menu .submenu li a:hover {
 			@apply bg-blue-light;
