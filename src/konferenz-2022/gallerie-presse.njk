@@ -1,0 +1,34 @@
+---
+title: Bits & Bäume 2022 - Gallerie
+description: Visuelle Impressionen von der Konferenz
+layout: layouts/_base.ejs
+tags: sitemap
+lang: de
+translation: /en/conference-2022/map
+---
+
+<section id="gallery" class="container">
+	<h2 class="h3">Bits & Bäume 2022 Pressefotos </h2>
+	Alle Fotos stehen unter der CC-BY LLizenz. Urheber*in: siehe Dateiname und Metadaten
+	<div class="gallery__thumbnails flex flex-wrap">
+		{% for img in galleries.presse2022 %}
+		<div class="gallery__thumb">
+			<a href="/konferenz-2022/gallerie-presse/{{ img.path | basefilename }}">
+				<div class="wrapper">
+					<img class="object-cover"
+						src="{{img.tn_path}}"
+						alt="{{ img.alt }}"
+						sizes="(min-width: 1540px) 375px, 283px"
+						data-img2picture-widths="283,375,566,750"
+						>
+					<div class="overlay">
+						<div class="symbol">→</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+

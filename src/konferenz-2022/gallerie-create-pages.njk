@@ -1,0 +1,27 @@
+---
+layout: layouts/_gallery-page.ejs
+pagination:
+    data: galleries.presse2022
+    size: 1
+    alias: img
+permalink: "konferenz-2022/gallerie-presse/{{ img.path | basefilename }}/"
+returnToPath: "/konferenz-2022/gallerie-presse/"
+eleventyComputed:
+    title: "image"
+---
+<div class="container mx-auto xl:max-w-screen-xl px-2 sm:px-6 mb-20">
+	<nav class="mb-2">
+		<a href="{{ returnToPath }}">← Back to gallery</a>
+	</nav>
+
+	<img src="{{ img.path }}" alt="{{ img.alt }}" >
+
+	<nav class="mb-2 flex gap-x-5">
+		{% if pagination.href.previous %}
+			<a href="{{ pagination.href.previous }}">← Previous</a>
+		{% endif %}
+		{% if pagination.href.next %}
+			<a href="{{ pagination.href.next }}">Next →</a>
+		{% endif %}
+	</nav>
+</div>
