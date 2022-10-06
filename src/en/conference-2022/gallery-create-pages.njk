@@ -4,25 +4,25 @@ pagination:
     data: galleries.presse2022
     size: 1
     alias: img
-permalink: "konferenz-2022/gallerie-presse/{{ img.path | basefilename }}/"
-returnToPath: "/konferenz-2022/gallerie-presse/"
+permalink: "en/conference-2022/gallery-press/{{ img.path | basefilename }}/"
+returnToPath: "/en/conference-2022/gallery-press/"
 eleventyComputed:
     title: "{{ img.path | basefilename }}"
     heading: "{{ img.path | basefilename }}"
 ---
 <div class="container mx-auto xl:max-w-screen-xl px-2 sm:px-6 mb-20">
 	<nav class="mb-2">
-		<a href="{{ returnToPath }}">← Zurück zur Gallerie</a>
+		<a href="{{ returnToPath }}">← Back to gallery</a>
 	</nav>
 
 	<img src="{{ img.path }}" alt="{{ img.alt }}" >
 
 	<nav class="mb-2 flex gap-x-5">
 		{% if pagination.href.previous %}
-			<a href="{{ pagination.href.previous }}">← Zurück</a>
+			<a href="{{ pagination.href.previous }}">← Previous</a>
 		{% endif %}
 		{% if pagination.href.next %}
-			<a href="{{ pagination.href.next }}">Vor →</a>
+			<a href="{{ pagination.href.next }}">Next →</a>
 		{% endif %}
 	</nav>
 </div>

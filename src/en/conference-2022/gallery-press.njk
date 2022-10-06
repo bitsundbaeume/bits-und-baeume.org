@@ -1,19 +1,19 @@
 ---
-title: Bits & Bäume 2022 - Gallerie
-description: Visuelle Impressionen von der Konferenz
+title: Bits & Bäume 2022 - Gallery
+description: Visual impressions from the conference
 layout: layouts/_base.ejs
 tags: sitemap
-lang: de
-translation: /en/conference-2022/gallery-press
+lang: en
+translation: /konferenz-2022/gallerie-presse/
 ---
 
 <section id="gallery" class="container">
-	<h2 class="h3">Bits & Bäume 2022 Pressefotos </h2>
-	Alle Fotos stehen unter der CC-BY 4.0 Lizenz. Urheber*in: siehe Dateiname und Metadaten
+	<h2 class="h3">Bits & Bäume 2022 Press Photos </h2>
+	All photos are under CC-BY 4.0 license. For the creator see the respective filename.
 	<div class="gallery__thumbnails flex flex-wrap">
 		{% for img in galleries.presse2022 %}
 		<div class="gallery__thumb">
-			<a href="/konferenz-2022/gallerie-presse/{{ img.path | basefilename }}">
+			<a href="/en/conference-2022/gallery-press/{{ img.path | basefilename }}">
 				<div class="wrapper">
 					<img class="object-cover"
 						src="{{img.tn_path}}"
