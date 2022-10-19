@@ -69,7 +69,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPlugin(externalLinks, {
       name: 'external-links',
-      regex: /^(([a-z]+:)|(\/\/))/i,
+      // add exception for mastodon link where we explicitly want to specify rel="me"
+      regex: /^(([a-z]+:)(?!\/\/mastodon)|(\/\/))/i,
       target: '_blank',
       rel: 'noopener',
       extensions: ['.html'],
