@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 
-<% if (locals.lang == "en") { %>
-<html lang="en" class="no-js">
-<% } else { %>
-<html lang="de" class="no-js">
-<% } %>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title><%= (!!locals.metatitle) ? metatitle : title %></title>
-	<link rel="canonical" href="<%= `${site.url}${page.url}` %>" />
-	<%- include('../partials/_hreflang.njk') %>
-    <meta
-      name="description"
-      content="<%= (!!locals.description) ? description : site.description %>"
-    />
-    <meta name="author" content="<%= site.author %>" />
-    <meta property="og:title" content="<%= (!!locals.metatitle) ? metatitle : title %>" />
-    <meta
-      property="og:description"
-      content="<%= (!!locals.description) ? description : site.description %>"
-    />
-    <meta property="og:locale" content="<%= site.locale %>" />
-    <meta property="og:site_name" content="<%= site.site_name %>" />
-	<meta property="og:url" content="<%= `${site.url}${page.url}` %>" />
-	<meta property="og:image" content="<%= `${site.url}/assets/images/social/` %><%= (!!locals.socialimage) ? socialimage : site.socialimage %>" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@bitsundbaeume" />
-	<meta name="twitter:image" content="<%= `${site.url}/assets/images/social/` %><%= (!!locals.socialimage) ? socialimage : site.socialimage %>" />
-    <% if (locals.tags == "posts") { %>
-    <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="<%= date.toISOString() %>" />
-    <script type="application/ld+json">
+<% if (locals.lang=="en" ) { %>
+  <html lang="en" class="no-js">
+  <% } else { %>
+    <html lang="de" class="no-js">
+    <% } %>
+
+      <head>
+        <link rel="stylesheet" href="/assets/styles/tailwind.css">
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          <%= (!!locals.title) ? title : 'Bits &amp; Bäume - Die Konferenz für Digitalisierung und Nachhaltigkeit' %>
+        </title>
+        <link rel="canonical" href="<%= `${site.url}${page.url}` %>" />
+        <%- include('../partials/_hreflang.njk') %>
+          <meta name="description" content="<%= (!!locals.description) ? description : site.description %>" />
+          <meta name="author" content="<%= site.author %>" />
+          <meta property="og:title"
+            content="<%= (!!locals.title) ? title : 'Bits &amp; Bäume - Die Konferenz für Digitalisierung und Nachhaltigkeit' %>" />
+          <meta property="og:description" content="<%= (!!locals.description) ? description : site.description %>" />
+          <meta property="og:locale" content="<%= site.locale %>" />
+          <meta property="og:site_name" content="<%= site.site_name %>" />
+          <meta property="og:url" content="<%= `${site.url}${page.url}` %>" />
+          <meta property="og:image"
+            content="<%= `${site.url}/assets/images/social/` %><%= (!!locals.socialimage) ? socialimage : site.socialimage %>" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@bitsundbaeume" />
+          <meta name="twitter:image"
+            content="<%= `${site.url}/assets/images/social/` %><%= (!!locals.socialimage) ? socialimage : site.socialimage %>" />
+          <% if (locals.tags=="posts" ) { %>
+            <meta property="og:type" content="article" />
+            <meta property="article:published_time" content="<%= date.toISOString() %>" />
+            <script type="application/ld+json">
       {
         "description": "<%= (!!locals.description) ? description : site.description %>",
         "author": { "@type": "Person", "name": "<%= site.author %>" },
@@ -54,64 +56,69 @@
         "@context": "http://schema.org"
       }
     </script>
-    <% } else { %>
-	<meta property="og:type" content="website" />
-	<% } %>
-	<%- include('../partials/_webpack.ejs') %>
-	<%- include('../partials/_favicon.njk') %>
-	<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+            <% } else { %>
+              <meta property="og:type" content="website" />
+              <% } %>
+                <%- include('../partials/_favicon.njk') %>
+                  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
 
-  </head>
 
-  <body class="antialiased w-full bg-grey">
 
-    <header id="header">
-	  <div class="container mx-auto xl:max-w-screen-xl flex justify-between items-center">
-        <div class="hover:scale-105 hover:transform-gpu duration-50">
-			<a class="hover:no-underline hover:bg-opacity-0" href="<% site.url %>/">
-				<img class="inline-block" src="<% site.url %>/assets/images/bits-und-baeume-logo_CCBY-schauschau.cc.svg" alt="Logo Bits & Bäume">
-			</a>
-		</div>
-        <div class="hidden lg:block">
-			<nav class="nav-menu nav-menu-desktop">
-				<ul class="header-menu">
-					<% if (locals.lang == "en") { %>
-						<%- include('../partials/_mainmenu-en.njk') %>
-					<% } else { %>
-						<%- include('../partials/_mainmenu.njk') %>
-					<% } %>
-				</ul>
-			</nav>
+      </head>
+
+      <body class="antialiased w-full bg-grey">
+
+        <header id="header">
+          <div class="container mx-auto xl:max-w-screen-xl flex justify-between items-center">
+            <div class="hover:scale-105 hover:transform-gpu duration-50">
+              <a class="hover:no-underline hover:bg-opacity-0" href="<% site.url %>/">
+                <img class="inline-block" src="<% site.url %>/assets/images/bits-und-baeume-logo_CCBY-schauschau.cc.svg"
+                  alt="Logo Bits & Bäume">
+              </a>
+            </div>
+            <div class="hidden lg:block">
+              <nav class="nav-menu nav-menu-desktop">
+                <ul class="header-menu">
+                  <% if (locals.lang=="en" ) { %>
+                    <%- include('../partials/_mainmenu-en.njk') %>
+                      <% } else { %>
+                        <%- include('../partials/_mainmenu.njk') %>
+                          <% } %>
+                </ul>
+              </nav>
+            </div>
+            <%- include('../partials/_language-switcher.njk') %>
+              <div class="block lg:hidden pr-2">
+                <% if (locals.lang=="de" ) { %>
+                  <a title="menu" href="/menu/">
+                    <% } else { %>
+                      <a title="menu" href="/en/menu/">
+                        <% } %>
+                          <img class="menu__button" src="<% site.url %>/assets/images/menu-button.svg" alt="menu button"
+                            role="presentation">
+                      </a>
+              </div>
+          </div>
+        </header>
+
+        <main>
+          <%- content %>
+        </main>
+
+        <footer>
+          <% if (locals.lang=="en" ) { %>
+            <%- include('../partials/_footer-en.njk') %>
+              <% } else { %>
+                <%- include('../partials/_footer.njk') %>
+                  <% } %>
+        </footer>
+        <div class="back-to-top">
+          <a href="#header">
+            <img class="hover:scale-125 hover:transform-gpu duration-50" src="<% site.url %>/assets/images/up-arrow.svg"
+              alt="back to top">
+          </a>
         </div>
-		<%- include('../partials/_language-switcher.njk') %>
-        <div class="block lg:hidden pr-2">
-			<% if (locals.lang == "de") { %>
-				<a title="menu" href="/menu/">
-			<% } else { %>
-				<a title="menu" href="/en/menu/">
-			<% } %>
-				<img class="menu__button" src="<% site.url %>/assets/images/menu-button.svg" alt="menu button" role="presentation">
-			</a>
-        </div>
-      </div>
-	</header>
 
-    <main>
-		<%- content %>
-    </main>
+      </body>
 
-    <footer>
-	<% if (locals.lang == "en") { %>
-		<%- include('../partials/_footer-en.njk') %>
-	<% } else { %>
-		<%- include('../partials/_footer.njk') %>
-	<% } %>
-    </footer>
-	<div class="back-to-top">
-		<a href="#header">
-			<img class="hover:scale-125 hover:transform-gpu duration-50" src="<% site.url %>/assets/images/up-arrow.svg" alt="back to top">
-		</a>
-	</div>
-
-  </body>
-</html>
+    </html>
