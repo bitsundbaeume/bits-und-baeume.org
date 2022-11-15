@@ -18,6 +18,7 @@ module.exports = function (eleventyConfig) {
   // Enable YAML files format data!
   eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
+  eleventyConfig.addPassthroughCopy('./src/assets/styles/*.css');
 
   eleventyConfig.setLibrary('md', markdownIt);
 

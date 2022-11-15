@@ -1,6 +1,6 @@
 module.exports = {
   // mode: 'jit',
-  purge: ['./src/**/*.njk', './src/**/*.ejs', './src/**/*.md', './src/**/*.liquid'],
+  content: ['./src/**/*.{njk,ejs,md,liquid}'],
   theme: {
     colors: {
       black: '#000',
