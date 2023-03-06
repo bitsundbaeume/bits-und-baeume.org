@@ -4,7 +4,14 @@ Based on [Eleventy Starter Boilerplate](https://github.com/ixartz/Eleventy-Start
 
 ### Features
 
+
+<details>
+<summary>
 Production-ready in mind:
+</summary>
+
+
+
 
 -   🔥 [11ty](https://www.11ty.dev) for Static Site Generator
 -   🎨 Integrate with [Tailwind CSS](https://tailwindcss.com)
@@ -26,6 +33,8 @@ Production-ready in mind:
 -   ✅ Cache busting
 -   💯 Maximize lighthouse score
 
+</details>
+
 ### Requirements
 
 -   Node.js and npm
@@ -39,13 +48,36 @@ git clone --depth=1 https://github.com/bitsundbaeume/bits-und-baeume.org.git b-u
 cd b-und-b
 npm install && npm run prepare
 ```
-### Local development
+### Local development (unofficial, fast)
+
+
+Recommended testing command for **reduced build time**:
+
+Instead of the officially recommended `npm run dev` you might want use
+
+```
+npx @11ty/eleventy --serve --incremental --ignore-initial
+```
+
+and manually open the preview on <http://localhost:8080/>.
+
+Advantage: It only re-builds changed files → much faster, no system freeze.
+
+**Note:**
+
+- This probably only works if the whole site was *once* already built completely by `npm run dev`.
+- Only changed files are built, thus, one might need to add an empty line etc to trigger the build.
+
+
+### Local development (official, might be slow)
+
 
 You can run locally in development mode with live reload:
 
 ```
 npm run dev
 ```
+
 
 Open http://localhost:8080 with your favorite browser to see your blog.
 
@@ -96,6 +128,8 @@ You can easily change base settings of this boilerplate. Please change the follo
 -   `src/elemente.njk`: all styled design elements
 
 ### Testing
+
+
 
 Before deploying to production it's a good idea to test the build result by building it locally and run tests against it. At the moment the package.json scripts for testing are not running stable. To test your site please use:
 
