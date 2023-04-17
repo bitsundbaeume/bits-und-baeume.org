@@ -1,0 +1,12 @@
+The file social-img.jpg is included by the templates via
+
+
+<meta property="og:image" content="https://bits-und-baeume.org/assets/images/social/social-img.jpg">
+and
+<meta name="twitter:image" content="https://bits-und-baeume.org/assets/images/social/social-img.jpg">
+
+
+it is based on
+
+assets/images/oea_material/pressekit/bitsundbaeume22_infografik.svg
+
