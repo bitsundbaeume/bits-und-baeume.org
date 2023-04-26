@@ -46,6 +46,16 @@ items:
      Lokale Bits&Bäume-Gruppe, in Gründung.
     style: box-infos
     pixel: /assets/images/pixel-box-infos.svg
+    
+  - name: Bits & Bäume FrankfurtRheinMain
+    url: https://connyunity.de/bits-baeume/
+    content: |
+     Lokale Bits&Bäume-Gruppe, in Zusammenarbeit mit dem größten Netzwerk für den deutschen Mittelstand.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+
+    
+    
 
   - name: Bits & Bäume Dortmund
     url:
