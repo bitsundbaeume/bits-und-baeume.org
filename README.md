@@ -48,6 +48,19 @@ git clone --depth=1 https://github.com/bitsundbaeume/bits-und-baeume.org.git b-u
 cd b-und-b
 npm install && npm run prepare
 ```
+
+
+This might also be necessary: Install lastes version of eleventy, see also [eleventy github repo](https://github.com/11ty/eleventy)
+```
+npm install @11ty/eleventy@2.0.1
+```
+
+
+Should return at least version 2.0.1
+```
+npx @11ty/eleventy --version
+```
+
 ### Local development (unofficial, fast)
 
 
