@@ -83,13 +83,6 @@ Open http://localhost:8080 with your favorite browser to see your blog.
 
 See http://localhost:8080/elemente/ to see all styled design elements.
 
-#### netlify cms
-
-To open netlify cms locally without need for authentication run
-
-```
-npx netlify-cms-proxy-server
-```
 
 in a second console for local backend.
 
@@ -100,7 +93,6 @@ Then open http://localhost:8080/admin/ to see the admin interface.
 ```
 .
 ├── public                # Static files
-│   └── admin             # Files for netlify cms
 │   └── assets
 │       └── images        # Images not needed by Webpack (like most svg or gif)
 │          └── social     # Social Images used for Social Media via frontmatter "socialimage:"
