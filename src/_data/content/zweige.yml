@@ -16,8 +16,8 @@ items:
     content: |
       Entstanden aus einer regionalen Gruppe von <a href="https://www.ccc.de/schule">Chaos macht Schule</a>. Trifft sich in den Räumen des CCC Hannover.
     style: box-infos
-    pixel: /assets/images/pixel-box-infos.svg
-    
+    pixel: /assets/images/pixel-box-infos.svg  
+
   - name: Bits & Bäume FrankfurtRheinMain
     url: https://connyunity.de/bits-baeume/
     content: |
@@ -52,7 +52,7 @@ items:
     content: |
      Lokale Bits&Bäume-Gruppe, in Gründung.
     style: box-infos
-    pixel: /assets/images/pixel-box-infos.svg     
+    pixel: /assets/images/pixel-box-infos.svg
 
   - name: Bits & Bäume Dortmund
     url:
