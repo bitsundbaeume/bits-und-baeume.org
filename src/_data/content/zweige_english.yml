@@ -55,6 +55,13 @@ items:
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
+  - name: Bits & Bäume Lübeck
+    url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
+    content: |
+     We meet every second Tuesday at 6:30 PM at Chaotikum, near the main train station. We always welcome new people who would like to join us. Additionally, we regularly watch presentations together. Feel free to drop by!
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+
   - name: Here could be your town! :)
     url:
     content: |

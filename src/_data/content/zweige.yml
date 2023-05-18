@@ -61,6 +61,13 @@ items:
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
+  - name: Bits & Bäume Lübeck
+    url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
+    content: |
+     Wir treffen uns jeden zweiten Dienstag um 18.30 im Chaotikum (in der Nähe vom Hbf) und freuen uns sehr, wenn noch Leute dazu kommen.Und immer mal zwischendurch sehen wir uns gemeinsam Vorträge an:
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+
   - name: Hier könnte dein Wohnort stehen! :)
     url: /community/eigene-organisieren/
     content: |
