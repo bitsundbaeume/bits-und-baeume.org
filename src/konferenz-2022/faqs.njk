@@ -21,7 +21,7 @@ translation: /en/conference-2022/faqs/
 				<span class="acc__question">{{ item.name }}</span>
 				<div class="acc__icon"></div>
 			</summary>
-			<div class="acc__text">{{ item.content | safe }}</div>
+			<div class="acc__text">{{ item.content | replace('/assets/', site.url ~ '/assets/') | safe }}</div>
 		</details>
 		{% endfor %}
 	</div>
