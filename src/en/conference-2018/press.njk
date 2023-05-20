@@ -47,7 +47,7 @@ translation: /konferenz-2018/presse/
             {% for img in galleries.presse2018 %}
             <div class="gallery__thumb">
                 {# <a href="{{ img.path }}" target="_blank"> #}
-                <a href="/gallery/main/{{ img.path | basefilename }}">
+                <a href="{{ site.url }}/gallery/main/{{ img.path | basefilename }}">
                     {% set imgPath = img.thumbPath | default(img.path) %}
                     {% set altText = img.thumbAlt | default(img.alt) %}
                     <div class="wrapper">
@@ -94,12 +94,12 @@ translation: /konferenz-2018/presse/
     <div class="box box-links">
 		<h2 class="h3">Material for press</h2>
 		<ul>
-		    <li><a href="/assets/images/oea_material/bits-und-baeume-logo.pdf"> Logo with title </a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-schrift.pdf"> logo with title and subtitle </a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-konferenzinfos.pdf"> Graphic with short infos</a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-programmpunkte.pdf"> Graphic with program</a></li>
-            <li><a href="/assets/images/oea_material/bits-und-baeume-logo-traegerkreis.pdf">Graphic with Trägerkreis</a></li>
-            <li><a href="/assets/images/oea_material/B&B_Plakat_DIN-A1_CC_181108.pdf"> Poster (A1)</a></li>
+		    <li><a href="{{ site.url }}/assets/images/oea_material/bits-und-baeume-logo.pdf"> Logo with title </a></li>
+            <li><a href="{{ site.url }}/assets/images/oea_material/bits-und-baeume-logo-schrift.pdf"> logo with title and subtitle </a></li>
+            <li><a href="{{ site.url }}/assets/images/oea_material/bits-und-baeume-logo-konferenzinfos.pdf"> Graphic with short infos</a></li>
+            <li><a href="{{ site.url }}/assets/images/oea_material/bits-und-baeume-logo-programmpunkte.pdf"> Graphic with program</a></li>
+            <li><a href="{{ site.url }}/assets/images/oea_material/bits-und-baeume-logo-traegerkreis.pdf">Graphic with Trägerkreis</a></li>
+            <li><a href="{{ site.url }}/assets/images/oea_material/B&B_Plakat_DIN-A1_CC_181108.pdf"> Poster (A1)</a></li>
             <li><a href="https://vimeo.com/user91395992"> Short interviews about the conference</a></li>
         </ul>
 	
