@@ -86,9 +86,9 @@
 		<%- include('../partials/_language-switcher.njk') %>
         <div class="block lg:hidden pr-2">
 			<% if (locals.lang == "de") { %>
-				<a title="menu" href="/menu/">
+				<a title="menu" href="<%= site.url %>/menu/">
 			<% } else { %>
-				<a title="menu" href="/en/menu/">
+				<a title="menu" href="<%= site.url %>/en/menu/">
 			<% } %>
 				<img class="menu__button" src="<% site.url %>/assets/images/menu-button.svg" alt="menu button" role="presentation">
 			</a>
