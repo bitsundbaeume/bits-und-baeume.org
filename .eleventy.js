@@ -13,8 +13,18 @@ const INPUT_DIR = 'src';
 const OUTPUT_DIR = '_site';
 
 const isProduction = process.env.ELEVENTY_ENV === 'production';
+const BASEURL = `${process.env.BASEURL ? process.env.BASEURL : ''}`
 
 module.exports = function (eleventyConfig) {
+
+  // set site.url according to env var (if provided, see BASEURL above)
+
+  eleventyConfig.addGlobalData('site', {
+    url: BASEURL,
+    // add other global data as needed
+  });
+
+
   // Enable YAML files format data!
   eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));

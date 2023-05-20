@@ -76,9 +76,9 @@
 			<nav class="nav-menu nav-menu-desktop">
 				<ul class="header-menu">
 					<% if (locals.lang == "en") { %>
-						<%- include('../partials/_mainmenu-en.njk') %>
+						<%- include('../partials/_mainmenu-en.njk', {site: site}) %>
 					<% } else { %>
-						<%- include('../partials/_mainmenu.njk') %>
+						<%- include('../partials/_mainmenu.njk', {site: site}) %>
 					<% } %>
 				</ul>
 			</nav>
