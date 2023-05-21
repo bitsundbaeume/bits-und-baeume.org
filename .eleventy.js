@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(img2picture, {
       eleventyInputDir: INPUT_DIR,
       imagesOutputDir: `${OUTPUT_DIR}/assets/images`,
-      urlPath: '/assets/images/',
+      urlPath: `${BASEURL}/assets/images/`,
       extensions: ['jpg', 'png', 'jpeg'],
       formats: ['avif', 'webp', 'jpeg'],
       minWidth: 200,
