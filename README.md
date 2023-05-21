@@ -44,7 +44,7 @@ Production-ready in mind:
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/bitsundbaeume/bits-und-baeume.org.git b-und-b
+git clone https://github.com/bitsundbaeume/bits-und-baeume.org.git b-und-b
 cd b-und-b
 npm install && npm run prepare
 ```
@@ -52,7 +52,7 @@ npm install && npm run prepare
 
 This might also be necessary: Install lastes version of eleventy, see also [eleventy github repo](https://github.com/11ty/eleventy)
 ```
-npm install @11ty/eleventy@2.0.1
+npm install --save-dev @11ty/eleventy
 ```
 
 
@@ -100,6 +100,46 @@ See http://localhost:8080/elemente/ to see all styled design elements.
 in a second console for local backend.
 
 Then open http://localhost:8080/admin/ to see the admin interface.
+
+### Deployment and preview
+
+
+The data in this repository runs the website <https://bits-und-baeume.org> which is maintained by multiple people. As for any complex digital project multiple versions exist which need to be managed to avoid confusion. This project uses git-branches to manage the different versions: each version has its own branch. Every contributor can create their own branch (must be a named like a valid file name and only contain ascii characters but no spaces).
+
+Currently (2023-05-21), the deployment for production and (experiemental) development is separated:
+
+#### Production deployment (and dev preview)
+
+If you edit or push to <https://github.com/bitsundbaeume/bits-und-baeume.org> a webhook to `bubweb.uber.space` is triggered. The result depends on the branch:
+
+- `dev` branch: the built result is available at <https://staging.bits-und-baeume.org> (for preview purpose)
+- `main` branch: the built result is available at <https://bits-und-baeume.org>
+- any other branch: the webhook is ignored
+
+
+#### Additional preview infrastructure
+
+If you edit or push to <https://codeberg.org/bits-und-baeume/bits-und-baeume.org> a webhook to `bubdd.uber.space` is triggered. The build process is triggered for any branch.
+After about 3 min the build-result of your branch is available at [https://bubdd.uber.space/stamm/vorschau/\<branchname\>](https://bubdd.uber.space/stamm/vorschau/).
+
+**Background:**
+
+This additional preview infrastructure was added after the original built system and – for stability reasons – should interfere as little as possible with it. It is based on [flabbs](https://codeberg.org/cknoll/flabbs/) (flask based build system).
+
+### Contributing
+
+There are several ways of contributing:
+
+- using the web front end of github or codeberg
+	- pro: no local installation required, everything happens in browser
+	- pro: good for fixing typos, changing content of modest complexity (copy-paste-adapt)
+	- con: testing changes requires a complete run of the build system (3 min)
+	- remark: The **github** repo is connected to the build system for the **official version** of the website. To prevent accidental damage only limited people have write access to this repo. On the other hand the **codeberg** repo is only connected to the build system for the **preview versions**. Here we can be much more liberal with write access to the repo. Due to the capabilities of git to work with multiple remote repositories transfering commits from codeberg to github is simple. E.g. `git pull codeberg`, `git push github` (assuming a suitable configuration of remotes).
+- using `git` (version control system) and `eleventy` (node-based static site generator) on your local system
+	- pro: good for big changes, maximum flexibility and control
+	- con: requires some knowledge of git and installation of local software
+
+Of course, if you have any question: please ask (use website room in matrix, open an issue or write an email)
 
 ### Project structure
 
