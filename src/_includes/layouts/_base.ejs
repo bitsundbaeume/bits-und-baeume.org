@@ -68,8 +68,8 @@
     <header id="header">
 	  <div class="container mx-auto xl:max-w-screen-xl flex justify-between items-center">
         <div class="hover:scale-105 hover:transform-gpu duration-50">
-			<a class="hover:no-underline hover:bg-opacity-0" href="<% site.url %>/">
-				<img class="inline-block" src="<% site.url %>/assets/images/bits-und-baeume-logo_CCBY-schauschau.cc.svg" alt="Logo Bits & Bäume">
+			<a class="hover:no-underline hover:bg-opacity-0" href="<%= site.url %>/">
+				<img class="inline-block" src="<%= site.url %>/assets/images/bits-und-baeume-logo_CCBY-schauschau.cc.svg" alt="Logo Bits & Bäume">
 			</a>
 		</div>
         <div class="hidden lg:block">
@@ -90,7 +90,7 @@
 			<% } else { %>
 				<a title="menu" href="<%= site.url %>/en/menu/">
 			<% } %>
-				<img class="menu__button" src="<% site.url %>/assets/images/menu-button.svg" alt="menu button" role="presentation">
+				<img class="menu__button" src="<%= site.url %>/assets/images/menu-button.svg" alt="menu button" role="presentation">
 			</a>
         </div>
       </div>
@@ -109,7 +109,7 @@
     </footer>
 	<div class="back-to-top">
 		<a href="#header">
-			<img class="hover:scale-125 hover:transform-gpu duration-50" src="<% site.url %>/assets/images/up-arrow.svg" alt="back to top">
+			<img class="hover:scale-125 hover:transform-gpu duration-50" src="<%= site.url %>/assets/images/up-arrow.svg" alt="back to top">
 		</a>
 	</div>
 
