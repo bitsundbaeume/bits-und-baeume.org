@@ -5,6 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemoveEmptyScriptsPlugin = require('webpack-remove-empty-scripts');
 
+const BASEURL = `${process.env.BASEURL ? process.env.BASEURL : ''}`
+
 const entries = glob.sync(path.resolve(__dirname, 'src/assets/images/posts/*.{png,gif,jpg,jpeg}'));
 entries.push(path.resolve(__dirname, 'src/assets/styles/main.css'));
 
@@ -30,9 +32,12 @@ module.exports = {
       filename: cssFileName,
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'webpack.html'),
+      template: path.resolve(__dirname, 'webpack.html'),  // this is the template (for creating another template ... )
       filename: path.resolve(__dirname, 'src/_includes/partials/_webpack.ejs'),
       inject: false,
+      templateParameters: {
+        site_url: BASEURL,
+        },
     }),
   ],
   module: {
