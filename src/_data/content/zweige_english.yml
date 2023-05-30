@@ -74,7 +74,7 @@ items:
     pixel: /assets/images/pixel-box-cta.svg
 
   - name: This could be your town! :)
-    url:  /community/eigene-organisieren/
+    url:  /en/community/self-organisation/
     content: |
       <p><b>No Bits&Bäume nearby?</b></p>
       <p>Found your own regular's round! In our section Bits&Bäume movement,
