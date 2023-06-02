@@ -44,15 +44,15 @@ items:
       B&B group in the north of Germany.
     style: box-infos
     pixel: /assets/images/pixel-box-cta.svg
-    
- - name: Bits & Bäume Hannover
+
+  - name: Bits & Bäume Hannover
     url: http://bits-und-baeume-hannover.org
     content: |
       Regular's round, initiated by <a href="https://www.ccc.de/schule">Chaos macht Schule</a>.
     style: box-cta
     pixel: /assets/images/pixel-box-infos.svg
 
- - name: Bits & Bäume Lübeck
+  - name: Bits & Bäume Lübeck
     url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
     content: |
      We meet every second Tuesday at 6:30 PM at Chaotikum, near the main train station. We always welcome new people who would like to join us. Additionally, we regularly watch presentations together. Feel free to drop by!
