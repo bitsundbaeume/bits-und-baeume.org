@@ -10,13 +10,13 @@ items:
     content: Die Bits & Bäume Plattform Berlin ist eine Initiative des <a href="https://asta.tu-berlin.de/wissenschafts-und-technikkritik/"> AStA TU Berlin Wissenschafts- und Technikkritikreferats</a> in Kooperation mit dem <a href="https://www.baumhausberlin.de/">Baumhaus-Projektraum</a>. Wir organisieren eine lokale Plattform für Austausch und Zusammenarbeit von unten für eine nachhaltige Digitalisierung in Berlin.
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
-    
+
   - name: Bits & Bäume Augsburg/München
     url: https://aux-muc.bits-und-baeume.org/
     content: Dies ist ein offener Aktiventreff für alle, die sich für die Themen von Bits & Bäume interessieren. Hier kannst du dich über aktuelle Entwicklungen austauschen und eigene Ideen für Aktionen einbringen. Jede:r ist herzlich willkommen, unabhängig von Vorkenntnissen oder Erfahrungen.
     style: box-infos
-    pixel: /assets/images/pixel-box-cta.svg   
-    
+    pixel: /assets/images/pixel-box-cta.svg
+
   - name: Bits & Bäume FrankfurtRheinMain
     url: https://connyunity.de/bits-baeume/
     content: |
@@ -59,7 +59,7 @@ items:
      Wir treffen uns jeden zweiten Dienstag um 18.30 im Chaotikum (in der Nähe vom Hbf) und freuen uns sehr, wenn noch Leute dazu kommen. Und immer mal zwischendurch sehen wir uns gemeinsam Vorträge an:
     style: box-infos
     pixel: /assets/images/pixel-box-cta.svg
-   
+
   - name: Bits & Bäume Osnabrück
     url: https://plattform-n.org/project/bits-baeume-osnabrueck/
     content: |
