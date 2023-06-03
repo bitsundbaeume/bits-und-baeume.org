@@ -254,6 +254,8 @@
 		padding: 1rem;
 	}
 	/* .box__image_inline: for images wich are placed in the main part of the page like konferenzbuero.jpg  */
+	
+
 	.box__image, .box__image_inline {
 		@apply w-full overflow-hidden;
 		border-radius: 8px;
@@ -265,7 +267,7 @@
 		.box-img .box__image {
 			height: 100%;
 			border-radius: 8px;
-		}
+		} 
 	}
 	.box-orga {
 		@apply flex flex-wrap justify-between;
@@ -309,6 +311,14 @@
 	}
 
 	/* Buttons */
+	.button-container {
+		display: flex;
+		gap: 1rem;
+	  }	
+    .buttons {
+		display: flex;
+		gap: 1rem;
+	  }
 	.btn-dark, .btn-light {
 		@apply text-white bg-blue-dark;
 		margin: 2.125rem 0;
