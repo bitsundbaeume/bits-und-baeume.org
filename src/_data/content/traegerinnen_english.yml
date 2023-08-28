@@ -70,12 +70,7 @@ items:
 
     image: /assets/images/traegerinnen_logos/konzeptwerk.svg
     url: https://konzeptwerk-neue-oekonomie.org/
-  - name: Open Knowledge Foundation
-    content: |
-       OKF DE is committed to strengthening our democracy, promoting societal collaboration and ensuring that state and societal actions are oriented towards the common good. To this end, we develop digital technologies that can be used by all. We strive for an open, inclusive and just society in which knowledge is freely available to all.
-
-    image: /assets/images/traegerinnen_logos/okfn.svg
-    url: https://okfn.de/
+ 
   - name: Technische Universität Berlin
     content: |
       Technische Universität Berlin is a research institution with a long tradition that aims to develop science and technology for the benefit of our society. We are committed to the principle of sustainable development that meets the needs of the present and at the same time is not at the expense of future generations. The Department of Social-Ecological Transformation has been combining sustainability and digitalisation research since 2016 and launched the first Bits & Trees conference in 2018.
@@ -87,3 +82,8 @@ items:
       The Weizenbaum Institute for the Networked Society - The German Internet Institute is a collaborative project funded by the Federal Ministry of Education and Research (BMBF). It conducts interdisciplinary and fundamental research into the transformation of society through digitalisation and develops policy options for politics, business and civil society. The aim is to better understand the dynamics, mechanisms and implications of digitalisation.
     image: /assets/images/traegerinnen_logos/weizenbaum.png
     url: https://www.weizenbaum-institut.de/
+  - name: Wikimedia Deutschland – Gesellschaft zur Förderung Freien Wissens e. V.
+    content: |
+     2004 gründeten ehrenamtliche Wikipedia-Aktive den gemeinnützigen Verein Wikimedia Deutschland, der inzwischen aus über 100.000 Mitgliedern besteht. Als gemeinnützige Organisation sind wir Teil einer weltweiten Bewegung, die sich für Freies Wissen einsetzt. Wir fördern die ehrenamtlich Aktiven in sämtlichen Wikimedia-Projekten, entwickeln freie Software und Technik, setzen uns für offene Wissenschaft, Bildung und Kultur ein und stärken politische Rahmenbedingungen, die den freien Zugang zu Wissen ermöglichen. Unsere Vision ist eine Welt, in der alle Menschen am gesamten Wissen der Menschheit teilhaben, es nutzen und mehren können. 
+    image: /assets/images/traegerinnen_logos/wikimedia-deutschland.svg
+    url: https://www.wikimedia.de    
