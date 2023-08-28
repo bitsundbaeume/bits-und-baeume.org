@@ -1,0 +1,40 @@
+---
+title: Der Bits & Bäume Trägerkreis
+description: 30.09.–02.10.2022, TU Berlin.
+layout: layouts/_base.ejs
+tags: sitemap
+lang: de
+---
+
+
+
+<section class="max-w-3xl">
+
+	<h1>Der Trägerkreis</h1>
+
+	<p>Im Jahr 2022 richteten 13 Organisationen aus Umweltschutz, Digitalpolitik, Entwicklungspolitik
+	und Wissenschaft gemeinsam mit einer engagierten Community die zweite Konferenz für Digitalisierung
+	und Nachhaltigkeit Bits &amp; Bäume aus. Denn wir sind überzeugt: Es braucht politische Veränderungen,
+	damit die Digitalisierung besser zum drängenden sozialen und ökologischen Wandel beiträgt.</p>
+
+	<p>Uns vereint ein integratives Verständnis von Nachhaltigkeit sowie der Wille,
+	eine Zukunft zu gestalten, in der der digitale Wandel eine positive Rolle einnimmt und Mensch,
+	Lebensgrundlagen und Umwelt unterstützt und schützt.</p>
+
+
+	{% for item in content.traegerinnen.items %}
+	<div class="box box-orga">
+		<div class="image">
+			<a href="{{ item.url }}"><img src="{{ item.image }}" alt="Logo von {{ item.name }}" > </a>
+		</div>
+		<div class="text">
+			<a href="{{ item.url }}"><h3>{{ item.name }}</h3></a>
+			<p>{{ item.content | safe }}</p>
+		</div>
+	</div>
+	{% endfor %}
+
+
+
+</section>
+
