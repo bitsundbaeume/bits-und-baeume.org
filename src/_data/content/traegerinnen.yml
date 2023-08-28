@@ -80,7 +80,6 @@ items:
      Strategien und Handlungsansätze für ein zukunftsfähiges Wirtschaften – für eine Ökonomie, 
      die ein gutes Leben ermöglicht und die natürlichen Grundlagen erhält. 
      Das unabhängige und gemeinnützige Institut hat die erste Bits & Bäume-Konferenz 2018 mitinitiiert.
-
     image: /assets/images/traegerinnen_logos/ioew.svg
     url: https://www.ioew.de/
   - name: Konzeptwerk Neue Ökonomie
@@ -93,11 +92,6 @@ items:
      und sozial-ökologischer Transformation.
     image: /assets/images/traegerinnen_logos/konzeptwerk.svg
     url: https://konzeptwerk-neue-oekonomie.org/
-  - name: Wikimedia Deutschland – Gesellschaft zur Förderung Freien Wissens e. V.
-    content: |
-     2004 gründeten ehrenamtliche Wikipedia-Aktive den gemeinnützigen Verein Wikimedia Deutschland, der inzwischen aus über 100.000 Mitgliedern besteht. Als gemeinnützige Organisation sind wir Teil einer weltweiten Bewegung, die sich für Freies Wissen einsetzt. Wir fördern die ehrenamtlich Aktiven in sämtlichen Wikimedia-Projekten, entwickeln freie Software und Technik, setzen uns für offene Wissenschaft, Bildung und Kultur ein und stärken politische Rahmenbedingungen, die den freien Zugang zu Wissen ermöglichen. Unsere Vision ist eine Welt, in der alle Menschen am gesamten Wissen der Menschheit teilhaben, es nutzen und mehren können. 
-    image: /assets/images/traegerinnen_logos/wikimedia-deutschland.svg
-    url: https://www.wikimedia.org/
   - name: Technische Universität Berlin
     content: |
      Die Technische Universität Berlin ist eine traditionsreiche Forschungseinrichtung mit dem Ziel, 
@@ -116,3 +110,8 @@ items:
      Digitalisierung besser zu verstehen.
     image: /assets/images/traegerinnen_logos/weizenbaum.png
     url: https://www.weizenbaum-institut.de/
+  - name: Wikimedia Deutschland – Gesellschaft zur Förderung Freien Wissens e. V.
+    content: |
+     2004 gründeten ehrenamtliche Wikipedia-Aktive den gemeinnützigen Verein Wikimedia Deutschland, der inzwischen aus über 100.000 Mitgliedern besteht. Als gemeinnützige Organisation sind wir Teil einer weltweiten Bewegung, die sich für Freies Wissen einsetzt. Wir fördern die ehrenamtlich Aktiven in sämtlichen Wikimedia-Projekten, entwickeln freie Software und Technik, setzen uns für offene Wissenschaft, Bildung und Kultur ein und stärken politische Rahmenbedingungen, die den freien Zugang zu Wissen ermöglichen. Unsere Vision ist eine Welt, in der alle Menschen am gesamten Wissen der Menschheit teilhaben, es nutzen und mehren können. 
+    image: /assets/images/traegerinnen_logos/wikimedia-deutschland.svg
+    url: https://www.wikimedia.org/
