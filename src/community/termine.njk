@@ -1,0 +1,31 @@
+---
+title: Bits & Bäume - Termine
+description: Termine der Bits & Bäume Community
+layout: layouts/_base.ejs
+tags: termine, kalender, calendar
+lang: de
+---
+
+<section class="max-w-3xl">
+	<h1>Community Termine</h1>
+	<p>
+		Hier findet ihr aktuelle und vergangene Termine der Bits &amp; Bäume Community.</br> Vorschläge für weitere tragt einfach <a href="https://bits-und-baeume.org/kalenderinput">hier</a> ins Pad ein.
+	</p>
+
+	{% for item in content.termine.items %}
+	<div class="box {{ item.style }}">
+		{% if item.url %}
+		<a href="{{ item.url }}"><h3>{{ item.name }}</h3></a>
+		{% else %}
+		<h3>{{ item.name }}</h3>
+		{% endif%}
+		<b>{{ item.date }}</b></br></br>
+		<p>{{ item.content | safe }}</p>
+		<div class="box__pixel">
+			<img src="{{ item.pixel }}" alt="box" width="50" height="50">
+		</div>
+	</div>
+	{% endfor %}
+
+
+</section>
