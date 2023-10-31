@@ -1,4 +1,13 @@
 items:
+  - name: Chaos Communication Congress
+    url: /community/37th Chaos Communication Congress/
+    date: 27. bis 30. Dezember 2023 (Einreichungen bis 11.November)
+    content: |
+     Der Chaos Communication Congress ist die jährliche Konferenz und Hackerparty des Chaos Computer Clubs (CCC). Bits & Bäume organisiert mit und betreut den Track 'Sustainability & Climate Justice' <a href="https://events.ccc.de/2023/10/06/37c3-teaser/">Event-Website</a>.
+    style: box-cta
+    pixel: /assets/images/pixel-box-infos.svg
+
+
   - name: Chaos Communication Camp
     url: /community/camp/
     date: 15. bis 19. August 2023
