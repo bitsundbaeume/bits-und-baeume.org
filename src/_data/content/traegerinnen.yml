@@ -37,16 +37,6 @@ items:
      Wissenschaft setzen wir uns für eine vielfältige, weltoffene und tolerante Zivilgesellschaft ein.
     image: /assets/images/traegerinnen_logos/dnr.svg
     url: https://www.dnr.de/
-  - name: Einstein Center Digital Future
-    content: |
-     Das Einstein Center Digital Future (ECDF) ist das Zentrum für 
-     Digitalisierungsforschung in Berlin und beruht auf einer Öffentlich-Privaten-Partnerschaft 
-     aus über 30 Unternehmen, Organisationen, den Berliner Universitäten und mehr als 10 Forschungsinstituten. 
-     Gemeinsam erproben wir neue Formen der Kooperation zwischen Digitalisierungsakteur*innen und forschen 
-     fächerübergreifend zu vielfältigen Fragestellungen in den Innovationsbereichen Digitale Gesundheit, 
-     Digitale Gesellschaft, Digitale Industrie und Dienstleistungen.
-    image: /assets/images/traegerinnen_logos/einstein_center.svg
-    url: https://www.digital-future.berlin
   - name: Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.
     content: |
      Das FIfF ist ein Zusammenschluss von engagiert-kritischen Fachleuten aus 
@@ -92,15 +82,6 @@ items:
      und sozial-ökologischer Transformation.
     image: /assets/images/traegerinnen_logos/konzeptwerk.svg
     url: https://konzeptwerk-neue-oekonomie.org/
-  - name: Technische Universität Berlin
-    content: |
-     Die Technische Universität Berlin ist eine traditionsreiche Forschungseinrichtung mit dem Ziel, 
-     Wissenschaft und Technik zum Nutzen unserer Gesellschaft weiterzuentwickeln. Wir verpflichten uns dem 
-     Prinzip der nachhaltigen Entwicklung, die den Erfordernissen der Gegenwart gerecht wird und zugleich 
-     nicht zu Lasten zukünftiger Generationen geht. Das Fachgebiet Sozial-ökologische Transformation vereint 
-     seit 2016 Nachhaltigkeits- und Digitalisierungsforschung und rief 2018 die erste Bits & Bäume Konferenz ins Leben.
-    image: /assets/images/traegerinnen_logos/tu-berlin.svg
-    url: https://www.tu.berlin/
   - name: Weizenbaum-Institut
     content: |
      Das Weizenbaum-Institut für die vernetzte Gesellschaft – Das Deutsche Internet-Institut ist ein vom 
