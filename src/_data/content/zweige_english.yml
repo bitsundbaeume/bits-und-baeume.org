@@ -55,7 +55,7 @@ items:
   - name: Bits & Bäume Lübeck
     url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
     content: |
-     We meet every second Tuesday at 6:30 PM at Chaotikum, near the main train station. We always welcome new people who would like to join us. Additionally, we regularly watch presentations together. Feel free to drop by!
+     <p>In Lübeck, we regularly meet on the second Tuesday of each month at 6:31 PM at the Nobreakspace of the Chaotikum (<a target="blanc" href="https://www.openstreetmap.org/node/1138848742">Fackenburger Allee 11</a> - close to the main train station).</p><p>You can find current information <a target="blanc" href="https://chaotikum.org/project/bitsundbaeume/">here</a>.</p><p>Feel free to come by if you're interested in a topic or if you're keen on participating long-term.<br></p>Additionally, we have a mailing list: bits-und-baeume@chaotikum.org which you can join by sending an email to <a href="mailto:bits-und-baeume+subscribe@chaotikum.org">bits-und-baeume+subscribe@chaotikum.org</a>. To unsubscribe, simply send an email to <a href="mailto:bits-und-baeume+unsubscribe@chaotikum.org">bits-und-baeume+unsubscribe@chaotikum.org</a>
     style: box-infos
     pixel: /assets/images/pixel-box-cta.svg
 

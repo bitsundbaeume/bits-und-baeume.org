@@ -60,9 +60,9 @@ items:
     pixel: /assets/images/pixel-box-cta.svg
 
   - name: Bits & Bäume Lübeck
-    url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
+    url: https://chaotikum.org/project/bitsundbaeume/
     content: |
-     Wir treffen uns jeden zweiten Dienstag um 18.30 im Chaotikum (in der Nähe vom Hbf) und freuen uns sehr, wenn noch Leute dazu kommen. Und immer mal zwischendurch sehen wir uns gemeinsam Vorträge an:
+     <p>In Lübeck treffen wir uns regelmäßig am zweiten Dienstag eines Monats um 18:31 Uhr im Nobreakspace des Chaotikums (<a target="blanc" href="https://www.openstreetmap.org/node/1138848742">Fackenburger Allee 11</a> - in der Nähe vom Hbf).</p><p>Aktuelle Informationen findet ihr <a target="blanc" href="https://chaotikum.org/project/bitsundbaeume/">hier</a>.</p><p>Kommt einfach vorbei, wenn euch ein Thema interessiert oder ihr Lust habt, langfristig mitzumachen.<br></p>Außerdem haben wir eine Mailingliste: bits-und-baeume@chaotikum.org auf die ihr euch mit einer Mail an <a href="mailto:bits-und-baeume+subscribe@chaotikum.org">bits-und-baeume+subscribe@chaotikum.org</a> eintragen könnt. Austragen einfach per Mail an <a href="mailto:bits-und-baeume+unsubscribe@chaotikum.org">bits-und-baeume+unsubscribe@chaotikum.org</a>
     style: box-infos
     pixel: /assets/images/pixel-box-infos.svg
 
