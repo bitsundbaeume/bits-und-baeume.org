@@ -1,77 +1,84 @@
 items:
+  - name: Bits & Bäume Augsburg/München
+    url: https://aux-muc.bits-und-baeume.org/
+    content: Dies ist ein offener Aktiventreff für alle, die sich für die Themen von Bits & Bäume interessieren. Hier kannst du dich über aktuelle Entwicklungen austauschen und eigene Ideen für Aktionen einbringen. Jede:r ist herzlich willkommen, unabhängig von Vorkenntnissen oder Erfahrungen.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+
+  - name: Bits & Bäume Berlin
+    url: https://berlin.bits-und-baeume.org/
+    content: The Bits & Trees Platform Berlin is an initiative of the <a href="https://asta.tu-berlin.de/wissenschafts-und-technikkritik/"> AStA TU Berlin Science and Technology Criticism Department</a> in cooperation with the <a href="https://www.baumhausberlin.de/">Baumhaus Project Space</a>. We organize a local platform for exchange and collaboration from below for a sustainable digitalization in Berlin.
+    style: box-infos
+    pixel: /assets/images/pixel-box-cta.svg
+
+  - name: Bits & Bäume Dortmund
+    url:
+    content: |
+     Local B&B group, currently being established.
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+
   - name: Bits & Bäume Dresden
     content: was, together with Berlin, the first regional branch after the 2018 conference. The founding occasion was a local event with about 100 participants. After that, many other projects followed, such as workshops, panels, NGO consulting, a blog and a lot of community work behind the scenes.
     url: https://dresden.bits-und-baeume.org/
     style: box-infos
     pixel: /assets/images/pixel-box-infos.svg
 
-  - name: Bits & Bäume Berlin
-    url: https://berlin.bits-und-baeume.org/
-    content: The Bits & Trees Platform Berlin is an initiative of the <a href="https://asta.tu-berlin.de/wissenschafts-und-technikkritik/"> AStA TU Berlin Science and Technology Criticism Department</a> in cooperation with the <a href="https://www.baumhausberlin.de/">Baumhaus Project Space</a>. We organize a local platform for exchange and collaboration from below for a sustainable digitalization in Berlin.
-    style: box-cta
-    pixel: /assets/images/pixel-box-cta.svg
-
-  - name: Bits & Bäume Augsburg/München
-    url: https://aux-muc.bits-und-baeume.org/
-    content: Dies ist ein offener Aktiventreff für alle, die sich für die Themen von Bits & Bäume interessieren. Hier kannst du dich über aktuelle Entwicklungen austauschen und eigene Ideen für Aktionen einbringen. Jede:r ist herzlich willkommen, unabhängig von Vorkenntnissen oder Erfahrungen.
-    style: box-infos
-    pixel: /assets/images/pixel-box-cta.svg
-
   - name: Bits & Bäume FrankfurtRheinMain
     url: https://connyunity.de/bits-baeume/
     content: |
      Lokale Bits&Bäume-Gruppe, in Zusammenarbeit mit der regionalen Leitung des größten Netzwerks für den deutschen Mittelstand.
     style: box-cta
-    pixel: /assets/images/pixel-box-infos.svg
-
-  - name: Bits & Bäume Köln
-    url: https://wechange.de/group/bits-baeume-koeln/
-    content: |
-      Local B&B group for bottom-up exchange and collaboration aiming at a sustainable digitalisation in Cologne.
-    style: box-infos
-    pixel: /assets/images/pixel-box-cta.svg
-
-  - name: Bits & Bäume Nürnberg
-    url: https://it.bluepingu.de
-    content: |
-      Local B&B group for making the social-ecological transition happen for everyone in the metropolitan area Nürnberg. Initiated and organized by the Bluepingu e. V.
-    style: box-cta
-    pixel: /assets/images/pixel-box-infos.svg
-
-  - name: Bits & Bäume Nord
-    url: https://wechange.de/group/bits-baeume-nord/
-    content: |
-      B&B group in the north of Germany.
-    style: box-infos
     pixel: /assets/images/pixel-box-cta.svg
 
   - name: Bits & Bäume Hannover
     url: http://bits-und-baeume-hannover.org
     content: |
       Regular's round, initiated by <a href="https://www.ccc.de/schule">Chaos macht Schule</a>.
+    style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+
+  - name: Bits & Bäume Köln
+    url: https://wechange.de/group/bits-baeume-koeln/
+    content: |
+      Local B&B group for bottom-up exchange and collaboration aiming at a sustainable digitalisation in Cologne.
     style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+
+  - name: Bits & Bäume Leipzig
+    url: https://leipzig.bits-und-baeume.org/
+    content: Local B&B group, currently being established.
+    style: box-infos
     pixel: /assets/images/pixel-box-infos.svg
 
   - name: Bits & Bäume Lübeck
     url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
     content: |
      <p>In Lübeck, we regularly meet on the second Tuesday of each month at 6:31 PM at the Nobreakspace of the Chaotikum (<a target="blanc" href="https://www.openstreetmap.org/node/1138848742">Fackenburger Allee 11</a> - close to the main train station).</p><p>You can find current information <a target="blanc" href="https://chaotikum.org/project/bitsundbaeume/">here</a>.</p><p>Feel free to come by if you're interested in a topic or if you're keen on participating long-term.<br></p>Additionally, we have a mailing list: bits-und-baeume@chaotikum.org which you can join by sending an email to <a href="mailto:bits-und-baeume+subscribe@chaotikum.org">bits-und-baeume+subscribe@chaotikum.org</a>. To unsubscribe, simply send an email to <a href="mailto:bits-und-baeume+unsubscribe@chaotikum.org">bits-und-baeume+unsubscribe@chaotikum.org</a>
+    style: box-cta
+    pixel: /assets/images/pixel-box-cta.svg
+
+  - name: Bits & Bäume Nord
+    url: https://wechange.de/group/bits-baeume-nord/
+    content: |
+      B&B group in the north of Germany.
     style: box-infos
+    pixel: /assets/images/pixel-box-infos.svg
+
+
+  - name: Bits & Bäume Nürnberg
+    url: https://it.bluepingu.de
+    content: |
+      Local B&B group for making the social-ecological transition happen for everyone in the metropolitan area Nürnberg. Initiated and organized by the Bluepingu e. V.
+    style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
   - name: Bits & Bäume Osnabrück
     url: https://plattform-n.org/project/bits-baeume-osnabrueck/
     content: |
      Local B&B group, currently being established.
-    style: box-cta
-    pixel: /assets/images/pixel-box-infos.svg
-
-  - name: Bits & Bäume Dortmund
-    url:
-    content: |
-     Local B&B group, currently being established.
     style: box-infos
-    pixel: /assets/images/pixel-box-cta.svg
+    pixel: /assets/images/pixel-box-infos.svg
 
   - name: This could be your town! :)
     url:  /en/community/self-organisation/
@@ -81,4 +88,4 @@ items:
       you can read more about what to do to organize your own Bits&Bäume formats. There is also a mailing list as well as an online discussion board.
        </p>
     style: box-cta
-    pixel: /assets/images/pixel-box-infos.svg
+    pixel: /assets/images/pixel-box-cta.svg
