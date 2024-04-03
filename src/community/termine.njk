@@ -16,15 +16,19 @@ lang: de
 		
 		</p>
 		<p>
-		Eure eigenen oder andere interessante Termine schlag gern <a href="https://bits-und-baeume.org/kalenderinput">hier</a> vor<br>		
+		Eure eigenen oder andere interessante Termine schlagt gern <a href="https://bits-und-baeume.org/kalenderinput">hier</a> vor<br>		
 		
 		</p>
 		
 
 	</p>
 
+<h3>Kalender</h3>
 
+<iframe width="105%" height="550" src="https://cloud.bits-und-baeume.org/apps/calendar/embed/HSQmRMc9dmB755CK-Xfe4s2Cfz8ZiMii4/listYear/now"></iframe>
+<a  href="https://bits-und-baeume.org/kalender">Kalender im Vollbild öffnen</a>
 
+<h3>Vergangene Veranstaltungen</h3>
 	{% for item in content.termine.items %}
 	<div class="box {{ item.style }}">
 		{% if item.url %}
