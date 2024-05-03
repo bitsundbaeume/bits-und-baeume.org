@@ -5,12 +5,43 @@ layout: layouts/_base.ejs
 tags: termine, kalender, calendar
 lang: de
 ---
+<section class="max-w-7xl">
+	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
+		<div class="box__image w-full md:w-2/5">
+    <img class="object-cover"
+    src="{% thumbnail '/assets/images/Jahresausblick/Campbild.jpeg' %}"
+    alt="Forderungen 2022 Seite 1"
+    sizes="(min-width: 1360px) 485px, (min-width: 780px) 35.89vw, 90.87vw"
+    data-img2picture-widths="485,702"
+>
+</div>
+
+<div class="text w-full md:w-3/5">
+    <h3>SUMMER IS COMING (*screamingemoji*)</h3>
+
+    <p>Lust auf gemeinsam Lichterketten löten, Wifi hacken und Lagerfeuer gucken während die Chilis auf dem Balkon und der Gemüsegarten zu Hause gut versorgt sind? Hier kommt der Eventüberblick für alle reisefröhlichen Hacker*innen und Gartensüchtige mit Bits und Bäumen im Herzen! 
+    </p>
+    <p>Und wer nicht alleine reisen möchte, kann <a href="https://ethercalc.net/22xcly2ri3sv">hier</a> einen Kontakt rein schreiben. </p>
+    
+    <div style="text-align: center;">
+        <a href="{{ site.url }}https://bits-und-baeume.org/community/Jahresausblick">
+            <button class="btn-dark">Zum Jahresausblick</button>
+        </a>
+        <a href="https://cloud.bits-und-baeume.org/apps/calendar/p/HSQmRMc9dmB755CK-Xfe4s2Cfz8ZiMii4/dayGridMonth/now">
+            <button class="btn-dark">Kalender</button>
+        </a>
+    </div>
+</div>
+<div class="box__pixel">
+    <img src="{{ site.url }}/assets/images/pixel-box-img.svg" alt="box" width="50" height="40">
+</div>
+	</div>
+
+</div>
 
 <section class="max-w-3xl">
 <h1>Termine</h1>	
 	<p>
-		Hier findet ihr eine Auswahl anstehender und vergangener Treffen und Veranstaltungen der Bits &amp; Bäume Community.</br><br>
-
 		Alle Bits & Bäume Termine und weitere thematisch nahe Veranstaltungen findet ihr in unserem <a href="https://bits-und-baeume.org/kalender">Kalender</a>, den ihr auch <a href="https://wiki2.bits-und-baeume.org/it/kalender/start">abonnieren</a> könnt.<br>
 
 		
@@ -46,3 +77,4 @@ lang: de
 
 
 </section>
+
