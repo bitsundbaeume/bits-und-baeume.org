@@ -33,12 +33,6 @@ items:
 
     image: /assets/images/traegerinnen_logos/dnr.svg
     url: https://www.dnr.de/
-  - name: Einstein Center Digital Future
-    content: |
-      The Einstein Center Digital Future (ECDF) is the centre for digitisation research in Berlin and is based on a public-private partnership of over 30 companies, organisations, Berlin universities and more than 10 research institutes. Together, we test new forms of cooperation between digitisation actors and conduct interdisciplinary research on diverse issues in the innovation areas of digital health, digital society, digital industry and services.
-
-    image: /assets/images/traegerinnen_logos/einstein_center.svg
-    url: https://www.digital-future.berlin
   - name: Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.
     content: |
            FIfF is an association of committed-critical professionals from academia and practice of information (technology). We reflect on the consequences of our work, warn against harmful developments and contribute our own constructive ideas. We advise politicians and the media, publish our own journal and organise conferences, lectures and demonstrations. FIfF is organised in regional groups and was founded in 1984.
@@ -71,12 +65,6 @@ items:
     image: /assets/images/traegerinnen_logos/konzeptwerk.svg
     url: https://konzeptwerk-neue-oekonomie.org/
  
-  - name: Technische Universität Berlin
-    content: |
-      Technische Universität Berlin is a research institution with a long tradition that aims to develop science and technology for the benefit of our society. We are committed to the principle of sustainable development that meets the needs of the present and at the same time is not at the expense of future generations. The Department of Social-Ecological Transformation has been combining sustainability and digitalisation research since 2016 and launched the first Bits & Trees conference in 2018.
-
-    image: /assets/images/traegerinnen_logos/tu-berlin.svg
-    url: https://www.tu.berlin/
   - name: Weizenbaum-Institut
     content: |
       The Weizenbaum Institute for the Networked Society - The German Internet Institute is a collaborative project funded by the Federal Ministry of Education and Research (BMBF). It conducts interdisciplinary and fundamental research into the transformation of society through digitalisation and develops policy options for politics, business and civil society. The aim is to better understand the dynamics, mechanisms and implications of digitalisation.
