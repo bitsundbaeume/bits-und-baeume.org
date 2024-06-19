@@ -1,0 +1,18 @@
+
+/*
+ * These classes will be compiled inte _site/assets/styles/main.46eb<__hash__>096.css
+ *
+ * it might be necessary to run `npm run build` for changes to take effect
+ *
+ * /
+
+
+/* This class can be used to visually confirm that the custom css is loaded correctly e.g. by inserting
+
+<div class="custom_css_test">Test</div>
+
+ */
+.custom_css_test {
+	color: red;
+	font-size: 50px;
+}

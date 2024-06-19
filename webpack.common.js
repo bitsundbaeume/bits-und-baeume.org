@@ -9,6 +9,7 @@ const BASEURL = `${process.env.BASEURL ? process.env.BASEURL : ''}`
 
 const entries = glob.sync(path.resolve(__dirname, 'src/assets/images/posts/*.{png,gif,jpg,jpeg}'));
 entries.push(path.resolve(__dirname, 'src/assets/styles/main.css'));
+entries.push(path.resolve(__dirname, 'src/assets/styles/custom.css'));
 
 let cssFileName = 'styles/[name].css';
 
