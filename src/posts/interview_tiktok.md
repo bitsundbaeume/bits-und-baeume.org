@@ -1,6 +1,8 @@
 ---
 title: "Interview: Das Erstarken der extremen Rechten im digitalen Raum und wie wir dagegen vorgehen können"
-subtitle: subtitle
+#aktuell: nein
+#icon: ""
+aktuell: true
 author: author
 buttontitle: "zum Interview"
 buttonurl: "interview_tiktok"

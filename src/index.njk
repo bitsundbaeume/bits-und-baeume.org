@@ -1,28 +1,30 @@
 ---
-title: Bits & Bäume - Die Bewegung für Digitalisierung und Nachhaltigkeit
-description:
+title: Bits & Bäume – Die Bewegung für Digitalisierung und Nachhaltigkeit
+description: 
 layout: layouts/_base.ejs
 tags: sitemap
 lang: de
 translation: /en/
 ---
 
-<section class="max-w-3xl">
+<section class="max-w-7xl">
 	<h1>Wir sind Bits & Bäume!</h1>
 	<p class="highlight">Gemeinsam setzen wir uns für eine nachhaltige und sozial-gerechte Digitalisierung ein. Wir wollen eine Gestaltung der Digitalisierung fürs Gemeinwohl, statt für die Profite weniger. Wir sind ein Zusammenschluss aus 10 Organisationen aus den Bereichen Umwelt-, Klima-, Digital- und Entwicklungspolitik und Wissenschaft, sowie einer wachsenden „Bits & Bäume“-Community. Wir sind Expert*innen für verschiedene Themen rund um Nachhaltigkeit und Digitalisierung und wollen unsere <a href="https://bits-und-baeume.org/konferenz-2022/forderungen/">Forderungen</a> 
 in Politik und Gesellschaft tragen!</p>
 </section>
 
-<div style="position: relative;">
-	<img src="{{ site.url }}/assets/images/20221001_BitsBaeume2022_FotosSilkeMayer-2_export.jpg" title="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022" alt="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022">
-	<div style="position: absolute; font-size: min(32px, 2.5vw); line-height: 1; font-weight: 700; top: 12%; left: 2.5%; text-shadow: rgba(255, 255, 255, 0.6) 0px 5px 21px;">
-		<span style="font-size: min(64px, 5vw); line-height: 1;">„</span>
-		<div style="display: inline-block; padding-left: min(7px, 0.5vw); padding-right: min(7px, 0.5vw);">In Krisenzeiten braucht es starke<br>Bewegungen mit großen Ideen.</div>
-		<div style="position: relative; top: max(-20px, -1.5vw); display: inline-block;">
-			<span style="font-size: min(64px, 5vw); line-height: 1;" style="position: relative;">“</span></div>
-	</div>
-</div>
+<section class="max-w-7xl">
 
+	<div style="position: relative;">
+		<img src="{{ site.url }}/assets/images/20221001_BitsBaeume2022_FotosSilkeMayer-2_export.jpg" title="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022" alt="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022">
+		<div style="position: absolute; font-size: min(32px, 2.5vw); line-height: 1; font-weight: 700; top: 12%; left: 2.5%; text-shadow: rgba(255, 255, 255, 0.6) 0px 5px 21px;">
+			<span style="font-size: min(64px, 5vw); line-height: 1;">„</span>
+			<div style="display: inline-block; padding-left: min(7px, 0.5vw); padding-right: min(7px, 0.5vw);">In Krisenzeiten braucht es starke<br>Bewegungen mit großen Ideen.</div>
+			<div style="position: relative; top: max(-20px, -1.5vw); display: inline-block;">
+				<span style="font-size: min(64px, 5vw); line-height: 1;" style="position: relative;">“</span></div>
+		</div>
+	</div>
+</section>
 <section class="max-w-7xl">
 	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
 		<div class="box__image w-full md:w-2/5">
@@ -49,36 +51,122 @@ in Politik und Gesellschaft tragen!</p>
 	</div>
 </section>
 
-<section class="max-w-3xl">
+<section class="max-w-6xl">
 
-	<h3>Aktuell</h3>
-
+	<h2 class="h3">Aktuell</h2>
+	<div flex-wrap>
 	{% for post in collections.post %}
 
-		<div class="box box-infos">
-			<p>
-				<i>{{ post.data.datum }}</i>
-			</p>
-			<h2 class="h3">{{ post.data.title }}</h2>
-			<p>
-				{{ post.data.text }}
-			</p>
-			<a href="{{ post.data.buttonurl }}">
-				<button class="btn-dark">{{ post.data.buttontitle }}</button>
-			</a>
-			{{ post.content }}
-			<div class="box__icon">
-				<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
+		{% if post.data.aktuell !== "false" and post.data.aktuell !== "no" and post.data.aktuell !== "nein" %}
+
+			{% if post.data.bild %}
+				<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
+					<div class="box__image w-full md:w-2/5">
+						<img class="object-cover"
+						src="{% thumbnail post.data.bild %}"
+						alt="{{ post.data.bildunterschrift }}"
+						sizes="(min-width: 780px) 280px, 93.04vw"
+						data-img2picture-widths="280,400,670,800"
+						>
+					</div>
+					<div class="text w-full md:w-3/5">
+						<h2 class="h3">{{ post.data.title }}</h2>
+						<p>
+							{{ post.data.text }}
+						</p>
+						{% if post.data.buttonurl %}
+							<p>
+								<a href="{{ post.data.buttonurl }}">
+									<button class="btn-dark">
+										{% if post.data.buttontitle %}
+											{{ post.data.buttontitle }}
+										{% else %}
+											weiterlesen
+										{% endif %}
+									</button>
+								</a>
+							</p>
+						{% endif %}
+						{% if post.data.datum and post.data.author %}
+							<p>
+								<i>{{ post.data.datum }}</i>  ({{ post.data.author }})</p>
+						{% elif post.data.datum %}
+							<p>only date <i>{{ post.data.datum }}</i>
+								{{ post.data.author }}</p>
+						{% elif post.data.author %}
+							<p>({{ post.data.author }})</p>
+						{% endif %}
+					</div>
+					<div class="box__pixel">
+						<img src="/assets/images/pixel-box-img.svg" widht="50" height="40">
+					</div>
+				</div>
+			{% else %}
+				<div class="box box-infos">
+					<h2 class="h3">{{ post.data.title }}</h2>
+					<p>
+						{{ post.data.text }}
+					</p>
+					<p>
+						{% if post.data.buttonurl %}
+							<a href="{{ post.data.buttonurl }}">
+								<button class="btn-dark">
+									{% if post.data.buttontitle %}
+										{{ post.data.buttontitle }}
+									{% else %}
+										weiterlesen
+									{% endif %}
+								</button>
+							</a>
+						{% endif %}
+
+						{% if post.data.icon %}
+							<div class="box__icon">
+								<img src="/assets/images/{{ post.data.icon }}" widht="66" height="66">
+							</div>
+						{% endif %}
+						<div class="box__pixel">
+							<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
+						</div>
+					</p>
+
+					{% if post.data.datum and post.data.author %}
+						<p>
+							<i>{{ post.data.datum }}</i>  ({{ post.data.author }})</p>
+					{% elif post.data.datum %}
+						<p>only date <i>{{ post.data.datum }}</i>
+							{{ post.data.author }}</p>
+					{% elif post.data.author %}
+						<p>({{ post.data.author }})</p>
+					{% endif %}
+
+				</div>
+			{% endif %}
+
+		{% endif %}
+	{% endfor %}
+	</div>
+</section>
+
+<section class="max-w-6xl">
+
+	<h2 class="h3">Stimmen</h2>
+	<div>
+		<div class="flex flex-wrap sm:flex-nowrap">
+			<div class="testimonial__visual">
+				<img class="testimonial__image" src="/assets/images/gallery-example-1-cropped.jpg" alt="Beispiel-Portrait" sizes="150px" data-img2picture-widths="150, 300">
+				<img class="image_icon" src="/assets/images/pixel-testimonial-1.svg" widht="80" height="40">
 			</div>
-			<div class="box__pixel">
-				<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
+			<div>
+				<p class="quote">„Eines Tages aber beschloss eine kleine Zeile Dummytext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Dummytextchen ließ sich nicht beirren.“</p>
+				<p class="quote">Margarita Kourtparasidou, Programmiererin</p>
 			</div>
 		</div>
-	{% endfor %}
-
+	</div>
 </section>
 
 <section class="tiles-section px-0 pt-24">
+
 	<div class="wrapper relative bg-blue-light">
 		<div class="tiles flex flex-wrap container max-w-7xl m-auto relative -top-24">
 			<div class="w-full lg:w-1/3 flex flex-col">
@@ -101,10 +189,14 @@ in Politik und Gesellschaft tragen!</p>
 			</div>
 			<div class="w-full lg:w-1/3 flex flex-col">
 				<div class="box box-infos mx-4 lg:ml-4 flex-1">
-					<h2 class="h3">Call2Action3</h2>
-					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-					<a href="#">
-						<button class="btn-dark">Button dunkel</button>
+					<h2 class="h3">Mailingliste abonnieren</h2>
+					<p>Auf der Mailingliste der B&B Community können interessante Infos geteilt und auch gern freundliche interessierte Fragen an die Community gestellt werden.</p>
+					<p>Jetzt abonnieren per...</p>
+					<a href="mailto:admintest-subscribe@lists.fiff.de?subject=Bits%20%26%20B%C3%A4ume%20Community%20Liste%20abonnieren&body=Hallo%21%0A%0ABitte%20nehmt%20mich%20in%20die%20Communityliste%20mit%20auf.%0AWof%C3%BCr%20sie%20gedacht%20ist%2C%20habe%20ich%20unter%20https%3A%2F%2Flists.bits-und-baeume.org%2Fpostorius%2Flists%2Fcommunity.lists.bits-und-baeume.org%2F%20gelesen.%0A%0AViele%20Gr%C3%BC%C3%9Fe">
+						<button class="btn-dark">...Mail-App</button>
+					</a>
+					<a href="https://lists.bits-und-baeume.org/postorius/lists/community.lists.bits-und-baeume.org/">
+						<button class="btn-dark">...Formular</button>
 					</a>
 				</div>
 			</div>
@@ -128,9 +220,9 @@ in Politik und Gesellschaft tragen!</p>
 				<li>Erstelle einen Pullrequest bei <a href="https://github.com/bitsundbaeume/bits-und-baeume.org">github</a> oder bei <a href="https://codeberg.org/bits-und-baeume/bits-und-baeume.org">codeberg</a>.</li>
 				<li>Schreibe eine Nachricht in den Matrix-Kanal <a href="https://matrix.to/#/#b&b-website-feedback:matrix.org">B&amp;B Website Feedback</a>.</li>
 				<li>Schreibe eine Mail an <tt>website-feedback{ät}bits-und-baeume.org</tt>
-					</span>.</li>
-			</ul>
-		</div>
+				</span>.</li>
+		</ul>
 	</div>
+</div>
 
 </section>

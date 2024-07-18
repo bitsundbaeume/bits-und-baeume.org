@@ -1,7 +1,8 @@
 ---
-aktuell: true
-datum: ""
 title: "Bits & Bäume Kick-Off Treffen Regionalgruppe Leipzig"
+#aktuell: nein
+#icon: ""
+datum: ""
 author: 
 buttontitle: "Mehr Infos zum weiterlesen"
 buttonurl: "http://localhost:8080/willkommen_wikimedia"
