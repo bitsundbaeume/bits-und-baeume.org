@@ -13,6 +13,16 @@ translation: /en/
 in Politik und Gesellschaft tragen!</p>
 </section>
 
+<div style="position: relative;">
+	<img src="{{ site.url }}/assets/images/20221001_BitsBaeume2022_FotosSilkeMayer-2_export.jpg" title="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022" alt="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022">
+	<div style="position: absolute; font-size: min(32px, 2.5vw); line-height: 1; font-weight: 700; top: 12%; left: 2.5%; text-shadow: rgba(255, 255, 255, 0.6) 0px 5px 21px;">
+		<span style="font-size: min(64px, 5vw); line-height: 1;">„</span>
+		<div style="display: inline-block; padding-left: min(7px, 0.5vw); padding-right: min(7px, 0.5vw);">In Krisenzeiten braucht es starke<br>Bewegungen mit großen Ideen.</div>
+		<div style="position: relative; top: max(-20px, -1.5vw); display: inline-block;">
+			<span style="font-size: min(64px, 5vw); line-height: 1;" style="position: relative;">“</span></div>
+	</div>
+</div>
+
 <section class="max-w-7xl">
 
 	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
@@ -43,264 +53,85 @@ in Politik und Gesellschaft tragen!</p>
 <section class="max-w-3xl">
 	<h3>Aktuell</h3>
 
-	<div class="box box-infos">
-		<h2 class="h3">Wir verlassen X (ehemals Twitter)</h2>
-		<p>
-		Wir sagen #ByeByeElon und verabschieden uns von X: Aufgrund zunehmender Einschränkungen und dem massiven Anstieg von Hatespeech und Desinformation werden wir gemeinsam mit 45 Organisationen unseren X-Account zum 18.6.2024, dem internationalen Tag gegen Hatespeech, endgültig stilllegen. Auf <a href="https://mastodon.bits-und-baeume.org/@bits_und_baeume">Mastodon</a> bleiben wir natürlich aktiv und versorgen euch mit Updates und News zu unseren Aktivitäten und allem, was wir so wichtig finden!
-		</p>
-		<a href="https://byebyeelon.de/">
-			<button class="btn-dark">Mehr Infos zum eXit</button>
-		</a>
-		<div class="box__icon">
-			<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
-		</div>
-	</div>
+	{% for post in collections.post %}
 
-	<div class="box box-infos">
-		<h2 class="h3">Bits & Bäume Saar: Call for Participation</h2>
-		<p>
-		Bits & Bäume Saarland veranstaltet im Herbst am 21.&22.9.2024 eine eigene kleine Konferenz in Saarbrücken Malstatt! Wer etwas zur Konferenz beitragen möchte, kann sich über den <a href="https://saar.bits-und-baeume.org/call-for-participation/">Call for Participation</a> bei den Organisator*innen melden. Es gibt die Möglichkeit einen Stand aufzubauen, einen Vortrag oder Workshop zu halten. Und falls ihr nicht selbst zum Programm beitragen wollt, dann markiert euch den Termin schonmal im Kalender. Es lohnt sich bestimmt!
-		
-		</p>
-
-		<div class="box__pixel">
-			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
-		</div>
-	</div>
-
-	<div class="box box-infos">
-		<h2 class="h3">Interview: Das Erstarken der extremen Rechten im digitalen Raum und wie wir dagegen vorgehen können</h2>
-		<p>
-		In weniger als zwei Wochen wird in Europa gewählt. Rechtsextreme und menschenfeindliche Einstellungen sind auf dem Vormarsch, auch wenn AfD-Umfragewerten zuletzt sanken. Das Erstarken rechtsextremer Ideologien im öffentlichen Raum hängt nicht zuletzt mit dem erfolgreichen Auftreten rechtsextremer Akteure im digitalen Raum zusammen. Wir haben im Interview mit der politischen Bildnerin Lara Niederberger von dem Verein mediale pfade über Online-Strategien der extremen Rechten und ihre Bildungsarbeit dazu mit Jugendlichen gesprochen.
-		</p>
-		<a href="interview_tiktok">
-			<button class="btn-dark">zum Interview</button>
-		</a>
-		<div class="box__icon">
-			<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
-		</div>
-	</div>
-
-	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
-		<div class="box__image w-full md:w-2/5">
-			<img class="object-cover"
-				src="{% thumbnail '/assets/images/Jahresausblick/Campbild.jpeg' %}"
-				alt="Sprecher mit Mikrofon"
-				sizes="(min-width: 780px) 280px, 93.04vw"
-				data-img2picture-widths="280,400,670,800"
-			>
-		</div>
-		<div class="text w-full md:w-3/5">
-			<h2 class="h3">SUMMER IS COMING (*screamingemoji*)</h2>
+		<div class="box box-infos">
 			<p>
-			Lust auf gemeinsam Lichterketten löten, Wifi hacken und Lagerfeuer gucken während die Chilis auf dem Balkon und der Gemüsegarten zu Hause gut versorgt sind? Hier kommt der Eventüberblick für alle reisefröhlichen Hacker*innen und Gartensüchtige mit Bits und Bäumen im Herzen!
+				<i>{{ post.data.datum }}</i>
 			</p>
-			<p>Und wer nicht alleine reisen möchte, kann <a href="https://ethercalc.net/22xcly2ri3sv">hier</a> einen Kontakt rein schreiben. </p>
-			<a href="/community/Jahresausblick">
-				<button class="btn-dark">Zum Jahresausblick</button>
+			<h2 class="h3">{{ post.data.title }}</h2>
+			<p>
+				{{ post.data.text }}
+			</p>
+			<a href="{{ post.data.buttonurl }}">
+				<button class="btn-dark">{{ post.data.buttontitle }}</button>
 			</a>
-			<a href="https://cloud.bits-und-baeume.org/apps/calendar/p/HSQmRMc9dmB755CK-Xfe4s2Cfz8ZiMii4/dayGridMonth/now">
-				<button class="btn-dark">Kalender</button>
-			</a>
-		</div>
-		<div class="box__pixel">
-			<img src="/assets/images/pixel-box-img.svg" widht="50" height="40">
-		</div>
-	</div>
-
-	<div class="flex flex-wrap justify-center">
-		<div class="flex flex-wrap justify-center">
-			<div class="w-full lg:w-5/5 flex flex-col">
-				<div class="box box-cta m-4 flex-1">
-					<h2 class="h3" id="frühlingsabend24">Rückblick auf den digitalpolitischen Frühlingsabend am 29.04.2024</h2>
-					<p> Beim digitalpolitischen Frühlingsabend zum Thema “Desinformation, Hate Speech und Radikalisierung: Rechte Praktiken im digitalen Raum und mögliche Handlungsoptionen” sind wir in Inputs und Workshops auf den aktuellen Rechtsruck eingegangen und haben beleuchtet, wie rechte Akteure sich in digitalen Räumen aufstellen, wie sie damit zur Polarisierung von gesellschaftlichen Diskursen beitragen und wie sie konkret gegen Klimaaktivist*innen hetzen. In Diskussionen haben wir außerdem darauf geschaut, mit welchen (politischen) Maßnahmen dem Einhalt geboten werden kann.
-						<br><br>
-						<a href="frühlingsabend24">zum Bericht</a>
-					</p>
-				</div>
+			{{ post.content }}
+			<div class="box__icon">
+				<img src="/assets/images/icon-box-cta.svg" widht="66" height="66">
+			</div>
+			<div class="box__pixel">
+				<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
 			</div>
 		</div>
-	</div>
+	{% endfor %}
 
-	<div class="flex flex-wrap justify-center">
-		<div class="flex flex-wrap justify-center">
-			<div class="w-full lg:w-5/5 flex flex-col">
-				<div class="box box-cta m-4 flex-1">
-					<h2 class="h3" id="abschied_tu_ecdf">Bits & Bäume Kick-Off Treffen Regionalgruppe Leipzig</h2>
-					<p>📆 20.03.24, 20 Uhr<br>
-								📍 <a href="https://www.openstreetmap.org/node/7166820677">dezentrale Leipzig</a>
-					</p>
-					<p>In Leipzig gibt es jetzt eine Ortsgruppe Bits & Bäume! Wir wollen einen offenen Austauschraum für Menschen mit unterschiedlichen Hintergründen schaffen und setzen uns gemeinsam für eine ökologische und sozial gerechte Digitalisierung ein. Wenn du Lust auf das Thema hast und uns kennenlernen willst, komm zu unserem Kick-Off Treffen am 20.3. um 20 Uhr in die <a href="https://www.openstreetmap.org/node/7166820677">dezentrale Leipzig</a>. Dort stellen wir Bits & Bäume vor, es gibt Snacks, Getränke und Zeit für Netzwerken, sowie einen Input zu Digitalisierung & Nachhaltigkeit. Wir freuen uns auf dich!</p>
+</section>
 
+<section class="tiles-section px-0 pt-24">
+	<div class="wrapper relative bg-blue-light">
+		<div class="tiles flex flex-wrap container max-w-7xl m-auto relative -top-24">
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-infos mx-4 lg:mr-4 flex-1">
+					<h2 class="h3">Call2Action1</h2>
+					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class="flex flex-wrap justify-center">
-		<div class="flex flex-wrap justify-center">
-			<div class="w-full lg:w-5/5 flex flex-col">
-				<div class="box box-cta m-4 flex-1">
-					<h2 class="h3" id="abschied_tu_ecdf">Der Bits & Bäume Trägerkreis verabschiedet sich von der TU Berlin und dem ECDF</h2>
-
-					<p>
-					Die Technische Universität (TU) Berlin und das Einstein Center Digital Future (ECDF) sind seit dem 01.01.2024 leider kein Teil mehr des Bits & Bäume Trägerkreises. Wir bedanken uns für eine tolle Zusammenarbeit und insbesondere den Beitrag zur Organisation zweier großartiger Bits & Bäume Konferenzen.
-					<br>
-						<br>
-
-				→ <a href="abschied_tu_ecdf">
-								weiterlesen
-				</a>
-
-					</p>
-
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-cta mx-4 lg:mx-2 flex-1">
+					<h2 class="h3">Call2Action2</h2>
+					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
+					</a>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class="flex flex-wrap justify-center">
-		<div class="flex flex-wrap justify-center">
-			<div class="w-full lg:w-5/5 flex flex-col">
-				<div class="box box-cta m-4 flex-1">
-					<h2 class="h3" id="umfrage">Kurzer Rückblick auf den 37C3</h2>
-					<p>Ende des Jahres 2023 hat zum ersten Mal seit 2019 wieder der Chaos Communication Congress stattgefunden. Wir waren mit Bits & Bäume vom 27. bis 30.12. im Congresszentrum in Hamburg dabei. Zusammen mit 27 Orgas haben wir ein Habitat mit Workshoparea und Sofaecke gestaltet.</p>
-					<a href="37c3_rueckblick">
-						weiterlesen
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-infos mx-4 lg:ml-4 flex-1">
+					<h2 class="h3">Call2Action3</h2>
+					<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
+					<a href="#">
+						<button class="btn-dark">Button dunkel</button>
 					</a>
 				</div>
 			</div>
 		</div>
+		<div class="area__pixel">
+			<img src="/assets/images/pixel-blue-area.svg" widht="60" height="60">
+		</div>
+	</div>
+</section>
 
-		<div class="flex flex-wrap justify-center">
-			<div class="flex flex-wrap justify-center">
-				<div class="w-full lg:w-5/5 flex flex-col">
-					<div class="box box-cta m-4 flex-1">
-						<h2 class="h3" id="willkommen_wikimedia230828">Bits & Bäume wächst und gedeiht Teil II: Willkommen Wikimedia Deutschland im Trägerkreis!</h2>
-						<p>
-					Der Bits & Bäume Trägerkreis wächst weiter! Mit großer Freude heißen wir Wikimedia Deutschland e. V. willkommen.
-					<br>
-							<br>
+<section class="max-w-7xl">
 
-				→ <a href="willkommen_wikimedia">
-								weiterlesen
-				</a>
+	<h3 id="feedback">Das Website-Team in eigener Sache</h3>
 
-						</p>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="flex flex-wrap justify-center">
-
-				<div class="flex flex-wrap justify-center">
-
-					<div class="w-full lg:w-5/5 flex flex-col">
-						<div class="box box-cta m-4 flex-1">
-							<h2 class="h3" id="pub23">Begleitbuch zur Konferenz</h2>
-							<p>
-					Das Begleitbuch zur Konferenz 2022 ist jetzt online! Es umfasst wissenschaftliche und praktische Erkenntnisse sowie Ansichten von über 65 Autor:innen aus Forschung, Aktivismus und Praxis mit Bits &amp; Bäume-Hintergrund.
-					<br>
-								<br>
-
-				→ <a href="https://publication2023.bits-und-baeume.org">
-								publication2023.bits-und-baeume.org
-				</a>
-
-							</p>
-							<!--
-				<a href="https://publication2023.bits-und-baeume.org/">
-								<button class="btn-dark">Zur Publikation</button>
-				</a>
-			-->
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<section class="max-w-7xl">
-				<h2>Bits & Bäume 2022 – Die Konferenz für Digitalisierung und Nachhaltigkeit</h2>
-
-				<p>
-	Die Themen der Bits &amp; Bäume 2022 decken alle Inhalte an der Schnittstelle von Nachhaltigkeit und Digitalisierung ab - und reichen z.B. von vernetzter Mobilität über den Rohstoff- und Strombedarf digitaler Geräte, Datensuffizienz und kooperativen Plattformökonomien bis hin zu smarten Energienetzen oder Monopolisierungstendenzen in der digitalen Ökonomie.
-	</p>
-
-				<!-- Vorheriger Text (zur Bits &amp; Bäume Bewegung): Welche Rolle spielt Nachhaltigkeit für stabile Tech-Communities? Welche ökologischen Chancen stecken in digitalen Anwendungen etwa für Klima- und Ressourcenschutz? Welche Arten von Digitalisierung stehen diesen Zielen entgegen oder sind gar kontraproduktiv? Wie kann die digitale Gesellschaft demokratisch und gerecht gestaltet und zugleich darauf ausgerichtet sein, auf friedvolle Weise die Grundlagen unseres Lebens auf diesem Planeten zu bewahren? -->
-
-				<div style="position: relative;">
-					<img src="{{ site.url }}/assets/images/20221001_BitsBaeume2022_FotosSilkeMayer-2_export.jpg" title="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022" alt="Vorstellung der Trägerkreisorganisationen. Foto von der Auftaktveranstaltung 30.09.2022">
-					<div style="position: absolute; font-size: min(32px, 2.5vw); line-height: 1; font-weight: 700; top: 12%; left: 2.5%; text-shadow: rgba(255, 255, 255, 0.6) 0px 5px 21px;">
-						<span style="font-size: min(64px, 5vw); line-height: 1;">„</span>
-						<div style="display: inline-block; padding-left: min(7px, 0.5vw); padding-right: min(7px, 0.5vw);">In Krisenzeiten braucht es starke<br>Bewegungen mit großen Ideen.</div>
-						<div style="position: relative; top: max(-20px, -1.5vw); display: inline-block;">
-							<span style="font-size: min(64px, 5vw); line-height: 1;" style="position: relative;">“</span></div>
-					</div>
-				</div>
-
-			</section>
-
-			<section class="tiles-section px-0 pt-24">
-				<div class="wrapper relative bg-blue-light">
-					<div class="tiles flex flex-wrap container max-w-7xl m-auto relative -top-24">
-						<div class="w-full lg:w-1/3 flex flex-col">
-							<div class="box box-infos mx-4 lg:mr-4 flex-1">
-								<h2 class="h3">Call2Action1</h2>
-								<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-								<a href="#">
-									<button class="btn-dark">Button dunkel</button>
-								</a>
-							</div>
-						</div>
-						<div class="w-full lg:w-1/3 flex flex-col">
-							<div class="box box-cta mx-4 lg:mx-2 flex-1">
-								<h2 class="h3">Call2Action2</h2>
-								<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-								<a href="#">
-									<button class="btn-dark">Button dunkel</button>
-								</a>
-							</div>
-						</div>
-						<div class="w-full lg:w-1/3 flex flex-col">
-							<div class="box box-infos mx-4 lg:ml-4 flex-1">
-								<h2 class="h3">Call2Action3</h2>
-								<p>Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück.</p>
-								<a href="#">
-									<button class="btn-dark">Button dunkel</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="area__pixel">
-						<img src="/assets/images/pixel-blue-area.svg" widht="60" height="60">
-					</div>
-				</div>
-			</section>
-
-			<section class="max-w-7xl">
-
-				<h3 id="feedback">Das Website-Team in eigener Sache</h3>
-
-				<div class="w-full lg:w-5/5 flex flex-col">
-					<div class="box box-infos m-4 flex-1">
-						<h2 class="h3">Call for Patches &amp; Feedback</h2>
-						<p>Diese Website wird kollaborativ von vielen Menschen gepflegt, die sich alle auch noch um jede Menge anderer Dinge kümmern. Deswegen ist möglicherweise nicht immer alles picobello perfectissimo. Wenn dir also Fehler oder Probleme auffallen, würden wir uns sehr freuen, wenn Du eine der folgenden Möglichkeiten nutzt:
+	<div class="w-full lg:w-5/5 flex flex-col">
+		<div class="box box-infos m-4 flex-1">
+			<h2 class="h3">Call for Patches &amp; Feedback</h2>
+			<p>Diese Website wird kollaborativ von vielen Menschen gepflegt, die sich alle auch noch um jede Menge anderer Dinge kümmern. Deswegen ist möglicherweise nicht immer alles picobello perfectissimo. Wenn dir also Fehler oder Probleme auffallen, würden wir uns sehr freuen, wenn Du eine der folgenden Möglichkeiten nutzt:
 				</p>
-						<ul>
-							<li>Erstelle einen Pullrequest bei <a href="https://github.com/bitsundbaeume/bits-und-baeume.org">github</a> oder bei <a href="https://codeberg.org/bits-und-baeume/bits-und-baeume.org">codeberg</a>.</li>
-							<li>Schreibe eine Nachricht in den Matrix-Kanal <a href="https://matrix.to/#/#b&b-website-feedback:matrix.org">B&amp;B Website Feedback</a>.</li>
-							<li>Schreibe eine Mail an <span title="Dass das eine @dresden.bits-und-baeume.org Adresse ist, hat organisatorische Gründe. Es geht trotzdem um die 'große' Website. ;-)">
-									<tt>website-feedback{ät}dresden.bits-und-baeume.org</tt>
-								</span>.</li>
-						</ul>
-					</div>
-				</div>
+			<ul>
+				<li>Erstelle einen Pullrequest bei <a href="https://github.com/bitsundbaeume/bits-und-baeume.org">github</a> oder bei <a href="https://codeberg.org/bits-und-baeume/bits-und-baeume.org">codeberg</a>.</li>
+				<li>Schreibe eine Nachricht in den Matrix-Kanal <a href="https://matrix.to/#/#b&b-website-feedback:matrix.org">B&amp;B Website Feedback</a>.</li>
+				<li>Schreibe eine Mail an <span title="Dass das eine @dresden.bits-und-baeume.org Adresse ist, hat organisatorische Gründe. Es geht trotzdem um die 'große' Website. ;-)">
+						<tt>website-feedback{ät}dresden.bits-und-baeume.org</tt>
+					</span>.</li>
+			</ul>
+		</div>
+	</div>
 
-			</section>
+</section>

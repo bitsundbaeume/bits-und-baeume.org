@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/_post.ejs",
+    "tags": "post"
+}
