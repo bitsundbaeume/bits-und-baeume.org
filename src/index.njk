@@ -72,7 +72,7 @@ in Politik und Gesellschaft tragen!</p>
 					<div class="text w-full md:w-3/5">
 						<h2 class="h3">{{ post.data.title }}</h2>
 						<p>
-							{{ post.data.text }}
+							{{ post.content | safe }}
 						</p>
 						{% if post.data.buttonurl %}
 							<p>
@@ -105,7 +105,7 @@ in Politik und Gesellschaft tragen!</p>
 				<div class="box box-infos">
 					<h2 class="h3">{{ post.data.title }}</h2>
 					<p>
-						{{ post.data.text }}
+						{{ post.content | safe }}
 					</p>
 					<p>
 						{% if post.data.buttonurl %}
@@ -181,7 +181,7 @@ in Politik und Gesellschaft tragen!</p>
 			<div class="w-full lg:w-1/3 flex flex-col">
 				<div class="box box-cta mx-4 lg:mx-2 flex-1">
 					<h2 class="h3">Vorträge ansehen</h2>
-					<p>Fast alle Vorträge der B&B Konferenzen 2018 und 2022 wurden vom <a target="blanc" href="https://c3voc.de/">c3voc</a> in Echtzeit ins Netz übertragen und sind nun auch als Aufzeichnungen unter freier Lizenz verfügbar.</p>
+					<p>Fast alle Vorträge der B&B Konferenzen 2018 und 2022 wurden vom <a target="blanc" href="https://c3voc.de/">c3voc</a> in Echtzeit ins Netz übertragen und sind auch als Aufzeichnungen unter freier Lizenz verfügbar.</p>
 					<a target="blanc" href="https://media.ccc.de/b/conferences/bitsundbaeume">
 						<button class="btn-dark">zu den Videos</button></a>
 					<a target="blanc" href="https://fahrplan22.bits-und-baeume.org/bitsundbaeume/schedule/">

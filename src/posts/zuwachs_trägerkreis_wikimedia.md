@@ -6,6 +6,6 @@ datum: ""
 author: 
 buttontitle: "Mehr Infos"
 buttonurl: "http://localhost:8080/willkommen_wikimedia"
-text: "Der Bits & Bäume Trägerkreis wächst weiter! Mit großer Freude heißen wir Wikimedia Deutschland e. V. willkommen. "
 ---
+Der Bits & Bäume Trägerkreis wächst weiter! Mit großer Freude heißen wir Wikimedia Deutschland e. V. willkommen.
 
