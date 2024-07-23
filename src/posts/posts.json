@@ -1,6 +1,7 @@
 {
     "layout": "layouts/_post.ejs",
     "tags": "post",
+    "type": "Meldung",
     "icon": "icon-box-cta.svg",
     "aktuell": "true"
 }

@@ -58,7 +58,7 @@ in Politik und Gesellschaft tragen!</p>
 	{% for post in collections.post %}
 
 		{% if post.data.aktuell !== "false" and post.data.aktuell !== "no" and post.data.aktuell !== "nein" %}
-
+		
 			{% if post.data.bild %}
 				<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
 					<div class="box__image w-full md:w-2/5">
@@ -70,6 +70,7 @@ in Politik und Gesellschaft tragen!</p>
 						>
 					</div>
 					<div class="text w-full md:w-3/5">
+					#{{ post.data.type }}
 						<h2 class="h3">{{ post.data.title }}</h2>
 						<p>
 							{{ post.content | safe }}
@@ -103,6 +104,7 @@ in Politik und Gesellschaft tragen!</p>
 				</div>
 			{% else %}
 				<div class="box box-infos">
+				#{{ post.data.type }}
 					<h2 class="h3">{{ post.data.title }}</h2>
 					<p>
 						{{ post.content | safe }}
