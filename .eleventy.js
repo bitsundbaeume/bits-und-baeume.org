@@ -109,6 +109,7 @@ module.exports = function (eleventyConfig) {
   // Copy files static files
   eleventyConfig.addPassthroughCopy({ ['public']: '.' });
   eleventyConfig.addPassthroughCopy(`${INPUT_DIR}/assets/images`);
+  eleventyConfig.addPassthroughCopy("./src/.htaccess");
 
   return {
     htmlTemplateEngine: 'njk',
