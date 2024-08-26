@@ -69,7 +69,7 @@ in Politik und Gesellschaft tragen!</p>
 						>
 						</div>
 						<div class="text w-full md:w-3/5">
-							#{{ post.data.type }}
+							{{ post.data.type }}
 							<h2 class="h3">{{ post.data.title }}</h2>
 							<p>
 								{{ post.data.teaser | safe }}
@@ -105,7 +105,7 @@ in Politik und Gesellschaft tragen!</p>
 				
 				{% else %}
 					<div class="box box-infos">
-						#{{ post.data.type }}
+						{{ post.data.type }}
 						<h2 class="h3">{{ post.data.title }}</h2>
 						<p>
 							{{ post.data.teaser | safe }}
