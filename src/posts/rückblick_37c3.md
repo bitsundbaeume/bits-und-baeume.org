@@ -1,7 +1,9 @@
 ---
-title: "Kurzer Rückblick auf den 37C3"
-#aktuell: nein
+#aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
 #icon: ""
+#type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
+
+title: "Kurzer Rückblick auf den 37C3"
 bild: "assets/images/37c3_habitat.png"
 bildunterschrift: ""
 datum: "09.02.2024"

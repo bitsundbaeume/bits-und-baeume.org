@@ -1,7 +1,9 @@
 ---
-title: "Wir verlassen X (ehemals Twitter)"
-#aktuell: nein
+#aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
 #icon: ""
+#type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
+
+title: "Wir verlassen X (ehemals Twitter)"
 datum: "18.06.2024"
 autorin: leo
 button_text: "🌏 Mehr Infos zum eXit"

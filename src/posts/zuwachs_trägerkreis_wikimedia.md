@@ -1,7 +1,9 @@
 ---
-title: "Bits & Bäume wächst und gedeiht Teil II: Willkommen Wikimedia Deutschland im Trägerkreis!"
-#aktuell: nein
+#aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
 #icon: ""
+#type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
+
+title: "Bits & Bäume wächst und gedeiht Teil II: Willkommen Wikimedia Deutschland im Trägerkreis!"
 datum: "28.08.2023"
 autorin: ""
 button_text: "Mehr Infos"
