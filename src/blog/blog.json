@@ -1,5 +1,5 @@
 {
     "layout": "layouts/_post.ejs",
-    "tags": ["blogpost","post"],
+    "tags": ["blogpost","post", "sitemap"],
     "type": "Blogpost"
 }

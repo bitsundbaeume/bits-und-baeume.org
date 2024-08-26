@@ -8,11 +8,11 @@ aktuell: true
 datum: "30.05.2024"
 autorin: 
 
-# Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung
+# Zwischen Überschrift und Text in Kursiv. So lang wie nötig - keine Zeichenbeschränkung
 einleitung: 
 
 # 250-300 Zeichen - Für die Kacheln auf der Website
-teaser:
+teaser: Lara Niederberger im Interview zu Rechtsextremismus im digitalen Raum und ihre Erfahrungen aus der politischen Bildungsarbeit
 
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
