@@ -2,7 +2,7 @@
 #aktuell: nein
 #icon: ""
 title: "Der Bits & Bäume Trägerkreis verabschiedet sich von der TU Berlin und dem ECDF"
-datum: "27.2.2024"
+datum: "27.02.2024"
 autorin: 
 button_text: "weiterlesen"
 button_url: "http://localhost:8080/abschied_tu_ecdf"

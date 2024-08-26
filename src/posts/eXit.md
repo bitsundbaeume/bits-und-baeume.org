@@ -2,7 +2,7 @@
 title: "Wir verlassen X (ehemals Twitter)"
 #aktuell: nein
 #icon: ""
-datum: "18.6.2024"
+datum: "18.06.2024"
 autorin: leo
 button_text: "🌏 Mehr Infos zum eXit"
 button_url: "https://byebyeelon.de/"

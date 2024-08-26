@@ -2,7 +2,7 @@
 title: "Begleitbuch zur Konferenz 2022"
 #aktuell: nein
 #icon: ""
-datum: "6.6.2024"
+datum: "06.06.2024"
 autorin: Leo
 button_text: "publication2023.bits-und-baeume.org"
 button_url: "https://publication2023.bits-und-baeume.org"

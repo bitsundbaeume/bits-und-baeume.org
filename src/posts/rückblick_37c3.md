@@ -4,7 +4,7 @@ title: "Kurzer Rückblick auf den 37C3"
 #icon: ""
 bild: "assets/images/37c3_habitat.png"
 bildunterschrift: ""
-datum: "9.2.2024"
+datum: "09.02.2024"
 autorin: ah
 button_text: "weiterlesen"
 button_url: "/37c3_rueckblick"

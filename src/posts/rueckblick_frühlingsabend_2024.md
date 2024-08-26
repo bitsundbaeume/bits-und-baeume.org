@@ -4,7 +4,7 @@ title: "Rückblick auf den digitalpolitischen Frühlingsabend am 29.04.2024"
 #icon: ""
 bild: "assets/images/frühlingsabend24.jpg"
 bildunterschrift: ""
-datum: "13.5.2024"
+datum: "13.05.2024"
 autorin: 
 button_text: "zum Bericht"
 button_url: "http://localhost:8080/frühlingsabend24"

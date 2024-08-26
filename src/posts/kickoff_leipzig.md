@@ -2,7 +2,7 @@
 title: "Bits & Bäume Kick-Off Treffen Regionalgruppe Leipzig"
 aktuell: nein
 #icon: ""
-datum: "7.3.2024"
+datum: "07.03.2024"
 autorin: 
 button_text: "Mehr Infos zum weiterlesen"
 button_url: "http://localhost:8080/willkommen_wikimedia"

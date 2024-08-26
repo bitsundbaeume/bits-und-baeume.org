@@ -3,7 +3,7 @@ title: "Interview: Das Erstarken der extremen Rechten im digitalen Raum und wie 
 #aktuell: nein
 #icon: ""
 aktuell: true
-datum: "30.5.2024"
+datum: "30.05.2024"
 autorin: author
 button_text: "zum Interview"
 button_url: "interview_tiktok"

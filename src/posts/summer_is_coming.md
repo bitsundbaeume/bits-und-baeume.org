@@ -5,7 +5,7 @@ title: "SUMMER IS COMING"
 #imagepath: "assets/images/gallery-example-3-cropped.jpg"
 bild: "assets/images/Jahresausblick/Campbild.jpeg"
 bildunterschrift: ""
-datum: "24.5.2024"
+datum: "24.05.2024"
 autorin: vic
 button_text: "Zum Jahresausblick"
 button_url: "http://localhost:8080/community/Jahresausblick"

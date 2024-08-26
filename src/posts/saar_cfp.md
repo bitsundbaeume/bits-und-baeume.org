@@ -3,7 +3,7 @@ title: "Bits & Bäume Saar: Call for Participation"
 #aktuell: nein
 icon: ""
 autorin:
-datum: "12.6.2024"
+datum: "12.06.2024"
 button_text: ""
 button_url: ""
 ---

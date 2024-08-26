@@ -4,7 +4,7 @@ title: "Digital die Welt retten?"
 #icon: ""
 bild: "/assets/images/BUND-HandbuchDigitalpolitik_B&B_Cover.png"
 bildunterschrift: "Cover des Handbuch Digitalpolitik"
-datum: "24.7.2024"
+datum: "24.07.2024"
 autorin: rh
 button_text: "jetzt lesen"
 type: "Publikation"
