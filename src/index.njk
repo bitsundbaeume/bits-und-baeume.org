@@ -70,9 +70,21 @@ in Politik und Gesellschaft tragen!</p>
 						</div>
 						<div class="text w-full md:w-3/5">
 							{{ post.data.type }}
-							<h2 class="h3">{{ post.data.title }}</h2>
+							<h2 class="h3">
+								<a href="{{ post.url }}">{{ post.data.title }}</a>
+							</h2>
 							<p>
-								{{ post.data.teaser | safe }}
+								{% if post.data.teaser %}
+									{{ post.data.teaser }}
+								{% elif post.data.meta_beschreibung %}
+									{{post.data.meta_beschreibung }}
+								{% elif post.data.einleitung %}
+									{{post.data.einleitung }}
+								{% elif post.content %}
+									{{ post.content | safe }}
+								{% else %}
+									no content
+								{% endif %}
 							</p>
 							{% if post.data.button_url %}
 								<p>
@@ -89,9 +101,11 @@ in Politik und Gesellschaft tragen!</p>
 							{% endif %}
 							{% if post.data.datum and post.data.autorin %}
 								<p>
-									<i>{{ post.data.datum }}</i>  ({{ post.data.autorin }})</p>
+									<i>{{ post.data.autorin }} - {{ post.data.datum }}</i>
+								</p>
 							{% elif post.data.datum %}
-								<p>only date <i>{{ post.data.datum }}</i>
+								<p>
+									<i>{{ post.data.datum }}</i>
 									{{ post.data.autorin }}</p>
 							{% elif post.data.autorin %}
 								<p>({{ post.data.autorin }})</p>
@@ -101,14 +115,27 @@ in Politik und Gesellschaft tragen!</p>
 							<img src="/assets/images/pixel-box-img.svg" widht="50" height="40">
 						</div>
 					</div>
-				
-				
+
 				{% else %}
 					<div class="box box-infos">
 						{{ post.data.type }}
-						<h2 class="h3">{{ post.data.title }}</h2>
+						<h2 class="h3">
+							<a href="{{ post.url }}">{{ post.data.title }}</a>
+						</h2>
+
 						<p>
-							{{ post.data.teaser | safe }}
+
+							{% if post.data.teaser %}
+								{{ post.data.teaser }}
+							{% elif post.data.meta_beschreibung %}
+								{{post.data.meta_beschreibung }}
+							{% elif post.data.einleitung %}
+								{{post.data.einleitung }}
+							{% elif post.content %}
+								{{ post.content | safe }}
+							{% else %}
+								no content
+							{% endif %}
 						</p>
 						<p>
 							{% if post.data.button_url %}
@@ -135,9 +162,11 @@ in Politik und Gesellschaft tragen!</p>
 
 						{% if post.data.datum and post.data.autorin %}
 							<p>
-								<i>{{ post.data.datum }}</i>  ({{ post.data.autorin }})</p>
+								<i>{{ post.data.autorin }} - {{ post.data.datum }}</i>
+							</p>
 						{% elif post.data.datum %}
-							<p><i>{{ post.data.datum }}</i>
+							<p>
+								<i>{{ post.data.datum }}</i>
 								{{ post.data.autorin }}</p>
 						{% elif post.data.autorin %}
 							<p>({{ post.data.autorin }})</p>

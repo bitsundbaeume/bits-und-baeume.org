@@ -21,8 +21,8 @@ teaser: Wir verabschieden uns von der TU Berlin und dem ECDF!
 meta_beschreibung: TU Berlin und ECDF verlassen Bits & Bäume
 
 # Buttonbeschriftungen auf der Hauptseite
-button_text: "weiterlesen"
-button_url: "http://localhost:8080/abschied_tu_ecdf"
+#button_text: "eigene Buttonbeschriftung"
+#button_url: ""
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 #aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
-#type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
+type: "Publikation" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 datum: "24.07.2024"
 autorin: "Frederike Hildebrandt"
@@ -15,14 +15,13 @@ title: "Digital die Welt retten?"
 einleitung: 
 
 # 250-300 Zeichen - Für die Kacheln auf der Website
-teaser: Handbuch für eine nachhaltige, digitale und gerechte Zukunft
+teaser: Dieses Handbuch ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst.
 
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
 
-
-button_text: "jetzt lesen"
-type: "Publikation"
+# Button - Falls hier eine URL angegeben wird, führt der Button nicht zur eigenen Seite sondern direkt zur URL
+button_text: "Direkt zum Download"
 button_url: "/assets/images/pdfs/BUND-HandbuchDigitalpolitik_B&B.pdf"
 ---
 Dieses Handbuch ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst. 17 Autorinnen, Aktivistinnen und Wissenschaftler*innen haben gemeinsam die größten Herausforderungen des digitalen Wandels in sieben Kapiteln diskutiert und zusammengefasst:
