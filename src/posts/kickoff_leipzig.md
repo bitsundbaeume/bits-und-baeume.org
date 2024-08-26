@@ -1,5 +1,5 @@
 ---
-aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
+aktuell: nein
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
@@ -19,10 +19,8 @@ teaser:
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
 
-
-button_text: "Mehr Infos zum weiterlesen"
-button_url: "http://localhost:8080/willkommen_wikimedia"
-text: ""
+# button_text: "Mehr Infos zum weiterlesen"
+# button_url: ""
 ---
 <p>
 📆 20.03.24, 20 Uhr<br>
