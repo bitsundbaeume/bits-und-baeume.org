@@ -5,13 +5,17 @@
 
 datum: "27.02.2024"
 autorin: 
+permalink: abschied_tu_ecdf/
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
+
 title: "Der Bits & Bäume Trägerkreis verabschiedet sich von der TU Berlin und dem ECDF"
 
 # Zwischen Überschrift und Text
 einleitung: 
 
 # Für die Kacheln auf der Website
-teaser:
+teaser: Wir verabschieden uns von der TU Berlin und dem ECDF!
 
 # Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: TU Berlin und ECDF verlassen Bits & Bäume

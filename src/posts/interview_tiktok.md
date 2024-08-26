@@ -8,6 +8,9 @@ aktuell: true
 datum: "30.05.2024"
 autorin: 
 
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
+
 # Zwischen Überschrift und Text in Kursiv. So lang wie nötig - keine Zeichenbeschränkung
 einleitung: 
 

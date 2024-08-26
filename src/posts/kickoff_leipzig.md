@@ -7,6 +7,9 @@ title: "Bits & Bäume Kick-Off Treffen Regionalgruppe Leipzig"
 datum: "07.03.2024"
 autorin: 
 
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
+
 # Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung
 einleitung: 
 

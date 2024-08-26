@@ -6,6 +6,10 @@
 
 datum: "12.06.2024"
 autorin:
+
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
+
 title: "Bits & Bäume Saar: Call for Participation"
 
 # Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung

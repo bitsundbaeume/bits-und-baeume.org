@@ -9,6 +9,9 @@ bildunterschrift: ""
 datum: "13.05.2024"
 autorin: 
 
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
+
 # Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung
 einleitung: 
 

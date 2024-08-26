@@ -5,6 +5,11 @@
 
 datum: "06.06.2024"
 autorin: Leo
+permalink: begleitbuch_konferenz_2022/
+
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
+
 title: "Begleitbuch zur Konferenz 2022"
 
 # Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung

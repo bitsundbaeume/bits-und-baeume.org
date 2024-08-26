@@ -4,8 +4,10 @@
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 #imagepath: "assets/images/gallery-example-3-cropped.jpg"
 
-title: "Summer is coming"
 bild: "assets/images/Jahresausblick/Campbild.jpeg"
+#bildunterschrift: ""
+
+title: "Summer is coming"
 bildunterschrift: ""
 datum: "24.05.2024"
 autorin: vic

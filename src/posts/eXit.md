@@ -7,6 +7,8 @@ title: "Wir verlassen X (ehemals Twitter)"
 datum: "18.06.2024"
 autorin: leo
 
+#bild: "/assets/images/BILD.png"
+#bildunterschrift: ""
 
 # Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung
 einleitung: 
