@@ -1,16 +1,17 @@
 ---
-#aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 type: "Empfehlung" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 # imagepath: "assets/images/gallery-example-3-cropped.jpg"
+
+aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
+datum: "24.05.2024"
+autorin: M4R4
 
 bild: "assets/images/Jahresausblick/Campbild.jpeg"
 #bildunterschrift: ""
 
 title: "Summer is coming - Jahresausblick 2024"
 bildunterschrift: ""
-datum: "24.05.2024"
-autorin: M4R4
 
 # Zwischen Überschrift und Text
 einleitung: 

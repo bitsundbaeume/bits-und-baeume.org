@@ -1,8 +1,9 @@
 ---
-#aktuell: nein # Wenn dieser Post nicht mehr aktuell ist und auf der Startseite angezeigt werden soll, kann das # entfernt werden
+
 #icon: "" # Icon auf der Kachel ausschalten
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
+aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
 datum: "0x.0y.202X"
 autorin: 
 
