@@ -3,5 +3,7 @@
     "tags": ["post", "sitemap"],
     "type": "Meldung",
     "icon": "icon-box-cta.svg",
-    "aktuell": "true"
+    "aktuell": "true",
+    "autorin": "",
+    "einleitung": ""    
 }
