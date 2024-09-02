@@ -2,8 +2,8 @@
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 #type: "Interview" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
-#permalink: /blog/eigener_Name/
-aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
+#permalink: /blog/eigener_Name/ #ansonsten gilt /blog/Dateiname als Link
+#aktuell: ja # Wenn dieser Post aktuell ist einfach das # am Anfang löschen.
 #extern: ja # wenn blog als extern markiert ist führt auch die Überschrift zur button url
 
 datum: "2024-05-30"
