@@ -29,6 +29,4 @@ meta_beschreibung:
 #button_url: "andere URL"
 
 
-eleventyComputed:
-  sortierbaresDatum: "{{ datum.split('.')[2] }}-{{ datum.split('.')[1] }}-{{ datum.split('.')[0] }}"
 ---
