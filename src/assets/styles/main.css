@@ -150,7 +150,7 @@
 		}
 		@media (min-width: 1280px) {
 			.header-menu li a {
-				padding: 2rem 1.5rem;
+				padding: 2rem 1rem;
 			}
 		}
 		.header-menu li a:hover {
