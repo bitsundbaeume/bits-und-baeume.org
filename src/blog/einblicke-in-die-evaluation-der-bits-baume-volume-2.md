@@ -1,6 +1,6 @@
 ---
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
-#type: "Interview" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
+type: "Konferenz Blog" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 #permalink: /blog/eigener_Name/
 #aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
@@ -9,8 +9,8 @@ extern: ja # wenn blog als extern markiert ist führt auch die Überschrift zur 
 datum: "2022-11-15"
 autorin: Naila Duddek
 
-#bild: "/assets/images/BILD.png"
-#bildunterschrift: ""
+bild: "/assets/images/blog_extern/52397294061_7efbedc61d_o.jpg"
+bildunterschrift: "Für eine global gerechte Digitalisierung braucht es Akteur*innen aus allen Branchen - nicht zuletzt aus der Wirtschaft. "
 
 title: "Einblicke in die Evaluation der ‹Bits & Bäume› - Volume 2"
 description: 

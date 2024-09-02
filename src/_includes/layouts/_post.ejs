@@ -2,9 +2,9 @@
 layout: layouts/_base.ejs
 ---
 <section class="content max-w-3xl">
-<%= type %>
+<p><%= type %></p>
 <h1><%= title %></h1>
-<p><i><%= datum %></i> <i><%= autorin %></i></p>
+<p><i><%= datum.slice(-2); %>.<%= datum.slice(5,7); %>.<%= datum.slice(0,4); %></i> <i><%= autorin %></i></p>
 <i><%= einleitung %></i>
 <%- content %>
 </section>

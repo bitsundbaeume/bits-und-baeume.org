@@ -20,7 +20,11 @@ lang: de
 				{% if post.data.bild %}
 					<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
 						<div class="box__image w-full md:w-2/5">
-							<a href="{{ post.url }}">
+							{% if post.data.extern == "ja"  %}
+									<a href="{{ post.data.button_url }}">{{ post.data.title }}
+								{% else %}
+									<a href="{{ post.url }}">{{ post.data.title }}
+								{% endif %}
 								<img class="object-cover"
 						src="{% thumbnail post.data.bild %}"
 						alt="{{ post.data.bildunterschrift }}"
