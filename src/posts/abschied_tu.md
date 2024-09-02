@@ -4,7 +4,7 @@
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
-datum: "27.02.2024"
+datum: "2024-02-27"
 autorin: 
 permalink: abschied_tu_ecdf/
 #bild: "/assets/images/BILD.png"

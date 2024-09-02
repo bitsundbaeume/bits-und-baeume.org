@@ -6,7 +6,7 @@ aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # 
 
 
 title: "Bits & Bäume wächst und gedeiht Teil II: Willkommen Wikimedia Deutschland im Trägerkreis!"
-datum: "28.08.2023"
+datum: "2023-08-28"
 autorin: ""
 button_text: "Mehr Infos"
 button_url: "http://localhost:8080/willkommen_wikimedia"

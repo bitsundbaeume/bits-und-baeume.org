@@ -4,7 +4,7 @@ type: "Empfehlung" # Typ ist in diesem Ordner automatsch Meldung kann aber hier 
 # imagepath: "assets/images/gallery-example-3-cropped.jpg"
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
-datum: "24.05.2024"
+datum: "2024-05-24"
 autorin: M4R4
 
 bild: "assets/images/Jahresausblick/Campbild.jpeg"

@@ -3,7 +3,7 @@
 type: "Publikation" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
-datum: "24.07.2024"
+datum: "2024-07-24"
 autorin: "Frederike Hildebrandt"
 
 bild: "/assets/images/BUND-HandbuchDigitalpolitik_B&B_Cover.png"

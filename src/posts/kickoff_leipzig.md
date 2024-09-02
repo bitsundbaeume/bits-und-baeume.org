@@ -4,7 +4,7 @@
 
 # aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
 title: "Bits & Bäume Kick-Off Treffen Regionalgruppe Leipzig"
-datum: "07.03.2024"
+datum: "2024-03-07"
 autorin: 
 
 #bild: "/assets/images/BILD.png"
