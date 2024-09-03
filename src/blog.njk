@@ -160,7 +160,7 @@ lang: de
 					{% endif %}
 				{% endfor %}
 
-<h4>ältere Blogposts</h4>
+<h4>Vergangene Blogposts</h4>
 		{% for post in collections.blogpost | sort(attribute = 'data.datum') | reverse %}
 
 			{% if post.data.aktuell != "ja"  %}
