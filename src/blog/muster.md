@@ -6,7 +6,7 @@
 #aktuell: ja # Wenn dieser Post aktuell ist einfach das # am Anfang löschen.
 #extern: ja # wenn blog als extern markiert ist führt auch die Überschrift zur button url
 
-datum: "2024-05-30"
+datum: "202X-MM-TT"
 #autorin: Autorname
 
 #bild: "/assets/images/BILD.png"
