@@ -1,31 +1,31 @@
 ---
-#icon: "" # Entferne das # um das Icon auf der Kachel auszuschalten
-#type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel über der Überschrift
+#icon: "" # Icon auf der Kachel ausschalten durch löschen des #
+type: "Interview" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
+permalink: interview_rike/
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
 datum: "2024-07-11"
-autorin: 
+autorin: Leo
 
-# permalink:
-bild: "assets/images/rike.png"
 
-#bild: "/assets/images/rike_cut-600w.avif"
-#bildunterschrift: "Rike © Ian Clothworthy"
+bild: "/assets/images/rike.png"
+bildunterschrift: "Rike © Ian Clothworthy"
 
 title: "Unsere neue Koordinatorin Rike stellt sich vor!"
+description: Interview mit unserer neuen Koordinatorin Rike
 
 # Zwischen Überschrift und Text
 einleitung: 
 
 # Für die Kacheln auf der Website
-teaser: Friederike (Rike) Hildebrandt arbeitet seit dem 1.7.2024 als Koordinatorin für Bits & Bäume.
+teaser: Friederike (Rike) Hildebrandt arbeitet seit dem 1.7.2024 als Koordinatorin für Bits & Bäume. Neu ist sie im Netzwerk nicht, denn sie hat zuvor den BUND, bei dem sie die letzten 3 Jahre gearbeitet hat, im Trägerkreis vertreten. Im Interview berichtet sie nun, worauf sie sich in der Bits & Bäume Arbeit freut, welche Themen ihr am Herzen liegen und was sich politisch verändern muss!
 
 # Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
 
-# Buttonbeschriftungen auf der Hauptseite
-#button_text: "eigene Buttonbeschriftung"
-#button_url: ""
+
+tags: sitemap
+lang: de
 ---
 _Friederike (Rike) Hildebrandt arbeitet seit dem 1.7.2024 als Koordinatorin für Bits & Bäume. Neu ist sie im Netzwerk nicht, denn sie hat zuvor den BUND, bei dem sie die letzten 3 Jahre gearbeitet hat, im Trägerkreis vertreten. Beim BUND hat Rike vor allem zu den Themen Digitalisierung und Nachhaltigkeit, sowie Ressourcenschutz gearbeitet. Außerdem bringt sie viel Fachwissen aus ihrem VWL Studium, sowie einem Master in International Development Studies mit. Im Interview mit Leo, die als wissenschaftliche Hilfskraft in der Koordinationstelle arbeitet, berichtet sie nun, worauf sie sich in der Bits & Bäume Arbeit freut und welche Themen ihr am Herzen liegen._
 

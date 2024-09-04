@@ -16,7 +16,7 @@ title: "Der Bits & Bäume Trägerkreis verabschiedet sich von der TU Berlin und 
 einleitung: 
 
 # Für die Kacheln auf der Website
-teaser: Wir verabschieden uns von der TU Berlin und dem ECDF!
+teaser: Die Technische Universität (TU) Berlin und das Einstein Center Digital Future (ECDF) sind seit dem 01.01.2024 leider kein Teil mehr des Bits & Bäume Trägerkreises. Wir bedanken uns für eine tolle Zusammenarbeit und insbesondere den Beitrag zur Organisation zweier großartiger Bits & Bäume Konferenzen.
 
 # Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: TU Berlin und ECDF verlassen Bits & Bäume

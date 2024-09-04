@@ -14,7 +14,7 @@ autorin:
 einleitung: 
 
 # 250-300 Zeichen - Für die Kacheln auf der Website
-teaser: "Wir sagen #ByeByeElon und verabschieden uns von X (ehemals Twitter)"
+teaser: "Wir sagen #ByeByeElon und verabschieden uns von X: Aufgrund zunehmender Einschränkungen und dem massiven Anstieg von Hatespeech und Desinformation legen wir gemeinsam mit 45 Organisationen unseren X-Account zum 18.6.2024 endgültig still. Folgt uns gerne weiterhin auf Mastodon!"
 
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 

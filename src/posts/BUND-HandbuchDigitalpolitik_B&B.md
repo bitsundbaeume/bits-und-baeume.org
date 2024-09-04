@@ -15,7 +15,7 @@ title: "Digital die Welt retten?"
 einleitung: 
 
 # 250-300 Zeichen - Für die Kacheln auf der Website
-teaser: Dieses Handbuch ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst.
+teaser: Das Handbuch, das in Zusammenarbeit vom BUND und Bits & Bäume enstanden ist, ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst. 17 Autorinnen, Aktivistinnen und Wissenschaftler*innen haben gemeinsam die größten Herausforderungen des digitalen Wandels in sieben Kapiteln diskutiert und zusammengefasst.
 
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
@@ -37,5 +37,17 @@ Das Buch beleuchtet, was hinter den Versprechen der Digitalisierung steckt und w
 
 Das Buch entstand in Zusammenarbeit mit dem BUND und orientiert sich an den Konzepten des Postwachstums der digitalen Suffizienz. Das bedeutet: so viel Digitalisierung wie nötig, aber so wenig wie möglich. Es geht darum, die Digitalisierung als Mittel für eine gerechte und nachhaltige Wirtschaft zu nutzen, nicht als Selbstzweck.
 
+<b><i>Autor*innen:</i></b> Louise Kaufmann, Rhea Holl, Paul Robben, Fabian Telschow, Eva Schültken,
+Sophie Friedl, Peter Kraemer, Irma Beuscher, Greta Zwer, Jeanette Kollien,
+Friederike Hildebrandt, Katharina van Treeck, Melissa Ihlow <br>
+<b><i>Unter Mitwirkung von:</i></b> Carmen Junge, Patrick Luzina, Grietje Zimmermann, Derian Boer,
+Carolin Lotter, Julia Strahlmann <br>
+<b><i>Redaktion:</i></b> Louise Kaufmann, Friederike Hildebrandt, Katharina van Treeck, Carmen Junge,
+Patrick Luzina, Jeanette Kollien
 
-Hinweis: Der BUND hat das Bündnis im Juni 2024 verlassen, und dieses Buch ist das letzte Ergebnis dieser Zusammenarbeit. Es basiert auf fundierten wissenschaftlichen Studien und wurde von Expert*innen überprüft. Die Inhalte spiegeln die Meinungen der Autor*innen nicht die Positionen des BUND eV oder der einzelnen Organisationen des Bits & Bäume Trägerkreis. Feedback und Rückmeldungen zu den Kapiteln sind herzlich willkommen unter info@bits-und-baeume.org.
+<p>
+Hinweis: Der BUND hat das Bündnis im Juni 2024 verlassen, und dieses Buch ist das letzte Ergebnis dieser Zusammenarbeit. Es basiert auf fundierten wissenschaftlichen Studien und wurde von Expert*innen überprüft. Die Inhalte spiegeln die Meinungen der Autor*innen nicht die Positionen des BUND eV oder der einzelnen Organisationen des Bits & Bäume Trägerkreis. Feedback und Rückmeldungen zu den Kapiteln sind herzlich willkommen unter info@bits-und-baeume.org.</p>
+
+<i>Dieses Projekt wurde gefördert durch das <a href="https://www.umweltbundesamt.de/">Umweltbundesamt</a> und das <a href="https://www.bmuv.de/">Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz</a>. Die Mittelbereitstellung erfolgt auf Beschluss des Deutschen Bundestages.</i>
+
+
