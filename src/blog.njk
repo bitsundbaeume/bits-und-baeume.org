@@ -15,7 +15,7 @@ lang: de
 <h4>Aktuelle Blogposts</h4>
 		{% for post in collections.blogpost | sort(attribute = 'data.datum') | reverse %}
 
-			{% if post.data.aktuell == "ja" and post.data.datum != "202X-MM-TT" %}
+			{% if post.data.extern != "ja" and post.data.datum != "202X-MM-TT" %}
 
 				{% if post.data.bild %}
 					<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
@@ -160,10 +160,10 @@ lang: de
 					{% endif %}
 				{% endfor %}
 
-<h4>Vergangene Blogposts</h4>
+<h4>Highlights vom Konferenzblog 2022</h4>
 		{% for post in collections.blogpost | sort(attribute = 'data.datum') | reverse %}
 
-			{% if post.data.aktuell != "ja" and post.data.datum != "202X-MM-TT"  %}
+			{% if post.data.extern == "ja" and post.data.datum != "202X-MM-TT"  %}
 
 				{% if post.data.bild %}
 					<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
