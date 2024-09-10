@@ -12,7 +12,7 @@ autorin: Lukas Latz
 bild: "/assets/images/blog_extern/D0D5D684-2BDC-4AB3-ADB6-FDD9DC861F9A-1.jpeg"
 bildunterschrift: "Viel Gesprächsbedarf auch nach dem Vortrag: David Ayers (links) "
 
-title: ""Bio fürs Internet": Büroalltag ohne Google, Microsoft und Co."
+title: "Bio fürs Internet: Büroalltag ohne Google, Microsoft und Co."
 description: 
 
 # Zwischen Überschrift und Text in Kursiv. So lang wie nötig - keine Zeichenbeschränkung
