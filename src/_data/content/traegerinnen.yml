@@ -24,6 +24,11 @@ items:
      Wissenschaft setzen wir uns für eine vielfältige, weltoffene und tolerante Zivilgesellschaft ein.
     image: /assets/images/traegerinnen_logos/dnr.svg
     url: https://www.dnr.de/
+  - name: Deutscher Gewerkschaftsbund
+    content: |
+     Der Deutsche Gewerkschaftsbund (DGB) vertritt 5,7 Millionen Mitglieder aus 8 Gewerkschaften. Der DGB vereint Expert*innen für das Thema Arbeit und steht hinter den Beschäftigten in allen Berufsgruppen. Mit Mut, Kraft und Optimismus setzt sich der DGB für gerechte, solidarische Verhältnisse in der Arbeitswelt und in der Gesellschaft ein.
+    image: /assets/images/traegerinnen_logos/DGB_Raute.png
+    url: https://www.dgb.de/
   - name: Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.
     content: |
      Das FIfF ist ein Zusammenschluss von engagiert-kritischen Fachleuten aus 
