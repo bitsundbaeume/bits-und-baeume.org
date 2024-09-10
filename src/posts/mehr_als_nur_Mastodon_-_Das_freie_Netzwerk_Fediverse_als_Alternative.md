@@ -9,8 +9,8 @@ datum: "2024-09-09"
 autorin: Patty
 
 # permalink:
-#bild: "/assets/images/BILD.png"
-#bildunterschrift: ""
+bild: "/assets/images/Berliner_Fediverse_Tag.jpg"
+bildunterschrift: "Banner des Berliner Fediverse Tags"
 
 title: "Mehr als nur Mastodon"
 
