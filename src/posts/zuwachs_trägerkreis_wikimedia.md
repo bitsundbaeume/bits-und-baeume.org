@@ -3,7 +3,7 @@
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
-
+bild: "/assets/images/wikimedia-deutschland.png"
 
 title: "Bits & Bäume wächst und gedeiht Teil II: Willkommen Wikimedia Deutschland im Trägerkreis!"
 datum: "2023-08-28"

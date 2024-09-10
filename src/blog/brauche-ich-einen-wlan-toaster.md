@@ -1,4 +1,4 @@
-/
+---
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 type: "Konferenz Blog" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 

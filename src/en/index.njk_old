@@ -1,0 +1,115 @@
+---
+title: Bits & Bäume - The conference for digitalisation and sustainability
+description: 2022-09-30 – 2022-10-02, TU Berlin.
+layout: layouts/_base.ejs
+tags: sitemap
+lang: en
+translation: /
+---
+
+<section class="container max-w-7xl">
+
+
+
+	<div class="flex flex-wrap justify-center">
+
+		<div class="w-full lg:w-5/5 flex flex-col">
+			<div class="box box-cta m-4 flex-1">
+				<h2 class="h3" id="pub23">Companion book to the conference 2022</h2>
+				<p>
+					The companion book to the conference 2022 is now online and compiles the insights, work, research and opinions of more than 65 authors with a ‹Bits &amp; Bäume› background, including practitioners, researchers and activists.
+					<br>
+					<br>
+
+				→ <a href="https://publication2023.bits-und-baeume.org">
+								publication2023.bits-und-baeume.org
+				</a>
+
+				</p>
+			<!--
+				<a href="https://publication2023.bits-und-baeume.org/">
+								<button class="btn-dark">Publication</button>
+				</a>
+			-->
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<section class="max-w-7xl">
+
+	<h2>The conference for digitalisation and sustainability</h2>
+
+	<p>
+
+	Bits &amp; Bäume 2022 covers topics at the intersection between the areas of sustainability and digitalisation. They range from interconnected mobility, the resource and energy consumption of digital devices, data sufficiency and cooperative platform economies to issues around smart energy 	grids and the tendency towards monopolisation in the digital economy.
+
+        <!-- Alter Text: What role does sustainability play for stable tech communities? What ecological opportunities do digital applications offer for climate protection and resource conservation? What types of digitalisation are opposed to these goals or are even counterproductive? How can the digital society be shaped democratically and justly and at the same time be geared towards peacefully preserving the foundations of our life on this planet?-->
+	</p>
+
+	<div style="position: relative;">
+		<img src="{{ site.url }}/assets/images/20221001_BitsBaeume2022_FotosSilkeMayer-2_export.jpg" title="Presentation of the supporting organizations (Trägerkreise). Photo from the launch event 30th September, 2022" alt="Presentation of the supporting organizations (Trägerkreise). Photo from the launch event 30th September, 2022">
+		<div style="position: absolute; font-size: min(32px, 2.5vw); line-height: 1; font-weight: 700; top: 12%; left: 2.5%; text-shadow: rgba(255, 255, 255, 0.6) 0px 5px 21px;">
+			<span style="font-size: min(64px, 5vw); line-height: 1;">„</span><div style="display: inline-block; padding-left: min(7px, 0.5vw); padding-right: min(7px, 0.5vw);">In times of crisis, strong movements<br>with big ideas are needed.</div><div style="position: relative; top: max(-20px, -1.5vw); display: inline-block;"><span style="font-size: min(64px, 5vw); line-height: 1;" style="position: relative;">“</span></div>
+		</div>
+	</div>
+
+</section>
+
+<section class="max-w-7xl">
+  <div class="box box-cta flex flex-wrap md:flex-nowrap gap-x-5">
+    <div class="box__image w-full md:w-1/3">
+      <a href="{{ site.url }}/assets/images/pdfs/Bits_und_Baeume_Political_Demands_english.pdf">
+        <img class="object-cover image-height"
+          src="{% thumbnail '/assets/images/demands2022-page1.jpg' %}"
+          alt="Demands page 1"
+        >
+      </a>
+    </div>
+    <div class="text w-full md:w-2/3">
+      <h2 class="h3">Demands 2022</h2>
+      <p>
+        We demand: Digitalisation must increasingly be put into the service of society and of a sustainable socio-ecological transformation. Digital technologies should contribute to the improvement of living conditions and of the environment through equal social participation and while respecting planetary boundaries, instead of exacerbating already existing crises through exploding energy and resource consumption and a lack of consideration of the Global South. </p>
+		<p> With this call, thirteen organisations from the fields of environmental protection, digital politics, development cooperation, and science are addressing the German government, the European Union and political actors worldwide. On the occasion of the Conference for Digitalisation and Sustainability "Bits & Bäume" 2022 we are releasing more than 60 political demands grouped in five subject areas.
+      </p>
+      <div class="buttons">
+        <a href="{{ site.url }}/assets/images/pdfs/Bits_und_Baeume_Political_Demands_english.pdf">
+          <button class="btn-dark">Political demands (PDF)</button>
+        </a>
+        <a href="{{ site.url }}/en/conference-2022/demands/#heading">
+          <button class="btn-dark">Political demands (HTML)</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="max-w-7xl">
+  <div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
+    <div class="box__image w-full md:w-2/5">
+      <img class="object-cover image-height"
+           src="{% thumbnail '/assets/images/RecordingPic.png' %}"
+           alt="stillframe of a recording"
+      >
+    </div>
+    <div class="text w-full md:w-3/5">
+      <h2 class="h3">Recordings</h2>
+      <h4>Almost all presentations of the conference (all 10 lecture halls plus the forum studio) have been broadcast in real-time and are available as recordings:</h4>
+      <div class="button-container">
+        <a href="https://media.ccc.de/c/bub2022">
+          <button class="btn-dark">to the 2022 recordings</button>
+        </a>
+        <a href="https://media.ccc.de/c/bub2018">
+          <button class="btn-dark">to the 2018 recordings</button>
+        </a>
+      </div>
+    </div>
+    <div class="box__pixel">
+      <img src="{{ site.url }}/assets/images/pixel-box-img.svg" alt="box" width="50" height="40">
+    </div>
+  </div>
+</section>
