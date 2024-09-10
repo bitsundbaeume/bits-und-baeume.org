@@ -7,7 +7,7 @@ aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # 
 datum: "2024-05-24"
 autorin: M4R4
 
-bild: "assets/images/Jahresausblick/Campbild.jpeg"
+bild: "/assets/images/Jahresausblick/Campbild.jpeg"
 #bildunterschrift: ""
 
 title: "Summer is coming - Jahresausblick 2024"

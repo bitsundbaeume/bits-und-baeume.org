@@ -15,7 +15,7 @@ title: "Unsere neue Koordinatorin Rike stellt sich vor!"
 description: Interview mit unserer neuen Koordinatorin Rike
 
 # Zwischen Überschrift und Text
-einleitung: 
+einleitung: "Friederike (Rike) Hildebrandt arbeitet seit dem 1.7.2024 als Koordinatorin für Bits & Bäume. Neu ist sie im Netzwerk nicht, denn sie hat zuvor den BUND, bei dem sie die letzten 3 Jahre gearbeitet hat, im Trägerkreis vertreten. Beim BUND hat Rike vor allem zu den Themen Digitalisierung und Nachhaltigkeit, sowie Ressourcenschutz gearbeitet. Außerdem bringt sie viel Fachwissen aus ihrem VWL Studium, sowie einem Master in International Development Studies mit. Im Interview mit Leo, die als wissenschaftliche Hilfskraft in der Koordinationstelle arbeitet, berichtet sie nun, worauf sie sich in der Bits & Bäume Arbeit freut und welche Themen ihr am Herzen liegen."
 
 # Für die Kacheln auf der Website
 teaser: Friederike (Rike) Hildebrandt arbeitet seit dem 1.7.2024 als Koordinatorin für Bits & Bäume. Neu ist sie im Netzwerk nicht, denn sie hat zuvor den BUND, bei dem sie die letzten 3 Jahre gearbeitet hat, im Trägerkreis vertreten. Im Interview berichtet sie nun, worauf sie sich in der Bits & Bäume Arbeit freut, welche Themen ihr am Herzen liegen und was sich politisch verändern muss!
@@ -27,11 +27,8 @@ meta_beschreibung:
 tags: sitemap
 lang: de
 ---
-_Friederike (Rike) Hildebrandt arbeitet seit dem 1.7.2024 als Koordinatorin für Bits & Bäume. Neu ist sie im Netzwerk nicht, denn sie hat zuvor den BUND, bei dem sie die letzten 3 Jahre gearbeitet hat, im Trägerkreis vertreten. Beim BUND hat Rike vor allem zu den Themen Digitalisierung und Nachhaltigkeit, sowie Ressourcenschutz gearbeitet. Außerdem bringt sie viel Fachwissen aus ihrem VWL Studium, sowie einem Master in International Development Studies mit. Im Interview mit Leo, die als wissenschaftliche Hilfskraft in der Koordinationstelle arbeitet, berichtet sie nun, worauf sie sich in der Bits & Bäume Arbeit freut und welche Themen ihr am Herzen liegen._
 
-![Rike](https://bits-und-baeume.org/assets/images/rike_cut-600w.avif)
 
-© Ian Clothworthy
 
 **Leo: Wir starten mit der Klassiker-Frage: Bit oder Baum?**
 

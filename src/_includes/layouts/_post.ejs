@@ -2,9 +2,27 @@
 layout: layouts/_base.ejs
 ---
 <section class="content max-w-3xl">
-<p><%= type %></p>
-<h1><%= title %></h1>
-<p><i><%= datum.slice(-2); %>.<%= datum.slice(5,7); %>.<%= datum.slice(0,4); %></i> <i><%= autorin %></i></p>
-<i><%= einleitung %></i>
-<%- content %>
+    <p>
+        <%= type %>
+            <h1>
+                <%= title %>
+            </h1>
+    </p>
+    <p><i>
+            <%= einleitung %>
+        </i></p>
+    <p><i>
+            <%= datum.slice(-2); %>.<%= datum.slice(5,7); %>.<%= datum.slice(0,4); %>
+        </i> <i>
+            <%= autorin %>
+        </i>
+    </p>
+    <p>
+        <img src="<%= bild %>" alt="<%= bildunterschrift %>">
+        <i>
+            <%= bildunterschrift %>
+        </i>
+    </p>
+    
+    <%- content %>
 </section>
