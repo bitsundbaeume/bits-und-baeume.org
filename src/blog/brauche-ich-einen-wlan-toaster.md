@@ -9,7 +9,7 @@ extern: ja # wenn blog als extern markiert ist führt auch die Überschrift zur 
 datum: "2022-10-03"
 autorin: Valentin Bachem
 
-bild: "/assets/images/blog_extern/IMG_5208-Detail.jpg"
+bild: "/assets/images/blog_extern/IMG_5208-Detail.JPG"
 bildunterschrift: "Inzwischen ist ja jede Waschmaschine ein kleines Rechenzentrum. Foto: Friederike Grabitz"
 
 title: "Brauche ich einen WLAN-Toaster?"

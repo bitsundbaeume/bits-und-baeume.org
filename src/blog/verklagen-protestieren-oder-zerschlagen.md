@@ -9,7 +9,7 @@ extern: ja # wenn blog als extern markiert ist führt auch die Überschrift zur 
 datum: "2022-10-02"
 autorin: Lena Sam
 
-bild: "/assets/images/blog_extern/IMG_8850.jpg"
+bild: "/assets/images/blog_extern/IMG_8850.JPG"
 bildunterschrift: "Eine Glückskatze allein macht Facebook nicht platt. Bild: Friederike Grabitz"
 
 title: "Verklagen, protestieren oder zerschlagen? Was hilft gegen Facebook, Bayer, Google und Co.?"

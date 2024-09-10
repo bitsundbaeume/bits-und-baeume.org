@@ -1,5 +1,5 @@
 ---
-title: Bits & Bäume - Aktuelle Meldungen
+title: Bits & Bäume
 description: ...
 layout: layouts/_base.ejs
 tags: sitemap
@@ -7,25 +7,20 @@ lang: de
 ---
 
 <section class="max-w-6xl">
+	<h2 class="h3">Bits & Bäume Blog Archiv</h2>
 
-<a href="/meldungen_archiv">zum Archiv</a><br>
-
-	<h2 class="h3">Aktuelle Meldungen</h2>
 	<div flex-wrap>
 
-		{% for post in collections.post | sort(attribute = 'data.datum') | reverse %}
+<h4>Alle Blogposts</h4>
 
-			{% if post.data.aktuell in["ja"] %}
+		{% for post in collections.blogpost | sort(attribute = 'data.datum') | reverse %}
+
+			{% if post.data.datum != "202X-MM-TT"  %}
 
 				{% if post.data.bild %}
 					<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
 						<div class="box__image w-full md:w-2/5">
-
-							{% if post.data.extern == "ja"  %}
-									<a href="{{ post.data.button_url }}">
-								{% else %}
-									<a href="{{ post.url }}">
-								{% endif %}
+							<a href="{{ post.url }}">
 								<img class="object-cover"
 						src="{% thumbnail post.data.bild %}"
 						alt="{{ post.data.bildunterschrift }}"
@@ -161,5 +156,8 @@ lang: de
 
 					{% endif %}
 				{% endfor %}
-			</div>
 
+
+			</div>
+		</section>
+	</div>

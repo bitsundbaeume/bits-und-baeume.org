@@ -9,7 +9,7 @@ extern: ja # wenn blog als extern markiert ist führt auch die Überschrift zur 
 datum: "2022-10-02"
 autorin: Freda Grabitz
 
-bild: "/assets/images/blog_extern/IMG_8786.jpg"
+bild: "/assets/images/blog_extern/IMG_8786.JPG"
 bildunterschrift: "Für eine global gerechte Digitalisierung braucht es Akteur*innen aus allen Branchen - nicht zuletzt aus der Wirtschaft. "
 
 title: "Drei Fragen an... Anne Herpertz"
