@@ -1,0 +1,11 @@
+{
+    "layout": "layouts/_post.ejs",
+    "tags": ["blogpost","post", "sitemap"],
+    "type": "Blogpost",
+    "button_anzeigen": "ja",
+    "aktuell": "nein",
+    "autorin": "",
+    "einleitung": "",
+    "bild": "",
+    "bildunterschrift": "" 
+}

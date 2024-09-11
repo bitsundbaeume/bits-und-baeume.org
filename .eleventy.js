@@ -12,7 +12,11 @@ const basefilename = require('./eleventy/filters/basefilename');
 const INPUT_DIR = 'src';
 const OUTPUT_DIR = '_site';
 
-const isProduction = process.env.ELEVENTY_ENV === 'production';
+
+// TODO: this only intended for development (to speed up build time)
+// const isProduction = process.env.ELEVENTY_ENV === 'production';
+const isProduction = false;
+
 const BASEURL = `${process.env.BASEURL ? process.env.BASEURL : ''}`
 
 module.exports = function (eleventyConfig) {
@@ -105,6 +109,7 @@ module.exports = function (eleventyConfig) {
   // Copy files static files
   eleventyConfig.addPassthroughCopy({ ['public']: '.' });
   eleventyConfig.addPassthroughCopy(`${INPUT_DIR}/assets/images`);
+  eleventyConfig.addPassthroughCopy("./src/.htaccess");
 
   return {
     htmlTemplateEngine: 'njk',

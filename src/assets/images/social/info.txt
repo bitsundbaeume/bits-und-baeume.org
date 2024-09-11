@@ -1,12 +1,11 @@
-The file social-img.jpg is included by the templates via
+The file social-img.png is included by the templates via
 
 
-<meta property="og:image" content="https://bits-und-baeume.org/assets/images/social/social-img.jpg">
+<meta property="og:image" content="https://bits-und-baeume.org/assets/images/social/social-img.png">
 and
-<meta name="twitter:image" content="https://bits-und-baeume.org/assets/images/social/social-img.jpg">
+<meta name="twitter:image" content="https://bits-und-baeume.org/assets/images/social/social-img.png">
+
+it is based on /assets/images/social/BB_Vorschau_Website.svg
 
 
-it is based on
-
-assets/images/oea_material/pressekit/bitsundbaeume22_infografik.svg
-
+the file and the default description is specified via src/_data/site.json

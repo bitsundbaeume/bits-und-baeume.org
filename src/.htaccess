@@ -1,0 +1,5 @@
+# .htaccess-Datei für Passwortschutz
+#AuthType Basic
+#AuthName "Geschützter Bereich - Bitte geben Sie ein Passwort ein!"
+#AuthUserFile /var/www/bitsundbaeume/.htpasswd
+#Require valid-user

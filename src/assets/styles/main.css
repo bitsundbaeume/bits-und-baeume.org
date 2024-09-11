@@ -33,7 +33,7 @@
 
 	/* Headlines */
 	h1, h2, h3, h4 {
-		margin-top: 3.375rem;
+		margin-top: 1.375rem;
 		margin-bottom: 1.625rem;
 	}
 	h1, .h1 {
@@ -150,7 +150,7 @@
 		}
 		@media (min-width: 1280px) {
 			.header-menu li a {
-				padding: 2rem 1.5rem;
+				padding: 2rem 1rem;
 			}
 		}
 		.header-menu li a:hover {
