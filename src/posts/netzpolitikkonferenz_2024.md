@@ -30,5 +30,5 @@ button_url: "https://netzpolitik.org/bildet-netze/"
 
 
 ---
-Wie verteidigen wir digitale Freiheitsrechte? Wie stellen wir technologischen Wandel in den Dienst der Gesellschaft? Welche Netze müssen wir spannen, um das Netz gemeinsam voranzubringen? Diesen Fragen stellt Netzpolitik.org – 20 Jahre nach Gründung – auf einer eintägigen Konferenz.
+Wie verteidigen wir digitale Freiheitsrechte? Wie stellen wir technologischen Wandel in den Dienst der Gesellschaft? Welche Netze müssen wir spannen, um das Netz gemeinsam voranzubringen? Diese Fragen stellt Netzpolitik.org – 20 Jahre nach Gründung – auf einer eintägigen Konferenz.
 Ihr findet Bits & Bäume im Lichthof der alten Münze. Kommt uns besuchen - es gibt Popcorn und guten Kaffee.
