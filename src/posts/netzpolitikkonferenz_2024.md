@@ -6,7 +6,7 @@
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
 datum: "2024-09-13"
-autorin: 
+autorin: Ben
 
 # permalink:
 bild: "/assets/images/netzpolitikkonferenz_2024.jpg"
