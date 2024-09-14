@@ -16,7 +16,7 @@ lang: de
 
 
 	{% for item in content.traegerinnen.items %}
-	<div class="box box-orga">
+	<div id="{{ item.name }}" class="box box-orga">
 		<div class="image">
 			<a href="{{ item.url }}"><img src="{{ item.image }}" alt="Logo von {{ item.name }}" > </a>
 		</div>
