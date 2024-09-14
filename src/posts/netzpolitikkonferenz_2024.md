@@ -10,6 +10,7 @@ autorin: Ben
 
 # permalink:
 bild: "/assets/images/netzpolitikkonferenz_2024.jpg"
+socialimage: "/assets/images/netzpolitikkonferenz_2024.jpg"
 bildunterschrift: "Konferenz: Bildet Netze!"
 
 title: "Bits & Bäume auf der Netzpolitik Konferenz"
