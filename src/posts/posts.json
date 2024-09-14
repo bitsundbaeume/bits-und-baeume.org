@@ -8,5 +8,7 @@
     "einleitung": "",
     "bild": "",
     "bildunterschrift": "",
-    "button_anzeigen": "ja" 
+    "button_anzeigen": "ja",
+    "button_url": "",
+    "button_text": ""
 }

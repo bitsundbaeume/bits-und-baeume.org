@@ -25,4 +25,13 @@ layout: layouts/_base.ejs
     </p>
     
     <%- content %>
+    
+<% if (button_url && button_url.trim() !== '') { %>
+<a href="<%= button_url %>">
+<button class="btn-dark">
+<%= button_text %>
+</button>
+</a>
+<% } %>
+
 </section>
