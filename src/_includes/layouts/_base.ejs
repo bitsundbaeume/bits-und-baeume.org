@@ -103,8 +103,10 @@
     <footer>
 	<% if (locals.lang == "en") { %>
 		<%- include('../partials/_footer-en.njk', {site: site}) %>
+		<%- include('../partials/logoteppich.njk', {site: site}) %>
 	<% } else { %>
 		<%- include('../partials/_footer.njk', {site: site}) %>
+		<%- include('../partials/logoteppich.njk', {site: site}) %>
 	<% } %>
     </footer>
 	<div class="back-to-top">
