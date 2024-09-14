@@ -20,7 +20,7 @@ einleitung:
 teaser: 
 
 # Für Social media und Suchergebnisse (also extern)
-meta_beschreibung: 
+meta_beschreibung: Das Haus der Nachhaltigkeit und der Technik und Kultur Saar e.V. laden ein zur Vernetzung von Akteur:innen aus den Bereichen IT, Nachhaltigkeit und Soziales.
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
 #button_anzeigen = nein 

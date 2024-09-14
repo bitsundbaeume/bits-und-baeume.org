@@ -13,13 +13,21 @@
 	<%- include('../partials/_hreflang.njk', {site: site}) %>
     <meta
       name="description"
-      content="<%= (!!locals.description) ? description : site.description %>"
+      content="<%= (typeof description !== 'undefined' ? description :
+    typeof meta_beschreibung !== 'undefined' ? meta_beschreibung :
+    typeof teaser !== 'undefined' ? teaser :
+    typeof einleitung !== 'undefined' ? einleitung :
+    site.description) %>"
     />
     <meta name="author" content="<%= site.author %>" />
     <meta property="og:title" content="<%= (!!locals.metatitle) ? metatitle : title %>" />
     <meta
       property="og:description"
-      content="<%= (!!locals.description) ? description : site.description %>"
+      content="<%= (typeof description !== 'undefined' ? description :
+    typeof meta_beschreibung !== 'undefined' ? meta_beschreibung :
+    typeof teaser !== 'undefined' ? teaser :
+    typeof einleitung !== 'undefined' ? einleitung :
+    site.description) %>"
     />
     <meta property="og:locale" content="<%= site.locale %>" />
     <meta property="og:site_name" content="<%= site.site_name %>" />
@@ -33,7 +41,7 @@
     <meta property="article:published_time" content="<%= date.toISOString() %>" />
     <script type="application/ld+json">
       {
-        "description": "<%= (!!locals.description) ? description : site.description %>",
+        "description": "<%= (typeof description !== 'undefined' ? description : typeof meta_beschreibung !== 'undefined' ? meta_beschreibung : typeof teaser !== 'undefined' ? teaser :    typeof einleitung !== 'undefined' ? einleitung : site.description) %>",
         "author": { "@type": "Person", "name": "<%= site.author %>" },
         "@type": "BlogPosting",
         "url": "<%= `${site.url}${page.url}` %>",
