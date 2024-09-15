@@ -16,10 +16,10 @@ title: "Drei Fragen an.... feministische Digitalpolitik"
 description: 
 
 # Zwischen Überschrift und Text in Kursiv. So lang wie nötig - keine Zeichenbeschränkung
-einleitung:  
+einleitung:
 
 # 250-300 Zeichen - Für die Kacheln auf der Website
-teaser: ""Wir brauchen kein schnelles Internet, wenn die Welt brennt": Elisa Lindiger über Feminismus, Digitalisierung und die Zukunft der Erde"
+teaser: "''Wir brauchen kein schnelles Internet, wenn die Welt brennt'': Elisa Lindiger über Feminismus, Digitalisierung und die Zukunft der Erde"
 
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
