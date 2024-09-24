@@ -1,0 +1,13 @@
+{
+    "layout": "layouts/_post.ejs",
+    "tags": ["blogpost","post", "sitemap"],
+    "type": "newsletter",
+    "button_anzeigen": "ja",
+    "aktuell": "nein",
+    "autorin": "",
+    "einleitung": "",
+    "bild": "",
+    "bildunterschrift": "",
+    "button_url": "",
+    "button_text": ""
+}
