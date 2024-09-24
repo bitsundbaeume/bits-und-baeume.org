@@ -32,13 +32,13 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
 ## Programm
 
 * Keynotes 18:00 - 19:00 Uhr
-  * Francesca Bria (angefragt) – Eigentum digitaler Infrastrukturen in Europa
-  * Esther M’wema – Big Tech und digitale Infrastrukturen auf dem afrikanischen Kontinent
+  * **Francesca Bria** (angefragt) – Eigentum digitaler Infrastrukturen in Europa
+  * **Esther M’wema** – Colonial Imaginations and Big Tech Ownership of African Internet Infrastructure
 
 * Workshops: 19:00 - 20:30 Uhr
-  * Demokratisierung und Vergesellschaftung digitaler Infrastrukturen – communia & Konzeptwerk Neue Ökonomie
-  * Open Source und das Fediverse als demokratische Alternative - Joseph de Veaugh-Geiss
-  * Public Money, Public Good! – Wikimedia
+  * Demokratisierung und Vergesellschaftung digitaler Infrastrukturen – **communia & Konzeptwerk Neue Ökonomie**
+  * Open Source und das Fediverse als demokratische Alternative - **Joseph de Veaugh-Geiss**
+  * Public Money, Public Good! – **Wikimedia**
 
 * Abschluss und Empfang 20:30 - 22:00 Uhr
 
