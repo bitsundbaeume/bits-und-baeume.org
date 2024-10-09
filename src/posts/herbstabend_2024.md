@@ -32,7 +32,6 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
 ## Programm
 
 * Keynotes 18:00 - 19:00 Uhr
-  * **Francesca Bria** (angefragt) – Eigentum digitaler Infrastrukturen in Europa
   * **Esther M’wema** – Colonial Imaginations and Big Tech Ownership of African Internet Infrastructure
 
 * Workshops: 19:00 - 20:30 Uhr
