@@ -2,7 +2,6 @@
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
-permalink: /37c3_rueckblick
 #aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
 
 bild: "/assets/images/37c3_habitat.png"
