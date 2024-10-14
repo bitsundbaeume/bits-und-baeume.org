@@ -57,7 +57,7 @@ Dabei ist die Teilhabe und Souveränität im Internet grundlegend, um das digita
 Bei diesem digitalpolitischen Herbstabend des Bits-und-Bäume-Netzwerks wollen wir deswegen diskutieren, wem das Internet gehört und wie mehr Demokratisierung und digitale Souveränität erreicht werden kann.
 
 ## Ammeldung
-Bitte meldet euch bis zum 10. Oktober hier an:
+Sichert euch jetzt noch einen Platz:
 
 https://bits-und-baeume.org/anmeldung/herbstabend24
 
