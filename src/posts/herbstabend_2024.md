@@ -32,7 +32,13 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
  
 ## Streaming
 
-Die Keynote-Vorträge werden live gestreamt und können hier angeschaut werden: https://bits-und-baeume.org/herbstabend24/stream
+Die Keynote-Vorträge werden live gestreamt und können hier angeschaut werden: 
+
+<a href="/herbstabend24/stream">
+<button class="btn-dark">
+zum Live-Stream
+</button>
+</a>
 
 ## Programm
 
@@ -65,7 +71,12 @@ Bei diesem digitalpolitischen Herbstabend des Bits-und-Bäume-Netzwerks wollen w
 ## Ammeldung
 Sichert euch jetzt noch einen Platz:
 
-https://bits-und-baeume.org/anmeldung/herbstabend24
+<a href="/anmeldung/herbstabend24">
+<button class="btn-dark">
+Anmelden
+</button>
+</a>
+
 
 Wir freuen uns auf euch!
 
