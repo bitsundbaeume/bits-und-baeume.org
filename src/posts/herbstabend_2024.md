@@ -26,9 +26,9 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
 
 
 ---
-📅 Datum: [20.10.2024, ab 18 Uhr](/termine)<br>
-📍 Ort: [Café KoZ, Frankfurt am Main](https://www.openstreetmap.org/node/1359119533)
-🎬 Stream: https://bits-und-baeume.org/herbstabend24/stream
+📅 **Datum:** [20.10.2024, ab 18 Uhr](/termine)<br>
+📍 **Ort:** [Café KoZ, Frankfurt am Main](https://www.openstreetmap.org/node/1359119533)<br>
+🎬 **Stream:** https://bits-und-baeume.org/herbstabend24/stream
  
 ## Streaming
 
