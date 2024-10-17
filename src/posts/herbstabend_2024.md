@@ -28,16 +28,22 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
 ---
 📅 Datum: [20.10.2024, ab 18 Uhr](/termine)<br>
 📍 Ort: [Café KoZ, Frankfurt am Main](https://www.openstreetmap.org/node/1359119533)
+🎬 Stream: https://bits-und-baeume.org/herbstabend24/stream
  
+## Streaming
+
+Die Keynote-Vorträge werden live gestreamt und können hier angeschaut werden: https://bits-und-baeume.org/herbstabend24/stream
+
 ## Programm
 
 * Keynotes 18:00 - 19:00 Uhr
+  * **Francesca Bria** – Toward a Democratic Digital Infrastructure in Europe
   * **Esther M’wema** – Colonial Imaginations and Big Tech Ownership of African Internet Infrastructure
 
 * Workshops: 19:00 - 20:30 Uhr
-  * Demokratisierung und Vergesellschaftung digitaler Infrastrukturen – **communia & Konzeptwerk Neue Ökonomie**
-  * Open Source und das Fediverse als demokratische Alternative - **Joseph de Veaugh-Geiss**
-  * Public Money, Public Good! – **Wikimedia**
+  * Vergesellschaftung & Öffentlicher Luxus - Mögliche Antworten für die Demokratisierung digitaler Infrastrukturen – **Vincent Janz, communia**
+  * (Anti)Social Media, Free Software, and the Fediverse - **Joseph de Veaugh-Geiss**
+  * Öffentliches Geld, öffentliches Gut! - **Jan-David Franke, Wikimedia Deutschland**
 
 * Abschluss und Empfang 20:30 - 22:00 Uhr
 
