@@ -110,6 +110,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ ['public']: '.' });
   eleventyConfig.addPassthroughCopy(`${INPUT_DIR}/assets/images`);
   eleventyConfig.addPassthroughCopy("./src/.htaccess");
+  eleventyConfig.addPassthroughCopy("./src/google45c730ec8bab3eb8.html");
+  eleventyConfig.addPassthroughCopy("./src/.well-known");
+  
 
   return {
     htmlTemplateEngine: 'njk',

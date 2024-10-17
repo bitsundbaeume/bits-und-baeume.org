@@ -1,5 +1,182 @@
-# .htaccess-Datei für Passwortschutz
-#AuthType Basic
-#AuthName "Geschützter Bereich - Bitte geben Sie ein Passwort ein!"
-#AuthUserFile /var/www/bitsundbaeume/.htpasswd
-#Require valid-user
+# Mailingliste
+Redirect 302 /mailingliste https://lists.bits-und-baeume.org/postorius/lists/community.lists.bits-und-baeume.org/
+Redirect 303 /mailinglisten_wiki https://wiki2.bits-und-baeume.org/it/mailinglisten/start
+
+
+# Newsleter
+Redirect 302 /newsletter_input_pad https://cloud.bits-und-baeume.org/pad/p/ctsc6l99h6m1p4gbl45aht39yv9mo04c4f
+Redirect 302 /newsletterinput https://bits-und-baeume.org/newsletter_input/
+Redirect 302 /newsletteranmeldung https://lists.bits-und-baeume.org/postorius/lists/newsletter.lists.bits-und-baeume.org/
+
+
+# Fragebogen
+Redirect 302 /umfrage https://bitsundbaeume.limesurvey.net/681793?lang=de-informal 
+
+# Anmeldungen
+Redirect 302 /anmeldung/policy_lab_2024-09 https://cloud.bits-und-baeume.org/apps/forms/s/7tF7LTjS89WoxQGRs56KAPTZ
+Redirect 302 /anmeldung/herbstabend24 https://cloud.bits-und-baeume.org/apps/forms/s/ZcQRswXgMn88Mow5LSLXK4wE
+
+# Logo
+Redirect 302 /logo https://cloud.bits-und-baeume.org/s/nzxKD7GWHTY99Eg
+
+# Kalender
+Redirect 302 /kalender https://cloud.bits-und-baeume.org/apps/calendar/p/HSQmRMc9dmB755CK-Xfe4s2Cfz8ZiMii4/dayGridMonth/now
+Redirect 302 /Kalender https://cloud.bits-und-baeume.org/apps/calendar/p/HSQmRMc9dmB755CK-Xfe4s2Cfz8ZiMii4/dayGridMonth/now
+Redirect 302 /kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETdgR6f9dmTx3JFo3nY5gk
+Redirect 302 /Kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETdgR6f9dmTx3JFo3nY5gk
+
+# 38c3
+Redirect 302 /38c3/bbb/habitat https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
+Redirect 302 /38c3/orgapad https://pads.fiff.de/p/38c3_habitat_orga
+
+# 37c3
+Redirect 302 /37c3/orgapad https://cloud.bits-und-baeume.org/pad/p/2kz4ddkg9hjmkclk0v71171ii88ijh456ibmmnbhe2b5no7vr
+Redirect 302 /37c3/clustercall https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
+Redirect 302 /37c3/contentcall https://cloud.fiff.de/apps/bbb/b/gZRxLm8REyDC6Hwz
+Redirect 302 /37c3/workshops https://cloud.bits-und-baeume.org/pad/p/kp6pe5m9eonfp2r5qe0m1f4zho4m7y5zeki
+Redirect 302 /37c3/aufbau https://cloud.bits-und-baeume.org/pad/p/2kz4ddkg9hjmkclk0v71171ii88ijh456ibmmnbhe2b5no7vr
+Redirect 302  /37c3/map https://cloud.bits-und-baeume.org/s/XmNbZtSoQRXxJar
+Redirect 302 /37c3/feedback https://cloud.bits-und-baeume.org/apps/forms/s/QzGKi8tcLTB7M4xPJpF7Mi4r
+
+# Camp
+Redirect 302 /camp23/anmeldung https://cloud.bits-und-baeume.org/apps/forms/s/BqFoSZJb6HzbAZ9omMQE42ai
+Redirect 302 /camp23/mitfahren https://cloud.bits-und-baeume.org/pad/p/1n3bduuaxm9v7mmy 
+Redirect 303 /camp23/videoupload https://cloud.fiff.de/s/XjX8MBfmwSoNaoZ
+Redirect 302 /camp23/karte https://cloud.fiff.de/s/f7yRA5wgymoysar
+Redirect 302 /camp23/workshopinput https://pretalx.c3voc.de/camp2023/submit/M20RRz/info/?access_code=JK7D77X8WBAYV83YVYRSYQVCXLRQFUJQ
+Redirect 302 /camp23/wetter http://weather.openportguide.de/cgi-bin/weather.pl/weather.png?var=meteogram&lat=53.03165&lon=13.30629&position=deg&digits=6&unit=metric&lang=de&nx=1200&ny=1200&label=Camp%202023
+Redirect 302 /camp23/todos https://cloud.fiff.de/pad/p/camp23_bub_todos
+Redirect 302 /camp23/infos https://cloud.fiff.de/pad/p/camp23_bub_infos
+
+# Fotogalerie in der Cloud
+Redirect 302 /fotogalerie https://cloud.bits-und-baeume.org/index.php/s/eTH4H8zwdeWmjkE
+
+# Urls vor Relaunch am 11.9.2024
+Redirect 302 /pressemitteilung-halbzeit-fuer-die-ampel/ /posts/pressemitteilung-halbzeit-fuer-die-ampel/
+Redirect 302 /interview_tiktok/ /blog/interview_tiktok/
+Redirect 302 /interview_rike /blog/interview_rike
+Redirect 302 /frühlingsabend24/ /blog/frühlingsabend24/
+Redirect 302 /community/konferenz-nrw/  /posts/konferenz-2023-nrw/
+Redirect 302 /willkommen_wikimedia/ /posts/zuwachs_trägerkreis_wikimedia/
+Redirect 302 /material/ https://bits-und-baeume.org/konferenz-2022/material/
+Redirect 302 /posts/willkommen_rike/ /blog/interview_rike
+Redirect 302 /fr%c3%bchlingsabend24/ https://bits-und-baeume.org/blog/fr%C3%BChlingsabend24/
+# Stabilität bestehender Links bewirken
+Redirect 302 /eonferenzankuendigung /eonferenz
+Redirect 302 /konfereneankuendigung/de /konferenz/de
+Redirect 302 /konferenzankuendigung/en /konferenz/en
+Redirect 302 /37c3_rueckblick /blog/37c3_rueckblick/
+
+# Konferenz-Folienupload
+Redirect 302 /slides https://cloud.bits-und-baeume.org/index.php/s/gcG8LJA2CEba8kL
+Redirect 302 /Slides https://cloud.bits-und-baeume.org/index.php/s/gcG8LJA2CEba8kL
+
+
+# ÖA-Weiterleitungen
+Redirect 302 /programm-anregungen https://etherpad.wikimedia.org/p/bb22-programm-anregungen
+Redirect 302 /Organisationsmodell https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/Rm56ZZkJsp2oqte/Organisationsmodell
+Redirect 302 /organisationsmodell https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/Rm56ZZkJsp2oqte/Organisationsmodell
+Redirect 302 /Matrixanmeldung https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/fLP8pwfbELPM78L/Matrix 
+Redirect 302 /matrixanmeldung https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/fLP8pwfbELPM78L/Matrix
+Redirect 302 /tickets https://events.fairetickets.de/gedlv/
+Redirect 302 /Tickets https://events.fairetickets.de/gedlv/
+Redirect 302 /helfen https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
+Redirect 302 /Helfen https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
+Redirect 302 /Schlafplatzbörse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
+Redirect 302 /schlafplatzbörse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
+Redirect 302 /Schlafplatzboerse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
+Redirect 302 /schlafplatzboerse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
+Redirect 302 /druckdateien https://cloud.bits-und-baeume.org/index.php/s/Jy6g24XWaPj9FMZ
+
+Redirect 302 /konferenz-2022/mach-mit/infos https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
+
+
+#Awareness
+Redirect 302 /awareness https://cloud.bits-und-baeume.org/index.php/s/Zmy7Kg96KC5RNTe
+Redirect 302 /en/awareness https://cloud.bits-und-baeume.org/index.php/s/KHnyQDFEaHez464
+
+
+
+#Karte
+Redirect 302 /Karte https://www.openstreetmap.org/way/40451892
+Redirect 302 /karte https://www.openstreetmap.org/way/40451892
+Redirect 302 /walkthrough https://cloud.bits-und-baeume.org/index.php/s/fRDtQWq4xaabwQ4
+
+
+# BigBlueButton-Räume
+Redirect 302 /BBB-AG-ÖA https://lecture.senfcall.de/bbk-mjm-xmu-nbs
+Redirect 302 /BBB-AG-Vernetzung https://lecture.senfcall.de/bbk-uud-whn-psv
+Redirect 302 /BBB-AG-Kultur https://lecture.senfcall.de/bbk-u9e-wgy-qct
+Redirect 302 /BBB-AG-Logistik https://lecture.senfcall.de/bbk-rgt-abt-jsw
+Redirect 302 /BBB-AG-Forum https://lecture.senfcall.de/bbk-rmf-4hr-cqm
+Redirect 302 /BBB-AG-Care https://lecture.senfcall.de/bbk-uax-ad5-odx
+Redirect 302 /BBB-AG-Programm https://lecture.senfcall.de/bbk-uud-whn-psv
+Redirect 302 /BBB-Orgakreis https://lecture.senfcall.de/bbk-nt6-nsq-90n
+Redirect 302 /BBB-AG-IT https://lecture.senfcall.de/bbk-agr-7az-eck
+Redirect 302 /BBB-AG-Awareness https://lecture.senfcall.de/bbk-qf9-tko-yxa
+Redirect 302 /BBB-Mithilfe-Lounge https://lecture.senfcall.de/rai-qmi-0mh-ziw
+Redirect 302 /BBB-TK https://lecture.senfcall.de/rai-efg-dsh-8qc
+Redirect 302 /bbb-tk https://lecture.senfcall.de/rai-efg-dsh-8qc
+
+
+#Redirects 2018er Website
+Redirect 302 /datenschutz/de /datenschutz/
+Redirect 302 /datenschutz/en /datenschutz/
+Redirect 302 /forderungen/ /konferenz-2018/forderungen/
+Redirect 302 /forderungen/de /konferenz-2018/forderungen/
+Redirect 302 /forderungen/en /en/conference-2022/demands/
+Redirect 302 /forderungen/info/de /konferenz-2018/forderungen/
+Redirect 302 /forderungen/info/en /en/conference-2022/demands/
+Redirect 302 /forum/de /community/forum/
+Redirect 302 /forum/en /en/community/forum/
+Redirect 302 /forum/ /en/community/forum/
+Redirect 302 /forum /en/community/forum/
+Redirect 302 /impressum/de /impressum/
+Redirect 302 /impressum/en /impressum/
+Redirect 302 /info/de /
+Redirect 302 /info/ /
+Redirect 302 /info /
+Redirect 302 /info/en /
+Redirect 302 /infrastruktur/ /konferenz-2018/nachhaltige-konferenzorga/
+Redirect 302 /infrastruktur/de /konferenz-2018/nachhaltige-konferenzorga/
+Redirect 302 /infrastruktur/en /en/conference-2018/sustainable-orga/
+Redirect 302 /konferenz/de /konferenz-2022/
+Redirect 302 /konferenz/en /en/conference-2022/program/
+Redirect 302 /konferenz/ /konferenz-2022/
+Redirect 302 /konferenz /konferenz-2022/
+Redirect 302 /material/de /material/
+Redirect 302 /material/en /en/material/
+Redirect 302 /presse /konferenz-2022/presse/
+Redirect 302 /presse/ /konferenz-2022/presse/
+Redirect 302 /presse/de /konferenz-2022/presse/
+Redirect 302 /presse/en /en/conference-2018/press/
+Redirect 302 /programm/de /konferenz-2022/programm/
+Redirect 302 /programm/ /konferenz-2022/programm/
+Redirect 302 /programm /konferenz-2022/programm/
+Redirect 302 /programm/en /en/conference_2022/program/
+Redirect 302 /regionalzweige/de /community/regionale-zweige/
+Redirect 302 /regionalzweige/ /community/regionale-zweige/
+Redirect 302 /regionalzweige /community/regionale-zweige/
+Redirect 302 /regionalzweige/en /en/community/regional-branches/
+Redirect 302 /rueckblick/de /konferenz-2018/
+Redirect 302 /rueckblick/ /konferenz-2018/
+Redirect 302 /rueckblick /konferenz-2018/
+Redirect 302 /rueckblick/en /en/conference-2018/
+Redirect 302 /start/de /de
+Redirect 302 /start/ /de
+Redirect 302 /start /de
+Redirect 302 /start/en /en
+Redirect 302 /waechst/de /community/eigene-organisieren/
+Redirect 302 /waechst/ /community/eigene-organisieren/
+Redirect 302 /waechst /community/eigene-organisieren/
+Redirect 302 /waechst/en /en/community/self-organisation/
+Redirect 302 /de /
+Redirect 302 /de/ /
+Redirect 302 /konferenz-2022/presse//de /konferenz-2022/presse/
+Redirect 302 /konferenz-2022/presse//de/ /konferenz-2022/presse/
+Redirect 302 /downloads/call_for_participation.pdf /konferenz-2022/mach-mit/
+Redirect 302 /downloads/Call_for_Action_neu.pdf /assets/images/pdfs/Call_for_Action_neu.pdf
+Redirect 302 /forderungen /konferenz-2022/forderungen/
+Redirect 302 /ziele /konferenz-2018/ziele/
+Redirect 302 /call /konferenz-2022/mach-mit/
+Redirect 302 /konferenzankuendigung/de /konferenz-2022/
