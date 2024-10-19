@@ -14,7 +14,7 @@ Redirect 302 /umfrage https://bitsundbaeume.limesurvey.net/681793?lang=de-inform
 
 # Anmeldungen
 Redirect 302 /anmeldung/policy_lab_2024-09 https://cloud.bits-und-baeume.org/apps/forms/s/7tF7LTjS89WoxQGRs56KAPTZ
-Redirect 302 /anmeldung/herbstabend24 https://cloud.bits-und-baeume.org/apps/forms/s/ZcQRswXgMn88Mow5LSLXK4wE
+Redirect 302 /anmeldung/herbstabend24 https://cloud.bits-und-baeume.org/apps/forms/s/rJjrN9HY35MzqaFjjR5acG6C
 
 # Logo
 Redirect 302 /logo https://cloud.bits-und-baeume.org/s/nzxKD7GWHTY99Eg
