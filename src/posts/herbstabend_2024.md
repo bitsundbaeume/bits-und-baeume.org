@@ -28,15 +28,14 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
 ---
 📅 **Datum:** [20.10.2024, ab 18 Uhr](/termine)<br>
 📍 **Ort:** [Café KoZ, Frankfurt am Main](https://www.openstreetmap.org/node/1359119533)<br>
-🎬 **Stream:** https://bits-und-baeume.org/herbstabend24/stream
+🎬 **Mitschnitt** https://bits-und-baeume.org/herbstabend24/stream
  
 ## Streaming
 
-Die Keynote-Vorträge werden live gestreamt und können hier angeschaut werden: 
+Die Keynote-Vorträge wurden live gestreamt und können jetztvhier angeschaut werden: 
 
 <a href="/herbstabend24/stream">
-<button class="btn-dark">
-zum Live-Stream
+<button class="btn-dark">zur Aufnahme
 </button>
 </a>
 
@@ -67,18 +66,6 @@ Spätestens die Übernahme von Twitter durch Elon Musk hat gezeigt: Aktuell kön
 Dabei ist die Teilhabe und Souveränität im Internet grundlegend, um das digitale Leben ökologisch, gerecht und demokratisch zu gestalten.
 
 Bei diesem digitalpolitischen Herbstabend des Bits-und-Bäume-Netzwerks wollen wir deswegen diskutieren, wem das Internet gehört und wie mehr Demokratisierung und digitale Souveränität erreicht werden kann.
-
-## Ammeldung
-Sichert euch jetzt noch einen Platz:
-
-<a href="/anmeldung/herbstabend24">
-<button class="btn-dark">
-Anmelden
-</button>
-</a>
-
-
-Wir freuen uns auf euch!
 
 ### Bits & Bäume
 Bits & Bäume ist ein Zusammenschluss von 12 Organisationen aus den Bereichen Umweltschutz, Digitalpolitik, Entwicklungspolitik und Wissenschaft sowie einer engagierten Community. Die Bewegung setzt sich für eine Zukunft ein, in der der digitale Wandel Mensch, Umwelt und Lebensgrundlagen unterstützt und schützt. Darum setzt sich Bits & Bäume aktiv für politische Veränderungen ein. 
