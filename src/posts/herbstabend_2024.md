@@ -32,7 +32,7 @@ meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisie
  
 ## Streaming
 
-Die Keynote-Vorträge wurden live gestreamt und können jetztvhier angeschaut werden: 
+Die Keynote-Vorträge wurden live gestreamt und können jetzt hier angeschaut werden: 
 
 <a href="/herbstabend24/stream">
 <button class="btn-dark">zur Aufnahme
