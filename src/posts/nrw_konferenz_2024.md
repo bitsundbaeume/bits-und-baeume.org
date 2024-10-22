@@ -16,10 +16,10 @@ einleitung: "Bits & Bäume Konferenz NRW 2024 am 13.11.24 –
 Am 13. November 2024 veranstaltet das Eine Welt Netz NRW in Kooperation mit der Universität Münster und dem an der FernUniversität in Hagen angesiedelten Projekt bne:digital.nrw die nächste Bits & Bäume NRW."
 
 # Für die Kacheln auf der Website
-teaser: "Bits & Bäume Knferenz NRW 2024 am 13.11. – Jetzt anmelden!"
+teaser: "Bits & Bäume Konferenz NRW 2024 am 13.11. – Jetzt anmelden!"
 
 # Für Social media und Suchergebnisse (also extern)
-meta_beschreibung: "Bits & Bäume Knferenz NRW 2024 am 13.11. – Jetzt anmelden!"
+meta_beschreibung: "Bits & Bäume Konferenz NRW 2024 am 13.11. – Jetzt anmelden!"
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
 #button_anzeigen = nein 
