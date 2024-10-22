@@ -29,7 +29,7 @@ meta_beschreibung: "Bits & Bäume Konferenz NRW 2024 am 13.11. – Jetzt anmelde
 
 ---
 
-📅 **Datum:** [13.11.2024, ab 18 Uhr](/termine)<br>
+📅 **Datum:** [13.11.2024](/termine)<br>
 📍 **Ort:** [Unperfekthaus, Essen](https://www.openstreetmap.org/way/286296429)<br>
 
 Gemeinsam mit Euch wollen wir die nachhaltige Digitaltransformation an und mit Hochschulen in NRW vorantreiben.
