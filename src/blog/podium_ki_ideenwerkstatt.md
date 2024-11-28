@@ -18,7 +18,7 @@ description: Bericht vom Podium des Jubiläums der KI Ideenwerkstatt
 einleitung: Die KI Ideenwerkstatt für Umweltschutz möchte KI für alle zugänglich, gemeinwohlorientiert und umweltgerecht gestalten. Sie ist vor Ort in Berlin-Neukölln und digital die Anlaufstelle für alle, die Künstliche Intelligenz gemeinwohlorientiert für den Umweltschutz einsetzen möchten. Die Ideenwerkstatt veranstaltet Workshops und andere Formate, informiert über KI und berät Initiativen ganz konkret bei ihren Projekten. Am 12.11.2024 hat sie ihr zweijähriges Jubiläum mit einem abwechlungsreichen Programm mit Einblicken in aktuelle Projekte, interaktiven Workshops und anregenden Diskussionen gefeiert. Wir berichten vom Eröffnungspanel, auf dem unter anderem Friederike Hildebrandt, Bits & Bäume Koordinatorin, Rainer Rehak (Weizenbaum-Institut, Wissenschaftszentrum Berlin für Sozialforschung, Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung und langjähriger Aktiver bei Bits & Bäume), sowie Thorsten Kluß (KI-Ideenwerkstatt) sitzen.
 
 # Für die Kacheln auf der Website
-teaser: Die <a href="https://www.ki-ideenwerkstatt.de/">KI Ideenwerkstatt für Umweltschutz</a> möchte KI für alle zugänglich, gemeinwohlorientiert und umweltgerecht gestalten. Am 12.11.2024 hat die KI Ideenwerkstatt ihr zweijähriges Jubiläum gefeiert. Wir berichten vom Eröffnungspodium auf dem unter anderem unsere Bits & Bäume Koordinatorin Friederike Hildebrandt, sowie unser langjähriger Bits & Bäume Aktiver Rainer Rehak saßen.
+teaser: Die KI Ideenwerkstatt für Umweltschutz möchte KI für alle zugänglich, gemeinwohlorientiert und umweltgerecht gestalten. Am 12.11.2024 hat die KI Ideenwerkstatt ihr zweijähriges Jubiläum gefeiert. Wir berichten vom Eröffnungspodium auf dem unter anderem unsere Bits & Bäume Koordinatorin Friederike Hildebrandt, sowie unser langjähriger Bits & Bäume Aktiver Rainer Rehak saßen.
 
 # Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: Die KI Ideenwerkstatt für Umweltschutz möchte KI für alle zugänglich, gemeinwohlorientiert und umweltgerecht gestalten. Am 12.11.2024 hat die KI Ideenwerkstatt ihr zweijähriges Jubiläum gefeiert. Wir berichten vom Eröffnungspodium auf dem unter anderem unsere Bits & Bäume Koordinatorin Friederike Hildebrandt, sowie unser langjähriger Bits & Bäume Aktiver Rainer Rehak saßen.
@@ -44,3 +44,4 @@ Zum Abschluss wird über Narrative, die gestärkt werden müssen, diskutiert. Ra
 
 
 *Link zum Livestream der Veranstaltung: https://www.youtube.com/watch?v=ReOqXN51HDE.*
+*Zur KI-Ideenwerkstatt: https://www.ki-ideenwerkstatt.de/*
