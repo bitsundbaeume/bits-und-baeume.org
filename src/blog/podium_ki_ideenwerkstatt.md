@@ -4,7 +4,7 @@ type: "Bericht" # Typ ist in diesem Ordner automatsch Meldung kann aber hier üb
 
 #permalink: 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
-datum: "2024-25-11"
+datum: "2024-11-25"
 autorin: Leo
 
 
