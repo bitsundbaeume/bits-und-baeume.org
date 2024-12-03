@@ -50,7 +50,7 @@ npm install && npm run prepare
 ```
 
 
-This might also be necessary: Install lastes version of eleventy, see also [eleventy github repo](https://github.com/11ty/eleventy)
+This might also be necessary: Install latest version of eleventy, see also [eleventy github repo](https://github.com/11ty/eleventy)
 ```
 npm install --save-dev @11ty/eleventy
 ```
