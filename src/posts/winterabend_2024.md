@@ -40,7 +40,12 @@ meta_beschreibung: "Einladung zum Digitalpolitischen Bits & Bäume- Winterabend 
 
 Wie blicken wir auf die letzten drei Jahre Ampel-Regierung? Was wollen wir von der nächsten Bundesregierung für eine nachhaltige und sozial-gerechte Digitalisierung? <br>
 
-Mit Vertreter*innen des Bits & Bäume Trägerkreis<br>
+*Panelist&ast;innen:*
+* Friederike von Franqué (Wikimedia)
+* Johanna Graf (Germanwatch)
+* Roman Kormann (DGB)
+* Rainer Rehak (Forum Informatiker*innen für Frieden und gesellschaftliche Verantwortung (Fiff) & Weizenbauminstitut)
+<br>
 
 **18:00 – 19:00 Uhr: Community-Diskussion** <br>
 
