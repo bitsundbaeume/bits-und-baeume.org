@@ -4,7 +4,7 @@
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
 title: "Wir verlassen X"
-datum: "2024-06-2024"
+datum: "2024-06-24"
 autorin: 
 
 #bild: "/assets/images/BILD.png"
