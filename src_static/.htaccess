@@ -29,10 +29,16 @@ Redirect 302 /Kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETd
 # 38c3
 Redirect 302 /38c3/bbb/habitat https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
 Redirect 302 /38c3/orgapad https://pads.fiff.de/p/38c3_habitat_orga
+
 Redirect 302 /38c3/infopad https://pads.fiff.de/p/38c3_habitat
+
 Redirect 302 /38c3/bedarfe https://cloud.bits-und-baeume.org/s/JEFo7N2w3SKbpDE
-Redirect 302 /38c3/workshop-einreichen https://fahrplan.alpaka.space/jugend-hackt-38c3-2024/submit/W06KjP/info/?submission_type=38-bits-baume-workshop
 Redirect 302 /38c3/zeitstrahl https://cloud.bits-und-baeume.org/pad/p/rfk6rg8kl67uwr4dc3ae27zjzp46f7fqujmg
+
+Redirect 302 /38c3/workshop-einreichen https://fahrplan.alpaka.space/jugend-hackt-38c3-2024/submit/W06KjP/info/?submission_type=38-bits-baume-workshop
+Redirect 302 /38c3/workshop-orga https://cloud.bits-und-baeume.org/pad/p/s2ppix47ogibunjxy35utn2mbn316z6d77v1gegohq1hjjem
+Redirect 302 /38c3/workshop-technik-feedback https://cloud.bits-und-baeume.org/pad/p/jxx7p7ubuqfrhmliwrailxq68iyrnzd4vi8kq4wn1po9pl0fxx
+
 
 # 37c3
 Redirect 302 /37c3/orgapad https://cloud.bits-und-baeume.org/pad/p/2kz4ddkg9hjmkclk0v71171ii88ijh456ibmmnbhe2b5no7vr
