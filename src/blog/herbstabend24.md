@@ -2,7 +2,7 @@
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 type: "Bericht" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
-#permalink: 
+#permalink:
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
 datum: "2024-10-25"
 autorin: Leo
@@ -47,4 +47,7 @@ Nach diesen starken Inputs gingen die Teilnehmenden des Herbstabends in verschie
 
 
 
-*Link zum Livestream der Eröffnung und der Keynotes: https://www.youtube.com/watch?v=zSAcnSKw-jQ*
+*Aufzeichnung der Eröffnung und der Keynotes:*
+
+- https://cloud.fiff.de/s/F7iJLtMNgPfydw9 (nextcloud auf unserer Infra)
+- https://www.youtube.com/watch?v=zSAcnSKw-jQ (youtube)
