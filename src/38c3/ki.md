@@ -1,0 +1,30 @@
+---
+
+#icon: "" # Entferne das erste # um das Icon auf der Kachel auszuschalten
+#type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel über der Überschrift
+
+
+# aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
+datum: "2024-12-29"
+autorin: Constanze Kurz, Friederike Hildebrandt
+
+# permalink:
+#bild: "/assets/images/oekologische-kosten-des-ki-hypes.png"
+#bildunterschrift: ""
+
+title: "KI - Klimaschädlich by Design"
+
+# Zwischen Überschrift und Text
+einleitung: Sogenannte generative KI hat einen hohen Rechenbedarf und braucht damit automatisch viel Energie. Wir tragen Quellen zum Energie-, Wasser- und Ressourcenverbrauch zusammen.
+
+# Für Social media und Suchergebnisse (also extern)
+meta_beschreibung: Sogenannte generative KI hat einen hohen Rechenbedarf und braucht damit automatisch viel Energie. Wir tragen Quellen zum Energie-, Wasser- und Ressourcenverbrauch zusammen.
+
+#button_text: "Reader Jetzt downloaden (PDF)"
+#button_url: "/assets/images/pdfs/oekologische-kosten-des-ki-hypes.pdf"
+
+
+---
+Wir wollen zu unserem <a href="https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/LVVRLL/">Vortrag beim Chaos Communication Congress</a> unsere Quellen offenlegen und weiterführende Literatur anbieten.
+  
+

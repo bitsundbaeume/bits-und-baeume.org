@@ -1,0 +1,14 @@
+{
+    "layout": "layouts/_post.ejs",
+    "tags": [],
+    "type": "38c3",
+    "icon": "icon-box-cta.svg",
+    "aktuell": "nein",
+    "autorin": "",
+    "einleitung": "",
+    "bild": "",
+    "bildunterschrift": "",
+    "button_anzeigen": "ja",
+    "button_url": "",
+    "button_text": ""
+}
