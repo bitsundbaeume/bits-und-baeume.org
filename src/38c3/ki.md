@@ -9,7 +9,7 @@ datum: "2024-12-29"
 autorin: Constanze Kurz, Friederike Hildebrandt
 
 # permalink:
-#bild: "/assets/images/oekologische-kosten-des-ki-hypes.png"
+bild: "/assets/images/38c3-ki.png"
 #bildunterschrift: ""
 
 title: "KI - Klimaschädlich by Design"
