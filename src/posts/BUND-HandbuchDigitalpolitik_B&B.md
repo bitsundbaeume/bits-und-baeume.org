@@ -37,7 +37,7 @@ Das Buch beleuchtet, was hinter den Versprechen der Digitalisierung steckt und w
 
 
 <a href="https://www.youtube.com/watch?v=agejFA95FtQ">
-<button class="btn-dark">Hier gehts zur Audio-Version</button>
+<button class="btn-dark">Hier geht's zur Audio-Version</button>
 </a>
 
 
