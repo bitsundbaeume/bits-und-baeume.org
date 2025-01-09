@@ -9,22 +9,22 @@ autorin: "Friederike Hildebrandt"
 bild: "/assets/images/BUND-HandbuchDigitalpolitik_B&B_Cover.png"
 bildunterschrift: "Cover des Handbuch Digitalpolitik"
 
-title: "Digital die Welt retten?"
+title: "Digital die Welt retten? Ein Hand- und Hörbuch!"
 
 # Zwischen Überschrift und Text. So lang wie nötig - keine Zeichenbeschränkung
-einleitung: 
+einleitung: Dieses Handbuch ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst. Es ist jetzt auch als Audiobuch nachzuhören!
 
 # 250-300 Zeichen - Für die Kacheln auf der Website
-teaser: Das Handbuch, das in Zusammenarbeit vom BUND und Bits & Bäume enstanden ist, ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst. 17 Autorinnen, Aktivistinnen und Wissenschaftler*innen haben gemeinsam die größten Herausforderungen des digitalen Wandels in sieben Kapiteln diskutiert und zusammengefasst.
+teaser: Das Handbuch, das in Zusammenarbeit vom BUND und Bits & Bäume enstanden ist, ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst. Es ist jetzt auch als Audiobuch nachzuhören!
 
 # 130 bis 135 (max 160) Zeichen - Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: 
 
 # Button - Falls hier eine URL angegeben wird, führt der Button nicht zur eigenen Seite sondern direkt zur URL
-button_text: "Direkt zum Download"
+button_text: "Direkt zum Download (PDF)"
 button_url: "/assets/images/pdfs/BUND-HandbuchDigitalpolitik_B&B.pdf"
 ---
-Dieses Handbuch ist für alle, die verstehen wollen, wie die Digitalisierung unsere sozialen und ökologischen Probleme und Krisen beeinflusst. 17 Autorinnen, Aktivistinnen und Wissenschaftler*innen haben gemeinsam die größten Herausforderungen des digitalen Wandels in sieben Kapiteln diskutiert und zusammengefasst:
+17 Autorinnen, Aktivistinnen und Wissenschaftler*innen haben gemeinsam die größten Herausforderungen des digitalen Wandels in sieben Kapiteln diskutiert und zusammengefasst:
 
 * Klimakrise
 * Verlust der Artenvielfalt
@@ -34,6 +34,12 @@ Dieses Handbuch ist für alle, die verstehen wollen, wie die Digitalisierung uns
 * Krise der Demokratie
 
 Das Buch beleuchtet, was hinter den Versprechen der Digitalisierung steckt und wer davon profitiert – seien es Unternehmen, Politiker*innen oder die Zivilgesellschaft. Gleichzeitig zeigt es, wie die Digitalisierung dazu beitragen kann, unsere Umwelt zu schützen und mehr Freiheit, Demokratie und Gerechtigkeit zu schaffen. Außerdem wird diskutiert, welche Gesetze, Proteste und Aktionen nötig sind, um die digitale Wirtschaft nachhaltig auszurichten.
+
+
+<a href="https://www.youtube.com/watch?v=agejFA95FtQ">
+<button class="btn-dark">Hier gehts zur Audio-Version</button>
+</a>
+
 
 Das Buch entstand in Zusammenarbeit mit dem BUND und orientiert sich an den Konzepten des Postwachstums der digitalen Suffizienz. Das bedeutet: so viel Digitalisierung wie nötig, aber so wenig wie möglich. Es geht darum, die Digitalisierung als Mittel für eine gerechte und nachhaltige Wirtschaft zu nutzen, nicht als Selbstzweck.
 
