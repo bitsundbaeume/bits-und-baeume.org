@@ -10,13 +10,4 @@ git commit -m "$beschreibung"
 sleep
 git push
 sleep 5
-while true; do
-    output=$(curl -s $URL) # Abrufen der URL
-    echo "$output" | tail -n 5 # Zeigt die letzten 5 Zeilen an
-    if echo "$output" | grep -q "ended"; then # Prüft auf den String "endede"
-        echo "String 'Ended' gefunden. Abbruch."
-        break
-    fi
-    sleep 2 # Intervall von 2 Sekunden
-done
-
+watch -d -n 2 'curl -s $URL | tail -n 5'
