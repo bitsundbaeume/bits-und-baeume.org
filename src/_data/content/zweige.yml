@@ -81,16 +81,7 @@ items:
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
-  - name: Hier könnte dein Wohnort stehen! :)
-    url: /community/eigene-organisieren/
-    content: |
-      <p><b>Noch kein Bits&Bäume-Sprössling in deiner Nähe?</b></p>
-      <p>Dann gründe einen! Unter Bits&Bäume wächst findest du die Bedingungen für eigene Bits&Bäume-Aktionen. Melde dich mit den guten Nachrichten, dass es Zuwachs
-      gibt und wie mensch euch findet, unter bewegung@bits-und-baeume.org, dann nehmen wir euch in die Liste auf.
-      Außerdem kannst du dich bei unserer Mailingliste anmelden oder in unserem Bits&Bäume-Online-Forum aktiv werden und dich vernetzen.
-      </p>
-    style: box-infos
-    pixel: /assets/images/pixel-box-infos.svg
+
 
 
 
