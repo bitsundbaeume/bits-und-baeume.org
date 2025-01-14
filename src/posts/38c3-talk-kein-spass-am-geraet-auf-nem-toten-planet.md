@@ -9,6 +9,7 @@ featured: ja  # ja - Wenn dieser Post direkt als erstes auf der Landing Page ang
 
 datum: "2024-12-29"
 autorin: Anja Höfner, Rainer Rehak
+type: "Vortrag"
 
 # permalink:
 bild: "/assets/images/38c3-talk.png"
