@@ -13,82 +13,127 @@ translation: /en/
 in Politik und Gesellschaft tragen!</p>
 </section>
 
+<!----- featured posts ---->
 
 <section class="max-w-7xl">
-	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
-		<div class="box__image w-full md:w-2/5">
-			<img class="object-cover"
-			src="{% thumbnail '/assets/images/38c3-talk.png' %}"
-			alt="Forderungen 2022 Seite 1"
-			sizes="(min-width: 1360px) 485px, (min-width: 780px) 35.89vw, 90.87vw"
-			data-img2picture-widths="485,702"
-			>
-		</div>
 
-		<div class="text w-full md:w-3/5">
-			<h3>38c3 -  Kein Spaß am Gerät auf 'nem toten Planet! </h3>
+	<div flex-wrap>
 
-			<p>
-			Seit Jahren kämpft das Bits-&-Bäume-Bündnis, dem auch der CCC seit Beginn angehört, für eine ökologische und sozial gerechte Digitalpolitik – 2024 war dabei ein Jahr voller Hochs und Tiefs: von erstmals sinkenden CO₂-Emissionen in Industrieländern, über den weiterbrennenden KI-Boom mit Nachhaltigkeitsanstrich, die Rolle von digitalen Plattformen für anti-demokratische und nicht-nachhaltige Bewegungen, den ökologischen Fußabruck von Profiling bis hin zum Tech-Solutionismus von Elon Musk jetzt im Weißen Haus.
-			</p>
-			<a href="https://media.ccc.de/v/38c3-kein-spa-am-gert-auf-nem-toten-planet"><button class="btn-dark">Zum Video</button></a>			
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-img.svg" alt="box" width="50" height="40">
-		</div>
-	</div>
-</section>
+		{% for post in collections.post | sort(attribute = 'data.datum') | reverse %}
+			{% if post.data.featured in["ja"] %}
+				{% if post.data.bild %}
+					<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
+						<div class="box__image w-full md:w-2/5">
+							{% if post.data.extern == "ja" %}
+								<a href="{{ post.data.button_url }}">
+								{% else %}
+									<a href="{{ post.url }}">
+									{% endif %}
+									<img class="object-cover" src="{% thumbnail post.data.bild %}" alt="{{ post.data.bildunterschrift }}" sizes="(min-width: 780px) 280px, 93.04vw" data-img2picture-widths="280,400,670,800">
+								</a>
+							</div>
+							<div class="text w-full md:w-3/5">
+								
+								<h2 class="h3">
+
+									<a href="{{ post.url }}">{{ post.data.title }}</a>
+								</h2>
+								<p>
+									{% if post.data.teaser %}
+										{{ post.data.teaser }}
+									{% elif post.data.meta_beschreibung %}
+										{{post.data.meta_beschreibung }}
+									{% elif post.data.einleitung %}
+										{{post.data.einleitung }}
+									{% elif post.content %}
+										{{ post.content | safe }}
+									{% else %}
+									no content
+								{% endif %}
+								</p>
+								{% if post.data.button_anzeigen == "ja" %}
+									<p>
+										{% if post.data.button_url %}
+											<a href="{{ post.data.button_url }}">
+											{% else %}
+												<a href="{{ post.url }}">
+												{% endif %}
+												<button class="btn-dark">
+													{% if post.data.button_text %}
+														{{ post.data.button_text }}
+													{% else %}
+											weiterlesen
+										{% endif %}
+												</button>
+											</a>
+										</p>
+									{% endif %}
+
+								</div>
+								<div class="box__pixel">
+									<img src="/assets/images/pixel-box-img.svg" widht="50" height="40">
+								</div>
+							</div>
+
+						{% else %}
+							<div class="box box-infos">
+								
+								<h2 class="h3">
+									<a href="{{ post.url }}">{{ post.data.title }}</a>
+								</h2>
+
+								<p>
+
+									{% if post.data.teaser %}
+										{{ post.data.teaser }}
+									{% elif post.data.meta_beschreibung %}
+										{{post.data.meta_beschreibung }}
+									{% elif post.data.einleitung %}
+										{{post.data.einleitung }}
+									{% elif post.content %}
+										{{ post.content | safe }}
+									{% else %}
+								no content
+							{% endif %}
+								</p>
+								<p>
+									{% if post.data.button_anzeigen == "ja" %}
+										<p>
+											{% if post.data.button_url %}
+												<a href="{{ post.data.button_url }}">
+												{% else %}
+													<a href="{{ post.url }}">
+													{% endif %}
+													<button class="btn-dark">
+														{% if post.data.button_text %}
+															{{ post.data.button_text }}
+														{% else %}
+											weiterlesen
+										{% endif %}
+													</button>
+												</a>
+											</p>
+										{% endif %}
+
+										{% if post.data.icon %}
+											<div class="box__icon">
+												<img src="/assets/images/{{ post.data.icon }}" widht="66" height="66">
+											</div>
+										{% endif %}
+										<div class="box__pixel">
+											<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
+										</div>
+									</p>
 
 
-<section class="max-w-7xl">
-	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
-		<div class="box__image w-full md:w-2/5">
-			<img class="object-cover"
-			src="{% thumbnail '/assets/images/38c3-ki.png' %}"
-			alt="Forderungen 2022 Seite 1"
-			sizes="(min-width: 1360px) 485px, (min-width: 780px) 35.89vw, 90.87vw"
-			data-img2picture-widths="485,702"
-			>
-		</div>
 
-		<div class="text w-full md:w-3/5">
-			<h3>38c3 - Klimaschädlich by Design – die ökologischen Kosten des KI-Hypes</h3>
+								</div>
+							{% endif %}
 
-			<p>
-			Sogenannte Generative KI hat einen hohen Rechenbedarf und braucht damit automatisch viel Energie. Wir wollen zeigen, was die AI-Bubble uns alle bisher an Ressourcen gekostet hat. Wer verdient sich daran dumm und dusslig? Und wer trägt die ökologischen und sozialen Kosten?
-			</p>
-			<a href="{{ site.url }}/38c3/ki"><button class="btn-dark">Weiterlesen</button></a>			
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-img.svg" alt="box" width="50" height="40">
-		</div>
-	</div>
-</section>
+						{% endif %}
+					{% endfor %}
+				</div>
 
-
-<section class="max-w-7xl">
-	<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
-		<div class="box__image w-full md:w-2/5">
-			<img class="object-cover"
-			src="{% thumbnail '/assets/images/jahresabschluss24.jpg' %}"
-			alt="Forderungen 2022 Seite 1"
-			sizes="(min-width: 1360px) 485px, (min-width: 780px) 35.89vw, 90.87vw"
-			data-img2picture-widths="485,702"
-			>
-		</div>
-
-		<div class="text w-full md:w-3/5">
-			<h3>Glühwein, Plätzchen und Regierungswechsel - Neue Chance für eine nachhaltige Digitalisierung</h3>
-
-			<p>
-			Am 5.12.2024 sind wir im Weizenbaum Institut zum Bits & Bäume - Jahresabschluss zusammengekommen. Unter dem Motto ''Glühwein, Plätzchen und Regierungswechsel - Neue Chance für eine nachhaltige Digitalisierung'' haben wir auf das letzte digitalpolitische Jahr und und die Ampelregierung geblickt.
-			</p>
-			<a href="{{ site.url }}/posts/jahresabschluss24/"><button class="btn-dark">Weiterlesen</button></a>			
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-img.svg" alt="box" width="50" height="40">
-		</div>
-	</div>
 </section>
 
 <section class="max-w-7xl">
@@ -129,70 +174,71 @@ in Politik und Gesellschaft tragen!</p>
 	</div>
 </section>
 
-			<section class="tiles-section px-0 pt-24">
+<section class="tiles-section px-0 pt-24">
 
-				<div class="wrapper relative bg-blue-light">
-					<div class="tiles flex flex-wrap container max-w-7xl m-auto relative -top-24">
-						<div class="w-full lg:w-1/3 flex flex-col">
-							<div class="box box-infos mx-4 lg:ml-4 flex-1">
-								<h2 class="h3"><a href="/newsletter">Newsletter</a></h2>
-								<p>Erhalte Neuigkeiten der Bits & Bäume Bewegung, Events und Infos aus der Community.<br><br>Anfordern per Mail-App oder per Login:</p>
-								<a target="blanc"  href="mailto:newsletter-subscribe@lists.bits-und-baeume.org?subject=B%26B%20Newsletter%20Abo&body=Schicke%20diese%20Mail%20von%20deiner%20Mailadresse%20ab%2C%20um%20das%20Bits%20%26%20B%C3%A4ume-Newsletter%20zu%20abonnieren.%0A%0AMit%20dem%20Newsletter%20erf%C3%A4hrst%20du%20etwa%20alle%20zwei%20Monate%20von%20Neuigkeiten%20der%20Bits%20%26%20B%C3%A4ume%20Bewegung%2C%20alle%20Events%20und%20B%26B-nahen%20Termine%2C%20Infos%20zur%20und%20aus%20der%20Community%20und%20Aufrufe%20zum%20Mitmachen%20und%20Einbringen.%0A%0Ahttps%3A%2F%2Fbits-und-baeume.org%0A%0AUm%20sicherzugehen%2C%20dass%20diese%20Mailadresse%20dir%20geh%C3%B6rt%2C%20schicken%20wir%20dir%20eine%20weitere%20Mail%20zu.%20Nachdem%20du%20auf%20diese%20geantwortet%20hast%2C%20erh%C3%A4ltst%20du%20die%20Best%C3%A4tigung%20des%20Abos.%0A%0AAlternativ%20kannst%20du%20dir%20auch%20einen%20Account%20erstellen%20und%20dein%20Abo%20im%20Browser%20einrichten%20unter%3A%20https%3A%2F%2Fbits-und-baeume.org%2Fnewsletteranmeldung
-"><button class="btn-dark">Mail-App</button></a>
-								<a target="blanc" href="https://bits-und-baeume.org/newsletteranmeldung"><button class="btn-dark">Login</button></a>
-							</div>
-						</div>
-						
-						<div class="w-full lg:w-1/3 flex flex-col">
-							<div class="box box-cta mx-4 lg:mr-4 flex-1">
-								<h2 class="h3">Mehr Lesen</h2>
-								<p>Was Bits und Bäume verbindet, wissenschaftliche und praktische Erkenntnisse der Konferenzen 2018 und 2022  und unser Forderungskatalog an die Politik.</p>
-								<a href="/publikationen/">
-									<button class="btn-dark">zu unseren Publikationen</button>
-								</a>
-							</div>
-						</div>
-						<div class="w-full lg:w-1/3 flex flex-col">
-							<div class="box box-infos mx-4 lg:mx-2 flex-1">
-								<h2 class="h3">Vorträge ansehen</h2>
-								<p>Fast alle Vorträge der B&B Konferenzen 2018 und 2022 wurden vom <a target="blanc" href="https://c3voc.de/">c3voc</a> in Echtzeit ins Netz übertragen und sind auch als Aufzeichnungen unter freier Lizenz verfügbar.</p>
-								<a target="blanc" href="/aufzeichnungen/"><button class="btn-dark">zu den Videos</button></a>
-								<a target="blanc" href="https://fahrplan22.bits-und-baeume.org/bitsundbaeume/schedule/"><button class="btn-dark">zum Fahrplan</button></a>
-							</div>
-						</div>
-
-
-					</div>
-					<div class="area__pixel">
-						<img src="/assets/images/pixel-blue-area.svg" widht="60" height="60">
-					</div>
+	<div class="wrapper relative bg-blue-light">
+		<div class="tiles flex flex-wrap container max-w-7xl m-auto relative -top-24">
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-infos mx-4 lg:ml-4 flex-1">
+					<h2 class="h3">
+						<a href="/newsletter">Newsletter</a>
+					</h2>
+					<p>Erhalte Neuigkeiten der Bits & Bäume Bewegung, Events und Infos aus der Community.<br><br>Anfordern per Mail-App oder per Login:</p>
+					<a target="blanc"  href="mailto:newsletter-subscribe@lists.bits-und-baeume.org?subject=B%26B%20Newsletter%20Abo&body=Schicke%20diese%20Mail%20von%20deiner%20Mailadresse%20ab%2C%20um%20das%20Bits%20%26%20B%C3%A4ume-Newsletter%20zu%20abonnieren.%0A%0AMit%20dem%20Newsletter%20erf%C3%A4hrst%20du%20etwa%20alle%20zwei%20Monate%20von%20Neuigkeiten%20der%20Bits%20%26%20B%C3%A4ume%20Bewegung%2C%20alle%20Events%20und%20B%26B-nahen%20Termine%2C%20Infos%20zur%20und%20aus%20der%20Community%20und%20Aufrufe%20zum%20Mitmachen%20und%20Einbringen.%0A%0Ahttps%3A%2F%2Fbits-und-baeume.org%0A%0AUm%20sicherzugehen%2C%20dass%20diese%20Mailadresse%20dir%20geh%C3%B6rt%2C%20schicken%20wir%20dir%20eine%20weitere%20Mail%20zu.%20Nachdem%20du%20auf%20diese%20geantwortet%20hast%2C%20erh%C3%A4ltst%20du%20die%20Best%C3%A4tigung%20des%20Abos.%0A%0AAlternativ%20kannst%20du%20dir%20auch%20einen%20Account%20erstellen%20und%20dein%20Abo%20im%20Browser%20einrichten%20unter%3A%20https%3A%2F%2Fbits-und-baeume.org%2Fnewsletteranmeldung
+">
+						<button class="btn-dark">Mail-App</button>
+					</a>
+					<a target="blanc" href="https://bits-und-baeume.org/newsletteranmeldung">
+						<button class="btn-dark">Login</button>
+					</a>
 				</div>
-			</section>
-			
+			</div>
+
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-cta mx-4 lg:mr-4 flex-1">
+					<h2 class="h3">Mehr Lesen</h2>
+					<p>Was Bits und Bäume verbindet, wissenschaftliche und praktische Erkenntnisse der Konferenzen 2018 und 2022  und unser Forderungskatalog an die Politik.</p>
+					<a href="/publikationen/">
+						<button class="btn-dark">zu unseren Publikationen</button>
+					</a>
+				</div>
+			</div>
+			<div class="w-full lg:w-1/3 flex flex-col">
+				<div class="box box-infos mx-4 lg:mx-2 flex-1">
+					<h2 class="h3">Vorträge ansehen</h2>
+					<p>Fast alle Vorträge der B&B Konferenzen 2018 und 2022 wurden vom <a target="blanc" href="https://c3voc.de/">c3voc</a> in Echtzeit ins Netz übertragen und sind auch als Aufzeichnungen unter freier Lizenz verfügbar.</p>
+					<a target="blanc" href="/aufzeichnungen/">
+						<button class="btn-dark">zu den Videos</button>
+					</a>
+					<a target="blanc" href="https://fahrplan22.bits-und-baeume.org/bitsundbaeume/schedule/">
+						<button class="btn-dark">zum Fahrplan</button>
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="area__pixel">
+			<img src="/assets/images/pixel-blue-area.svg" widht="60" height="60">
+		</div>
+	</div>
+</section>
+
 <section class="max-w-6xl">
 
 	<h2 class="h3">Aktuell</h2>
 	<div flex-wrap>
 
 		{% for post in collections.post | sort(attribute = 'data.datum') | reverse %}
-
-			{% if post.data.aktuell in["ja"] %}
-
+			{% if post.data.aktuell in["ja"] and post.data.featured != "ja" %}
 				{% if post.data.bild %}
 					<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
 						<div class="box__image w-full md:w-2/5">
-
 							{% if post.data.extern == "ja" %}
 								<a href="{{ post.data.button_url }}">
 								{% else %}
 									<a href="{{ post.url }}">
 									{% endif %}
-									<img class="object-cover"
-						src="{% thumbnail post.data.bild %}"
-						alt="{{ post.data.bildunterschrift }}"
-						sizes="(min-width: 780px) 280px, 93.04vw"
-						data-img2picture-widths="280,400,670,800"
-						>
+									<img class="object-cover" src="{% thumbnail post.data.bild %}" alt="{{ post.data.bildunterschrift }}" sizes="(min-width: 780px) 280px, 93.04vw" data-img2picture-widths="280,400,670,800">
 								</a>
 							</div>
 							<div class="text w-full md:w-3/5">
@@ -318,7 +364,7 @@ in Politik und Gesellschaft tragen!</p>
 				</div>
 				<a href="/meldungen_archiv/">alle Meldungen</a>
 			</section>
-<!---
+			<!---
 			<section class="max-w-6xl">
 
 				<h2 class="h3">Stimmen</h2>
@@ -336,6 +382,3 @@ in Politik und Gesellschaft tragen!</p>
 				</div>
 			</section>
 --->
-
-
-			
