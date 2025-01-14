@@ -3,7 +3,7 @@
 type: "Interview" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 #permalink: 
-aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
+aktuell: nein
 datum: "2024-07-11"
 autorin: Leo
 

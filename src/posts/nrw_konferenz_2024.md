@@ -1,7 +1,7 @@
 ---
 
 type: "Veranstaltung"
-aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
+aktuell: nein
 datum: "2024-10-22"
 autorin:
 
