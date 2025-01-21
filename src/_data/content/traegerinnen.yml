@@ -5,6 +5,11 @@ items:
      evangelischen Kirchen in Deutschland sind wir in mehr als 90 Ländern rund um den Globus aktiv. Gemeinsam mit lokalen Partnerinnen und Partnern helfen wir armen und ausgegrenzten Menschen, aus eigener Kraft ihre Lebenssituation zu verbessern.
     image: /assets/images/traegerinnen_logos/logo-brot-fuer-die-welt.svg
     url: https://www.brot-fuer-die-welt.de/
+  - name: Die BUNDjugend    
+    content: |
+     Als unabhängiger Jugendverband des BUND (Bund für Umwelt und Naturschutz Deutschland e.V.) ist die BUNDjugend bundesweit in allen 16 Ländern aktiv. Sie gehört zu den größten Jugendumweltverbänden Deutschlands. Die 82.600 Mitglieder bis 27 Jahre engagieren sie sich mit vielseitigen Kampagnen und Projekten, spannenden Veranstaltungen, eindrucksvollen Demos und Aktionen für Umweltschutz und Klimagerechtigkeit.
+    image: /assets/images/traegerinnen_logos/logo-bundjugend.png
+    url: https://www.bundjugend.de/
   - name: Chaos Computer Club
     content: |
      Der Chaos Computer Club ist eine galaktische Gemeinschaft von Lebewesen, 
