@@ -9,9 +9,6 @@ Redirect 302 /newsletterinput https://bits-und-baeume.org/newsletter_input/
 Redirect 302 /newsletteranmeldung https://lists.bits-und-baeume.org/postorius/lists/newsletter.lists.bits-und-baeume.org/
 
 
-# Fragebogen
-Redirect 302 /umfrage https://bitsundbaeume.limesurvey.net/681793?lang=de-informal 
-
 # Anmeldungen
 Redirect 302 /anmeldung/policy_lab_2024-09 https://cloud.bits-und-baeume.org/apps/forms/s/7tF7LTjS89WoxQGRs56KAPTZ
 Redirect 302 /anmeldung/herbstabend24 https://cloud.bits-und-baeume.org/apps/forms/s/rJjrN9HY35MzqaFjjR5acG6C
@@ -29,12 +26,9 @@ Redirect 302 /Kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETd
 # 38c3
 Redirect 302 /38c3/bbb/habitat https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
 Redirect 302 /38c3/orgapad https://pads.fiff.de/p/38c3_habitat_orga
-
 Redirect 302 /38c3/infopad https://pads.fiff.de/p/38c3_habitat
-
 Redirect 302 /38c3/bedarfe https://cloud.bits-und-baeume.org/s/JEFo7N2w3SKbpDE
 Redirect 302 /38c3/zeitstrahl https://cloud.bits-und-baeume.org/pad/p/rfk6rg8kl67uwr4dc3ae27zjzp46f7fqujmg
-
 Redirect 302 /38c3/workshop-einreichen https://fahrplan.alpaka.space/jugend-hackt-38c3-2024/submit/W06KjP/info/?submission_type=38-bits-baume-workshop
 Redirect 302 /38c3/workshop-orga https://cloud.bits-und-baeume.org/pad/p/s2ppix47ogibunjxy35utn2mbn316z6d77v1gegohq1hjjem
 Redirect 302 /38c3/workshop-technik-feedback https://cloud.bits-und-baeume.org/pad/p/jxx7p7ubuqfrhmliwrailxq68iyrnzd4vi8kq4wn1po9pl0fxx
@@ -78,40 +72,11 @@ Redirect 302 /konfereneankuendigung/de /konferenz/de
 Redirect 302 /konferenzankuendigung/en /konferenz/en
 Redirect 302 /37c3_rueckblick /blog/37c3_rueckblick/
 
-# Konferenz-Folienupload
-Redirect 302 /slides https://cloud.bits-und-baeume.org/index.php/s/gcG8LJA2CEba8kL
-Redirect 302 /Slides https://cloud.bits-und-baeume.org/index.php/s/gcG8LJA2CEba8kL
-
-
 # ÖA-Weiterleitungen
 Redirect 302 /programm-anregungen https://etherpad.wikimedia.org/p/bb22-programm-anregungen
 Redirect 302 /Organisationsmodell https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/Rm56ZZkJsp2oqte/Organisationsmodell
 Redirect 302 /organisationsmodell https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/Rm56ZZkJsp2oqte/Organisationsmodell
-Redirect 302 /Matrixanmeldung https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/fLP8pwfbELPM78L/Matrix 
-Redirect 302 /matrixanmeldung https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/fLP8pwfbELPM78L/Matrix
-Redirect 302 /tickets https://events.fairetickets.de/gedlv/
-Redirect 302 /Tickets https://events.fairetickets.de/gedlv/
-Redirect 302 /helfen https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
-Redirect 302 /Helfen https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
-Redirect 302 /Schlafplatzbörse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /schlafplatzbörse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /Schlafplatzboerse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /schlafplatzboerse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /druckdateien https://cloud.bits-und-baeume.org/index.php/s/Jy6g24XWaPj9FMZ
-
 Redirect 302 /konferenz-2022/mach-mit/infos https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
-
-
-#Awareness
-Redirect 302 /awareness https://cloud.bits-und-baeume.org/index.php/s/Zmy7Kg96KC5RNTe
-Redirect 302 /en/awareness https://cloud.bits-und-baeume.org/index.php/s/KHnyQDFEaHez464
-
-
-
-#Karte
-Redirect 302 /Karte https://www.openstreetmap.org/way/40451892
-Redirect 302 /karte https://www.openstreetmap.org/way/40451892
-Redirect 302 /walkthrough https://cloud.bits-und-baeume.org/index.php/s/fRDtQWq4xaabwQ4
 
 
 # BigBlueButton-Räume
