@@ -133,11 +133,10 @@ Redirect 302 /bbb-tk https://lecture.senfcall.de/rai-efg-dsh-8qc
 #Redirects 2018er Website
 Redirect 302 /datenschutz/de /datenschutz/
 Redirect 302 /datenschutz/en /datenschutz/
-Redirect 302 /forderungen/ /konferenz-2018/forderungen/
-Redirect 302 /forderungen/de /konferenz-2018/forderungen/
-Redirect 302 /forderungen/en /en/conference-2022/demands/
-Redirect 302 /forderungen/info/de /konferenz-2018/forderungen/
-Redirect 302 /forderungen/info/en /en/conference-2022/demands/
+Redirect 302 /forderungen/de /forderungen/
+Redirect 302 /forderungen/en /forderungen/
+Redirect 302 /forderungen/info/de /forderungen/
+Redirect 302 /forderungen/info/en /forderungen/
 Redirect 302 /forum/de /community/forum/
 Redirect 302 /forum/en /en/community/forum/
 Redirect 302 /forum/ /en/community/forum/
@@ -187,7 +186,6 @@ Redirect 302 /konferenz-2022/presse//de /konferenz-2022/presse/
 Redirect 302 /konferenz-2022/presse//de/ /konferenz-2022/presse/
 Redirect 302 /downloads/call_for_participation.pdf /konferenz-2022/mach-mit/
 Redirect 302 /downloads/Call_for_Action_neu.pdf /assets/images/pdfs/Call_for_Action_neu.pdf
-Redirect 302 /forderungen /konferenz-2022/forderungen/
 Redirect 302 /ziele /konferenz-2018/ziele/
 Redirect 302 /call /konferenz-2022/mach-mit/
 Redirect 302 /konferenzankuendigung/de /konferenz-2022/
