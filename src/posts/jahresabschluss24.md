@@ -20,7 +20,7 @@ teaser: "Am 5.12.2024 sind wir im Weizenbaum Institut zum Bits & Bäume - Jahres
 meta_beschreibung: 
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 #button_text: "eigene Buttonbeschriftung"
 #button_url: "andere URL"
 

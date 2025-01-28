@@ -30,9 +30,16 @@ meta_beschreibung: "" 			# ≤135 Zeichen Beschreibugnstext der in Social Media 
 
 
 ## Auf der Kachel wird standardmäßig ein Button "weiterlesen" angezeigt. Dieser kann hier angepasst oder versteckt werden
-# button_anzeigen = nein 			# Entferne "#" um den Button zu verstecken
+## Button 1
+# button_anzeigen:  nein 			# Entferne "#" um den Button zu verstecken
 # button_text: "eigene Buttonbeschriftung"	# Der Button-Text ist standardmäßig "weiterlesen"
 # button_url: "andere URL"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+
+## Button 2
+# button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
+# button2_text: "zur Pressemitteilung"		# Der Button-Text ist standardmäßig "weiterlesen"
+# button2_url: "/forderungen/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+
 
 ## Auf der Vorschau-Kacheln wird standardmäßog ein Icons angezeigt, das kann hier abgeschaltet werden.
 #icon: ""					# Entferne das "#" um das Icon auf der Kachel auszuschalten

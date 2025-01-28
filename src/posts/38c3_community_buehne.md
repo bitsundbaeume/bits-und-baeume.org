@@ -23,10 +23,17 @@ teaser: Vom 27.-30.12.2024 ist auch Bits & Bäume wieder mit Workshops, Vorträg
 # Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: Vom 27.-30.12.2024 ist auch Bits & Bäume wieder mit Workshops, Vorträgen und Community-Wohnzimmer auf der jährlichen Konferenz des Chaos Computer Clubs.
 
-# Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
-#button_text: "eigene Buttonbeschriftung"
-#button_url: "andere URL"
+## Auf der Kachel wird standardmäßig ein Button "weiterlesen" angezeigt. Dieser kann hier angepasst oder versteckt werden
+## Button 1
+# button_anzeigen:  nein 			# Entferne "#" um den Button zu verstecken
+# button_text: "eigene Buttonbeschriftung"	# Der Button-Text ist standardmäßig "weiterlesen"
+# button_url: "andere URL"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+
+## Button 2
+# button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
+# button2_text: "zur Pressemitteilung"		# Der Button-Text ist standardmäßig "weiterlesen"
+# button2_url: "/forderungen/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+
 
 
 ---

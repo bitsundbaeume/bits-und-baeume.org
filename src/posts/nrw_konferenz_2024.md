@@ -22,7 +22,7 @@ teaser: "Bits & Bäume Konferenz NRW 2024 am 13.11. – Jetzt anmelden!"
 meta_beschreibung: "Bits & Bäume Konferenz NRW 2024 am 13.11. – Jetzt anmelden!"
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 #button_text: "eigene Buttonbeschriftung"
 #button_url: "andere URL"
 

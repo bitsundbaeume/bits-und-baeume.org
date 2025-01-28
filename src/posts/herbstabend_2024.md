@@ -20,7 +20,7 @@ teaser: "Wir laden ein zum Thema ''Wem gehört das Internet? Macht, Eigentum und
 meta_beschreibung: "''Wem gehört das Internet? Macht, Eigentum und Demokratisierung digitaler Infrastrukturen'' 20.10. 18 Uhr in FFM"
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 #button_text: "eigene Buttonbeschriftung"
 #button_url: "andere URL"
 

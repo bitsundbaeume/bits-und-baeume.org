@@ -24,7 +24,7 @@ teaser: "Ein letzes mal in diesem Jahr kommen wir zum Bits & Bäume Jahresabschl
 meta_beschreibung: "Einladung zum Digitalpolitischen Bits & Bäume- Winterabend am 05.12.24 in Berlin"
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-# button_anzeigen = nein
+#button_anzeigen: nein 
 # button_text: "Zum Programm"
 # button_url: "andere URL"
 

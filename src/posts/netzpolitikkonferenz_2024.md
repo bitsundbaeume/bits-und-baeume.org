@@ -25,7 +25,7 @@ teaser:
 meta_beschreibung: 
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 button_text: "Zur Konferenzseite"
 button_url: "https://netzpolitik.org/bildet-netze/"
 

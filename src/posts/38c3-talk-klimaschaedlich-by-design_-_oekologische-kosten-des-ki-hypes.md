@@ -27,7 +27,7 @@ teaser: Sogenannte generative KI hat einen hohen Rechenbedarf und braucht damit 
 meta_beschreibung: Sogenannte generative KI hat einen hohen Rechenbedarf und braucht damit automatisch viel Energie. Wir tragen Quellen zusammen. 
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 button_text: "zum Video"
 button_url: "https://media.ccc.de/v/38c3-klimaschdlich-by-design-die-kologischen-kosten-des-ki-hypes"
 

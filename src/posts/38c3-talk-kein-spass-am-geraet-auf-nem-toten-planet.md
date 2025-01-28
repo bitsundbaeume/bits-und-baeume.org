@@ -27,7 +27,6 @@ teaser: Seit Jahren kämpft das Bits-&-Bäume-Bündnis, dem auch der CCC seit Be
 meta_beschreibung: Seit Jahren kämpft das Bits-&-Bäume-Bündnis, für eine ökologische und sozial gerechte Digitalpolitik. Ein Rückblick auf 2024.
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
 button_text: "zum Video"
 button_url: "https://media.ccc.de/v/38c3-kein-spa-am-gert-auf-nem-toten-planet"
 ---
