@@ -30,6 +30,7 @@ meta_beschreibung: Sogenannte generative KI hat einen hohen Rechenbedarf und bra
 #button_anzeigen: nein 
 button_text: "zum Video"
 button_url: "https://media.ccc.de/v/38c3-klimaschdlich-by-design-die-kologischen-kosten-des-ki-hypes"
+button2_anzeigen: "ja"
 
 
 ---

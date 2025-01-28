@@ -29,6 +29,9 @@ meta_beschreibung: Seit Jahren kämpft das Bits-&-Bäume-Bündnis, für eine ök
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
 button_text: "zum Video"
 button_url: "https://media.ccc.de/v/38c3-kein-spa-am-gert-auf-nem-toten-planet"
+
+button2_anzeigen: "ja"
+
 ---
 Von erstmals sinkenden CO₂-Emissionen in Industrieländern, über den weiterbrennenden KI-Boom mit Nachhaltigkeitsanstrich, die Rolle von digitalen Plattformen für anti-demokratische und nicht-nachhaltige Bewegungen, den ökologischen Fußabdruck von Profiling bis hin zum Tech-Solutionismus von Elon Musk jetzt im Weißen Haus war das Jahr 2024 außergewöhnlich.
 

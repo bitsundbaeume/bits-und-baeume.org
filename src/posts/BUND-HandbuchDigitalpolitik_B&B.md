@@ -23,6 +23,7 @@ meta_beschreibung:
 # Button - Falls hier eine URL angegeben wird, führt der Button nicht zur eigenen Seite sondern direkt zur URL
 button_text: "Direkt zum Download (PDF)"
 button_url: "/assets/images/pdfs/BUND-HandbuchDigitalpolitik_B&B.pdf"
+button2_anzeigen: "ja"
 ---
 17 Autorinnen, Aktivistinnen und Wissenschaftler*innen haben gemeinsam die größten Herausforderungen des digitalen Wandels in sieben Kapiteln diskutiert und zusammengefasst:
 
