@@ -22,7 +22,7 @@ featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Pag
 ## Textfragmente
 einleitung: "Bündnis Bits & Bäume appelliert mit Forderungskatalog an die zukünftige Bundesregierung für eine nachhaltige und sozial gerechte Digitalisierung."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
 teaser: "Das Bündnis Bits & Bäume appelliert mit Forderungskatalog an die zukünftige Bundesregierung für eine nachhaltige und sozial gerechte Digitalisierung."				# Der Teaser wird auf den Kacheln als Anreißertext angezeigt. 
-meta_beschreibung: "Bits & Bäume Bündnis appelliert mit Forderungskatalog an zukünftige Bundesregierung für nachhaltige und sozial gerechte Digitalisierung." 			# ≤135 Zeichen Beschreibugnstext der in Social Media und Suchergebnissen unter dem Titel angezeigt wird (also extern)
+meta_beschreibung: "Forderungskatalog an zukünftige Regierung für nachhaltige und sozial gerechte Digitalisierung." 			# ≤135 Zeichen Beschreibugnstext der in Social Media und Suchergebnissen unter dem Titel angezeigt wird (also extern)
 
 ## Feature Image für die Kachel, Social Media und auf der Seite selbst
 bild: "/assets/images/forderungen2025-cover.png"
