@@ -51,7 +51,7 @@ Das Bündnis Bits & Bäume fordert die zukünftige Bundesregierung dazu auf, die
 
 <a href="{{ site.url }}/assets/images/pdfs/Bits-und-Baeume_Politische-Forderungen-2025.pdf"><button class="btn-dark">Forderungen (PDF)</button></a>
 <a href="{{ site.url }}/assets/images/pdfs/Bits-und-Baeume_Politische-Forderungen-2025-Kurzfassung.pdf"><button class="btn-dark">Kurzfassung (PDF)</button></a>
-
+<a href="{{ site.url }}/posts/forderungen-bundestagswahl-2025-html"><button class="btn-dark">Forderungen (HTML)</button></a>
 
 
 
