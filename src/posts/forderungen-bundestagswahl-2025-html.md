@@ -33,7 +33,7 @@ bild: "/assets/images/forderungen2025-cover.png"
 
 ## Auf der Kachel wird standardmäßig ein Button "weiterlesen" angezeigt. Dieser kann hier angepasst oder versteckt werden
 # button_anzeigen: = nein 			# Entferne "#" um den Button zu verstecken
-button_text: "Zu den Forderungen als PDF"		# Der Button-Text ist standardmäßig "weiterlesen"
+button_text: "Zu den Forderungen"		# Der Button-Text ist standardmäßig "weiterlesen"
 button_url: "/forderungen/"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 ## Button 2
