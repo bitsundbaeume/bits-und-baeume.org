@@ -5,6 +5,9 @@ Redirect 303 /mailinglisten_wiki https://wiki2.bits-und-baeume.org/it/mailinglis
 # Wikimedia hat hier das Leerzeichen in einem Post drin gehabt
 Redirect 302 "/forderungen/ " /forderungen/
 
+# Community-Loste
+Redirect 302 /communityliste https://lists.bits-und-baeume.org/postorius/lists/community.lists.bits-und-baeume.org/
+
 # Newsleter
 Redirect 302 /newsletter_input_pad https://cloud.bits-und-baeume.org/pad/p/ctsc6l99h6m1p4gbl45aht39yv9mo04c4f
 Redirect 302 /newsletterinput https://bits-und-baeume.org/newsletter_input/
