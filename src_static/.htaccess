@@ -127,9 +127,6 @@ Redirect 302 /konferenz/ /konferenz-2022/
 Redirect 302 /konferenz /konferenz-2022/
 Redirect 302 /material/de /material/
 Redirect 302 /material/en /en/material/
-Redirect 302 /presse /konferenz-2022/presse/
-Redirect 302 /presse/ /konferenz-2022/presse/
-Redirect 302 /presse/de /konferenz-2022/presse/
 Redirect 302 /presse/en /en/conference-2018/press/
 Redirect 302 /programm/de /konferenz-2022/programm/
 Redirect 302 /programm/ /konferenz-2022/programm/
