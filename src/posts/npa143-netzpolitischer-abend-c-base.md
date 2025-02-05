@@ -24,7 +24,7 @@ einleitung: Digitalpolitik jetzt in den Dienst von Mensch und Umwelt stellen –
 teaser: Beim 143sten Netzpolitischen Abend fordern Rike und Rainer die zukünftige Bundesregierung dazu auf, die Potenziale der Digitalisierung für eine sozial gerechte und nachhaltige Zukunft zu nutzen.
 
 # Für Social media und Suchergebnisse (also extern)
-meta_beschreibung: Bundestagswahl – Digitalpolitik jetzt in den Dienst von Mensch und Umwelt stellen!
+meta_beschreibung: Digitalpolitik jetzt in den Dienst von Mensch und Umwelt stellen!
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
 button_text: "zum Video (Minute 0:59:30)"
