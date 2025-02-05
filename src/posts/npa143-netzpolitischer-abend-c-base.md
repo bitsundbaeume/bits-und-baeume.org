@@ -15,13 +15,13 @@ type: "Vortrag"
 bild: "/assets/images/npa143.png"
 bildunterschrift: "Video-Still aus dem Mitschnitt: Rike und Rainer auf der Bühne der C-Base."
 
-title: "Bundestagswahl - Die sieben Forderungen beim Netzpolitischen Abend auf der c-base"
+title: "Bundestagswahl - Die sieben Forderungen beim Netzpolitischen Abend der Community auf der c-base"
 
 # Zwischen Überschrift und Text
 einleitung: Digitalpolitik jetzt in den Dienst von Mensch und Umwelt stellen – Bits & Bäume
 
 # Für die Kacheln auf der Website
-teaser: Beim 143sten Netzpolitischen Abend fordern Rike und Rainer die zukünftige Bundesregierung dazu auf, die Potenziale der Digitalisierung für eine sozial gerechte und nachhaltige Zukunft zu nutzen.
+teaser: Beim 143sten Netzpolitischen Abend der Community fordern Rike und Rainer die zukünftige Bundesregierung dazu auf, die Potenziale der Digitalisierung für eine sozial gerechte und nachhaltige Zukunft zu nutzen.
 
 # Für Social media und Suchergebnisse (also extern)
 meta_beschreibung: Digitalpolitik jetzt in den Dienst von Mensch und Umwelt stellen!
