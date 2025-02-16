@@ -1,0 +1,42 @@
+---
+titel: Regionalgruppe Geo Json
+permalink: /community/regionalgruppen.geojson
+layout: "layouts/blanc.njk"
+---
+
+
+
+
+{
+  "type": "FeatureCollection",
+  "features": [
+{%- for item in content.zweige.items -%}
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          {{ item.location_longitude }},
+          {{ item.location_latitude }}
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "https://blog.fiff.de/favicon.ico",
+          "iconOpacity": 1,
+          "color": "#283A82",
+          "labelInteractive": true,
+          "outlinkTarget": "blank",
+          "popupShape": "Panel",
+          "popupTemplate": "Default"
+        },
+        "name": "{{ item.title }}",
+        "description": "{{ item.content | safe }}\n[[{{ site.url }}{{ item.url }}|{{ item.title }}]]"
+      },
+      "id": "{{ item.data.title }}"
+    }{%- if not loop.last -%},{%- endif -%}
+{%- endfor -%}
+
+  ]
+}
