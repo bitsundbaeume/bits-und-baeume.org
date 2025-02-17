@@ -94,7 +94,7 @@ Kommentar
 
 **19:05**
 
-**Katharina Nocun**, Cecilia Rikap, Alexandra Geese, Adriana Groh
+Katharina Nocun, Cecilia Rikap, Alexandra Geese, Adriana Groh
 Moderation: Jan-David Franke (Wikimedia Deutschland)
 Diskussion
 
