@@ -68,40 +68,30 @@ Gerne darfst du diese Einladung an potenziell interessierte Personen weiterleite
 
 ## Programm 
 
-**17:00**
+**17:30 Uhr - Einlass & kulinarisches Willkommen**
 
-Einlass & kulinarisches Willkommen
-
-**18:00**
-
-Begrüßung
+**18:00 Uhr - Begrüßung & Keynote**
 
 **Katharina Nocun**, Publizistin, Politik- & Wirtschaftswissenschaftlerin
-Einführung zu Demokratie und digitalen Infrastrukturen
 
-**18:15**
+**18:15 Uhr - Input**
 
-**Cecilia Rikap**, Leitende Forscherin & Professorin für Internationale Politische Ökonomie (UCL Institute for Innovation & Public Purpose)
-“Reclaiming Digital Sovereignty - A roadmap to build a digital stack for people and the planet”
+**Cecilia Rikap**, Leitende Forscherin & Professorin für Internationale Politische Ökonomie (UCL Institute for Innovation & Public Purpose) zu “Reclaiming Digital Sovereignty - A roadmap to build a digital stack for people and the planet”
 
-**18:45**
+**18:45 Uhr - Kommentare**
 
 **Alexandra Geese**, MEP & Digitalexpertin der Fraktion „Greens/EFA“
-Kommentar 
 
 **Adriana Groh**, Mitbegründerin des Sovereign Tech Fund
-Kommentar
 
-**19:05**
+**19:05 Uhr - Diskussion**
 
-Katharina Nocun, Cecilia Rikap, Alexandra Geese, Adriana Groh
+Katharina Nocun, Cecilia Rikap, Alexandra Geese, Adriana Groh  
 Moderation: Jan-David Franke (Wikimedia Deutschland)
-Diskussion
 
-**19:30** – Offener Austausch bei Getränken & Imbiss
+**19:30 Uhr \- Offener Austausch bei Getränken & Imbiss**
 
-**21:00** – Ende der Veranstaltung
-
+**21:00 Uhr - Ende der Veranstaltung**
 
 
 ### Kontakt
