@@ -75,7 +75,7 @@ Neben dem eigenen Workshopprogramm beteiligten sich Menschen von Bits & Bäume a
 
 **Feedback**
 
-Der Feedbackfragebogen vom 37c3, hat sehr dazu beigetragen den Aufbau und das Habitatkonzept zu verbesser.
+Der Feedbackfragebogen vom 37c3, hat sehr dazu beigetragen den Aufbau und das Habitatkonzept zu verbessern.
 Alle, die Zeit im Habitat verbracht haben, können uns jetzt Feedback geben, das zum 39c3 einfließen wird.  
 <a href="https://bits-und-baeume.org/38c3/feedback">
 <button class="btn-dark">Ja – ich war dabei.</button>
