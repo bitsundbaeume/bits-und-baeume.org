@@ -38,9 +38,9 @@ bildunterschrift: "Eingang zur Workshop-Area"
 # button_url: "andere URL"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 ## Button 2
-# button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
-# button2_text: "zur Pressemitteilung"		# Der Button-Text ist standardmäßig "weiterlesen"
-# button2_url: "/forderungen/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button2_anzeigen: "ja"
+button2_text: "gib Feedback zum 38c3"
+button2_url: "https://bits-und-baeume.org/38c3/feedback"
 
 
 ## Auf der Vorschau-Kacheln wird standardmäßog ein Icons angezeigt, das kann hier abgeschaltet werden.
@@ -72,6 +72,16 @@ Einmal täglich kamen Interessierte zum Bits & Bäume Community Treffen zusammen
 Neben dem eigenen Workshopprogramm beteiligten sich Menschen von Bits & Bäume außerdem an der Programmauswahl der Community Bühne und brachten den Bits & Bäume Jahresrückblick und weitere aktuelle Themen auch ins Hauptprogramm des 38c3 ein. Alle Vorträge sind online nachzusehen auf [media.ccc.de](https://media.ccc.de/c/38c3).
 
 ![b](/assets/images/38c3-habitat-workshops.webp)  
+
+**Feedback**
+
+Der Feedbackfragebogen vom 37c3, hat sehr dazu beigetragen den Aufbau und das Habitatkonzept zu verbesser.
+Alle, die Zeit im Habitat verbracht haben, können uns jetzt Feedback geben, das zum 39c3 einfließen wird.  
+<a href="https://bits-und-baeume.org/38c3/feedback">
+<button class="btn-dark">Ja – ich war dabei.</button>
+</a>
+
+
 
 <br>
 
