@@ -51,7 +51,7 @@ button2_url: "https://bits-und-baeume.org/anmeldung/2025-03-06-policy-lab"			# D
 
 
 📅 6. März 2025  
-⏰ 17:00 Uhr  
+⏰ 17:30 Uhr  
 📍 [Weizenbaum-Institut | Hardenbergstraße 32 | 10623 Berlin](https://www.openstreetmap.org/node/4153700969)  
 
 
