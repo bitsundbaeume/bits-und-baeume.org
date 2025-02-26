@@ -76,7 +76,7 @@ Gerne darfst du diese Einladung an potenziell interessierte Personen weiterleite
 
 **18:15 Uhr - Input**
 
-**Cecilia Rikap**, Leitende Forscherin & Professorin für Internationale Politische Ökonomie (UCL Institute for Innovation & Public Purpose) zu “Reclaiming Digital Sovereignty - A roadmap to build a digital stack for people and the planet”
+**Cecilia Rikap**, Leitende Forscherin & Professorin für Internationale Politische Ökonomie (UCL Institute for Innovation & Public Purpose) und **Cédric Durand**, Professor für Politische Ökonomie (Universität Genf) zu “Reclaiming Digital Sovereignty - A roadmap to build a digital stack for people and the planet”
 
 **18:45 Uhr - Kommentare**
 
