@@ -12,7 +12,7 @@ lang: de
 
 	<div flex-wrap>
 
-Hier findet während der Veranstaltung den Stream.<br>
+Hier findet ihr während der Veranstaltung den Live Stream.<br>
 Kommt einfach später wieder hier vorbei und ladet die Seite neu.
 	
 
