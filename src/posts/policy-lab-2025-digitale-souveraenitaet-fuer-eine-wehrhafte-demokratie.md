@@ -61,15 +61,6 @@ Bei diesem Bits & Bäume Policy Lab werden wir gemeinsam mit der renommierten Fo
 <button class="btn-dark">zum Live Stream</button>
 </a>
 
-
-Die Anmeldung lief bis zum 20. Februar - Ein paar wenige Plätze sind noch frei.
-
-<a href="https://bits-und-baeume.org/anmeldung/2025-03-06-policy-lab">
-<button class="btn-dark">zur Anmeldung</button>
-</a>
-
-
-
 ## Programm 
 
 **17:30 Uhr - Einlass & kulinarisches Willkommen**
