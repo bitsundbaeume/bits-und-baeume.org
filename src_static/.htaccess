@@ -102,6 +102,10 @@ Redirect 302 /BBB-Mithilfe-Lounge https://lecture.senfcall.de/rai-qmi-0mh-ziw
 Redirect 302 /BBB-TK https://lecture.senfcall.de/rai-efg-dsh-8qc
 Redirect 302 /bbb-tk https://lecture.senfcall.de/rai-efg-dsh-8qc
 
+Redirect 302 /bbb/community https://bbb.tu-dresden.de/rooms/qje-7si-xu1-lul/join
+Redirect 302 /bbb/tk https://lecture.senfcall.de/rai-efg-dsh-8qc
+
+
 
 #Redirects 2018er Website
 Redirect 302 /datenschutz/de /datenschutz/
