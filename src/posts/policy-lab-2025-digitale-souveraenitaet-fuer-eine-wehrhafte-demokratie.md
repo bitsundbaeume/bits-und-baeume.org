@@ -51,7 +51,7 @@ button2_url: "https://bits-und-baeume.org/anmeldung/2025-03-06-policy-lab"			# D
 
 
 📅 6. März 2025  
-⏰ 17:00 Uhr  
+⏰ 17:30 Uhr  
 📍 [Weizenbaum-Institut | Hardenbergstraße 32 | 10623 Berlin](https://www.openstreetmap.org/node/4153700969)  
 
 
@@ -82,7 +82,7 @@ Gerne darfst du diese Einladung an potenziell interessierte Personen weiterleite
 
 **18:15 Uhr - Input**
 
-**Cecilia Rikap**, Leitende Forscherin & Professorin für Internationale Politische Ökonomie (UCL Institute for Innovation & Public Purpose) zu “Reclaiming Digital Sovereignty - A roadmap to build a digital stack for people and the planet”
+**Cecilia Rikap**, Leitende Forscherin & Professorin für Internationale Politische Ökonomie (UCL Institute for Innovation & Public Purpose) und **Cédric Durand**, Professor für Politische Ökonomie (Universität Genf) zu “Reclaiming Digital Sovereignty - A roadmap to build a digital stack for people and the planet”
 
 **18:45 Uhr - Kommentare**
 

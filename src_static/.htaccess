@@ -13,6 +13,8 @@ Redirect 302 /newsletter_input_pad https://cloud.bits-und-baeume.org/pad/p/ctsc6
 Redirect 302 /newsletterinput https://bits-und-baeume.org/newsletter_input/
 Redirect 302 /newsletteranmeldung https://lists.bits-und-baeume.org/postorius/lists/newsletter.lists.bits-und-baeume.org/
 
+# Umfragen
+Redirect 302 /umfragen/regionalgruppeninfos https://cloud.bits-und-baeume.org/apps/forms/s/GwMPgxALKqrTRWXr4aXBEnW3
 
 # Anmeldungen
 Redirect 302 /anmeldung/policy_lab_2024-09 https://cloud.bits-und-baeume.org/apps/forms/s/7tF7LTjS89WoxQGRs56KAPTZ
