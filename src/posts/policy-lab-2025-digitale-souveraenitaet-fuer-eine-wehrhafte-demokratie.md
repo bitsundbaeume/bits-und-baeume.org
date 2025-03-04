@@ -37,8 +37,8 @@ button_text: "zum Programm"	# Der Button-Text ist standardmäßig "weiterlesen"
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
-button2_text: "zur Anmeldung"		# Der Button-Text ist standardmäßig "weiterlesen"
-button2_url: "https://bits-und-baeume.org/anmeldung/2025-03-06-policy-lab"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button2_text: "zum Stream"		# Der Button-Text ist standardmäßig "weiterlesen"
+button2_url: "/stream/policy-lab-2025-03/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 
 ## Auf der Vorschau-Kacheln wird standardmäßog ein Icons angezeigt, das kann hier abgeschaltet werden.
@@ -57,7 +57,7 @@ button2_url: "https://bits-und-baeume.org/anmeldung/2025-03-06-policy-lab"			# D
 
 Bei diesem Bits & Bäume Policy Lab werden wir gemeinsam mit der renommierten Forscherin Cecilia Rikap sowie Stimmen aus der Politik und Zivilgesellschaft Strategien diskutieren, um eine demokratische Kontrolle über digitale Infrastrukturen sicherzustellen. Welche Schritte sollte die Digitalpolitik in Deutschland und Europa gehen? Wie können wir Forschung und Innovation lenken, um demokratische digitale Systeme zu fördern? Und wie können digitale Infrastrukturen dem Schutz der Demokratie dienen und die Gesellschaft resilient gegen den Einfluss von Tech-Milliardären und Autokraten machen?	
 
-<a href="https://bits-und-baeume.org/policy-lab-03-2025-stream">
+<a href="/stream/policy-lab-2025-03/">
 <button class="btn-dark">zum Live Stream</button>
 </a>
 
