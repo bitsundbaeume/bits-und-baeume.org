@@ -12,13 +12,14 @@ lang: de
 
 	<div flex-wrap>
 
-Hier findet ihr während der Veranstaltung den Livestream.<br>
+Hier findet Ihr während der Veranstaltung den Livestream.
 Kommt einfach später wieder hier vorbei und ladet die Seite neu.
-	
 
-<a href="/posts/policy-lab-2025-digitale-souveraenitaet-fuer-eine-wehrhafte-demokratie/">
-<button class="btn-dark">zum Programm</button>
-</a>
+Da wir das Streaming beim Policy Lab nicht mit Hilfe des C3VOC (Video Operating Center vom Chaos Computer Club) zur Verfügung stellen, nutzen wir diesmal die Plattform YouTube. Wir sind uns der problematischen Marktmacht und Geschäftspraktiken dieser Plattform bewusst und arbeiten bereits an einer Lösung, die so weit wie möglich auf freier Software und dezentralen Diensten beruht.
+
+
+<!---<a href=""><button class="btn-dark">zum Youtube-Stream</button></a>--->
+<a href="/posts/policy-lab-2025-digitale-souveraenitaet-fuer-eine-wehrhafte-demokratie/"><button class="btn-dark">zum Programm</button></a>
 
 
 			</div>
