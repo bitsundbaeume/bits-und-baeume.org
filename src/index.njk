@@ -82,7 +82,8 @@ in Politik und Gesellschaft tragen!</p>
 														{% else %}
 												weiterlesen
 											{% endif %}
-													</button></a>
+													</button>
+												</a>
 											{% endif %}
 										</p>
 
@@ -127,7 +128,8 @@ in Politik und Gesellschaft tragen!</p>
 															{% else %}
 											weiterlesen
 										{% endif %}
-														</button></a>
+														</button>
+													</a>
 												</p>
 											{% endif %}
 
@@ -176,7 +178,8 @@ in Politik und Gesellschaft tragen!</p>
 									<p>Erhalte Neuigkeiten der Bits & Bäume Bewegung, Events und Infos aus der Community.<br><br>Anfordern per Mail-App oder per Login:</p>
 									<a target="blanc"  href="mailto:newsletter-subscribe@lists.bits-und-baeume.org?subject=B%26B%20Newsletter%20Abo&body=Schicke%20diese%20Mail%20von%20deiner%20Mailadresse%20ab%2C%20um%20das%20Bits%20%26%20B%C3%A4ume-Newsletter%20zu%20abonnieren.%0A%0AMit%20dem%20Newsletter%20erf%C3%A4hrst%20du%20etwa%20alle%20zwei%20Monate%20von%20Neuigkeiten%20der%20Bits%20%26%20B%C3%A4ume%20Bewegung%2C%20alle%20Events%20und%20B%26B-nahen%20Termine%2C%20Infos%20zur%20und%20aus%20der%20Community%20und%20Aufrufe%20zum%20Mitmachen%20und%20Einbringen.%0A%0Ahttps%3A%2F%2Fbits-und-baeume.org%0A%0AUm%20sicherzugehen%2C%20dass%20diese%20Mailadresse%20dir%20geh%C3%B6rt%2C%20schicken%20wir%20dir%20eine%20weitere%20Mail%20zu.%20Nachdem%20du%20auf%20diese%20geantwortet%20hast%2C%20erh%C3%A4ltst%20du%20die%20Best%C3%A4tigung%20des%20Abos.%0A%0AAlternativ%20kannst%20du%20dir%20auch%20einen%20Account%20erstellen%20und%20dein%20Abo%20im%20Browser%20einrichten%20unter%3A%20https%3A%2F%2Fbits-und-baeume.org%2Fnewsletteranmeldung
 ">
-										<button class="btn-dark">Mail-App</button></a>
+										<button class="btn-dark">Mail-App</button>
+									</a>
 									<a target="blanc" href="https://bits-und-baeume.org/newsletteranmeldung">
 										<button class="btn-dark">Login</button>
 									</a>
@@ -202,7 +205,8 @@ in Politik und Gesellschaft tragen!</p>
 									</h2>
 									<p>Fast alle Vorträge der B&B Konferenzen 2018 und 2022 wurden vom <a target="blanc" href="https://c3voc.de/">c3voc</a> in Echtzeit ins Netz übertragen und sind auch als Aufzeichnungen unter freier Lizenz verfügbar.</p>
 									<a target="blanc" href="/aufzeichnungen/">
-										<button class="btn-dark">zu den Videos</button></a>
+										<button class="btn-dark">zu den Videos</button>
+									</a>
 									<a target="blanc" href="https://fahrplan22.bits-und-baeume.org/bitsundbaeume/schedule/">
 										<button class="btn-dark">zum Fahrplan</button>
 									</a>
@@ -219,175 +223,10 @@ in Politik und Gesellschaft tragen!</p>
 				<section class="max-w-6xl">
 
 					<h2 class="h3">Aktuell</h2>
-					<div flex-wrap>
+					{% include "partials/post_kacheln_aktuell.njk" %}
+					
 
-						{% for post in collections.post | sort(attribute = 'data.datum') | reverse %}
-							{% if post.data.aktuell in["ja"] and post.data.featured != "ja" %}
-								{% if post.data.bild %}
-									<div class="box box-img flex flex-wrap md:flex-nowrap gap-x-5">
-										<div class="box__image w-full md:w-2/5">
-											{% if post.data.extern == "ja" %}
-												<a href="{{ post.data.button_url }}">
-												{% else %}
-													<a href="{{ post.url }}">
-													{% endif %}
-													<img class="object-cover" src="{% thumbnail post.data.bild %}" alt="{{ post.data.bildunterschrift }}" sizes="(min-width: 780px) 280px, 93.04vw" data-img2picture-widths="280,400,670,800">
-												</a>
-											</div>
-											<div class="text w-full md:w-3/5">
-												{{ post.data.type }}
-												<h2 class="h3">
 
-													<a href="{{ post.url }}">{{ post.data.title }}</a>
-												</h2>
-												<p>
-													{% if post.data.teaser %}
-														{{ post.data.teaser }}
-													{% elif post.data.meta_beschreibung %}
-														{{post.data.meta_beschreibung }}
-													{% elif post.data.einleitung %}
-														{{post.data.einleitung }}
-													{% elif post.content %}
-														{{ post.content | safe }}
-													{% else %}
-									no content
-								{% endif %}
-												</p>
-												<!------- BUTTON 1 ------->
-												<p>
-													{% if post.data.button_anzeigen == "ja" %}
-														{% if post.data.button_url %}
-															<a href="{{ post.data.button_url }}">
-															{% else %}
-																<a href="{{ post.url }}">
-																{% endif %}
-																<button class="btn-dark">
-																	{% if post.data.button_text %}
-																		{{ post.data.button_text }}
-																	{% else %}
-												weiterlesen
-											{% endif %}
-																</button></a>
-														{% endif %}
-														<!------- BUTTON 2 ------->
-														{% if post.data.button2_anzeigen == "ja" %}
-															{% if post.data.button2_url %}
-																<a href="{{ post.data.button2_url }}">
-																{% else %}
-																	<a href="{{ post.url }}">
-																	{% endif %}
-																	<button class="btn-dark">
-																		{% if post.data.button2_text %}
-																			{{ post.data.button2_text }}
-																		{% else %}
-												weiterlesen
-											{% endif %}
-																	</button></a>
-															{% endif %}
-														</p>
-														{% if post.data.datum and post.data.autorin %}
-															<p>
-																<i>{{ post.data.autorin }} - {{ post.data.datum.slice(-2) }}.{{ post.data.datum.slice(5,7) }}.{{ post.data.datum.slice(0,4) }}</i>
-															</p>
-														{% elif post.data.datum %}
-															<p>
-																<i>{{ post.data.datum.slice(-2) }}.{{ post.data.datum.slice(5,7) }}.{{ post.data.datum.slice(0,4) }}</i>
-																{{ post.data.autorin }}</p>
-														{% elif post.data.autorin %}
-															<p>({{ post.data.autorin }})</p>
-														{% endif %}
-													</div>
-													<div class="box__pixel">
-														<img src="/assets/images/pixel-box-img.svg" widht="50" height="40">
-													</div>
-												</div>
-
-											{% else %}
-												<div class="box box-infos">
-													{{ post.data.type }}
-													<h2 class="h3">
-														<a href="{{ post.url }}">{{ post.data.title }}</a>
-													</h2>
-
-													<p>
-
-														{% if post.data.teaser %}
-															{{ post.data.teaser }}
-														{% elif post.data.meta_beschreibung %}
-															{{post.data.meta_beschreibung }}
-														{% elif post.data.einleitung %}
-															{{post.data.einleitung }}
-														{% elif post.content %}
-															{{ post.content | safe }}
-														{% else %}
-								no content
-							{% endif %}
-													</p>
-													<p>
-
-														<!------- BUTTON 1 ------->
-														<p>
-															{% if post.data.button_anzeigen == "ja" %}
-																{% if post.data.button_url %}
-																	<a href="{{ post.data.button_url }}">
-																	{% else %}
-																		<a href="{{ post.url }}">
-																		{% endif %}
-																		<button class="btn-dark">
-																			{% if post.data.button_text %}
-																				{{ post.data.button_text }}
-																			{% else %}
-												weiterlesen
-											{% endif %}
-																		</button>
-																	</a>
-																{% endif %}
-																<!------- BUTTON 2 ------->
-																{% if post.data.button2_anzeigen == "ja" %}
-																	{% if post.data.button2_url %}
-																		<a href="{{ post.data.button2_url }}">
-																		{% else %}
-																			<a href="{{ post.url }}">
-																			{% endif %}
-																			<button class="btn-dark">
-																				{% if post.data.button2_text %}
-																					{{ post.data.button2_text }}
-																				{% else %}
-												weiterlesen
-											{% endif %}
-																			</button>
-																		</a>
-																	{% endif %}
-																</p>
-
-																{% if post.data.icon %}
-																	<div class="box__icon">
-																		<img src="/assets/images/{{ post.data.icon }}" widht="66" height="66">
-																	</div>
-																{% endif %}
-																<div class="box__pixel">
-																	<img src="/assets/images/pixel-box-infos.svg" widht="50" height="50">
-																</div>
-															</p>
-
-															{% if post.data.datum and post.data.autorin %}
-																<p>
-																	<i>{{ post.data.autorin }} - {{ post.data.datum.slice(-2) }}.{{ post.data.datum.slice(5,7) }}.{{ post.data.datum.slice(0,4) }}</i>
-																</p>
-															{% elif post.data.datum %}
-																<p>
-																	<i>{{ post.data.datum.slice(-2) }}.{{ post.data.datum.slice(5,7) }}.{{ post.data.datum.slice(0,4) }}</i>
-																	{{ post.data.autorin }}</p>
-															{% elif post.data.autorin %}
-																<p>({{ post.data.autorin }})</p>
-															{% endif %}
-
-														</div>
-													{% endif %}
-
-												{% endif %}
-											{% endfor %}
-										</div>
 										<a href="/meldungen_archiv/">
 											<button class="btn-dark">ältere Meldungen ansehen</button>
 										</a>
