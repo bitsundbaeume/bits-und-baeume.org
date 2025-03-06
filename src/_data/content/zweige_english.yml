@@ -1,7 +1,7 @@
 items:
   - name: Bits & Bäume Augsburg/München
     url: https://aux-muc.bits-und-baeume.org/
-    content: Dies ist ein offener Aktiventreff für alle, die sich für die Themen von Bits & Bäume interessieren. Hier kannst du dich über aktuelle Entwicklungen austauschen und eigene Ideen für Aktionen einbringen. Jede:r ist herzlich willkommen, unabhängig von Vorkenntnissen oder Erfahrungen.
+    content: This is an open meetup for anyone interested in the topics of Bits & Bäume. Here, you can exchange ideas about current developments and contribute your own ideas for actions. Everyone is welcome, regardless of prior knowledge or experience.
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
@@ -27,7 +27,7 @@ items:
   - name: Bits & Bäume FrankfurtRheinMain
     url: https://connyunity.de/bits-baeume/
     content: |
-     Lokale Bits&Bäume-Gruppe, in Zusammenarbeit mit der regionalen Leitung des größten Netzwerks für den deutschen Mittelstand.
+     Local Bits & Bäume group, in collaboration with the regional leadership of the largest network for the German mid-sized businesses.
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 

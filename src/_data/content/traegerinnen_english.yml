@@ -5,17 +5,11 @@ items:
 
     image: /assets/images/traegerinnen_logos/logo-brot-fuer-die-welt.svg
     url: https://www.brot-fuer-die-welt.de/
-  - name: Bund Umwelt- und Naturschutz Deutschland
+  - name: Die BUNDjugend 
     content: |
-     Bund Umwelt- und Naturschutz Deutschland (BUND) is an environmental association with 600,000 
-     members. BUND is committed - for example - to ecological agriculture and healthy food, to 
-     climate protection and the expansion of renewable energies, and to the protection of endangered species,
-      forests and water. In the field of digitalisation, we work with the guiding principle of digital
-       sufficiency, i.e. using as much digital technology as necessary, but as little as possible. 
-       Our goal is to create a socio-ecological transformation towards a post-growth society. 
-       We describe socio-ecologically just ways to achieve this in our future agenda <a href="https://www.bund.net/zukunftsagenda/">#gemeinsamverändern</a>. 
-    image: /assets/images/traegerinnen_logos/bund.svg
-    url: https://www.bund.net/
+     As an independent youth organization of BUND (Bund für Umwelt und Naturschutz Deutschland – German Federation for the Environment and Nature Conservation), BUNDjugend is active across all 16 federal states. It is one of Germany’s largest youth environmental organizations. With 82,600 members under the age of 27, it is committed to environmental protection and climate justice through diverse campaigns and projects, engaging events, and impactful demonstrations and actions.
+    image: /assets/images/traegerinnen_logos/logo-bundjugend.png
+    url: https://www.bundjugend.de/
   - name: Chaos Computer Club
     content: |
       The Chaos Computer Club is a galactic community of living beings, 
@@ -33,6 +27,11 @@ items:
 
     image: /assets/images/traegerinnen_logos/dnr.svg
     url: https://www.dnr.de/
+  - name: Deutscher Gewerkschaftsbund
+    content: |
+     The German Trade Union Confederation (DGB – Deutscher Gewerkschaftsbund) is committed to shaping digitalization in the world of work in a fair and just manner through various approaches and formats. This aligns perfectly with our debates on socially and ecologically just digitalization.
+    image: /assets/images/traegerinnen_logos/dgb-logo-md.svg
+    url: https://www.dgb.de/
   - name: Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e. V.
     content: |
            FIfF is an association of committed-critical professionals from academia and practice of information (technology). We reflect on the consequences of our work, warn against harmful developments and contribute our own constructive ideas. We advise politicians and the media, publish our own journal and organise conferences, lectures and demonstrations. FIfF is organised in regional groups and was founded in 1984.
@@ -72,6 +71,6 @@ items:
     url: https://www.weizenbaum-institut.de/
   - name: Wikimedia Deutschland – Gesellschaft zur Förderung Freien Wissens e. V.
     content: |
-     2004 gründeten ehrenamtliche Wikipedia-Aktive den gemeinnützigen Verein Wikimedia Deutschland, der inzwischen aus über 100.000 Mitgliedern besteht. Als gemeinnützige Organisation sind wir Teil einer weltweiten Bewegung, die sich für Freies Wissen einsetzt. Wir fördern die ehrenamtlich Aktiven in sämtlichen Wikimedia-Projekten, entwickeln freie Software und Technik, setzen uns für offene Wissenschaft, Bildung und Kultur ein und stärken politische Rahmenbedingungen, die den freien Zugang zu Wissen ermöglichen. Unsere Vision ist eine Welt, in der alle Menschen am gesamten Wissen der Menschheit teilhaben, es nutzen und mehren können. 
+     In 2004, volunteer Wikipedia contributors founded the non-profit association Wikimedia Deutschland, which now has over 100,000 members. As a non-profit organization, we are part of a global movement dedicated to free knowledge. We support volunteers in all Wikimedia projects, develop open-source software and technology, advocate for open science, education, and culture, and work to strengthen political frameworks that enable free access to knowledge. Our vision is a world in which all people can share, use, and expand the entirety of human knowledge.
     image: /assets/images/traegerinnen_logos/wikimedia-deutschland.svg
     url: https://www.wikimedia.de    
