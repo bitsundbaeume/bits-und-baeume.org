@@ -58,7 +58,7 @@ button2_url: "/stream/policy-lab-2025-03/"			# DIE URL ist standardmäßig die d
 Bei diesem Bits & Bäume Policy Lab werden wir gemeinsam mit der renommierten Forscherin Cecilia Rikap sowie Stimmen aus der Politik und Zivilgesellschaft Strategien diskutieren, um eine demokratische Kontrolle über digitale Infrastrukturen sicherzustellen. Welche Schritte sollte die Digitalpolitik in Deutschland und Europa gehen? Wie können wir Forschung und Innovation lenken, um demokratische digitale Systeme zu fördern? Und wie können digitale Infrastrukturen dem Schutz der Demokratie dienen und die Gesellschaft resilient gegen den Einfluss von Tech-Milliardären und Autokraten machen?	
 
 <a href="/stream/policy-lab-2025-03/">
-<button class="btn-dark">zum Live Stream</button>
+<button class="btn-dark">zum Videomitschnitt</button>
 </a>
 
 ## Programm 
