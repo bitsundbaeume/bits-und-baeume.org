@@ -37,7 +37,7 @@ button_text: "zum Programm"	# Der Button-Text ist standardmäßig "weiterlesen"
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
-button2_text: "zum Stream"		# Der Button-Text ist standardmäßig "weiterlesen"
+button2_text: "zur Videoaufzeichnung"		# Der Button-Text ist standardmäßig "weiterlesen"
 button2_url: "/stream/policy-lab-2025-03/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 

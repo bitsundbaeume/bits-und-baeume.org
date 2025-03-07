@@ -9,16 +9,13 @@ meta_beschreibung: 📅 6. März 17:30 Uhr – Bits & Bäume Diskussionsabend zu
 
 <section class="max-w-6xl">
 
-	<h2 class="h3">Policy Lab - Streaming</h2>
+	<h2 class="h3">Policy Lab - Videoaufzeichnung</h2>
 
 	<div flex-wrap>
 
-Hier findet Ihr während der Veranstaltung den Livestream.
+Da wir das Streaming beim Policy Lab nicht mit Hilfe des C3VOC (Video Operating Center vom Chaos Computer Club) zur Verfügung stellen, haben wir diesmal die Plattform YouTube genutzt. Wir sind uns der problematischen Marktmacht und Geschäftspraktiken dieser Plattform bewusst und arbeiten bereits an einer Lösung, die so weit wie möglich auf freier Software und dezentralen Diensten beruht. Ein Video zum nachsehen auf unserem eigenen Server folgt.
 
-Da wir das Streaming beim Policy Lab nicht mit Hilfe des C3VOC (Video Operating Center vom Chaos Computer Club) zur Verfügung stellen, nutzen wir diesmal die Plattform YouTube. Wir sind uns der problematischen Marktmacht und Geschäftspraktiken dieser Plattform bewusst und arbeiten bereits an einer Lösung, die so weit wie möglich auf freier Software und dezentralen Diensten beruht.
-
-
-<a href="https://youtu.be/12ooVJ_S6PM"><button class="btn-dark">zum Youtube-Stream</button></a>
+<a href="https://www.youtube.com/watch?v=msIv-C_3b-s"><button class="btn-dark">zum Mitschnitt auf Youtube</button></a>
 <a href="/posts/policy-lab-2025-digitale-souveraenitaet-fuer-eine-wehrhafte-demokratie/"><button class="btn-dark">zum Programm</button></a>
 
 
