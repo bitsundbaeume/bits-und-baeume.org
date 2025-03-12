@@ -66,13 +66,6 @@ items:
     pixel: /assets/images/pixel-box-infos.svg
 
 
-  - name: Bits & Bäume Nürnberg
-    url: https://it.bluepingu.de
-    content: |
-      Local B&B group for making the social-ecological transition happen for everyone in the metropolitan area Nürnberg. Initiated and organized by the Bluepingu e. V.
-    style: box-cta
-    pixel: /assets/images/pixel-box-cta.svg
-
   - name: Bits & Bäume Osnabrück
     url: https://plattform-n.org/project/bits-baeume-osnabrueck/
     content: |
