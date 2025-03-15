@@ -16,7 +16,8 @@
 		border-bottom-width: 10px;
 	}
 	main {
-		@apply text-base sm:text-lg
+		@apply text-base sm:text-lg;
+		overflow-x: hidden;
 	}
 	footer {
 		@apply relative pt-7 px-4 pb-14 border-solid border-green-light;
