@@ -3,15 +3,14 @@ title: Bits & Bäume - Aktuelle Meldungen
 description: ...
 layout: layouts/_base.ejs
 tags: sitemap
-lang: de
-translation: /en/posts/
+lang: en
+translation: /meldungen/
 ---
 
 <section class="max-w-6xl">
+Here you can find our latest posts and announcements. Unfortunately, this page is only available in German. In our <a href="/en/posts-archive">Archive</a>, you will find all past announcements, also in German. <br>
 
-<a href="/meldungen_archiv">zum Archiv</a><br>
-
-	<h2 class="h3">Aktuelle Meldungen</h2>
+	<h2 class="h3">Recent Posts</h2>
 	<div flex-wrap>
 
 		{% for post in collections.post | sort(attribute = 'data.datum') | reverse %}
