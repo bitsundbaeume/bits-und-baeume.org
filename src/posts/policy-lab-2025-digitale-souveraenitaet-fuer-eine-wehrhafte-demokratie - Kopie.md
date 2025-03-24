@@ -17,7 +17,7 @@ type: "Einladung"			# Der "Type" eines Posts steht oben in den Kacheln und auf d
 
 ## Aktuell und Featured?
 aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Digitale Infrastrukturen sind zunehmend unverzichtbar für das gesellschaftliche Zusammenleben. Sie betreffen den Alltag bei der Nutzung von sozialen Medien über Online-Plattformen hin zu verschiedenen KI-Anwendungen. Die enge und öffentlichkeitswirksame Zusammenarbeit von Tech-Unternehmen mit autokratischen Kräften zeigt, wie einfach Tech-CEOs diese Infrastrukturen nach ihrem Willen gestalten können. Dies birgt nicht nur Risiken für Nutzer*innen, kleine Unternehmen und Künstler*innen, die direkt von diesen Plattformen abhängig sind, sondern auch für die Demokratie selbst."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
