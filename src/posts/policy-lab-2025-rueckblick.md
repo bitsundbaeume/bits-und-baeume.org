@@ -5,7 +5,8 @@
 # Trage nur zwischen den "" deine Informationen ein.
 # Erst unter den letzten "---" darf mit Markdown formatierter Text stehen.
 # Alles was hinter einem "#" steht gilt nicht und ist kommentar. Nimm ein "#" weg, wenn du die jeweilige information dahinter festlegen willst.
-
+lang: de
+translation: /
 
 ## Meta Informationen
 title: "Bits & Bäume Policy Lab - Digitale Souveränität für eine wehrhafte Demokratie!"
