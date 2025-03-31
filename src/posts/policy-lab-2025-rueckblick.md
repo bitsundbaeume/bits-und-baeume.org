@@ -80,6 +80,10 @@ Adriana Groh (Sovereign Tech Agency) brachte eine praktische Perspektive ein:
 * Sie betonte, dass mehr Wertschätzung für das große, dezentrale Open-Source-Ökosystem nötig ist, das bereits ein globales digitales Gemeingut darstellt.
 * Sie rief dazu auf, ins Handeln zu kommen und an praktischen Lösungen zu arbeiten. 
 
+<a href="/stream/policy-lab-2025-03/">
+<button class="btn-dark">zum Videomitschnitt</button>
+</a>
+
 Nach den spannenden Inputs sind wir noch in gemütlicher Bits & Bäume Atmosphäre bei Snacks und Wein ins Gespräch über die Inhalte des Abends gekommen.
 
 
