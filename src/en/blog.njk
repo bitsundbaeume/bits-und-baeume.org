@@ -3,17 +3,19 @@ title: Bits & Bäume
 description: ...
 layout: layouts/_base.ejs
 tags: sitemap
-lang: de
-translation: /en/blog/
+lang: en
+translation: /blog/
 ---
 
 <section class="max-w-6xl">
 
 	<h2 class="h3">Bits & Bäume Blog</h2>
+	<p> Welcome to our Bits & Bäume Blog! Unfortunately, this blog is only available in German.
+	</p>
 
 	<div flex-wrap>
 
-<h4>Aktuelle Blogposts</h4>
+<h4>Recent Blog Posts</h4>
 		{% for post in collections.blogpost | sort(attribute = 'data.datum') | reverse %}
 
 			{% if post.data.extern != "ja" and post.data.datum != "202X-MM-TT" %}

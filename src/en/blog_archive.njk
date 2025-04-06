@@ -3,16 +3,16 @@ title: Bits & Bäume
 description: ...
 layout: layouts/_base.ejs
 tags: sitemap
-lang: de
-translation: /en/blog_archive/
+lang: en
+translation: /blog_archiv/
 ---
 
 <section class="max-w-6xl">
-	<h2 class="h3">Bits & Bäume Blog Archiv</h2>
+	<h2 class="h3">Bits & Bäume Blog Archive</h2>
 
 	<div flex-wrap>
 
-<h4>Alle Blogposts</h4>
+<h4>All Blog Posts</h4>
 
 		{% for post in collections.blogpost | sort(attribute = 'data.datum') | reverse %}
 
