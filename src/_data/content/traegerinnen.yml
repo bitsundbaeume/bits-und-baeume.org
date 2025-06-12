@@ -1,4 +1,9 @@
 items:
+  - name: Berlin Ethics Lab
+    url: https://www.tu.berlin/philtech/berlin-ethics-lab
+    image: /assets/images/traegerinnen_logos/berlin_ethics_labs.png
+    content: |
+      Das Berlin Ethics Lab für verantwortungsvolle KI und Mensch-Maschine-Interaktion ist ein interdisziplinäres Labor an der TU Berlin. Es befasst sich mit gesellschaftlichen Herausforderungen durch KI und Robotik. Gemeinsam mit verschiedenen Akteur*innen werden Formate für Forschung, Bildung, Beratung und Austausch entwickelt. Ziel ist es, gemeinsame Werte und Normen im Umgang mit neuen Technologien in der digitalen Gesellschaft zu analysieren und auszuhandeln.
   - name: Brot für die Welt
     content: |
      Als weltweit tätiges Entwicklungswerk der 

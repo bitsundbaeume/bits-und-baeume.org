@@ -1,8 +1,12 @@
 items:
+  - name: Berlin Ethics Lab
+    content: |
+     The Berlin Ethics Lab for Responsible AI and Human-Machine Interaction is an interdisciplinary laboratory at TU Berlin. It deals with social challenges posed by AI and robotics. Formats for research, education, consultation and exchange are developed together with various stakeholders. The aim is to analyze and negotiate common values and norms in dealing with new technologies in the digital society.
+    image: /assets/images/traegerinnen_logos/berlin_ethics_labs.png
+    url: https://www.tu.berlin/philtech/berlin-ethics-lab     
   - name: Brot für die Welt
     content: |
      As the worldwide development agency of the Protestant churches in Germany, we are active in more than 90 countries around the globe. Together with local partners, we help impoverished and marginalised people to improve their living conditions through their own efforts.
-
     image: /assets/images/traegerinnen_logos/logo-brot-fuer-die-welt.svg
     url: https://www.brot-fuer-die-welt.de/
   - name: Die BUNDjugend 
