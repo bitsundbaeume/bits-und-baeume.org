@@ -10,7 +10,7 @@ translation: /
 
 ## Meta Informationen
 title: "Bits & Bäume NRW ...in die Bildung"
-datum: "2025-06-17" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
+datum: "2025-06-05" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
 autorin: "Leo Rath"	# Mehrere Autor:innen mit Komma getrennt
 
 type: "Einladung"			# Der "Type" eines Posts steht oben in den Kacheln und auf der Seite ganz oben.
