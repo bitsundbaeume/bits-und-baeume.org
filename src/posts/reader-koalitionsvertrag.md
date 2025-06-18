@@ -5,7 +5,7 @@
 
 
 aktuell:  nein  # ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: ja  # ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll
+featured: nein  # ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll
 
 datum: "2025-05-26"
 autorin: Leo

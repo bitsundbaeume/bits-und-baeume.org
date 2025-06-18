@@ -18,7 +18,7 @@ type: "Rückblick"			# Der "Type" eines Posts steht oben in den Kacheln und auf 
 
 ## Aktuell und Featured?
 aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Wir blicken auf einen spannenden und anregenden Abend am Weizenbaum-Institut zurück."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
