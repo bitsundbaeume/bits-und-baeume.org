@@ -51,7 +51,7 @@ Hinweis: Die Veranstaltung wird aufgezeichnet.
 
 **18:00 Inputs** <br>
 
-* Anna Biselli über *Gläserne Geflüchtete und Überwachung*
+* Anna Biselli: *Technisierte Unmenschlichkeit - Digitalisierte Migrationskontrolle an sichtbaren und unsichtbaren Grenzen*
 * Matthias Monroy über das Thema *Mit dem Smartphone auf der Flucht*
 <br>
 
