@@ -5,7 +5,7 @@
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
 featured: "ja"  
-datum: "2025-06-12"
+datum: "2025-06-18"
 autorin: Leo
 type: "Einladung"
 
