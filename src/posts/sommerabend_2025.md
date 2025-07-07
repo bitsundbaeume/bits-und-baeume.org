@@ -33,7 +33,9 @@ meta_beschreibung: "Einladung zum Digitalpolitischen Bits & Bäume- Sommerabend 
 ---
 📅 **Datum:** [09.07.2025, ab 17:30 Uhr](/termine)<br>
 📍 **Ort:** Pöge Haus, Hedwigstraße 20, 04315 Leipzig<br> 
-🎬 **Stream (ab 18 Uhr):**  https://youtube.com/live/ZTHiY5RJqgA?feature=share
+🎬 **[Stream (ab 18 Uhr)](/stream/sommerabend-2025-07/)**
+
+<a href="/stream/sommerabend-2025-07/"><button class="btn-dark">zum Stream</button></a>
 
 *Hinweis: Die Veranstaltung wird in Kooperation mit dem <a href="https://konzeptwerk-neue-oekonomie.org/">Konzeptwerk Neue Ökonomie</a> und <a href="https://www.brot-fuer-die-welt.de/">Brot für die Welt</a> ausgerichtet.*
 
@@ -52,6 +54,8 @@ Im Anschluss der Veranstaltung wird uns der Space Leipzig mit leckerer, veganer 
 
 Hinweis: Die Veranstaltung wird aufgezeichnet.
 
+
+
 ## Programm:
 **17:30 Einlass** <br>
 
@@ -68,6 +72,8 @@ Inputs von We’ll Come United Leipzig & Nein zur Bezahlkarte Leipzig zu konkret
 **Ab 19:30 Uhr Küfa**<br>
 
 Der Space Leipzig versorgt uns mit leckerer veganer Küfa (Küche für alle) gegen Spende. <br> <br>
+
+<a href="/stream/sommerabend-2025-07/"><button class="btn-dark">zum Stream</button></a>
 
 Anmeldung bis zum 02.07.2025 hier: https://cloud.bits-und-baeume.org/apps/forms/s/X65fYPton9njxsWp7L7wJtky <br>
 Solange Platz ist, könnt ihr auch spontan ohne Anmeldung vorbeikommen! <br>
