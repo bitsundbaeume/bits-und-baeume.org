@@ -1,5 +1,5 @@
 ---
-title: Stream -   - Digitalpolitischer Sommerabend 
+title: Stream - Digitalpolitischer Sommerabend 
 layout: layouts/_base.ejs
 tags: sitemap
 lang: de
