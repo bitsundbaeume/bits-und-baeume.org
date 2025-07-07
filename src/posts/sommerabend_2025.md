@@ -33,7 +33,7 @@ meta_beschreibung: "Einladung zum Digitalpolitischen Bits & Bäume- Sommerabend 
 ---
 📅 **Datum:** [09.07.2025, ab 17:30 Uhr](/termine)<br>
 📍 **Ort:** Pöge Haus, Hedwigstraße 20, 04315 Leipzig<br> 
-**Anmeldung bis 02.07.** unter https://cloud.bits-und-baeume.org/apps/forms/s/X65fYPton9njxsWp7L7wJtky
+🎬 **Stream (ab 18 Uhr):**  https://youtube.com/live/ZTHiY5RJqgA?feature=share
 
 *Hinweis: Die Veranstaltung wird in Kooperation mit dem <a href="https://konzeptwerk-neue-oekonomie.org/">Konzeptwerk Neue Ökonomie</a> und <a href="https://www.brot-fuer-die-welt.de/">Brot für die Welt</a> ausgerichtet.*
 
@@ -69,8 +69,8 @@ Inputs von We’ll Come United Leipzig & Nein zur Bezahlkarte Leipzig zu konkret
 
 Der Space Leipzig versorgt uns mit leckerer veganer Küfa (Küche für alle) gegen Spende. <br> <br>
 
-Bitte meldet Euch bis zum 02.07.2025 hier an: https://cloud.bits-und-baeume.org/apps/forms/s/X65fYPton9njxsWp7L7wJtky <br><br>
-
+Anmeldung bis zum 02.07.2025 hier: https://cloud.bits-und-baeume.org/apps/forms/s/X65fYPton9njxsWp7L7wJtky <br>
+Solange Platz ist, könnt ihr auch spontan ohne Anmeldung vorbeikommen! <br>
 
 Diese Veranstaltung und die Arbeit der Bits & Bäume-Koordinationsstelle wird gefördert durch die Stiftung Mercator.
 <img src="/assets/images/Stiftung_Mercator_Blau_RGB.jpg" alt="Logo Stiftung Mercator" style="margin-left:10px;width: 48%; height: 40%;">
