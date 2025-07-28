@@ -57,7 +57,7 @@ Anna verdeutlichte zunächst, dass digitalisierte Migrationskontrolle an sehr ve
 
 Seit das Bundesamt für Migration und Flüchtlinge (BAMF) 2016 für seine langsamen Verfahren kritisiert worden sei, seien zahlreiche digitale Systeme eingeführt worden. Eines davon sei die Dialekterkennung, ein automatisiertes Verfahren zur Erkennung sprachlicher Abweichungen. Diese Technologie habe besonders in der Anfangszeit aufgrund unterschiedlicher Fehlerraten je nach Sprache und unplausibler Ergebnisse starke Kritik erfahren. Teilweise seien zudem Asylanträge auf dieser Grundlage fälschlich abgelehnt worden.
 
-Auch das Auslesen mobiler Datenträger, meist Smartphones, sei inzwischen gängige Praxis – etwa um Herkunftsländer zu ermitteln. Dabei würden statistische Daten wie Anrufziele, aber auch Social-Media-Accounts oder Google-Zugänge ausgewertet. Anna habe dabei klargemacht: Das sei ein massiver Eingriff in die Privatsphäre, dessen tatsächlicher Nutzen äußerst begrenzt sei.
+Auch das Auslesen mobiler Datenträger, meist Smartphones, sei inzwischen gängige Praxis – etwa um Herkunftsländer zu ermitteln. Dabei würden statistische Daten wie Anrufziele, aber auch Social-Media-Accounts oder Google-Zugänge ausgewertet. Anna hat dabei klargemacht: Das sei ein massiver Eingriff in die Privatsphäre, dessen tatsächlicher Nutzen äußerst begrenzt sei.
 #
 Auch die Ausländerbehörden griffen auf forensische Software zurück, um Geräte – insbesondere von Geduldeten – zu durchsuchen. Ziel sei es oft, Informationen über Herkunftsländer zu gewinnen, um Abschiebungen zu ermöglichen. Diese Praxis sei in Deutschland uneinheitlich geregelt und für Betroffene häufig undurchsichtig. Oft wüssten sie nicht, zu welchem Zweck und in welchem Umfang ihre Geräte durchleuchtet würden.
 

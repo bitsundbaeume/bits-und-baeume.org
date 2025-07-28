@@ -28,7 +28,7 @@ meta_beschreibung: "Rückblick auf den Digitalpolitischen Bits & Bäume- Sommera
 ## Button 1
 # button_anzeigen:  nein 			# Entferne "#" um den Button zu verstecken
 button_text: "Zum Rückblick"	# Der Button-Text ist standardmäßig "weiterlesen"
-# button_url: "andere URL"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button_url: "/blog/sommerabend25"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
