@@ -18,7 +18,7 @@ type: "Post"			# Der "Type" eines Posts steht oben in den Kacheln und auf der Se
 
 ## Aktuell und Featured?
 aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Der Support für Windows 10 endet am 14. Oktober 2025. Damit werden zahlreiche Windows-Geräte mit der Zeit praktisch unbrauchbar. Wer Windows weiter nutzen möchte, muss sich ein neues Gerät anschaffen. Die Kampagne *End of 10* macht darauf aufmerksam, dass ein intakter Laptop mit der Installation eines Linux-Betriebssystem auch über Jahre hinweg noch sicher und schnell benutzbar bleibt."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image

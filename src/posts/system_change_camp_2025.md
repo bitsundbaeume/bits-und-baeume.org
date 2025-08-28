@@ -16,8 +16,8 @@ type: "Einladung"			# Der "Type" eines Posts steht oben in den Kacheln und auf d
 					# Standardmäßig ist der Typ "Meldung". Hier kannst du das ändern z.B. "Bericht" oder "Jobangebot" etc.
 
 ## Aktuell und Featured?
-aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+aktuell:  "nein" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Dass der KI-Hype ein Klimarisiko darstellt, ist nichts Neues. Weltweit regt sich Protest gegen die Rechenzentren von Microsoft, Google, Amazon und Co., die den immer weiter wachsenden Rechenbedarf der KI decken sollen – und dafür Wasser, Energie und Fläche benötigen. Auch die neue Bundesregierung plant den Bau mehrerer riesiger Rechenzentren in Deutschland. Ungeklärt ist dabei, woher die Energie für die Rechenzentren kommen soll. Immer mehr NGOs warnen, dass der Ausbau der erneuerbaren Energien dafür nicht reichen wird. RWE-CEO Markus Krebber hat jedoch bereits angekündigt, dass die Gasindustrie bereitsteht, um den hohen Energiebedarf zu decken."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
