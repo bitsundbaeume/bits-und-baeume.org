@@ -2,6 +2,14 @@
 
 Based on [Eleventy Starter Boilerplate](https://github.com/ixartz/Eleventy-Starter-Boilerplate)
 
+
+### To Create a new Post (with Markdown and Frontmatter) you can use the convenient Form in B&B Wiki
+
+https://wiki.bits-und-baeume.org/arbeitsgruppen/ag-website/posts/start
+
+Write to it [at] bits-und-baeume dot org if you think you should have access to the wiki.
+
+
 ### Features
 
 
@@ -9,9 +17,6 @@ Based on [Eleventy Starter Boilerplate](https://github.com/ixartz/Eleventy-Start
 <summary>
 Production-ready in mind:
 </summary>
-
-
-
 
 -   🔥 [11ty](https://www.11ty.dev) for Static Site Generator
 -   🎨 Integrate with [Tailwind CSS](https://tailwindcss.com)
