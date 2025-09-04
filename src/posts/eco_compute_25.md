@@ -8,7 +8,7 @@
 
 
 ## Meta Informationen
-title: "Bits & Bäume auf der EcoCompute 2025!"
+title: "Bits & Bäume auf der ecoCompute 2025!"
 datum: "2025-08-28" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
 autorin: "Leo Rath"	# Mehrere Autor:innen mit Komma getrennt
 
@@ -38,7 +38,7 @@ button_url: "https://www.eco-compute.io/"			# Hier kannst du ein alternatives Zi
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
 button2_text: "zum Call for Content"		# Der Button-Text ist standardmäßig "weiterlesen"
-button2_url: "https://cfp.eco-compute.io/ecocompute-2025/cfp"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button2_url: "https://cfp.eco-compute.io/community-track-2025/cfp"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 
 ## Auf der Vorschau-Kacheln wird standardmäßog ein Icons angezeigt, das kann hier abgeschaltet werden.
@@ -48,3 +48,6 @@ button2_url: "https://cfp.eco-compute.io/ecocompute-2025/cfp"			# DIE URL ist st
 ### Unter den Drei folgenden Strichen "---" Geht der Inhalt los der in Markdown formatiert sein darf! ###
 #########################################################################################################
 ---
+<a href="https://cfp.eco-compute.io/community-track-2025/cfp">
+<button class="btn-dark">zum Call for Content</button>
+</a>
