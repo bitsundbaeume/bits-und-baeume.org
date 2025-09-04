@@ -55,23 +55,38 @@ lang: de
 									no content
 								{% endif %}
 								</p>
+								<!------- BUTTON 1 ------->
+								<p>
 								{% if post.data.button_anzeigen == "ja" %}
-									<p>
 										{% if post.data.button_url %}
 											<a href="{{ post.data.button_url }}">
-											{% else %}
-												<a href="{{ post.url }}">
-												{% endif %}
-												<button class="btn-dark">
-													{% if post.data.button_text %}
-														{{ post.data.button_text }}
-													{% else %}
-											weiterlesen
+										{% else %}
+											<a href="{{ post.url }}">
 										{% endif %}
-												</button>
-											</a>
-										</p>
-									{% endif %}
+											<button class="btn-dark">
+											{% if post.data.button_text %}
+												{{ post.data.button_text }}
+											{% else %}
+												weiterlesen
+											{% endif %}
+											</button></a>
+								{% endif %}
+								<!------- BUTTON 2 ------->
+								{% if post.data.button2_anzeigen == "ja" %}																
+										{% if post.data.button2_url %}
+											<a href="{{ post.data.button2_url }}">
+										{% else %}
+											<a href="{{ post.url }}">
+										{% endif %}
+											<button class="btn-dark">
+											{% if post.data.button2_text %}
+												{{ post.data.button2_text }}
+											{% else %}
+												weiterlesen
+											{% endif %}
+											</button></a>
+								{% endif %}								
+								</p>
 									{% if post.data.datum and post.data.autorin %}
 										<p>
 											<i>{{ post.data.autorin }} - {{ post.data.datum.slice(-2) }}.{{ post.data.datum.slice(5,7) }}.{{ post.data.datum.slice(0,4) }}</i>
@@ -115,23 +130,38 @@ lang: de
 							{% endif %}
 								</p>
 								<p>
-									{% if post.data.button_anzeigen == "ja" %}
-										<p>
-											{% if post.data.button_url %}
-												<a href="{{ post.data.button_url }}">
-												{% else %}
-													<a href="{{ post.url }}">
-													{% endif %}
-													<button class="btn-dark">
-														{% if post.data.button_text %}
-															{{ post.data.button_text }}
-														{% else %}
-											weiterlesen
+																	<!------- BUTTON 1 ------->
+								<p>
+								{% if post.data.button_anzeigen == "ja" %}
+										{% if post.data.button_url %}
+											<a href="{{ post.data.button_url }}">
+										{% else %}
+											<a href="{{ post.url }}">
 										{% endif %}
-													</button>
-												</a>
-											</p>
+											<button class="btn-dark">
+											{% if post.data.button_text %}
+												{{ post.data.button_text }}
+											{% else %}
+												weiterlesen
+											{% endif %}
+											</button></a>
+								{% endif %}
+								<!------- BUTTON 2 ------->
+								{% if post.data.button2_anzeigen == "ja" %}																
+										{% if post.data.button2_url %}
+											<a href="{{ post.data.button2_url }}">
+										{% else %}
+											<a href="{{ post.url }}">
 										{% endif %}
+											<button class="btn-dark">
+											{% if post.data.button2_text %}
+												{{ post.data.button2_text }}
+											{% else %}
+												weiterlesen
+											{% endif %}
+											</button></a>
+								{% endif %}								
+								</p>
 
 										{% if post.data.icon %}
 											<div class="box__icon">

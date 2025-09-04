@@ -1,3 +1,4 @@
+/*
 const { default: axios } = require('axios');
 
 module.exports = async () => {
@@ -8,3 +9,5 @@ module.exports = async () => {
     console.error(error);
   }
 };
+
+*/

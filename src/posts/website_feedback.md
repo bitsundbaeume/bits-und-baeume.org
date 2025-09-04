@@ -24,8 +24,8 @@ teaser:
 meta_beschreibung: 
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
-button_text: "zur Meldung"
+#button_anzeigen: nein 
+button_text: "zum Aufruf"
 #button_url: "andere URL"
 
 

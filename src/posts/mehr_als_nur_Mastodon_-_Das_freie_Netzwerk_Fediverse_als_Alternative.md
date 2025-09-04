@@ -24,7 +24,7 @@ teaser: Das freie Netzwerk Fediverse als Alternative für X, Insta und Co. Alles
 meta_beschreibung: Das freie Netzwerk Fediverse als Alternative – Konferenz am 14.9.2024
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 #button_text: "eigene Buttonbeschriftung"
 #button_url: "andere URL"
 

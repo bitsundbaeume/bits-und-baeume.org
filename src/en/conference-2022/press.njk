@@ -3,26 +3,45 @@ title: Press
 metatitle: Press of the Bits & Bäume Conference 2022
 description: Here you can find the press of the Bits & Bäume Konferenz 2022
 lang: en
-translation: /konferenz-2022/presse/
+translation: /konferenz-2022/presse-22/
 layout: layouts/_base.ejs
 ---
 
 <section class="max-w-3xl">
-	<h3>Bits & Bäume-Conference 2022</h3>
+	<h3>Bits & Bäume Conference 2022</h3>
     <h1>Press</h1>
-    <p><b>
-        You are a journalist and want to stay up-to-date about our demands and activities or have a question about Bits & Trees 2022?
 
-    </p></b>
+	<div class="box box-infos">
 
+		<h2 class="h3">Press Releases (DE)</h2>
+			<ul>
+
+			<li><b>05.10.2022: </b><a href="{{ site.url }}/assets/images/pdfs/Pressemitteilungen2022/Bits&Baeume_Pressemitteilung_221005.pdf">Für eine nachhaltige Digitalisierung: 2.500 Teilnehmer*innen auf der Konferenz „Bits & Bäume“</a></li>
+			<li><b>05.09.2022: </b><a href="{{ site.url }}/assets/images/pdfs/Pressemitteilungen2022/Bits&Baeume_Pressemitteilung_220901.pdf">Bündnis fordert von Politik: Digitalisierung muss sozial-ökologischem Wandel
+dienen</a></li>
+			<li><b>07.06.2022: </b><a href="{{ site.url }}/assets/images/pdfs/Pressemitteilungen2022/Bits&Baeume_Pressemitteilung_7.6.22.pdf">Digitalisierung und Nachhaltigkeit zusammendenken – Zweite bundesweite Bits &
+Bäume Konferenz vom 30. September bis 2. Oktober – Aufruf für Konferenzbeiträge</a></li>
+        </ul>
+		<div class="box__icon">
+			<img src="{{ site.url }}/assets/images/icon-box-infos.svg" alt="box" width="66" height="66">
+		</div>
+		<div class="box__pixel">
+			<img src="{{ site.url }}/assets/images/pixel-box-infos.svg" alt="box" width="50" height="50">
+		</div>
+	</div>
 
 	<div class="box box-cta">
-		<h2 class="h3">Press distribution list and contact</h2>
-		<p>Contact us at <a href="mailto:presse@bits-und-baeume.org">presse@bits-und-baeume.org</a> or register here directly in the press distribution list:</p>
+		<h2 class="h3">Press Review (DE)</h2>
 
-		<a href="https://newsletter.bits-und-baeume.org/?p=subscribe&id=1">
-			<button class="btn-dark">Register now!</button>
-		</a>
+		<ul>
+		{% for item in content.pressespiegel.items %}
+			<li>
+				{{item.date}}: <a href="{{item.url}}">{{item.publisher}}: <i>{{ item.title }}</i></a>
+			</li>
+		{% endfor %}
+		</ul>
+
+
 		<div class="box__icon">
 			<img src="{{ site.url }}/assets/images/icon-box-cta.svg" alt="box" width="66" height="66">
 		</div>
@@ -32,13 +51,13 @@ layout: layouts/_base.ejs
 	</div>
 
 	<div class="box box-info">
-		<h2 class="h3">Photos from the conference</h2>
-		<p>There is a large number of free photos from the conference. Most of the photos were taken by <a href="https://www.stuffthathappens.de">Silke Mayer (stuffthathappens.de)</a>, but also by Benjamin Kees and Christoph J. Kellner. The photos may be used according to Creative Commons - Attribution under indication of authorship (see file name).
-		</p>
+		<h2 class="h3">Photos from the Conference</h2>
+		<p>There is a variety of free photos from the conference. Most of the photos were taken by <a href="https://www.stuffthathappens.de">Silke Mayer, (stuffthathappens.de)</a>, but also by Benjamin Kees and Christoph J. Kellner. The photos can be used according to Creative Commons – Attribution with proper credit to the author (as indicated in the filename).</p>
 
 		<a href="https://cloud.bits-und-baeume.org/s/8cnrGf9wzjxqyFx" target="_blank">
-			<button class="btn-dark">To the photos</button>
+			<button class="btn-dark">See the Photos</button>
 		</a>
+
 		<div class="box__icon">
 			<img src="{{ site.url }}/assets/images/icon-box-cta.svg" alt="box" width="66" height="66">
 		</div>
@@ -48,9 +67,13 @@ layout: layouts/_base.ejs
 	</div>
 
 	<div class="box box-cta">
-		<h2 class="h3">Photo policy</h2>
-		<p>We want all participants to feel comfortable at the conference. Therefore, the following applies to both participants and the press: Photos of people (including groups) are only allowed with their consent. We therefore ask you to <b>obtain the clear consent of everyone before taking photos</b> and to delete pictures at any time upon request. The only exception to this rule are the people on our stages, as the speakers have given their prior written consent.</p>
+		<h2 class="h3">Press Kit</h2>
+		<p>Our Press Kit contains information on accreditation, key contacts, the photo policy, and much more.
+		</p>
 
+		<a href="{{ site.url }}/assets/images/pdfs/Pressemappe-Bits-und-Baeume-2022.pdf">
+			<button class="btn-dark">Pressemappe (PDF,DE)</button>
+		</a>
 		<div class="box__icon">
 			<img src="{{ site.url }}/assets/images/icon-box-cta.svg" alt="box" width="66" height="66">
 		</div>
@@ -58,106 +81,5 @@ layout: layouts/_base.ejs
 			<img src="{{ site.url }}/assets/images/pixel-box-cta.svg" alt="box" width="40" height="50">
 		</div>
 	</div>
-
-	<div class="box box-infos">
-		<h2 id="pm" class="h3">Press releases</h2>
-			<p>
-                You can find our latest press release (2022-06-05) here:
-			</p>
-		<a href="{{ site.url }}/assets/images/2023/230606_PM_Bits_und_Baeume_Journal_EN.pdf">
-			<button class="btn-dark">To the press release</button>
-		</a>
-		<div class="box__icon">
-			<img src="{{ site.url }}/assets/images/icon-box-infos.svg" alt="box" width="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-infos.svg" alt="box" width="50" height="50">
-		</div>
-	</div>
-
-	<div class="box box-infos">
-		<h2 class="h3">Archived press releases</h2>
-
-			<ul>
-
-			<li><a href="{{ site.url }}/assets/images/pdfs/Pressemitteilungen2022/Bits&Baeume_Pressemitteilung_221005.pdf">Press release 2022-10-05</a></li>
-			<li><a href="{{ site.url }}/assets/images/pdfs/Pressemitteilungen2022/Bits&Baeume_Pressemitteilung_220901.pdf">Press release 2022-09-01</a></li>
-			<li><a href="{{ site.url }}/assets/images/pdfs/Pressemitteilungen2022/Bits&Baeume_Pressemitteilung_7.6.22.pdf">Press release 2022-07-06</a></li>
-        </ul>
-		<div class="box__icon">
-			<img src="{{ site.url }}/assets/images/icon-box-infos.svg" alt="box" width="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-infos.svg" alt="box" width="50" height="50">
-		</div>
-	</div>
-
-	<h3>Pressekit</h3>
-
-	<p>Here you will find materials</p>
-
-	<div class="box box-links">
-		<h2 class="h3">Postkarten</h2>
-		<ul>
-		    <li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Postkarte-1_DIN-A6_DRUCK_220805">Postcard 1</a></li>
-			<li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Postkarte-2_DIN-A6_DRUCK_220805">Postcard 2</a></li>
-			<li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Postkarte-3_DIN-A6_DRUCK_220805">Postcard 3</a></li>
-			<li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Postkarte-4_DIN-A6_DRUCK_220805">Postcard 4</a></li>
-			<li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Postkarte-5_DIN-A6_DRUCK_220805">Postcard 5</a></li>
-        </ul>
-
-	<!--	<a href="#">
-			<button class="btn-dark">Button dunkel</button>
-		</a>-->
-		<div class="box__icon">
-			<img src="{{ site.url }}/assets/images/icon-box-links.svg" alt="box" width="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-links.svg" alt="box" width="50" height="50">
-		</div>
-	</div>
-
-	<div class="box box-links">
-		<h2 class="h3">Plakate</h2>
-		<ul>
-		    <li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Plakat_DIN-A1.pdf">Poster DIN A1 [pdf]</a></li>
-			<li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_Plakat_DIN-A2.pdf">Poster DIN A2 [pdf]</a></li>
-        </ul>
-
-	<!--	<a href="#">
-			<button class="btn-dark">Button dunkel</button>
-		</a>-->
-		<div class="box__icon">
-			<img src="{{ site.url }}/assets/images/icon-box-links.svg" alt="box" width="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-links.svg" alt="box" width="50" height="50">
-		</div>
-	</div>
-
-	<div class="box box-links">
-		<h2 class="h3">Logo and infographic (CC BY schauschau.cc)</h2>
-		<ul>
-            <li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_logo_ohne_text_CCBY-schauschau.cc.svg">Logo without text [svg]</a></li>
-		    <li>Logo with title: <a href="{{ site.url }}/assets/images/bits-und-baeume-logo_CCBY-schauschau.cc.svg">[svg]</a> <a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_logo_titel_RGB_CCBY-schauschau.cc.pdf">[pdf]</a></li>
-			<li><a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_logo_titel_untertitel_RGB_CCBY-schauschau.cc.pdf">Logo with title and subtitle [pdf]</a></li>
-			<li>Infographic: <a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_infografik.svg">[svg]</a> <a href="{{ site.url }}/assets/images/oea_material/pressekit/bitsundbaeume22_infografik.png">[png]</a></li>
-        </ul>
-
-	<!--	<a href="#">
-			<button class="btn-dark">Button dunkel</button>
-		</a>-->
-		<div class="box__icon">
-			<img src="{{ site.url }}/assets/images/icon-box-links.svg" alt="box" width="66" height="66">
-		</div>
-		<div class="box__pixel">
-			<img src="{{ site.url }}/assets/images/pixel-box-links.svg" alt="box" width="50" height="50">
-		</div>
-	</div>
-
-
-
-</section>
-
 
 

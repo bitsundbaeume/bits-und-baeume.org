@@ -2,20 +2,25 @@
 Redirect 302 /mailingliste https://lists.bits-und-baeume.org/postorius/lists/community.lists.bits-und-baeume.org/
 Redirect 303 /mailinglisten_wiki https://wiki2.bits-und-baeume.org/it/mailinglisten/start
 
+# Wikimedia hat hier das Leerzeichen in einem Post drin gehabt
+Redirect 302 "/forderungen/ " /forderungen/
+
+# Community-Loste
+Redirect 302 /communityliste https://lists.bits-und-baeume.org/postorius/lists/community.lists.bits-und-baeume.org/
 
 # Newsleter
 Redirect 302 /newsletter_input_pad https://cloud.bits-und-baeume.org/pad/p/ctsc6l99h6m1p4gbl45aht39yv9mo04c4f
 Redirect 302 /newsletterinput https://bits-und-baeume.org/newsletter_input/
 Redirect 302 /newsletteranmeldung https://lists.bits-und-baeume.org/postorius/lists/newsletter.lists.bits-und-baeume.org/
 
-
-# Fragebogen
-Redirect 302 /umfrage https://bitsundbaeume.limesurvey.net/681793?lang=de-informal 
+# Umfragen
+Redirect 302 /umfragen/regionalgruppeninfos https://cloud.bits-und-baeume.org/apps/forms/s/GwMPgxALKqrTRWXr4aXBEnW3
 
 # Anmeldungen
 Redirect 302 /anmeldung/policy_lab_2024-09 https://cloud.bits-und-baeume.org/apps/forms/s/7tF7LTjS89WoxQGRs56KAPTZ
 Redirect 302 /anmeldung/herbstabend24 https://cloud.bits-und-baeume.org/apps/forms/s/rJjrN9HY35MzqaFjjR5acG6C
 Redirect 302 /anmeldung/winterabend24 https://cloud.bits-und-baeume.org/apps/forms/s/NFTrz7nzQYMZkyTzcrmm7x7P
+Redirect 302 /anmeldung/2025-03-06-policy-lab https://cloud.bits-und-baeume.org/apps/forms/s/zffciFfdWipea2nrHkfTEroH
 
 # Logo
 Redirect 302 /logo https://cloud.bits-und-baeume.org/s/nzxKD7GWHTY99Eg
@@ -29,16 +34,13 @@ Redirect 302 /Kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETd
 # 38c3
 Redirect 302 /38c3/bbb/habitat https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
 Redirect 302 /38c3/orgapad https://pads.fiff.de/p/38c3_habitat_orga
-
 Redirect 302 /38c3/infopad https://pads.fiff.de/p/38c3_habitat
-
 Redirect 302 /38c3/bedarfe https://cloud.bits-und-baeume.org/s/JEFo7N2w3SKbpDE
 Redirect 302 /38c3/zeitstrahl https://cloud.bits-und-baeume.org/pad/p/rfk6rg8kl67uwr4dc3ae27zjzp46f7fqujmg
-
 Redirect 302 /38c3/workshop-einreichen https://fahrplan.alpaka.space/jugend-hackt-38c3-2024/submit/W06KjP/info/?submission_type=38-bits-baume-workshop
 Redirect 302 /38c3/workshop-orga https://cloud.bits-und-baeume.org/pad/p/s2ppix47ogibunjxy35utn2mbn316z6d77v1gegohq1hjjem
 Redirect 302 /38c3/workshop-technik-feedback https://cloud.bits-und-baeume.org/pad/p/jxx7p7ubuqfrhmliwrailxq68iyrnzd4vi8kq4wn1po9pl0fxx
-
+Redirect 302 /38c3/feedback https://cloud.bits-und-baeume.org/apps/forms/s/RNtQixrzia44mtoFEqHc7cXK
 
 # 37c3
 Redirect 302 /37c3/orgapad https://cloud.bits-und-baeume.org/pad/p/2kz4ddkg9hjmkclk0v71171ii88ijh456ibmmnbhe2b5no7vr
@@ -78,40 +80,11 @@ Redirect 302 /konfereneankuendigung/de /konferenz/de
 Redirect 302 /konferenzankuendigung/en /konferenz/en
 Redirect 302 /37c3_rueckblick /blog/37c3_rueckblick/
 
-# Konferenz-Folienupload
-Redirect 302 /slides https://cloud.bits-und-baeume.org/index.php/s/gcG8LJA2CEba8kL
-Redirect 302 /Slides https://cloud.bits-und-baeume.org/index.php/s/gcG8LJA2CEba8kL
-
-
 # ÖA-Weiterleitungen
 Redirect 302 /programm-anregungen https://etherpad.wikimedia.org/p/bb22-programm-anregungen
 Redirect 302 /Organisationsmodell https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/Rm56ZZkJsp2oqte/Organisationsmodell
 Redirect 302 /organisationsmodell https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/Rm56ZZkJsp2oqte/Organisationsmodell
-Redirect 302 /Matrixanmeldung https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/fLP8pwfbELPM78L/Matrix 
-Redirect 302 /matrixanmeldung https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/fLP8pwfbELPM78L/Matrix
-Redirect 302 /tickets https://events.fairetickets.de/gedlv/
-Redirect 302 /Tickets https://events.fairetickets.de/gedlv/
-Redirect 302 /helfen https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
-Redirect 302 /Helfen https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
-Redirect 302 /Schlafplatzbörse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /schlafplatzbörse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /Schlafplatzboerse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /schlafplatzboerse https://cloud.bits-und-baeume.org/pad/p/j21pggkhtbykbv6m
-Redirect 302 /druckdateien https://cloud.bits-und-baeume.org/index.php/s/Jy6g24XWaPj9FMZ
-
 Redirect 302 /konferenz-2022/mach-mit/infos https://cloud.bits-und-baeume.org/index.php/apps/collectives/p/bPiSeSR2kgnNsik/Engelsystem
-
-
-#Awareness
-Redirect 302 /awareness https://cloud.bits-und-baeume.org/index.php/s/Zmy7Kg96KC5RNTe
-Redirect 302 /en/awareness https://cloud.bits-und-baeume.org/index.php/s/KHnyQDFEaHez464
-
-
-
-#Karte
-Redirect 302 /Karte https://www.openstreetmap.org/way/40451892
-Redirect 302 /karte https://www.openstreetmap.org/way/40451892
-Redirect 302 /walkthrough https://cloud.bits-und-baeume.org/index.php/s/fRDtQWq4xaabwQ4
 
 
 # BigBlueButton-Räume
@@ -129,15 +102,18 @@ Redirect 302 /BBB-Mithilfe-Lounge https://lecture.senfcall.de/rai-qmi-0mh-ziw
 Redirect 302 /BBB-TK https://lecture.senfcall.de/rai-efg-dsh-8qc
 Redirect 302 /bbb-tk https://lecture.senfcall.de/rai-efg-dsh-8qc
 
+Redirect 302 /bbb/community https://bbb.tu-dresden.de/rooms/qje-7si-xu1-lul/join
+Redirect 302 /bbb/tk https://lecture.senfcall.de/rai-efg-dsh-8qc
+
+
 
 #Redirects 2018er Website
 Redirect 302 /datenschutz/de /datenschutz/
 Redirect 302 /datenschutz/en /datenschutz/
-Redirect 302 /forderungen/ /konferenz-2018/forderungen/
-Redirect 302 /forderungen/de /konferenz-2018/forderungen/
-Redirect 302 /forderungen/en /en/conference-2022/demands/
-Redirect 302 /forderungen/info/de /konferenz-2018/forderungen/
-Redirect 302 /forderungen/info/en /en/conference-2022/demands/
+Redirect 302 /forderungen/de /forderungen/
+Redirect 302 /forderungen/en /forderungen/
+Redirect 302 /forderungen/info/de /forderungen/
+Redirect 302 /forderungen/info/en /forderungen/
 Redirect 302 /forum/de /community/forum/
 Redirect 302 /forum/en /en/community/forum/
 Redirect 302 /forum/ /en/community/forum/
@@ -157,9 +133,6 @@ Redirect 302 /konferenz/ /konferenz-2022/
 Redirect 302 /konferenz /konferenz-2022/
 Redirect 302 /material/de /material/
 Redirect 302 /material/en /en/material/
-Redirect 302 /presse /konferenz-2022/presse/
-Redirect 302 /presse/ /konferenz-2022/presse/
-Redirect 302 /presse/de /konferenz-2022/presse/
 Redirect 302 /presse/en /en/conference-2018/press/
 Redirect 302 /programm/de /konferenz-2022/programm/
 Redirect 302 /programm/ /konferenz-2022/programm/
@@ -187,7 +160,6 @@ Redirect 302 /konferenz-2022/presse//de /konferenz-2022/presse/
 Redirect 302 /konferenz-2022/presse//de/ /konferenz-2022/presse/
 Redirect 302 /downloads/call_for_participation.pdf /konferenz-2022/mach-mit/
 Redirect 302 /downloads/Call_for_Action_neu.pdf /assets/images/pdfs/Call_for_Action_neu.pdf
-Redirect 302 /forderungen /konferenz-2022/forderungen/
 Redirect 302 /ziele /konferenz-2018/ziele/
 Redirect 302 /call /konferenz-2022/mach-mit/
 Redirect 302 /konferenzankuendigung/de /konferenz-2022/

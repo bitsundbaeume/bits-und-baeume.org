@@ -2,7 +2,7 @@
 #icon: "" # Icon auf der Kachel ausschalten durch löschen des #
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
-aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # auskommentieren
+aktuell: nein
 title: "Wir verlassen X"
 datum: "2024-06-24"
 autorin: 

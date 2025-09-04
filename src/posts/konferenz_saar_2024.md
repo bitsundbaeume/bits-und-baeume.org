@@ -23,7 +23,7 @@ teaser:
 meta_beschreibung: Das Haus der Nachhaltigkeit und der Technik und Kultur Saar e.V. luden ein zur Vernetzung von Akteur:innen aus den Bereichen IT, Nachhaltigkeit und Soziales.
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-#button_anzeigen = nein 
+#button_anzeigen: nein 
 button_text: "Zur Konferenz-Website"
 button_url: "https://saar.bits-und-baeume.org/"
 ---
