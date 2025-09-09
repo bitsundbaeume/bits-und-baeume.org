@@ -31,6 +31,11 @@ Redirect 302 /Kalender https://cloud.bits-und-baeume.org/apps/calendar/p/HSQmRMc
 Redirect 302 /kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETdgR6f9dmTx3JFo3nY5gk
 Redirect 302 /Kalenderinput https://cloud.bits-und-baeume.org/apps/forms/s/FkETdgR6f9dmTx3JFo3nY5gk
 
+
+# 39c3
+Redirect 302 /39c3/bbb https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
+Redirect 302 /39c3/pad https://cloud.bits-und-baeume.org/pad/p/s0mgnw58o1cocxiy12o1ub1mzg0z84f7ex9yj6rcdrj
+
 # 38c3
 Redirect 302 /38c3/bbb/habitat https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
 Redirect 302 /38c3/orgapad https://pads.fiff.de/p/38c3_habitat_orga
