@@ -9,7 +9,7 @@
 
 ## Meta Informationen
 title: "Bits & Bäume auf der ecoCompute 2025!"
-datum: "2025-08-28" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
+datum: "2025-10-08" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
 autorin: "Leo Rath"	# Mehrere Autor:innen mit Komma getrennt
 
 type: "Einladung"			# Der "Type" eines Posts steht oben in den Kacheln und auf der Seite ganz oben.
@@ -20,8 +20,8 @@ aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles au
 featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
-einleitung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der EcoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Du hast Lust, etwas zum Programm beizutragen? Dann folge dem Call for Content!"				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
-teaser: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der EcoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Du hast Lust, etwas zum Programm und zum B&B-Track beizutragen? Dann folge dem Call for Content!"				# Der Teaser wird auf den Kacheln als Anreißertext angezeigt.
+einleitung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
+teaser: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der EcoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Der Teaser wird auf den Kacheln als Anreißertext angezeigt.
 meta_beschreibung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der EcoCompute." 			# ≤135 Zeichen Beschreibugnstext der in Social Media und Suchergebnissen unter dem Titel angezeigt wird (also extern)
 
 ## Feature Image für die Kachel, Social Media und auf der Seite selbst
@@ -37,8 +37,8 @@ button_url: "https://www.eco-compute.io/"			# Hier kannst du ein alternatives Zi
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
-button2_text: "zum Call for Content"		# Der Button-Text ist standardmäßig "weiterlesen"
-button2_url: "https://cfp.eco-compute.io/community-track-2025/cfp"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button2_text: "zum Programm"		# Der Button-Text ist standardmäßig "weiterlesen"
+button2_url: "https://www.eco-compute.io/#section-schedule"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 
 ## Auf der Vorschau-Kacheln wird standardmäßog ein Icons angezeigt, das kann hier abgeschaltet werden.
