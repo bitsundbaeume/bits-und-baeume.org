@@ -21,8 +21,8 @@ featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Pag
 
 ## Textfragmente
 einleitung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
-teaser: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der EcoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Der Teaser wird auf den Kacheln als Anreißertext angezeigt.
-meta_beschreibung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der EcoCompute." 			# ≤135 Zeichen Beschreibugnstext der in Social Media und Suchergebnissen unter dem Titel angezeigt wird (also extern)
+teaser: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Der Teaser wird auf den Kacheln als Anreißertext angezeigt.
+meta_beschreibung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute." 			# ≤135 Zeichen Beschreibugnstext der in Social Media und Suchergebnissen unter dem Titel angezeigt wird (also extern)
 
 ## Feature Image für die Kachel, Social Media und auf der Seite selbst
 bild: "/assets/images/posts/wald_eco.jpg"
@@ -32,7 +32,7 @@ bild: "/assets/images/posts/wald_eco.jpg"
 ## Auf der Kachel wird standardmäßig ein Button "weiterlesen" angezeigt. Dieser kann hier angepasst oder versteckt werden
 ## Button 1
 # button_anzeigen:  nein 			# Entferne "#" um den Button zu verstecken
-button_text: "zur EcoCompute"	# Der Button-Text ist standardmäßig "weiterlesen"
+button_text: "zur ecoCompute"	# Der Button-Text ist standardmäßig "weiterlesen"
 button_url: "https://www.eco-compute.io/"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 ## Button 2
