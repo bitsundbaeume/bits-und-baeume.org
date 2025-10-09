@@ -9,7 +9,7 @@
 
 ## Meta Informationen
 title: "Bits & Bäume auf der ecoCompute 2025!"
-datum: "2025-10-08" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
+datum: "2025-10-10" 			# Das Datum des Posts - Das Format YYYY-MM-DD muss eingehalten werden!
 autorin: "Leo Rath"	# Mehrere Autor:innen mit Komma getrennt
 
 type: "Einladung"			# Der "Type" eines Posts steht oben in den Kacheln und auf der Seite ganz oben.
@@ -48,6 +48,6 @@ button2_url: "https://www.eco-compute.io/#section-schedule"			# DIE URL ist stan
 ### Unter den Drei folgenden Strichen "---" Geht der Inhalt los der in Markdown formatiert sein darf! ###
 #########################################################################################################
 ---
-<a href="https://cfp.eco-compute.io/community-track-2025/cfp">
-<button class="btn-dark">zum Call for Content</button>
+<a href="https://www.eco-compute.io/#section-schedul">
+<button class="btn-dark">zum Programm</button>
 </a>

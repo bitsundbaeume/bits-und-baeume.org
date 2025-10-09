@@ -17,8 +17,8 @@ type: "Einladung"			# Der "Type" eines Posts steht oben in den Kacheln und auf d
 					# Standardmäßig ist der Typ "Meldung". Hier kannst du das ändern z.B. "Bericht" oder "Jobangebot" etc.
 
 ## Aktuell und Featured?
-aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+aktuell:  "nein" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Am 25.9. lädt Bits & Bäume NRW zur Veranstaltung „Bits & Bäume NRW ...in die Bildung“ ein. Wie kann die Integration des Themenfelds der nachhaltigen Digitaltransformation in Lehre und Studium an den Hochschulen gelingen? Wir diskutieren mit Fachpersonen und allen Interessierten: praxisnah, inter- sowie transdisziplinär."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
