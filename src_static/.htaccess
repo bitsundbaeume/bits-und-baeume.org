@@ -1,6 +1,8 @@
 # Mailingliste
 Redirect 302 /mailingliste https://lists.bits-und-baeume.org/postorius/lists/community.lists.bits-und-baeume.org/
-Redirect 303 /mailinglisten_wiki https://wiki2.bits-und-baeume.org/it/mailinglisten/start
+Redirect 302 /mailinglisten_wiki https://wiki2.bits-und-baeume.org/it/mailinglisten/start
+Redirect 302 /mailinglisten-moderation https://lists.fiff.de/postorius/lists/community.lists.bits-und-baeume.org/held_messages
+
 
 # Wikimedia hat hier das Leerzeichen in einem Post drin gehabt
 Redirect 302 "/forderungen/ " /forderungen/
