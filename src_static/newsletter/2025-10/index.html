@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>MOSAICO Responsive Email Designer</title>
+  
+  
+  <style type="text/css">
+    body{ margin: 0; padding: 0; }
+
+    .socialLinks{ font-size: 6px; }
+    .socialLinks a{
+      display: inline-block;
+    }
+
+    .long-text p{ margin: 1em 0px; }
+    .long-text p:last-child{ margin-bottom: 0px; }
+    .long-text p:first-child{ margin-top: 0px; }
+
+    /* :not([data-emoji]) is like a noop to hide this rule in Gmail to workaround emojification bug in Gmail: it is not really used by Gmail and this is currently equivalent to img:not(a) */
+    img:not([data-emoji]){ border: 0px; display: block; }
+  </style>
+  <style type="text/css">
+    /* yahoo, hotmail */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{ line-height: 100%; }
+    .yshortcuts a{ border-bottom: none !important; }
+    .vb-outer{ min-width: 0 !important; }
+    .RMsgBdy, .ExternalClass{
+      width: 100%;
+      background-color: #3f3f3f;
+      background-color: #ffffff}
+
+    /* outlook/office365 add buttons outside not-linked images and safari have 2px margin */
+    [o365] button{ margin: 0 !important; }
+
+    /* outlook */
+    table{ mso-table-rspace: 0pt; mso-table-lspace: 0pt; }
+    #outlook a{ padding: 0; }
+    img{ outline: none; text-decoration: none; border: none; -ms-interpolation-mode: bicubic; }
+    a img{ border: none; }
+
+    @media screen and (max-width: 600px) {
+      table.vb-row{
+        width: 95% !important;
+      }
+
+      .mobile-hide{ display: none !important; }
+      .mobile-textcenter{ text-align: center !important; }
+
+      .mobile-full{ 
+        width: 100% !important;
+        max-width: none !important;
+      }
+    }
+    
+    /* samsung email workaround */
+    @media screen and (max-width: 384px) {
+      .mail-message-content{ width: 414px !important; }
+    }
+  </style>
+  <style type="text/css">
+    
+    #ko_singleArticleBlock_1 .links-color a, #ko_singleArticleBlock_1 .links-color a:link, #ko_singleArticleBlock_1 .links-color a:visited, #ko_singleArticleBlock_1 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_textBlock_1 .links-color a, #ko_textBlock_1 .links-color a:link, #ko_textBlock_1 .links-color a:visited, #ko_textBlock_1 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_textBlock_2 .links-color a, #ko_textBlock_2 .links-color a:link, #ko_textBlock_2 .links-color a:visited, #ko_textBlock_2 .links-color a:hover{
+      color: #3f3f3f;
+      color: #bdd888;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_4 .links-color a, #ko_sideArticleBlock_4 .links-color a:link, #ko_sideArticleBlock_4 .links-color a:visited, #ko_sideArticleBlock_4 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_6 .links-color a, #ko_sideArticleBlock_6 .links-color a:link, #ko_sideArticleBlock_6 .links-color a:visited, #ko_sideArticleBlock_6 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_2 .links-color a, #ko_sideArticleBlock_2 .links-color a:link, #ko_sideArticleBlock_2 .links-color a:visited, #ko_sideArticleBlock_2 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_1 .links-color a, #ko_sideArticleBlock_1 .links-color a:link, #ko_sideArticleBlock_1 .links-color a:visited, #ko_sideArticleBlock_1 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_7 .links-color a, #ko_sideArticleBlock_7 .links-color a:link, #ko_sideArticleBlock_7 .links-color a:visited, #ko_sideArticleBlock_7 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_5 .links-color a, #ko_sideArticleBlock_5 .links-color a:link, #ko_sideArticleBlock_5 .links-color a:visited, #ko_sideArticleBlock_5 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_10 .links-color a, #ko_sideArticleBlock_10 .links-color a:link, #ko_sideArticleBlock_10 .links-color a:visited, #ko_sideArticleBlock_10 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_3 .links-color a, #ko_sideArticleBlock_3 .links-color a:link, #ko_sideArticleBlock_3 .links-color a:visited, #ko_sideArticleBlock_3 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    #ko_sideArticleBlock_11 .links-color a, #ko_sideArticleBlock_11 .links-color a:link, #ko_sideArticleBlock_11 .links-color a:visited, #ko_sideArticleBlock_11 .links-color a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    
+    # .links-color a, # .links-color a:link, # .links-color a:visited, # .links-color a:hover{
+      color: #cccccc;
+      color: #cccccc;
+      text-decoration: underline
+    }
+    
+    #ko_imageBlock_1 a, #ko_imageBlock_1 a:link, #ko_imageBlock_1 a:visited, #ko_imageBlock_1 a:hover{
+      color: #3f3f3f;
+      color: #3f3f3f;
+      text-decoration: underline
+    }
+    </style>
+  
+</head>
+<!--[if !(gte mso 15)]-->
+<body bgcolor="#ffffff" text="#919191" alink="#cccccc" vlink="#cccccc" style="margin: 0; padding: 0; background-color: #ffffff; color: #919191;"><!--<![endif]--><center>
+
+  
+
+  <table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_imageBlock_1" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="0" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr><td width="100%" valign="top" align="center" class="links-color"><!--[if (lte ie 8)]><div style="display: inline-block; width: 570px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="570" class="mobile-full" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 570px; height: auto;" src="img/bits_baeume_570 (1)-resizex-1140.jpeg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+      
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_singleArticleBlock_1" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody>
+          <tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Liebe Bits &amp; Bäume Community,</strong> <br></span></td>
+    </tr>
+          <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Ein ereignis- und erkenntnisreiches Jahr neigt sich dem Ende zu – und im Bits &amp; Bäume Netzwerk läuft zum Jahresabschluss noch einmal einiges auf Hoch-Touren. Nach der Bits &amp; Bäume NRW stehen nun zum Abschluss des Jahres mit der EcoCompute und dem 39sten Chaos Communication Congress (393c3) noch zwei Events an, bei denen sich die Community vor Ort trifft, um gemeinsam zu reflektieren und Ideen weiterzuentwickeln, welche Weichen wir stellen und wie wir unsere Energien 2026 einsetzen. Zum Beispiel, um den verheißungsvollen KI-Narrativen mit Fakten, Zahlen und einem klaren Blick auf den Ressourcenverbrauch entschieden entgegenzutreten – wie es Friederike Hildebrandt und Moritz Leiner in ihrem Blogpost „Die fossile Industrie liebt KI“ eindrücklich aufzeigen.</p></td></tr>
+          
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_4" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="rtl" style="direction: rtl; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/benjamin-kees-2-resizex-332.jpg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-top: 0px;">Ich freue mich, euch auf dem 39c3 in Hamburg (wieder)zutreffen – zum gemeinsamen Austauschen, Mitmischen und Nach-vorn-Blicken.</p>
+<p style="margin: 1em 0px;">Herzliche Grüße<br>Benjamin Kees</p>
+<p style="margin: 1em 0px; margin-bottom: 0px;"><em><a href="https://www.fiff.de/personen/benjamin-kees/" style="color: #3f3f3f; color: #3f3f3f; text-decoration: underline;">Benjamin</a> ist seit 2014 beim FIfF engagiert. Er war Teil der Organisation der Bits &amp; Bäume Konferenz, koordiniert die B&amp;B Habitate auf CCC-Events und ist Teil der B&amp;B IT- und Community-AGs.</em></p></td></tr>
+            
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_titleBlock2_1" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#alc854" width="570" style="border-collapse: collapse; width: 100%; background-color: #alc854; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody><tr>
+      <td width="100%" valign="top" align="center" style="font-weight: normal; color: #3f3f3f; font-size: 26px; font-family: Impact, sans-serif; text-align: center; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><span style="font-weight: normal"><strong>Neuigkeiten</strong><br></span></td>
+    </tr>
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_6" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/gaskraftwerk (1)-resizex-332.jpg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Die fossile Industrie liebt KI - ein Blogbeitrag</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Deutschland soll „KI-Nation“ werden – zumindest, wenn es nach der neuen Bundesregierung geht. Dafür sollen deutlich mehr Rechenzentren gebaut werden, wodurch der Energiebedarf erheblich ansteigen würde. Die Fossilkonzerne stehen schon in den Startlöchern, um Gaskraftwerke zu errichten und letztlich die Klimaneutralität zu gefährden. Ein Blogbeitrag.</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://bits-und-baeume.org/blog/ki_und_gas/">Zum Blogbeitrag</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_2" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/bbnrw25-screenshot-900x506-c-center-resizex-332.jpg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Bits &amp; Bäume NRW ...in die Bildung!</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Am 25.9. fand das Event "Bits &amp; Bäume NRW ...in die Bildung!" statt. Mit 65 engagierten Teilnehmer*innen aus der Hochschullandschaft und der Zivilgesellschaft war die Resonanz beeindruckend. Im Mittelpunkt stand die Frage, wie sich Fachinhalte systematisch mit den Themen Digitalisierung und Nachhaltigkeit in der Hochschullehre verbinden lassen.</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://www.eine-welt-netz-nrw.de/rueckblick-bits-baeume-nrw-25/">Zum Rückblick</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_titleBlock2_2" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#alc854" width="570" style="border-collapse: collapse; width: 100%; background-color: #alc854; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody><tr>
+      <td width="100%" valign="top" align="center" style="font-weight: normal; color: #3f3f3f; font-size: 26px; font-family: Impact, sans-serif; text-align: center; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><span style="font-weight: normal"><strong>Veranstaltungen</strong></span></td>
+    </tr>
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_1" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/logo-ecocompute-resizex-332.jpg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Bits &amp; Bäume Community Track bei der ecoCompute 13./14.11.25</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Endlich wieder eine Konferenz! Mit einem eigenen Bits &amp; Bäume Community Track sind wir dieses Jahr am 13. &amp; 14.11. bei der ecoCompute. Wir wollen mit der Community und Expert*innen diskutieren, wie Nachhaltigkeit bei Hard- und Software in Zeiten Künstlicher Intelligenz und der Klimakrise umgesetzt werden kann. Donnerstag den 13.11. ist die Konferenz ab 13:30 Uhr offen &amp; kostenlos für alle! Kommt vorbei und diskutiert mit uns.</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://www.eco-compute.io/schedule/2025/">Zum Programm</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_titleBlock2_3" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#alc854" width="570" style="border-collapse: collapse; width: 100%; background-color: #alc854; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody><tr>
+      <td width="100%" valign="top" align="center" style="font-weight: normal; color: #3f3f3f; font-size: 26px; font-family: Impact, sans-serif; text-align: center; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><span style="font-weight: normal"><strong>Community-News</strong></span></td>
+    </tr>
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_7" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/37c3-cfp-resizex-332.jpg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Bits &amp; Bäume auf dem 39C3</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Zwischen Weihnachten und Neujahr kommen Hacker*innen, Technik-Begeisterte, DIY-Tüftler*innen, Künstler*innen und Utopist*innen auf dem Chaos Communication Congress zusammen, um sich auszutauschen, voneinander zu lernen und miteinander zu feiern. Die Bits &amp; Bäume Community und viele befreundete Organisationen beleben wieder ein eigenes Habitat und laden ein Workshops zu geben, Vorträgen zu besuchen und zu Begnung und Austausch in unserer cozy Wohnzimmer-Lounge. Meldet euch <strong>jetzt</strong> bei 39c3@bits-und-baeume.org, wenn ihr Interesse habt mitzugestalten.</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://www.ccc.de/de/updates/2025/39c3-power-cycles">Zur Ankündigung vom FIfF</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_5" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><a target="_new" href="https://www.fiff.de/assets/images/titelbilder/37c3-cfp.webp" style="color: #3f3f3f; color: #3f3f3f; text-decoration: underline; display: inline-block;"><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/website-smartphone (1)-resizex-332.jpg"></a><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Neue Website des FIfF: www.fiff.de</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Das Forum Informatiker:innen für Frieden und gesellschaftliche Verantwortung, Gründungsmitglied des B&amp;B-Netzwerks, hat eine neue Website. Hier findet Ihr nun Inhalte aus fast 42 Jahren kritischer Auseinandersetzung mit Digitalisierung sowie alle Neuigkeiten und Aktivitäten des FIfF. Darunter auch sämtliche Ausgaben der FIfF-Kommunikation zurückgehend bis 1988. Die mobiltaugliche, resourcenschonende und barrierearme Website, setzt ausschließlich auf Open-Source-Software und lädt ein zum Stöbern, Vertiefen von Themen und zum Einmischen.</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://www.fiff.de/beitraege/2025/die-neue-fiff-website/">Zum Beitrag</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_10" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/community-news-resizex-332.jpg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Hier ist Platz für eure News!</strong> <br></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Ihr habt eine Veranstaltung, die ihr bewerben wollt? Oder ein Projektergebnis, das ihr mit allen teilen wollt? Dann meldet euch unter newsletter@bits-und-baeume.org oder tragt es direkt ins Pad ein.</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://bits-und-baeume.org/newsletter_input">Zum Pad</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_titleBlock2_4" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#alc854" width="570" style="border-collapse: collapse; width: 100%; background-color: #alc854; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody><tr>
+      <td width="100%" valign="top" align="center" style="font-weight: normal; color: #3f3f3f; font-size: 26px; font-family: Impact, sans-serif; text-align: center; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><span style="font-weight: normal"><strong>Mitmachen</strong></span></td>
+    </tr>
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_3" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/wal_klein (1)-resizex-332.jpeg"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Online-Community-Treffen am 6.11.25 um 19:31</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Die Bits &amp; Bäume Community trifft sich jeden 1. Donnerstag im Monat um 19:31 online. So auch im November: Kommt am 6.11. zum Online-Vernetzungstreffen und lernt Aktive aus den unterschiedlichen Regionen kennen!</p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://bbb.tu-dresden.de/rooms/qje-7si-xu1-lul/join">Zum Online-Treffen</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_sideArticleBlock_11" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#bdd888" width="570" style="border-collapse: collapse; width: 100%; background-color: #bdd888; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><table dir="" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td align="center" valign="top" dir="ltr" style="direction: ltr; border-collapse: collapse"><div style="width: 100%; max-width: 552px; -mru-width: 0px"><!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="552"><tr><![endif]--><!--
+        --><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="184"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 184px; -mru-width: 0px; min-width: calc(33.333333333333336%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="184" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><!--[if (lte ie 8)]><div style="display: inline-block; width: 166px; -mru-width: 0px"><![endif]--><img border="0" hspace="0" align="middle" vspace="0" width="166" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 166px; height: auto;" src="img/kartenmarker-resizex-332.png"><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+          --><!--[if (gte mso 9)|(lte ie 8)]><td align="left" valign="top" width="368"><![endif]--><!--
+      --><div class="mobile-full" style="display: inline-block; vertical-align: top; width: 100%; max-width: 368px; -mru-width: 0px; min-width: calc(66.66666666666667%); max-width: calc(100%); width: calc(304704px - 55200%)"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" width="368" dir="ltr" align="left" style="border-collapse: collapse; width: 100%; direction: ltr; -yandex-p: calc(2px - 3%)">
+          
+            <tbody><tr>
+      <td width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left"><span style="font-weight: normal"><strong>Ortsgruppen-Infos auf der Website aktualisieren</strong></span></td>
+    </tr>
+            <tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-bottom: 0px; margin-top: 0px;">Sind eure Ortsgruppen Infos auf der Website aktuell? Meldet euch bei uns, wenn es hier Änderungen braucht. Schickt uns außerdem gern die Koordinaten eurer Treffpunkte an info@bits-und-baeume.org. Wir wollen eine interaktive Karte mit allen aktiven Ortsgruppen erstellen. </p></td></tr>
+            <tr>
+      <td valign="top" align="left" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><table role="presentation" cellpadding="6" border="0" align="left" cellspacing="0" style="border-spacing: 0; mso-padding-alt: 6px 18px 6px 18px; margin-top: 2px"><tbody><tr>
+        <td width="auto" valign="middle" align="center" bgcolor="#003399" style="text-align: center; font-weight: normal; padding: 6px; padding-left: 18px; padding-right: 18px; background-color: #003399; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; border-radius: 4px"><a style="text-decoration: none; font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif" target="_new" href="https://bits-und-baeume.org/community/regionale-zweige/">Zu den Ortsgruppen</a></td>
+      </tr></tbody></table></td>
+    </tr>
+          
+        </tbody></table><!--
+      --></div><!--[if (gte mso 9)|(lte ie 8)]></td><![endif]--><!--
+        --><!--
+      --><!--[if (gte mso 9)|(lte ie 8)]></tr></table><![endif]--></div></td></tr></tbody></table></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_textBlock_1" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#alc854" width="570" style="border-collapse: collapse; width: 100%; background-color: #alc854; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody><tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-top: 0px;"><strong>Bildrechte:</strong></p>
+<p style="margin: 1em 0px; margin-bottom: 0px;">Karte: © OpenStreetMap</p></td></tr>
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table><table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="ko_textBlock_2" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+      <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="9" bgcolor="#3f3f3f" width="570" style="border-collapse: collapse; width: 100%; background-color: #3f3f3f; max-width: 570px; -mru-width: 0px">
+        
+        <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 3px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+          <tbody><tr><td class="long-text links-color" width="100%" valign="top" align="left" style="font-weight: normal; color: #bfbfbf; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: left; line-height: normal"><p style="margin: 1em 0px; margin-top: 0px;">Bits &amp; Bäume Newsletter - Die Bewegung für Digitalisierung und Nachhaltigkeit</p>
+<p style="margin: 1em 0px;">Sendet uns Input für den Newsletter an <a href="mailto:newsletter@bits-und-baeume.org" style="color: #3f3f3f; color: #bdd888; text-decoration: underline;">newsletter@bits-und-baeume.org</a> oder tragt ihn <a href="https://bits-und-baeume.org/newsletter_input" style="color: #3f3f3f; color: #bdd888; text-decoration: underline;">hier</a> ein.</p>
+<p style="margin: 1em 0px;">Um dich von dieser Liste abzumelden, schicke eine Mail an <a href="mailto:newsletter-unsubscribe@lists.bits-und-baeume.org" style="color: #3f3f3f; color: #bdd888; text-decoration: underline;">newsletter-unsubscribe@lists.bits-und-baeume.org</a>&nbsp; oder logge dich <a href="https://mosaico.io/lists.bits-und-baeume.org" style="color: #3f3f3f; color: #bdd888; text-decoration: underline;">hier</a> ein, um deine Abos zu verwalten.</p>
+<p style="margin: 1em 0px;">Weitere Infos zu deinen B&amp;B Mailinglisten Abos:<a href="https://mosaico.io/bits-und-baeume.org/mailinglisten_wiki" style="color: #3f3f3f; color: #bdd888; text-decoration: underline;"> https://bits-und-baeume.org/mailinglisten_wiki</a></p>
+<p style="margin: 1em 0px; margin-bottom: 0px;">lists.bits-und-baeume.org wird betrieben vom FIfF e.V. <a href="https://www.fiff.de/datenschutzerklaerung" style="color: #3f3f3f; color: #bdd888; text-decoration: underline;">Datenschutzerklärung</a></p></td></tr>
+        
+        </tbody></table></div></td>
+    </tr>
+      
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+    </td></tr>
+    </tbody></table>
+
+  
+    <!-- footerBlock -->
+    <table role="presentation" class="vb-outer" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff" id="" style="background-color: #ffffff">
+      <tbody><tr><td class="vb-outer" align="center" valign="top" style="padding-left: 9px; padding-right: 9px; font-size: 0">
+    <!--[if (gte mso 9)|(lte ie 8)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="570"><tr><td align="center" valign="top"><![endif]--><!--
+      --><div style="margin: 0 auto; max-width: 570px; -mru-width: 0px"><table role="presentation" class="vb-row" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 570px; -mru-width: 0px" width="570">
+        
+      <tbody><tr>
+      <td align="center" valign="top" style="font-size: 0; padding: 0 9px; padding-top: 4px; padding-bottom: 4px"><div style="vertical-align: top; width: 100%; max-width: 552px; -mru-width: 0px"><!--
+        --><table role="presentation" border="0" cellspacing="9" cellpadding="0" style="border-collapse: collapse; width: 100%" width="552">
+          
+        <tbody><tr><td class="long-text links-color" width="100%" valign="top" align="center" style="font-weight: normal; color: #919191; font-size: 13px; font-family: Arial, Helvetica, sans-serif; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: center"></td></tr>
+        <tr><td width="100%" valign="top" align="center" style="font-weight: normal; color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; text-align: center; padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px"><a href="[unsubscribe_link]" style="color: #000000; text-decoration: underline" target="_new"><br data-mce-bogus="1"></a></td></tr>
+        <tr style="text-align: center"><td width="100%" valign="top" align="center" class="links-color" style="padding: 9px; padding-top: 5px; padding-bottom: 5px; padding: 9px; padding-top: 5px; padding-bottom: 5px; text-align: center"><!--[if (lte ie 8)]><div style="display: inline-block; width: 170px; -mru-width: 0px"><![endif]--><a style="display: inline-block" target="_new" href="https://mosaico.io/?footerbadge"><img alt="MOSAICO Responsive Email Designer" border="0" hspace="0" align="middle" vspace="0" width="170" src="img/mosaico-badge.gif" style="border: 0px; display: block; vertical-align: top; height: auto; margin: 0 auto; color: #3f3f3f; font-size: 13px; font-family: Arial, Helvetica, sans-serif; width: 100%; max-width: 170px;"></a><!--[if (lte ie 8)]></div><![endif]--></td></tr>
+      
+        </tbody></table></div></td>
+    </tr>
+    
+      </tbody></table></div><!--
+    --><!--[if (gte mso 9)|(lte ie 8)]></td></tr></table><![endif]-->
+  </td></tr>
+    </tbody></table>
+    <!-- /footerBlock -->
+    
+</center><!--[if !(gte mso 15)]--></body><!--<![endif]--></html>
