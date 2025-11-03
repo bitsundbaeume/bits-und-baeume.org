@@ -20,7 +20,7 @@ aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles au
 featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
-einleitung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
+einleitung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket. Mehr Infos zu den Tickets gibt's unten!"				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
 teaser: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute. Die Tech-Konferenz für digitale Nachhaltigkeit im Bereich Software, Hardware und Rechenzentren bietet ein vielfältiges Programm mit Workshops und Talks. Wirf einen Blick ins Programm und sicher dir jetzt dein Ticket!"				# Der Teaser wird auf den Kacheln als Anreißertext angezeigt.
 meta_beschreibung: "Mit einem eigenen Bits & Bäume Community-Track sind wir dieses Jahr am 13. & 14.11. bei der ecoCompute." 			# ≤135 Zeichen Beschreibugnstext der in Social Media und Suchergebnissen unter dem Titel angezeigt wird (also extern)
 
@@ -32,8 +32,8 @@ bild: "/assets/images/posts/wald_eco.jpg"
 ## Auf der Kachel wird standardmäßig ein Button "weiterlesen" angezeigt. Dieser kann hier angepasst oder versteckt werden
 ## Button 1
 # button_anzeigen:  nein 			# Entferne "#" um den Button zu verstecken
-button_text: "zur ecoCompute"	# Der Button-Text ist standardmäßig "weiterlesen"
-button_url: "https://www.eco-compute.io/"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button_text: "mehr Infos zu den Tickets"	# Der Button-Text ist standardmäßig "weiterlesen"
+#button_url: "https://www.eco-compute.io/"			# Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
@@ -48,6 +48,14 @@ button2_url: "https://www.eco-compute.io/#section-schedule"			# DIE URL ist stan
 ### Unter den Drei folgenden Strichen "---" Geht der Inhalt los der in Markdown formatiert sein darf! ###
 #########################################################################################################
 ---
-<a href="https://www.eco-compute.io/#section-schedul">
-<button class="btn-dark">zum Programm</button>
-</a>
+<b>Sicher dir jetzt dein Ticket:</b>
+
+👉 Zu den Standard Tickets: https://www.eco-compute.io/#pricing <br>
+
+👉 Für die B&B Community gibt es 20% Rabatt mit dem Code: BITS-UND-BAEUME-5GQXVGHK6D52TX8L, einzulösen auf https://pretix.eu/eco-compute/2025/c/YeZi3yvFa/ <br>
+
+👉 Zu den Volunteer-Tickets für Mitarbeit: https://www.eco-compute.io/helpers/ <br>
+
+👉 Falls du dir das Ticket nicht leisten kannst, schreib eine Mail an info@bits-und-baeume.org, wir haben da noch eine Lösung für dich parat ;) <br>
+
+👉 Am Donnerstag, den 13.11., ist die Konferenz außerdem ab 15:30 für unsere Community kostenlos. Komm also einfach ohne Anmeldung vorbei!
