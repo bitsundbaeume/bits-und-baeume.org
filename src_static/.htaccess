@@ -41,6 +41,9 @@ Redirect 302 /39c3/call https://pads.fiff.de/p/r.08b4d35a3a934872a4e8a98bc9be98c
 Redirect 302 /39c3/workshops https://pretalx.freifunktag.de/39c3-bub-workshops-2025/submit/n8PetR/info/
 Redirect 302 /39c3/anwesenheit https://www.when2meet.com/?33766192-HfQqa
 Redirect 302 /39c3/karte https://www.rayon.design/app/model/34a3bb3a-318a-4810-a4ec-43a78c58f1ca?canvas=KhSBJ1VZcN2&scale=10.74&x=67212&y=30413&token=XKLcWEbTYBBy8qbKiKrY6ou1iLtZiSVm
+redirect 302 /39c3/infos https://cloud.bits-und-baeume.org/pad/p/r.95690630e808081942a0ad2c698cfe07
+redirect 302 /39c3/infos_edit https://cloud.bits-und-baeume.org/pad/p/cfiflnyn44b0az2eikomu3bibmwshlbovhw
+
 
 # 38c3
 Redirect 302 /38c3/bbb/habitat https://cloud.fiff.de/apps/bbb/b/CEcEpREyEyxppSWD
