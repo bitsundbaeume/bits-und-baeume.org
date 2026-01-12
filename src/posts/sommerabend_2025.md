@@ -29,7 +29,10 @@ meta_beschreibung: "Einladung zum Digitalpolitischen Bits & Bäume- Sommerabend 
 # button_text: "Zum Programm"
 # button_url: "andere URL"
 
-
+## Button 2
+button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
+button2_text: "Zur Videoaufzeichnung"		# Der Button-Text ist standardmäßig "weiterlesen"
+button2_url: "/stream/sommerabend-2025-07/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 ---
 📅 **Datum:** [09.07.2025, ab 17:30 Uhr](/termine)<br>
 📍 **Ort:** Pöge Haus, Hedwigstraße 20, 04315 Leipzig<br> 
