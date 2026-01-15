@@ -12,7 +12,7 @@ datum: "2026-01-06"
 type: "Vortrag"
 
 # permalink:
-bild: "/assets/images/posts/Constanze_und_Franziska.png"
+bild: "/assets/images/posts/Constanze_und_Franziska.PNG"
 bildunterschrift: "Video-Still aus dem Video-Mitschnitt: Constanze Kurz und Franziska Görlitz auf der Bühne."
 
 title: "39c3 - Blackbox Palantir"

@@ -12,7 +12,7 @@ datum: "2026-01-06"
 type: "Vortrag"
 
 # permalink:
-bild: "/assets/images/posts/Rainer.png"
+bild: "/assets/images/posts/Rainer.PNG"
 bildunterschrift: "Video-Still aus dem Video-Mitschnitt: Rainer auf der Bühne."
 
 title: "39c3 - Programmierte Kriegsverbrechen? Über KI-Systeme im Kriegseinsatz in Gaza und warum IT-Fachleute sich dazu äußern müssen"

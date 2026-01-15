@@ -12,7 +12,7 @@ datum: "2026-01-06"
 type: "Vortrag"
 
 # permalink:
-bild: "/assets/images/posts/rike_moritz.png"
+bild: "/assets/images/posts/rike_moritz.PNG"
 bildunterschrift: "Video-Still aus dem Video-Mitschnitt: Friederike Hildebrandt und Moritz Leiner auf der Bühne."
 
 title: "39c3 - Fossile Industrie liebt KI!"
