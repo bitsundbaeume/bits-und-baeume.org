@@ -31,8 +31,8 @@ meta_beschreibung: "Einladung zum Digitalpolitischen Bits & Bäume- Neujahrsempf
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
-button2_text: "Zur Anmeldung"		# Der Button-Text ist standardmäßig "weiterlesen"
-button2_url: "https://cloud.bits-und-baeume.org/apps/forms/s/JpzNz9LEJJpigyeNwcKnqtY8"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button2_text: "Zum Stream"		# Der Button-Text ist standardmäßig "weiterlesen"
+button2_url: "/stream/neujahrsempfang_2026_stream/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 ---
 📅 **Datum:** [21.01.2026, ab 17:00 Uhr](/termine)<br>
 📍 **Ort:** Weizenbaum-Institut, HArdenbergstraße 32, Berlin<br> 
