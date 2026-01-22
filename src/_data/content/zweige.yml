@@ -59,6 +59,13 @@ items:
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
+  - name: Bits & Bäume NRW
+    url: https://www.eine-welt-netz-nrw.de/bits-und-baeume-nrw
+    content: |
+      Das Engagement wird über das Eine Welt Netz NRW (Landesnetzwerk) koordiniert. Es haben bereits mehrere größere analoge und digitale Konferenzen stattgefunden, die weiter etabliert werden sollen. Partizipation und Mitgestaltung sind herzlich willkommen. Regelmäßige Community-Treffs sollen 2026 auf den Weg gebracht werden.
+    style: box-cta
+    pixel: /assets/images/pixel-box-infos.svg
+
   - name: Bits & Bäume Osnabrück
     url: https://plattform-n.org/project/bits-baeume-osnabrueck/
     content: |
