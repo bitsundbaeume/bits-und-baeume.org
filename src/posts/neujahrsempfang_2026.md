@@ -3,8 +3,8 @@
 #icon: "" # Entferne das erste # um das Icon auf der Kachel auszuschalten
 #type: "Eigener Typ" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel über der Überschrift
 
-aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
-featured: "ja"  
+aktuell: nein # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
+featured: "nein"  
 datum: "2026-01-14"
 autorin: Leo
 type: "Einladung"
