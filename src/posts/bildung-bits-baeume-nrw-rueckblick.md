@@ -18,7 +18,7 @@ type: "Bericht"			# Der "Type" eines Posts steht oben in den Kacheln und auf der
 
 ## Aktuell und Featured?
 aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Am 25. September 2025 hat das Eine Welt Netz NRW gemeinsam mit der Universität Münster und der FernUniversität in Hagen die digitale Fachkonferenz „Bits & Bäume NRW – in die Bildung“ ausgerichtet. Mit 65 engagierten Teilnehmer:innen aus der Hochschullandschaft und der Zivilgesellschaft war die Resonanz beeindruckend."				# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
