@@ -28,26 +28,33 @@ items:
     url: http://bits-und-baeume-hannover.org
     content: |
       Regular's round, initiated by <a href="https://www.ccc.de/schule">Chaos macht Schule</a>.
-    style: box-infos
+    style: box-cta
     pixel: /assets/images/pixel-box-infos.svg
 
   - name: Bits & Bäume Köln
     url: https://wechange.de/group/bits-baeume-koeln/
     content: |
       Local B&B group for bottom-up exchange and collaboration aiming at a sustainable digitalisation in Cologne.
-    style: box-cta
+    style: box-infos
     pixel: /assets/images/pixel-box-cta.svg
 
   - name: Bits & Bäume Leipzig
     url: https://leipzig.bits-und-baeume.org/
     content: Local B&B group, currently being established.
-    style: box-infos
+    style: box-cta
     pixel: /assets/images/pixel-box-infos.svg
 
   - name: Bits & Bäume Lübeck
     url: https://discourse.bits-und-baeume.org/t/bits-baeume-treffen-in-luebeck/1607
     content: |
      <p>In Lübeck, we regularly meet on the second Tuesday of each month at 6:31 PM at the Nobreakspace of the Chaotikum (<a target="blanc" href="https://www.openstreetmap.org/node/1138848742">Fackenburger Allee 11</a> - close to the main train station).</p><p>You can find current information <a target="blanc" href="https://chaotikum.org/project/bitsundbaeume/">here</a>.</p><p>Feel free to come by if you're interested in a topic or if you're keen on participating long-term.<br></p>Additionally, we have a mailing list: bits-und-baeume@chaotikum.org which you can join by sending an email to <a href="mailto:bits-und-baeume+subscribe@chaotikum.org">bits-und-baeume+subscribe@chaotikum.org</a>. To unsubscribe, simply send an email to <a href="mailto:bits-und-baeume+unsubscribe@chaotikum.org">bits-und-baeume+unsubscribe@chaotikum.org</a>
+    style: box-infos
+    pixel: /assets/images/pixel-box-cta.svg
+
+  - name: Bits & Bäume Mainz/Rhein-Main
+    url:
+    content: |
+         The regional branch was founded in 2025 and is currently in its development phase. In autumn 2025, we organized our first digital events, laying the foundation for our future work. Starting in April 2026, we are planning a multi-part online event series focusing on the key topics of the Bits & Bäume demands, as well as an in-person conference on June 23, 2026, in Mainz. We welcome active participation and new members.
     style: box-cta
     pixel: /assets/images/pixel-box-cta.svg
 
