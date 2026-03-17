@@ -17,8 +17,8 @@ type: "Post"			# Der "Type" eines Posts steht oben in den Kacheln und auf der Se
 					# Standardmäßig ist der Typ "Meldung". Hier kannst du das ändern z.B. "Bericht" oder "Jobangebot" etc.
 
 ## Aktuell und Featured?
-aktuell:  "ja" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
-featured: "ja"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
+aktuell:  "nein" 				# ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
+featured: "nein"  			# ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll, ansonsten "nein" oder Zeile löschen
 
 ## Textfragmente
 einleitung: "Ende des Jahres 2025 hat wieder der Chaos Communication Congress stattgefunden. Wie auch die letzten Jahre waren wir mit Bits & Bäume vom 27. bis 20.12. im Congresszentrum in Hamburg dabei."			# Die Einleitung erscheint auf der Seite noch vor den Autor:innen und dem Feature Image
