@@ -48,7 +48,9 @@ We will combine political analysis from Paris Marx and Algorithm Watch with prac
  
 #### Parcitipants
 
-* Paris Marx – Author (Road to Nowhere), Journalist (Time, Wired, disconnect.blog etc.), Host (Tech Won't Save Us)
+* Anne Pasek – professor at Trent University, Cultural Studies and the School of the Environment
+
+* <del>Paris Marx – Author (Road to Nowhere), Journalist (Time, Wired, disconnect.blog etc.), Host (Tech Won't Save Us)</del>
 
 * Julian Bothe – Algorithm Watch
 
@@ -67,7 +69,8 @@ https://tickets.weizenbaum-institut.de/byjxl/
 **4.30 pm** doors open <br>
 **5.00 pm** Inputs: <br>
 * Welcome at the Weizenbaum Institute
-* Paris Marx on the growing negative implications of data centres
+* Anne Pasek on Data Centre Ruins, the AI bubble and abandoned infrastructures
+* <del>Paris Marx on the growing negative implications of data centres</del>
 * La Nuage était sous nos pieds on Data Center Resistance in France
 * Julian Bothe, Algorithm Watch on the Situation of Data Centers in Germany
 * Community Data Centers Project with focus on democratisaton
