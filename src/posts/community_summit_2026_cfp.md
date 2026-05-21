@@ -5,38 +5,39 @@
 
 aktuell: ja # Wenn dieser Post nicht mehr aktuell ist einfach diese Zeile mit # am Anfang der Zeile auskommentieren
 featured: "ja"  
-datum: "2026-04-01"
+datum: "2026-05-21"
 # autorin: Leo
-type: "Call for Papers"
+type: "Ankündigung"
 
 # permalink:
 bild: "/assets/images/posts/BuB2018_(008)_CCBY-SantiagoEngelhardt.jpg"
 bildunterschrift: "Bits & Bäume, CC-BY Santiago Engelhardt"
 
-title: "Bits & Bäume Community Summit 2026 - Call for Papers"
+title: "Bits & Bäume Community Summit 2026 - jetzt Tickets sichern"
 
 # Zwischen Überschrift und Text
 einleitung: "Wir laden ein zum Bits & Bäume Community Summit am 6. Juni in Berlin!"
 
 # Für die Kacheln auf der Website
-teaser: "Am 6. Juni findet in Berlin unser Bits & Bäume Community Summit statt. Wir wollen voneinander lernen, uns gemeinsam weiterbilden und die nächsten Pläne für die Zukunft schmieden. Reicht dafür jetzt eure Beiträge bis zum 30.04.2026 ein. Die Anmeldung erfolgt dann Anfang Mai."
+teaser: "Am 6. Juni findet in Berlin unser Bits & Bäume Community Summit statt. Wir wollen voneinander lernen, uns gemeinsam weiterbilden und die nächsten Pläne für die Zukunft schmieden. Werft einen Blick ins Programm und sichert euch ein Ticket!"
 
 # Für Social media und Suchergebnisse (also extern)
-meta_beschreibung: "Call for Papers zum Bits & Bäume Community Summit"
+meta_beschreibung: "Einladung zum Bits & Bäume Community Summit"
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
 #button_anzeigen: nein 
-button_text: "Mehr Infos"
-# button_url: "andere URL"
+button_text: "Mehr Infos & Programm"
+#button_url: "andere URL"
 
 ## Button 2
 button2_anzeigen: "ja" 			# Entferne "#" um den Button anzuzueigen
-button2_text: "Zum Call for Papers"		# Der Button-Text ist standardmäßig "weiterlesen"
-button2_url: "https://pretalx.wikimedia.de/bitsbaeume2026/cfp"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
+button2_text: "Tickets"		# Der Button-Text ist standardmäßig "weiterlesen"
+button2_url: "https://pretix.wikimedia.de/bits-und-baeume/com-summit-26/"			# DIE URL ist standardmäßig die des Posts - Hier kannst du ein alternatives Ziel z.B. eine extern URL angeben
 ---
 📅 **Datum:** [06.06.2026, 10:00 - 20:00 Uhr](/termine)<br>
-📍 **Ort:** In den Räumen von Wikimedia Deutschland, Berlin<br>
+📍 **Ort:** In den Räumen von Wikimedia Deutschland, Tempelhofer Ufer 23 – 24, Berlin<br>
 
+**Programm:** https://pretalx.wikimedia.de/bitsbaeume2026/schedule/
 
 Liebe Community,
 
@@ -55,5 +56,6 @@ Thema ist alles, was mit Digitalisierung & Nachhaltigkeit und/oder sozialer Gere
 * Militär & Frieden
 * Gute Arbeit
 
-Hier geht's zu unserem <a href="https://pretalx.wikimedia.de/bitsbaeume2026/cfp">Call for Paper</a>, wo ihr eure Beiträge bis zum 30.4.2026 einreichen könnt. Die Anmeldung geht dann Anfang Mai online, sobald der größte Teil des Programms steht. Wir halten euch auf dem Laufenden und freuen uns auf eure Beiträge!
+Hier entlang zum Programm: https://pretalx.wikimedia.de/bitsbaeume2026/schedule/
 
+Sichert euch jetzt eines unserer kostenlosen und begrenzten Tickets: https://pretix.wikimedia.de/bits-und-baeume/com-summit-26/
