@@ -3,7 +3,7 @@
 type: "Interview" # Typ ist in diesem Ordner automatsch Meldung kann aber hier überschrieben werden z.B. mit "Veröffentlichung" - der Typ erscheint in der Kachel
 
 #permalink: 
-aktuell: nein
+aktuell: ja
 datum: "2026-06-15"
 autorin: Leo
 
