@@ -7,36 +7,73 @@
 aktuell:  ja  # ja - Wenn dieser Post auf der Hauptseite unter Aktuelles auftauchen soll (falls er nicht featured ist)
 featured: ja  # ja - Wenn dieser Post direkt als erstes auf der Landing Page angezeigt werden soll
 
-datum: "2026-03-10"
-autorin: Regionalgruppe Main/Rhein-Main
-type: "Veranstaltungsreihe"
+datum: "2026-06-19"
+autorin: Regionalgruppe Mainz/Rhein-Main
+type: "Konferenz"
 
 # permalink:
-bild: "/assets/images/posts/Veranstaltungen_cropped.png"
-bildunterschrift: "Die Veranstaltungen im Überblick"
+bild: "/assets/images/BuB2018_(008)_CCBY-SantiagoEngelhardt.jpg"
+bildunterschrift: "CCBY-SantiagoEngelhardt"
 
-title: "Digitale Veranstaltungsreihe der Regionalgruppe Mainz/Rhein-Main"
+title: "Meldet euch an zur ersten Bits & Bäume im Rhein-Main-Gebiet!"
 
 # Zwischen Überschrift und Text
-einleitung: Ab April findet an jedem 1. Mittwoch des Monats von 10:00 bis 11:30 eine digitale Veranstaltung zu den Bits & Bäume Kernthemen mit spannenden Referent*innen statt.
+einleitung: Am 23.06.2026 findet die allerste Bits & Bäume im Rhein-Main-Gebiet statt. Freut euch auf spannende Inputs, angeregte Diskussionen und natürlich den einzigartigen Bits & Bäume Vibe!
 
 # Für die Kacheln auf der Website
-teaser: Ab April findet an jedem 1. Mittwoch des Monats von 10:00 bis 11:30 eine digitale Veranstaltung zu den Bits & Bäume Kernthemen mit spannenden Referent*innen statt. Die Online Veranstaltungsreihe dient als Diskursraum und der Vernetzung von Akteuren im Rhein-Main-Gebiet, die sich mit den Zielen der Bits-und-Bäume-Community identifizieren können.
+teaser: Am 23.06.2026 findet die allerste Bits & Bäume im Rein-Main-Gebiet statt. Freut euch auf spannende Inputs, angeregte Diskussionen und natürlich den einzigartigen Bits & Bäume Vibe. Meldet euch jetzt noch schnell an!
 
 # Für Social media und Suchergebnisse (also extern)
-meta_beschreibung: Ankündigung zur digitaler Veranstaltungsreihe der Regionalgruppe Mainz/Rhein-Main
+meta_beschreibung: Ankündigung zur regionalen Bits & Bäume Rhein-Main.
 
 # Button "weiterlesen" auf der Hauptseite kann umbenannt, ausgeblendet und zu anderer z.B. Externer URL zeigen
-button_text: "Zur Anmeldung"
-button_url: "https://eveeno.com/bitsundbaeumerlphe2026"
+button_text: "Anmeldung und mehr Infos"
+button_url: "https://eveeno.com/bubrlp"
 
-button2_anzeigen: "ja"
+#button2_anzeigen: "ja"
 
 ---
-Die digitale Transformation verändert Gesellschaften weltweit. Sie beeinflusst Kommunikations- und Informationsflüsse, die Art, wie wir Lernen und (kollaborativ) Arbeiten oder das Klima und unsere Umwelt schützen. In dieser digitalen Veranstaltungsreihe diskutieren wir mit Expert*innen aus Zivilgesellschaft, Wissenschaft und Praxis die Auswirkungen der Digitalisierung und die politischen Rahmenbedingungen: Wie kann die Digitalisierung konsequent auf das Gemeinwohl, auf soziale Gerechtigkeit und ökologische Nachhaltigkeit ausgerichtet werden? Welche konkreten Ansätze gibt es um digitale Souveränität, inklusive Infrastrukturen oder eine klimaverträgliche Digital- und Technologiepolitik umzusetzen? Welche Chancen, aber auch Herausforderungen stellen sich für pädagogische Arbeit – im schulischen, aber auch außerschulischen Kontext?
 
-Die Online Veranstaltungsreihe dient als Diskursraum und der Vernetzung von Akteuren im Rhein-Main-Gebiet, die sich mit den Zielen der Bits-und-Bäume-Community identifizieren können. Bei der Auswahl der Themen orientieren wir uns an den politischen Forderungen von Bits & Bäume.
-
-Einladung zur Veranstaltungsreihe (PDF): https://eveeno.com/public/generic/271328/uploads/Flyer_Bits_und_B%C3%A4ume_Veranstaltungsreihe_2026.pdf
+Liebe Bits&Bäume Community,
+gerne möchten wir Euch auf die erste Bits & Bäume Konferenz im Rhein-Main-Gebiet / Rheinland-Pfalz am 23.06.2026 im Mainzer Gutenberg Digital Hub aufmerksam machen.
 
 
+Wir wenden uns gezielt an Organisationen, Initiativen, Netzwerke und engagierte Einzelpersonen, die sich mit Digitalisierung, Nachhaltigkeit, Bildung, Demokratie oder gesellschaftlicher Transformation beschäftigen. Wir würden uns sehr freuen, wenn Ihr die Veranstaltung über Eure Kanäle und Netzwerke bekannt macht und so dazu beitragt, die Diskussion über eine nachhaltige und gemeinwohlorientierte Digitalisierung in Rheinland-Pfalz in die Breite zu tragen.
+
+
+
+„Lernende Systeme / lernende Gesellschaft? – Digitalisierung zwischen Innovationsdruck und Nachhaltigkeit“
+
+Die Dynamik der Digitalisierung und insbesondere der „Künstlichen Intelligenz“ ist hoch ambivalent: Einerseits eröffnet sie enorme wirtschaftliche Potenziale – von effizienteren Infrastrukturen über neue Formen der Zusammenarbeit bis hin zu Innovationen im Klima- und Ressourcenschutz. Gleichzeitig gehen mit ihr auch erhebliche gesellschaftliche und ökologische Risiken einher, etwa steigender Ressourcenverbrauch, Machtkonzentration bei großen Plattformen, soziale Ungleichheiten oder Fragen demokratischer Kontrolle und digitaler Teilhabe.
+
+Dieses Spannungsverhältnis möchten wir im Rahmen der Konferenz gemeinsam diskutieren.
+
+In Keynotes, Panels und Themenforen geht es unter anderem um:
+* Digitale Souveränität in Organisationen
+* KI und gesellschaftliche Teilhabe
+* Ressourcenverbrauch und Kreislaufwirtschaft
+* Medienbildung und nachhaltige Entwicklung
+* Das Fediverse: Theorie & Praxis
+
+
+Mit dabei sind Expert*innen aus Wissenschaft, Zivilgesellschaft und Praxis, u.a.:
+
+* Dr. Anne Mollen (Universität Münster)
+* Sven Hilbig (Brot für die Welt e.V.)
+* Prof. Andreas Büsch (Katholische Hochschule Mainz)
+* Friederike Hildebrandt (Bits&Bäume / Germanwatch e.V.)
+* Prof. Dr. Stefan Kramer (Johannes-Gutenberg-Universität Mainz, KI-Lotse Rheinland-Pfalz)
+
+
+.. und viele mehr.
+
+ 
+
+Wir freuen uns über Eure Unterstützung bei der Verbreitung der Veranstaltung und natürlich über Eure Teilnahme in Mainz.
+
+
+Weitere Informationen und Anmeldung finden Sie hier: https://eveeno.com/bubrlp
+
+ 
+
+Vielen Dank vorab!
